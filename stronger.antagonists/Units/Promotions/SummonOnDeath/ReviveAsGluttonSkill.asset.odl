@@ -1,4 +1,4 @@
-AoEReviveSkill
+SummonUnitsOnDeathSkill
 {
     "MouseCursorHandle": {
         "Texture": {
@@ -6,13 +6,13 @@ AoEReviveSkill
             "m_PathID": 0
         },
         "HotSpot": {
-            "x": 0.0,
-            "y": 0.0
+            "x": 7.0,
+            "y": 5.0
         }
     },
     "SelectionCursor": {
         "mGameObject": {
-            "ContentPath": "Skills/SelectionCursors/SummonTileSelectionCursor.prefab"
+            "ContentPath": "Skills/SelectionCursors/AoESelfSelectionCursor.prefab"
         }
     },
     "CombatSequence": {
@@ -55,7 +55,7 @@ AoEReviveSkill
         },
         "Description": {
             "Loca": {
-                "Key": "#SummonOnDeathDemonGlutton.Tooltip.Description.Loca",
+                "Key": "RangedSummonUnitSkill.Tooltip.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -105,14 +105,15 @@ AoEReviveSkill
         ]
     },
     "AttackType": {
-        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
+        "ContentPath": ""
     },
     "RemoveSourceKotH": true,
     "RepeatWithActions": false,
+    "UnitPowerGain": 0,
     "SkipUnitFallbackSkill": false,
     "IgnoreAsDefault": true,
     "FallbackPriority": 0,
-    "Initiative": 1,
+    "Initiative": 5,
     "BaseRank": 1,
     "CooldownMin": 0,
     "CooldownMax": 0,
@@ -126,61 +127,32 @@ AoEReviveSkill
     "Icon": {
         "ContentPath": "Units/Portraits/UnitPortraits/Portrait_Demon_Glutton_01.png"
     },
-    "ShowPrevisualizationPanel": true,
+    "ShowPrevisualizationPanel": false,
     "Priority": 0,
-    "HideInOtherTooltips": false,
+    "HideInOtherTooltips": true,
     "DebugInfos": "",
-    "PreVisualEffect": {
-        "ContentPath": ""
-    },
-    "SourceSquadMemberVisualEffect": {
-        "ContentPath": "VisualEffects/Howl_01_VisualEffect.prefab"
-    },
-    "PostVisualEffect": {
-        "ContentPath": ""
-    },
-    "RevivedUnitSpawnEffect": {
+    "ConjuringEffect": {
         "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
     },
-    "RevivedUnitPostSpawnEffect": {
+    "TargetPositionEffect": {
         "ContentPath": ""
     },
-    "WaitForAnimationEvent": "",
-    "TeamTargetType": 1,
-    "AreaType": 0,
-    "Radius": 0,
-    "ReviveWithFullActions": true,
-    "ReviveAsThisUnit": {
+    "TargetSquadMemberPreSpawnVisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetVisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetSquadMemberVisualEffect": {
+        "ContentPath": ""
+    },
+    "UnitDefinitionReference": {
         "ContentPath": "Units/Factions/Demons/Demon_Glutton.asset"
     },
-    "AddPromotionsOnRevive": [
-        {
-            "ContentPath": "Units/Promotions/Summon.asset"
-        }
-    ],
-    "CanNotSummonOntoTileWithTag": {
-        "mTags": [
-            {
-                "ContentPath": "_Battle/Tiles/Blocker.asset"
-            },
-            {
-                "ContentPath": "_Battle/Tiles/Cover.asset"
-            },
-            {
-                "ContentPath": "_Battle/Tiles/Full Blocker.asset"
-            },
-            {
-                "ContentPath": "_Battle/Tiles/Cliff.asset"
-            },
-            {
-                "ContentPath": "_Battle/Tiles/Water Deep.asset"
-            },
-            {
-                "ContentPath": "_Battle/Tiles/Impassable.asset"
-            },
-            {
-                "ContentPath": "_Battle/Tiles/Hole.asset"
-            }
-        ]
+    "Amount": 1,
+    "SummonWithFullActions": true,
+    "SummonAsEnemy": false,
+    "PromotionToAdd": {
+        "ContentPath": "Units/Promotions/Expendable.asset"
     }
 }

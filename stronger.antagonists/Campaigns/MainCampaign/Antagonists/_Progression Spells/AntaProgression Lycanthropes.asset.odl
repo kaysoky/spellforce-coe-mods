@@ -191,7 +191,7 @@ FactionModificationSpell
                         }
                     },
                     "Promotion": {
-                        "ContentPath": "Units/Promotions/SummonOnDeath/MinorWendigo.asset"
+                        "ContentPath": "Units/Promotions/Lycanthropy.asset"
                     }
                 }
             ],
