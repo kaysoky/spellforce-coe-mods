@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Broodmother.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GreaterLeechLife.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Unflankable.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SpiderSwarmEscort.asset"
+        }
+    ]
+}

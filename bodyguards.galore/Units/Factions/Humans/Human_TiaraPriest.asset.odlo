@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Human.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Healer.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HumanEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/PurityEscort.asset"
+        }
+    ]
+}

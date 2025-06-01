@@ -1,0 +1,29 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Demon.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Spellbook/Spells/Demon XP.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ApprenticePromotions/App_Mentalist.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CauseFear.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/BuffDemonsBonusDamage.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/AshenOneEscort.asset"
+        }
+    ]
+}

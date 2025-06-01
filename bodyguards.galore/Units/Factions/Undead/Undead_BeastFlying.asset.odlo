@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Expendable.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Follower.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Flying.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/BeetleEscort.asset"
+        }
+    ]
+}

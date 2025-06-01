@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Goblin.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GoblinEscortArcher.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Armored.asset"
+        }
+    ]
+}

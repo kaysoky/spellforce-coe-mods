@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Construct.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Dwarf.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Flying.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/DwarfPeonEscort.asset"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Marine.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/IgnoreAttackOfOpportunity.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ImmuneToMindcontrol.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HornetEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/BeetleEscort.asset"
+        }
+    ]
+}

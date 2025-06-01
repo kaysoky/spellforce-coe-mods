@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Aetheric.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/BonusDmgOnWildDeath.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WolfEscort.asset"
+        }
+    ]
+}

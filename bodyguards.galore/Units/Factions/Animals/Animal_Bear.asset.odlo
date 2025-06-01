@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Feral.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HornetEscort.asset"
+        }
+    ]
+}

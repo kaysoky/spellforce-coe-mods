@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Dwarf.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Cavalry.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CanDaze.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Mountaineer.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/DwarfPeonEscort.asset"
+        }
+    ]
+}

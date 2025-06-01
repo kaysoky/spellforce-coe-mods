@@ -1,0 +1,32 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Troll.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Feral.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Regeneration.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Charge.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/BonusDmgOnWildDeath.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WargEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/TrollEscortArcher.asset"
+        }
+    ]
+}

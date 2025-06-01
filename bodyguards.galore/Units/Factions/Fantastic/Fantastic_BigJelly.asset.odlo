@@ -1,0 +1,29 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/VsFlying.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Flying.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Tailwind.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/JellyEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WispEscort.asset"
+        }
+    ]
+}

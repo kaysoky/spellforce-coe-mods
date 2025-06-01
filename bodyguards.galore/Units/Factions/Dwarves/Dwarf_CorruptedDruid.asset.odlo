@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Dwarf.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WolfEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WargEscort.asset"
+        }
+    ]
+}

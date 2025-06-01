@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Human.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/PurityOfLight.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Armored.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HumanEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/PurityEscort.asset"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Troll.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CausePoison.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Zombifier.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GhoulEscort.asset"
+        }
+    ]
+}

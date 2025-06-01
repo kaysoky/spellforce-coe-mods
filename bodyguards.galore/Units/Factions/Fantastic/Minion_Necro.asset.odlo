@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SpellPromotions/SoulHunter.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Expendable.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Marine.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GhoulEscort.asset"
+        }
+    ]
+}

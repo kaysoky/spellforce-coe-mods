@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Construct.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FlameArmor.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FireWispEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Elemental Familiar.asset"
+        }
+    ]
+}

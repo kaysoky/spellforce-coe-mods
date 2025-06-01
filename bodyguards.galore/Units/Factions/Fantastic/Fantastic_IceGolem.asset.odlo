@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Mountaineer.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/IcyTouch.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WispEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Elemental Familiar Ice.asset"
+        }
+    ]
+}

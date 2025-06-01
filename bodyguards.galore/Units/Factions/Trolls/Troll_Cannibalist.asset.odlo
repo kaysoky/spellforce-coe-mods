@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Troll.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/TrollEscort.asset"
+        }
+    ]
+}

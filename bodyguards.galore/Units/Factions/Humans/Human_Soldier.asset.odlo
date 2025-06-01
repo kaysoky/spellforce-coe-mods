@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Human.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Shielded.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HumanEscortArcher.asset"
+        }
+    ]
+}

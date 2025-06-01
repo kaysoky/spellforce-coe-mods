@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Mountaineer.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CauseBleeding.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/IgnoreAttackOfOpportunity.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Elemental Familiar Ice.asset"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Enchantment_Darkness.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GhoulEscort.asset"
+        }
+    ]
+}

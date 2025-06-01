@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Aetheric.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/VsFeared.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscortMage.asset"
+        }
+    ]
+}

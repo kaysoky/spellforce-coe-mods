@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Flying.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/JellyEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WispEscort.asset"
+        }
+    ]
+}

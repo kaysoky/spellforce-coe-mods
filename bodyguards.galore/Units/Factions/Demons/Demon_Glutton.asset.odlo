@@ -1,0 +1,29 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Demon.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ChokingBE.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FreeRetaliation.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/OneAdditionalAttack.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CausePoison.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/AshenOneEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GargoyleEscort.asset"
+        }
+    ]
+}

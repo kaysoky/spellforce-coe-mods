@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Aetheric.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ImmuneToPsychology.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Shielded.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WispEscort.asset"
+        }
+    ]
+}

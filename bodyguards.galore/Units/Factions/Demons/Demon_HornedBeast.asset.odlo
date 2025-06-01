@@ -1,0 +1,14 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Demon.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GargoyleEscort.asset"
+        }
+    ]
+}

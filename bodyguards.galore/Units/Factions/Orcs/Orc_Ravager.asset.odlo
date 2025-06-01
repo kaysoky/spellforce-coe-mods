@@ -1,0 +1,32 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Orc.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Cavalry.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/vsCavalry.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CauseFear.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Armored.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WargEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WolfEscort.asset"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Steadfast.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Armored.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/PurityOfLight.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ImmuneToPsychology.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/PurityEscortArcher.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HumanEscortArcher.asset"
+        }
+    ]
+}

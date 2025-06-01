@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Orc.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CauseBleeding.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WargEscort.asset"
+        }
+    ]
+}

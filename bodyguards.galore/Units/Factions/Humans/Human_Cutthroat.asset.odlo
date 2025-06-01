@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Human.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FirstStrike.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CauseBleeding.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ArsonistEscort.asset"
+        }
+    ]
+}

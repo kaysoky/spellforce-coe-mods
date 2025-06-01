@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Flying.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CauseArmorbreak.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HolyAnimal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HornetEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WispEscort.asset"
+        }
+    ]
+}

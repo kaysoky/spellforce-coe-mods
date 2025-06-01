@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Dwarf.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/AntiArmored.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/DwarfAxeEscort.asset"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Cavalry.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CauseFear.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Ribcage.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Charge.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscortArcher.asset"
+        }
+    ]
+}

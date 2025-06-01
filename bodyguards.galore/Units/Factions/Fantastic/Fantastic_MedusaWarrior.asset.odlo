@@ -1,0 +1,29 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Marine.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Shielded.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FirstStrike.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/IgnoreAttackOfOpportunity.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ImmuneToMindcontrol.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WispEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/JellyEscort.asset"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/StrengthOfThePack.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/WolfEscort.asset"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Demon.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/vsCavalry.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Firewielder.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SelfReviveAfterTurnsNoPostCombatRevive.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GargoyleEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FireWispEscort.asset"
+        }
+    ]
+}

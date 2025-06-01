@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ResourcePromotions/Miner.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Expendable.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Mountaineer.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ResourcePromotions/IncreaseMiningYield.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FireWispEscort.asset"
+        }
+    ]
+}

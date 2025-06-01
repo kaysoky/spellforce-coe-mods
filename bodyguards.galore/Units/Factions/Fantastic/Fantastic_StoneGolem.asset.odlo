@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Mountaineer.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/PhysicalResistanceLarge.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Construct.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Elemental Familiar.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Elemental Familiar Ice.asset"
+        }
+    ]
+}

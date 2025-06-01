@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Steadfast.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Armored.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscortArcher.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscortMage.asset"
+        }
+    ]
+}

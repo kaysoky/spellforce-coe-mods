@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Orc.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Regeneration.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Brutal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/TrollEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/TrollEscortArcher.asset"
+        }
+    ]
+}

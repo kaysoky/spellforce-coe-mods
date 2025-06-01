@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Human.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FirstStrike.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/vsCavalry.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Armored.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Phalanx.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HumanEscortArcher.asset"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Dwarf.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Frenzy.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/GuardBreak.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Armored.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/DwarfAxeEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/DwarfPeonEscort.asset"
+        }
+    ]
+}

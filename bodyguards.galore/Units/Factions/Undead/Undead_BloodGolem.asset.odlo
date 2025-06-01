@@ -1,0 +1,26 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/DefyDeath.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/DeathSkillBloodExplosion.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/VsBleeding.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscortArcher.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscortMage.asset"
+        }
+    ]
+}

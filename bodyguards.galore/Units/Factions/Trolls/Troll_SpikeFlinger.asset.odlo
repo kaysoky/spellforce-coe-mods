@@ -1,0 +1,20 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Troll.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/AntiArmored.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Hunter.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/TrollEscort.asset"
+        }
+    ]
+}

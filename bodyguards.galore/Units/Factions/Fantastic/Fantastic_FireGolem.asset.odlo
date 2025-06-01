@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Mountaineer.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FlameArmor.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FreeRetaliation.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FireWispEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Elemental Familiar.asset"
+        }
+    ]
+}

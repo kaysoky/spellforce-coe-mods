@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Orc.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Firewielder.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/TickbugEscort.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/AshenOneEscort.asset"
+        }
+    ]
+}

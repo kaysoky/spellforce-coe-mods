@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Flying.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/CauseBleeding.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/VsBleeding.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/HornetEscort.asset"
+        }
+    ]
+}

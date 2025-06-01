@@ -1,0 +1,23 @@
+UnitDefinition
+{
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Undying.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/LeechLife.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/VsBleeding.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscortArcher.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SkeletonEscortMage.asset"
+        }
+    ]
+}
