@@ -1,0 +1,60 @@
+WorldSpawnerRuleDefinition
+{
+    "Rule": {
+        "Name": "Astrology Shop Wild",
+        "PlayerStartDependant": false,
+        "UseDjikstra": false,
+        "PlayerStartMinDistance": 0,
+        "PlayerStartMinDistanceMargin": 5,
+        "Amount": 1,
+        "Locations": [
+            {
+                "ContentPath": "Locations/Astrology Shop.asset"
+            }
+        ],
+        "LocationsAreUnique": false,
+        "Hints": {
+            "mTags": [
+                {
+                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                }
+            ]
+        },
+        "MinDistance": 10,
+        "AllowedRegions": {
+            "mTags": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Alluvyan.asset"
+                },
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Westguard Snow.asset"
+                },
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Misty Coast.asset"
+                }
+            ]
+        },
+        "AllowAllButTheseRegions": {
+            "mTags": []
+        },
+        "Adventure": {
+            "ContentPath": ""
+        },
+        "Storyline": {
+            "ContentPath": ""
+        },
+        "MonsterSpawner": {
+            "ContentPath": ""
+        },
+        "Garrisons": [],
+        "ProgressionOffset": 0,
+        "SetAntagonistOwnership": false,
+        "RevealFogOfWar": false,
+        "PushNotification": false,
+        "AvoidPlayerDomain": false,
+        "InitialOwner": {
+            "ContentPath": ""
+        },
+        "IsHQ": false
+    }
+}

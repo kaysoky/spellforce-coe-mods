@@ -1,0 +1,337 @@
+LocationDefinition
+{
+    "SafeZone": 3,
+    "GarrisonProgressionOffset": 0,
+    "RepopulationChance": 1.0,
+    "AdventureRatio": 0.5,
+    "BattleEnchantmentChance": 0.5,
+    "FillEvenInPlayerInfluence": false,
+    "FixedPromotionsToAdd": [],
+    "Skills": [],
+    "HideStacksOnEnter": true,
+    "CanBeEntered": true,
+    "ReputationIncome": 0,
+    "CanHaveInfluenceRange": false,
+    "InfluenceRange": 0,
+    "CanBeMined": false,
+    "LocationMiningTicks": 0,
+    "InfluenceAreaIncomeProvider": {
+        "FamePerRound": 0,
+        "MightPerRound": 0,
+        "ResearchPerRound": 2,
+        "ManaPerRound": 1,
+        "GoldPerRound": 0
+    },
+    "InfluenceAreaFactionModification": {
+        "<FactionModifiers>k__BackingField": {
+            "mAdditionalFactionTags": {
+                "mTags": []
+            },
+            "ShopPriceModifier": 0.0,
+            "SpellpowerPerRound": 0,
+            "CraftingSlots": 0,
+            "HiringSlots": 0,
+            "MagicRooms": 0,
+            "CraftingSpeedModifier": 0,
+            "RoomCraftingSpeedModifier": 0,
+            "RoomCraftingCostModifier": 0.0,
+            "TowerHiringSpeedModifier": 0,
+            "TowerHiringCostModifier": 0.0,
+            "ItemSellPriceModifiers": [],
+            "SlaveSellPriceModifier": 0.0,
+            "SpellcastingModifiers": [],
+            "Income": {
+                "FamePerRound": 0,
+                "MightPerRound": 0,
+                "ResearchPerRound": 0,
+                "ManaPerRound": 0,
+                "GoldPerRound": 0
+            },
+            "FactionItemFind": 0.0,
+            "FactionSoulFind": 0.0,
+            "MightDistributionManaMultiplier": 0.0,
+            "MightDistributionResearchMultiplier": 0.0,
+            "MightDistributionFameMultiplier": 0.0,
+            "FreeGoldUnitUpkeep": 0,
+            "FreeManaUpkeep": 0,
+            "MaxApprenticesCount": 0,
+            "UnhideGarrison": false,
+            "HideAllStacks": false,
+            "AdditionalLevelUpChoices": 0,
+            "OwnDeadUnitsShareXp": false,
+            "TimeFrozen": false,
+            "ProhibitRetreat": false,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "AlchemyModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "ThresholdLimit": 0,
+                "UnlockCatalystSlot": false,
+                "T1Output": 0,
+                "T2Output": 0,
+                "T3Output": 0,
+                "T4Output": 0
+            },
+            "RunesmithingModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "ThresholdLimit": 0
+            },
+            "NecromancyModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                }
+            },
+            "DemonologyModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "UnlockFusionCrafting": false,
+                "UnlockFusionCultSlot": false,
+                "UnlockFusionArtefactSlot": false,
+                "FusionSlotCount": 0
+            },
+            "AstrologyModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "ThresholdLimit": 0
+            },
+            "RoomExtensionModifiers": {
+                "CraftingSpeedModifier": 0
+            },
+            "FactionInfluences": [],
+            "UnlockedUnitsForHiring": [],
+            "UnitModifier": [],
+            "ConditionalUnitModifier": [],
+            "UnitPromotions": [],
+            "LocationModifier": [],
+            "InfluenceLocationModifier": [],
+            "InfluenceAreaUnitModifiers": [],
+            "BattleEnchantments": [],
+            "InfluenceAreaBattleEnchantments": [],
+            "PostBattleStatusEffects": [],
+            "StackSlots": [],
+            "BonusLootAfterBattles": [],
+            "WeeklyIncome": [],
+            "UnitStartXP": [],
+            "UnitPassiveXP": [],
+            "CraftingLockTags": {
+                "mTags": []
+            }
+        }
+    },
+    "OnTriggerChargeEffects": {
+        "Effects": []
+    },
+    "OnEndMoveEffects": {
+        "Effects": []
+    },
+    "TreasureLootContainer": {
+        "mTags": []
+    },
+    "AdventureRemovesTreasure": true,
+    "HealingRateBonus": 0.0,
+    "CanUnlockAdventures": false,
+    "ValidTiles": {
+        "mTags": [
+            {
+                "ContentPath": "_World/Tiles/Difficult.asset"
+            },
+            {
+                "ContentPath": "_World/Tiles/Nature.asset"
+            },
+            {
+                "ContentPath": "_World/Tiles/Default.asset"
+            }
+        ]
+    },
+    "Name": {
+        "Key": "Astrology Shop.Name",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Description": {
+        "Key": "Astrology Shop.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Portrait": {
+        "ContentPath": "Production/WorldMapOverview/OverviewMap_Shop.png"
+    },
+    "DestroyVisualEffect": {
+        "ContentPath": ""
+    },
+    "AfterDestroyVisualEffect": {
+        "ContentPath": ""
+    },
+    "RegionTagsToAdd": {
+        "mTags": []
+    },
+    "RegionalPromotions": [],
+    "IgnoreRegionIncomeMultiplier": false,
+    "WorldOverviewMapIcon": {
+        "ContentPath": "Locations/OverviewMap_FallenStar.png"
+    },
+    "NotAnImportantLocation": false,
+    "UseLocationNameAsLabel": false,
+    "DisplayFactionColorInOverviewMap": false,
+    "PropertyTags": {
+        "mTags": []
+    },
+    "ThematicTags": {
+        "mTags": []
+    },
+    "OwnershipSettings": {
+        "CanBeOwned": false,
+        "HeadquarterByDefault": false,
+        "FogOfWarSettings": {
+            "CanDetectHiddenUnitsInSearchRange": false,
+            "Range": 0,
+            "ScoutRange": 0,
+            "InstantRemoveUpdate": true,
+            "IgnoreLineOfSight": false
+        },
+        "Income": {
+            "FamePerRound": 0,
+            "MightPerRound": 0,
+            "ResearchPerRound": 0,
+            "ManaPerRound": 0,
+            "GoldPerRound": 0
+        },
+        "<LocationModifiers>k__BackingField": {
+            "AdditionalInfluenceRange": 0,
+            "MovementRange": 0,
+            "DisableMovement": false,
+            "DisableInfluenceArea": false,
+            "DisableMiningTicks": false,
+            "DisableAdventureUnlocks": false,
+            "CanUnlockAdventures": false,
+            "AdditionalSearchRange": 0,
+            "AdditionalLocationMiningTicks": 0,
+            "InfluenceAreaFactionModifiers": {
+                "rid": -2
+            },
+            "InfluenceAreaIncome": {
+                "FamePerRound": 0,
+                "MightPerRound": 0,
+                "ResearchPerRound": 0,
+                "ManaPerRound": 0,
+                "GoldPerRound": 0
+            },
+            "InfluenceAreaIncomeMultiplier": 0.0,
+            "RegionIncomeMultiplier": 0.0,
+            "InfluenceAreaIncomeBlocker": 0.0,
+            "ReputationIncome": 0,
+            "PropertyTags": {
+                "mTags": []
+            },
+            "BattleEnchantments": [],
+            "Skills": [],
+            "MovementRules": [],
+            "VisualOverride": {
+                "PrefabEffect": {
+                    "ContentPath": ""
+                },
+                "PrefabPriority": 0,
+                "Prefab": {
+                    "ContentPath": ""
+                },
+                "HeightOffset": 0.0,
+                "ContinuousVisualEffects": []
+            }
+        }
+    },
+    "InteractionFeatures2": [
+        {
+            "ContentPath": "Locations/TradeLists/Astrology Shop.asset"
+        }
+    ],
+    "Prefabs": [
+        {
+            "ContentPath": "ModelPrefabs/MageTower/P_Lodge_Player_Loc_05.prefab"
+        }
+    ],
+    "BiomeMapping": [],
+    "RotateWithMove": false,
+    "RotationSpeed": 480.0,
+    "StartMoveEffect": {
+        "ContentPath": ""
+    },
+    "LocationOverlay": {
+        "m_Asset": {
+            "m_FileID": 163340,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": ""
+        }
+    },
+    "LodgeLevels": [],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            }
+        ]
+    }
+}
