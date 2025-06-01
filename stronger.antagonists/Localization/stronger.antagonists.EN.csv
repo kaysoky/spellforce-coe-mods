@@ -113,3 +113,11 @@ AntaProgression BE SacrificialCultists.Id.Description.Loca;Uram brings 2x [mUnit
 #Grounded.Tooltip.Description.Loca;Any inherent flying capabilities are clipped.
 #CauseCorrosion.Tooltip.Name.Loca;Corrosive Weapons
 #corrosionSE.Tooltip.Name.Loca;Corrosion
+#Trinket_Upgrade_Enabled.Tooltip.Name.Loca;Trinket Collection
+#Trinket_Upgrade_Enabled.Tooltip.Description.Loca;Zahaar has opened his collection of [item]Trinkets[/] to this minion.
+#Armor_Upgrade_Enabled.Tooltip.Name.Loca;Armor Collection
+#Armor_Upgrade_Enabled.Tooltip.Description.Loca;Zahaar has opened his collection of [item]Armor[/] to this minion.
+#Shield_Upgrade_Enabled.Tooltip.Name.Loca;Shield Collection
+#Shield_Upgrade_Enabled.Tooltip.Description.Loca;Zahaar has opened his collection of [item]Shields[/] to this minion.
+#Weapon_Upgrade_Enabled.Tooltip.Name.Loca;Weapon Collection
+#Weapon_Upgrade_Enabled.Tooltip.Description.Loca;Zahaar has opened his collection of [item]Weapons[/] to this minion.

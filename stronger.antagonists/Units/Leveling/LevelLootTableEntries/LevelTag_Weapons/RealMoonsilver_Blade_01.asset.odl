@@ -1,0 +1,52 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Weapons.asset"
+            }
+        ]
+    },
+    "Thresholds": 1,
+    "IgnoredUnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/OccupiedWeaponSlot.asset"
+            }
+        ]
+    },
+    "ValidForLevelRange": {
+        "x": 1.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "Weight": 50,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Zahaar/Weapon/RealMoonsilver_Blade_01.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Zahaar/Weapon/Occupied.asset"
+                    },
+                    "Value": false
+                }
+            }
+        ]
+    }
+}

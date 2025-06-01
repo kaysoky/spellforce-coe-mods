@@ -1,4 +1,4 @@
 UnitDefinition
 {
-    "GenerationPointCost": 240
+    "PowerOverride": 0
 }

@@ -1,0 +1,66 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_Infantry.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_Dreamweaver.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_Assassin.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_Worker.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_ArachnoidAbomination.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fial Darg 01.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        2,
+        3
+    ]
+}

@@ -1,0 +1,84 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_ArachnoidAbomination.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/SpellPromotions/Wind Walking.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_Worker.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_Dreamweaver.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_Blademaster.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Spider.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_SpiderQueen.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fial Darg 01.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        2,
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        3
+    ],
+    "BrutalBuildOrder": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        3
+    ]
+}

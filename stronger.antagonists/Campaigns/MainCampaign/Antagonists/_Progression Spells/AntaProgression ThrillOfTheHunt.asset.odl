@@ -1,0 +1,9 @@
+FactionModificationSpell
+{
+    "Modification": {
+        "<FactionModifiers>k__BackingField": {
+            "UnitPromotions": [],
+            "BattleEnchantments": []
+        }
+    }
+}

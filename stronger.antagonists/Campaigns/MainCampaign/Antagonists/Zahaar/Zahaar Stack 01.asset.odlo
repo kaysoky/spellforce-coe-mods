@@ -1,0 +1,66 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Raptor.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_RaptorRider.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/DarkElves/DarkElf_Worker.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Raptor.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_ArachnoidAbomination.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fial Darg 01.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        2,
+        0,
+        1,
+        2,
+        0,
+        1,
+        2,
+        1,
+        3
+    ]
+}
