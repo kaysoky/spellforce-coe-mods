@@ -1,0 +1,53 @@
+AlchemyRecipe
+{
+    "CraftingLocks": {
+        "mTags": []
+    },
+    "AlchemyCondition": {
+        "rid": 1000
+    },
+    "Result": {
+        "rid": 1001
+    },
+    "Order": 1,
+    "Tier": 3,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SpecificAlchemyCondition",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Alchemy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "RequiredItems": [
+                        {
+                            "ContentPath": "Items/Loot/LesserVessels/Demonology_D.asset"
+                        },
+                        {
+                            "ContentPath": "Items/Loot/LesserVessels/Demonology_D.asset"
+                        },
+                        {
+                            "ContentPath": "Items/Loot/LesserVessels/Demonology_D.asset"
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "FixedItemResult",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Alchemy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Result": {
+                        "ContentPath": "Items/Loot/MediumVessels/Demonology_D.asset"
+                    }
+                }
+            }
+        ]
+    }
+}

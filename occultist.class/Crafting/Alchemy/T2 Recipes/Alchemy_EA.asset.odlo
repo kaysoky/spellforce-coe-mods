@@ -1,0 +1,10 @@
+AlchemyRecipe
+{
+    "CraftingLocks": {
+        "mTags": [
+            {
+                "ContentPath": "Crafting/_LockTags/Original Alchemy.asset"
+            }
+        ]
+    }
+}

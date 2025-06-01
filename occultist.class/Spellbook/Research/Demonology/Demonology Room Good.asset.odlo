@@ -1,0 +1,116 @@
+ResearchDefinition
+{
+    "Milestones": [
+        {
+            "m_Guid": {
+                "GuidPart1": 629983013,
+                "GuidPart2": 1200196152,
+                "GuidPart3": -830841167,
+                "GuidPart4": -1091763813
+            },
+            "Goals": [
+                {
+                    "rid": 1000
+                }
+            ],
+            "GoalsNeededForCompletion": 0,
+            "<Rewards>k__BackingField": {
+                "<Spell>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<RoomBlueprint>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<MilestoneChangeAdventure>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<FactionPromotion>k__BackingField": {
+                    "ContentPath": ""
+                }
+            },
+            "IsSilent": false
+        },
+        {
+            "m_Guid": {
+                "GuidPart1": 414794950,
+                "GuidPart2": 1170346457,
+                "GuidPart3": 1390611338,
+                "GuidPart4": -414219890
+            },
+            "Goals": [
+                {
+                    "rid": 1001
+                }
+            ],
+            "GoalsNeededForCompletion": 0,
+            "<Rewards>k__BackingField": {
+                "<Spell>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<RoomBlueprint>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<MilestoneChangeAdventure>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<FactionPromotion>k__BackingField": {
+                    "ContentPath": ""
+                }
+            },
+            "IsSilent": false
+        },
+        {
+            "m_Guid": {
+                "GuidPart1": 122528053,
+                "GuidPart2": 1116317035,
+                "GuidPart3": 648809860,
+                "GuidPart4": -1691404109
+            },
+            "Goals": [
+                {
+                    "rid": 1002
+                }
+            ],
+            "GoalsNeededForCompletion": 0,
+            "<Rewards>k__BackingField": {
+                "<Spell>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<RoomBlueprint>k__BackingField": {
+                    "ContentPath": "Crafting/Rooms/Room_Soulwell.asset"
+                },
+                "<MilestoneChangeAdventure>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<FactionPromotion>k__BackingField": {
+                    "ContentPath": ""
+                }
+            },
+            "IsSilent": false
+        }
+    ],
+    "DisplayName": {
+        "Key": "Room_Soulwell.Name",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Description": {
+        "Key": "Demonology Room Good.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    }
+}

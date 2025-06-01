@@ -1,0 +1,73 @@
+CampaignStartArchetype
+{
+    "DisplayName": {
+        "Key": "ArchetypeDemonologist.DisplayName",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Description": {
+        "Key": "ArchetypeDemonologist.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "ArchetypeMenuImage": {
+        "m_Asset": {
+            "m_FileID": 293618,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": ""
+        }
+    },
+    "SavegameIcon": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/ArchetypeDemonologist_SavegameIcon.png"
+    },
+    "SelectableArchetype": true,
+    "Location": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/CampaignStart_Alluvyan.asset"
+    },
+    "Crafting": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/StartCrafting_Demonology.asset"
+    },
+    "PrimarySchool": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/StartSchool_Occultism.asset"
+    },
+    "SecondarySchool": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/StartSchool_Mentalism.asset"
+    },
+    "Tower": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/CampaignStart_Tower_04.asset"
+    },
+    "HoverSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": ""
+        }
+    },
+    "ClickSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 274574,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": ""
+        }
+    }
+}

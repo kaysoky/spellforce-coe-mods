@@ -1,0 +1,142 @@
+ItemDefinition
+{
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "Demonology_E_Offering.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Items/Icons/Offering/Demon_E.png"
+    },
+    "Quality": {
+        "ContentPath": "Items/Quality/1 Common.asset"
+    },
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Ingredient.asset"
+            }
+        ]
+    },
+    "Stackable": true,
+    "BuyCosts": {
+        "Gold": 0,
+        "Mana": 2
+    },
+    "CanBeSold": true,
+    "CraftDuration": 1,
+    "BattleSkill": {
+        "ContentPath": ""
+    },
+    "Components": {
+        "Elemental": 1,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 0,
+        "Rainbow": 0
+    },
+    "Catalyst": {
+        "QuantityMultiplier": 1
+    },
+    "Soul": {
+        "ThresholdLimit": 0,
+        "Promotion": {
+            "ContentPath": ""
+        }
+    },
+    "Demonology": {
+        "Level": 0,
+        "Suffix": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        }
+    },
+    "Indestructible": false,
+    "CraftingModifiers": {
+        "SpecialSlotComponentsModifications": [],
+        "CraftedItemUnitModifiers": {
+            "rid": -2
+        }
+    },
+    "WeightedLoot": [
+        {
+            "Tags": {
+                "mTags": [
+                    {
+                        "ContentPath": "LootTables/Loot Locations/ItemCategories/SacrificialOffering.asset"
+                    }
+                ]
+            },
+            "Weight": 10
+        }
+    ],
+    "ProbabilityLoot": [],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            }
+        ]
+    }
+}

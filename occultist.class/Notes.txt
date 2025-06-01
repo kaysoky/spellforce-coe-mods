@@ -1,0 +1,62 @@
+Demonologist Replacement
+    Uses Alchemist crafting to translates lesser demons into souls
+        Lesser Demons are Artefacts and have levels - Souls are Items and don't have levels
+            No straightforward translation from Lesser Demon into Souls
+        Instead, level 3 lesser demons add extra loot drops (Sacrificial Offerings) associated with themselves
+            Can't retain Cult info this way, but better than nothing
+        3x Sacrificial Offerings = Lesser Demonic Vessel
+            Equivalent to a level 2 Lesser Demon + Soul Cage
+        3x Lesser Demonic Vessels = Medium Demonic Vessel
+        3x Medium Demonic Vessels = Greater Demonic Vessel
+        (TODO) 3x Greater Demonic Vessels = Ultimate Demonic Vessel (Replacement for Greater Demons via Amalgamation)
+    Uses Necromancer crafting to summon demons
+        Tier 1 - Lesser Demonic Vessel
+            A | Gargoyle
+            D | Cultists (Transformed into Tier 1 unit)
+            E | Ashen Ones
+            L | Slaves? Lesser Wendigo? (TODO: Not allowed due to life essence)
+        Tier 2 - Medium Demonic Vessel
+            EA | Hiveminder
+            ED | Horned Beast
+            EE | Core Dweller
+            EL | Horned Charger
+        Tier 3 - Greater Demonic Vessel
+            EAD | Aether Beast
+            EED | Glutton
+            EEL | Leviathan
+            ELL | Wendigo
+-vv- TODO -vv-
+            EAA | Greater Gargoyle?
+            EAL | Sa'Hrul Doppelganger?
+            EDD | Philo?
+            EEA | Psuedo Apprentice?
+            EEE | Ashen Horde?
+        Tier 4 - Demon Lords
+            Modify Demon Lord item drop
+            Not sure if required Soul can be dynamic
+-^^- TODO -^^-
+    Necromancer-like army size
+        Remove 1 stackslot, but add 2 dedicated to Tier 1 units
+Demonologist Grimoire Page
+    Ritual Chamber -> Unlocks Demonology, Alchemy, and Necromancy
+    Hire Cultist -> Summon chaff (random Tier 1 unit)
+    Eager Mind -> Soul Cage (Necromancer ability)
+    Amalgamation Chamber -> Soul Well (Necromancer one)
+-vv- TODO -vv-
+    Banish Demon -> Sully Village ability (urban tile -> sullied village = negative reputation each turn + weekly Demonic Vessel income)
+        See Galtrak's abilities
+Occultism spell replacements
+    Sacrificial Summon -> ???
+    Greater Sacrificial Summon -> ???
+    Infused Memory -> ??? Might be fine as-is
+    Chaos Altar & Shrine -> Provides weekly income instead of hiring demons
+    Pandemonium -> Higher stat buff instead of hiring demons
+Lesser Demon Rebalance
+    Vulture
+        All level 3 lesser demons effectively gain +1 mana per battle, so Vulture's bonus not as good
+        Adds extra Allfire income per turn
+    Arbiter
+        Allfire income too high for Soul form, reduced to 2
+-^^- TODO -^^-
+    Paradox
+        Execute threshold too strong, reduced to 25%

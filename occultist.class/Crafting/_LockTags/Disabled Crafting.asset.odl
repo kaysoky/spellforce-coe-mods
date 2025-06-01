@@ -1,0 +1,18 @@
+CraftingLockTag
+{
+    "DisplayName": {
+        "Key": "#Disabled Crafting.DisplayName",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Image": {
+        "ContentPath": "Items/Icons/Icon_Locked_Artefacts.png"
+    }
+}

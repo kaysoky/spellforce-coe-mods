@@ -1,0 +1,23 @@
+FactionDefinition
+{
+    "StackSlots": [
+        {
+            "SlotType": {
+                "ContentPath": "StackSlots/StackSlot_Hero.asset"
+            },
+            "Amount": 1
+        },
+        {
+            "SlotType": {
+                "ContentPath": "StackSlots/StackSlot_NonHero.asset"
+            },
+            "Amount": 3
+        },
+        {
+            "SlotType": {
+                "ContentPath": "StackSlots/StackSlot_Chaff.asset"
+            },
+            "Amount": 2
+        }
+    ]
+}

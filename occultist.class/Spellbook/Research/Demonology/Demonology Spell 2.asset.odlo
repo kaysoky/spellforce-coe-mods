@@ -1,0 +1,93 @@
+ResearchDefinition
+{
+    "Icon": {
+        "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_Soulcage_01.png"
+    },
+    "Milestones": [
+        {
+            "m_Guid": {
+                "GuidPart1": -852066412,
+                "GuidPart2": 1219926214,
+                "GuidPart3": -1843352144,
+                "GuidPart4": 29884699
+            },
+            "Goals": [
+                {
+                    "rid": 1000
+                }
+            ],
+            "GoalsNeededForCompletion": 0,
+            "<Rewards>k__BackingField": {
+                "<Spell>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<RoomBlueprint>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<MilestoneChangeAdventure>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<FactionPromotion>k__BackingField": {
+                    "ContentPath": ""
+                }
+            },
+            "IsSilent": false
+        },
+        {
+            "m_Guid": {
+                "GuidPart1": -154418514,
+                "GuidPart2": 1332143352,
+                "GuidPart3": 2099051929,
+                "GuidPart4": -467476959
+            },
+            "Goals": [
+                {
+                    "rid": 1001
+                }
+            ],
+            "GoalsNeededForCompletion": 0,
+            "<Rewards>k__BackingField": {
+                "<Spell>k__BackingField": {
+                    "ContentPath": "Spellbook/Spells/Soul Cage.asset"
+                },
+                "<RoomBlueprint>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<MilestoneChangeAdventure>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<FactionPromotion>k__BackingField": {
+                    "ContentPath": ""
+                }
+            },
+            "IsSilent": false
+        }
+    ],
+    "DisplayName": {
+        "Key": "Soul Cage.Tooltip.Name.Loca",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Category": {
+        "ContentPath": "Spellbook/Category/Unit Enchantment.asset"
+    },
+    "Description": {
+        "Key": "Necromancy Soul Cage.Milestones.Array.data[1].Goals.Array.data[0].FluffText",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    }
+}

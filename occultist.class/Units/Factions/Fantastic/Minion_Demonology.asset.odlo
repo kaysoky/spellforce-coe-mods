@@ -1,0 +1,37 @@
+UnitDefinition
+{
+    "Tier": 1,
+    "UnitIcon": {
+        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Ranged_01.png"
+    },
+    "HireCosts": {
+        "Gold": 10,
+        "Mana": 0
+    },
+    "TowerHireDuration": 3,
+    "CraftDuration": 3,
+    "UpkeepCosts": {
+        "Gold": 0,
+        "Mana": 1
+    },
+    "GenerationPointCost": 36,
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Assassin.asset"
+            }
+        ]
+    },
+    "TotalUnitLife": 40,
+    "XPWorth": 60.0,
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Can Go Into Chaff Slot.asset"
+            }
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+ShopDefinition
+{
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -576412658,
+                        "GuidPart2": 1089683906,
+                        "GuidPart3": -860063574,
+                        "GuidPart4": -1277684650
+                    },
+                    "ReputationLevel": 0,
+                    "CanRefill": false,
+                    "SlotAmount": 3,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1001
+                        },
+                        {
+                            "rid": 1002
+                        },
+                        {
+                            "rid": 1004
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/ResearchPageEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Spellpage": {
+                        "ContentPath": "Spellbook/Tags/CRAFTING ALCHEMY.asset"
+                    },
+                    "HiddenItemToAward": {
+                        "ContentPath": "Items/Loot/Special/Waterskin.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ShopDefinition/ResearchPageEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Spellpage": {
+                        "ContentPath": "Spellbook/Tags/CRAFTING DEMONOLOGY.asset"
+                    },
+                    "HiddenItemToAward": {
+                        "ContentPath": "Items/Demonology/Cults/Cult_Default.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ShopDefinition/ResearchPageEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Spellpage": {
+                        "ContentPath": "Spellbook/Tags/CRAFTING RUNESMITHING.asset"
+                    },
+                    "HiddenItemToAward": {
+                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                    }
+                }
+            }
+        ]
+    }
+}

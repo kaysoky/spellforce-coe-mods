@@ -1,0 +1,47 @@
+NecromancyRecipe
+{
+    "CraftingLocks": {
+        "mTags": []
+    },
+    "Condition": {
+        "rid": 1000
+    },
+    "Result": {
+        "rid": 1001
+    },
+    "Order": 13,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "DynamicNecromancyCondition",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Necromancy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Thresholds": {
+                        "ElementalThreshold": 1,
+                        "ArcaneThreshold": 0,
+                        "DeathThreshold": 0,
+                        "LifeThreshold": 1
+                    }
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "NecromancyUnitResult",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Necromancy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
+                    }
+                }
+            }
+        ]
+    }
+}

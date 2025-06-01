@@ -1,0 +1,134 @@
+ItemDefinition
+{
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "Demonology_E_LesserVessel.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Items/Icons/Lesser/Demon_E.png"
+    },
+    "Quality": {
+        "ContentPath": "Items/Quality/2 Uncommon.asset"
+    },
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Ingredient.asset"
+            },
+            {
+                "ContentPath": "Items/Tags/Soul.asset"
+            }
+        ]
+    },
+    "Stackable": true,
+    "BuyCosts": {
+        "Gold": 0,
+        "Mana": 8
+    },
+    "CanBeSold": true,
+    "CraftDuration": 3,
+    "BattleSkill": {
+        "ContentPath": ""
+    },
+    "Components": {
+        "Elemental": 1,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 0,
+        "Rainbow": 0
+    },
+    "Catalyst": {
+        "QuantityMultiplier": 1
+    },
+    "Soul": {
+        "ThresholdLimit": 1,
+        "Promotion": {
+            "ContentPath": "Units/Promotions/Lesser/Demonology_E.asset"
+        }
+    },
+    "Demonology": {
+        "Level": 0,
+        "Suffix": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        }
+    },
+    "Indestructible": false,
+    "CraftingModifiers": {
+        "SpecialSlotComponentsModifications": [],
+        "CraftedItemUnitModifiers": {
+            "rid": -2
+        }
+    },
+    "WeightedLoot": [],
+    "ProbabilityLoot": [],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            }
+        ]
+    }
+}

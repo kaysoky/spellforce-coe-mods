@@ -1,0 +1,58 @@
+StartCrafting_Demonology.DisplayName;Demonology
+#Alchemist Craft.Loca;Demonic Vessel Crafting
+#Necromancer Craft.Loca;Demon Incarnation
+ArchetypeDemonologist.DisplayName;Occultist
+ArchetypeDemonologist.Description;Be an Occultist, a worshiper of demonic spirits.\nCorrupt the world and its inhabitants, sacrifice to demonic entities, and incarnate demons into your armies.\n\n[adventure_main]PLAYSTYLE[/]\nYou like nurturing units over the long term to unleash their full potential, but will happily sacrifice individual units.
+#StartCrafting_Demonology.Description;Be an Occultist, a worshipper of demonic spirits.\nMake offerings and lure demonic presences from the realms beyond into this world to possess and feed upon mortals.\n\n[adventure_main]PLAYSTYLE[/]\nYour demons possess mortal units and pave the way to direct incarnation through battle.\nWith enough bloodshed, you can craft the vessels for demons to descend onto Eo.
+SoulSlot.Tooltip;Demonic Vessel Slot
+Soul.DisplayName;Demonic Vessel
+ItemDefinitionTooltip.ItemDefinitionTooltip.SoulPromotionLoca;Demons incarnated in this vessel gain [unitpromotion]"{what}"[/].
+ItemTooltips.ItemTooltips.SoulLevelLoca;<align=right>[point_death]Demon Incarnation Limit {level}[/]
+#Disabled Crafting.DisplayName;Disabled form of crafting
+TowerCrafting.RecipeToComplicated;The vessel is too weak for this recipe!
+Demonology_A_Offering.Tooltip.Name.Loca;Sacrificial Offering (Tourist)
+Demonology_D_Offering.Tooltip.Name.Loca;Sacrificial Offering (Pawn)
+Demonology_E_Offering.Tooltip.Name.Loca;Sacrificial Offering (Vulture)
+Demonology_L_Offering.Tooltip.Name.Loca;Sacrificial Offering (Rook)
+Demonology_AD_Offering.Tooltip.Name.Loca;Sacrificial Offering (Alp)
+Demonology_EL_Offering.Tooltip.Name.Loca;Sacrificial Offering (Gourmand)
+Demonology_AL_Offering.Tooltip.Name.Loca;Sacrificial Offering (Warlock)
+Demonology_ED_Offering.Tooltip.Name.Loca;Sacrificial Offering (Kobold)
+Demonology_EA_Offering.Tooltip.Name.Loca;Sacrificial Offering (Smoker)
+Demonology_EAD_Offering.Tooltip.Name.Loca;Sacrificial Offering (Paradox)
+Demonology_EAL_Offering.Tooltip.Name.Loca;Sacrificial Offering (Arbiter)
+Demonology_A_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Tourist)
+Demonology_D_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Pawn)
+Demonology_E_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Vulture)
+Demonology_L_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Rook)
+Demonology_AD_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Alp)
+Demonology_EL_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Gourmand)
+Demonology_AL_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Warlock)
+Demonology_ED_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Kobold)
+Demonology_EA_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Smoker)
+Demonology_EAD_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Paradox)
+Demonology_EAL_LesserVessel.Tooltip.Name.Loca;Lesser Demonic Vessel (Arbiter)
+Demonology_A_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Tourist)
+Demonology_D_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Pawn)
+Demonology_E_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Vulture)
+Demonology_L_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Rook)
+Demonology_AD_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Alp)
+Demonology_EL_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Gourmand)
+Demonology_AL_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Warlock)
+Demonology_ED_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Kobold)
+Demonology_EA_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Smoker)
+Demonology_EAD_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Paradox)
+Demonology_EAL_MediumVessel.Tooltip.Name.Loca;Medium Demonic Vessel (Arbiter)
+Demonology_A_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Tourist)
+Demonology_D_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Pawn)
+Demonology_E_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Vulture)
+Demonology_L_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Rook)
+Demonology_AD_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Alp)
+Demonology_EL_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Gourmand)
+Demonology_AL_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Warlock)
+Demonology_ED_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Kobold)
+Demonology_EA_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Smoker)
+Demonology_EAD_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Paradox)
+Demonology_EAL_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Arbiter)
+Summon Minion Demon.Tooltip.Name.Loca;Compel the Feeble
+Demonology Minion.Description;Bolster your forces with brainwashed and expendable local units.

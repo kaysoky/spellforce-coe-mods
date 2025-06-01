@@ -1,0 +1,256 @@
+SummonUnitSpell
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 132448,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/World/WorldValidTilesTargetCursor_Beam.prefab"
+        }
+    },
+    "OnlyUsableByOwner": true,
+    "Icon": {
+        "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_Expendable_01.png"
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "Summon Minion Demon.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "Demonology Minion.Description",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Costs": 9,
+    "UpkeepCosts": 0,
+    "Unit": {
+        "rid": 1000
+    },
+    "SummonPromotion": {
+        "ContentPath": ""
+    },
+    "Unique": false,
+    "RestrictedToInfluenceArea": true,
+    "LimitedToTiles": {
+        "mTags": []
+    },
+    "FogOfWarRestriction": {
+        "RequiredState": 1
+    },
+    "LocalReputationChange": 0,
+    "RemoveLocationFromTile": false,
+    "LocationReplacement": {
+        "ContentPath": ""
+    },
+    "CastVisualEffect": {
+        "ContentPath": "VisualEffects/WorldEffects/World_MentalismImpact_VisualEffect.prefab"
+    },
+    "ResearchPromotionMappings": [],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SummonRegionDependantUnitProvider",
+                    "ns": "OwnedByGravity.Game.World.Spells",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "FallbackUnit": [
+                        {
+                            "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Factions/Humans/Human_Arsonist.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Factions/Human/Human_Slaves.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Factions/Fantastic/Minion_Demonology.asset"
+                        }
+                    ],
+                    "SpawnAllInsteadOfRandom": false,
+                    "MappedUnits": [
+                        {
+                            "Tags": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Windholme.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Three Lakes.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Stoneblades.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Silver Drift Hollow.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norgate.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Draycott.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Coldmark.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Estwal.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Silver Drift Mine.asset"
+                                    }
+                                ]
+                            },
+                            "SpawnAllInsteadOfRandom": false,
+                            "Units": [
+                                {
+                                    "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Animals/Animal_FireBeetle.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Trolls/Troll_Worker.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Fantastic/Fantastic_BabyIceGolem.asset"
+                                }
+                            ]
+                        },
+                        {
+                            "Tags": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Misty Coast.asset"
+                                    }
+                                ]
+                            },
+                            "SpawnAllInsteadOfRandom": false,
+                            "Units": [
+                                {
+                                    "ContentPath": "Units/Factions/Orcs/Orc_GoblinBrawler.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Orcs/Orc_GoblinStoner.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Animals/Animal_PlagueBeetle.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Animals/Animal_Spider.asset"
+                                }
+                            ]
+                        },
+                        {
+                            "Tags": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Regan Gor.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Uram_Gor.asset"
+                                    }
+                                ]
+                            },
+                            "SpawnAllInsteadOfRandom": false,
+                            "Units": [
+                                {
+                                    "ContentPath": "Units/Factions/Fantastic/Fantastic_BabyFireGolem.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Demons/Demon_AshenOne.asset"
+                                },
+                                {
+                                    "ContentPath": "Units/Factions/Demons/Demon_Gargoyle.asset"
+                                }
+                            ]
+                        },
+                        {
+                            "Tags": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Ocean.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
+                                    }
+                                ]
+                            },
+                            "SpawnAllInsteadOfRandom": false,
+                            "Units": [
+                                {
+                                    "ContentPath": "Units/Factions/Fantastic/Fantastic_SmallJelly.asset"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,292 @@
+ResearchDefinition
+{
+    "ResearchTags": {
+        "mTags": [
+            {
+                "ContentPath": "Spellbook/Tags/SPELL.asset"
+            },
+            {
+                "ContentPath": "Spellbook/Tags/CRAFTING DEMONOLOGY.asset"
+            }
+        ]
+    },
+    "Icon": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_PurityMilitia.png"
+    },
+    "SpellpageIcon": {
+        "ContentPath": ""
+    },
+    "Milestones": [
+        {
+            "m_Guid": {
+                "GuidPart1": -852066412,
+                "GuidPart2": 1219926214,
+                "GuidPart3": -1843352144,
+                "GuidPart4": 29884699
+            },
+            "Goals": [
+                {
+                    "rid": 1000
+                }
+            ],
+            "GoalsNeededForCompletion": 0,
+            "<Rewards>k__BackingField": {
+                "<Spell>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<RoomBlueprint>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<MilestoneChangeAdventure>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<FactionPromotion>k__BackingField": {
+                    "ContentPath": ""
+                }
+            },
+            "IsSilent": false
+        },
+        {
+            "m_Guid": {
+                "GuidPart1": -154418514,
+                "GuidPart2": 1332143352,
+                "GuidPart3": 2099051929,
+                "GuidPart4": -467476959
+            },
+            "Goals": [
+                {
+                    "rid": 1001
+                }
+            ],
+            "GoalsNeededForCompletion": 0,
+            "<Rewards>k__BackingField": {
+                "<Spell>k__BackingField": {
+                    "ContentPath": "Spellbook/Spells/Summon Chaff.asset"
+                },
+                "<RoomBlueprint>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<MilestoneChangeAdventure>k__BackingField": {
+                    "ContentPath": ""
+                },
+                "<FactionPromotion>k__BackingField": {
+                    "ContentPath": ""
+                }
+            },
+            "IsSilent": false
+        }
+    ],
+    "DisplayName": {
+        "Key": "Summon Minion Demon.Tooltip.Name.Loca",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "School": {
+        "ContentPath": ""
+    },
+    "Category": {
+        "ContentPath": "Spellbook/Category/Summoning.asset"
+    },
+    "Description": {
+        "Key": "Demonology Minion.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "DontShowInTooltipUntilCompleted": false,
+    "AllowInDynamicPages": false,
+    "DynamicPageSettings": {
+        "SpecificFactory": {
+            "rid": -2
+        },
+        "SpecificTemplate": {
+            "m_Asset": {
+                "m_FileID": 0,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        }
+    },
+    "BuyCost": {
+        "Gold": 0,
+        "Mana": 0
+    },
+    "ResearchFinishedIncome": {
+        "FamePerRound": 0,
+        "MightPerRound": 0,
+        "ResearchPerRound": 0,
+        "ManaPerRound": 0,
+        "GoldPerRound": 0
+    },
+    "ProgressionPoints": 0,
+    "ImageGibberish": {
+        "ContentPath": ""
+    },
+    "ImageGibberishTitle": {
+        "ContentPath": ""
+    },
+    "ImageFinal": {
+        "ContentPath": ""
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            },
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ResearchCompletedResearchGoal",
+                    "ns": "OwnedByGravity.Game.Logic.Research.Goals",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "FluffTitle": {
+                        "Key": "",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "FluffText": {
+                        "Key": "",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "ShowInTaskList": false,
+                    "m_Guid": {
+                        "GuidPart1": -2054953500,
+                        "GuidPart2": 1231686294,
+                        "GuidPart3": -1827584323,
+                        "GuidPart4": 1064540830
+                    },
+                    "m_BoostedGoal": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "BoostPercentage": 0.0,
+                    "m_Description": {
+                        "Key": "",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "Research": {
+                        "ContentPath": "Spellbook/Research/Demonology/Demonology Blocker 1.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "CombatVictoriesResearchGoal",
+                    "ns": "OwnedByGravity.Game.Logic.Research.Goals",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "FluffTitle": {
+                        "Key": "Summon Minion Demon.Tooltip.Name.Loca",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "FluffText": {
+                        "Key": "Demonology Minion.Description",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "ShowInTaskList": false,
+                    "m_Guid": {
+                        "GuidPart1": -1274219953,
+                        "GuidPart2": 1174727011,
+                        "GuidPart3": -486618745,
+                        "GuidPart4": 1463857139
+                    },
+                    "m_BoostedGoal": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "BoostPercentage": 0.0,
+                    "m_Description": {
+                        "Key": "#Demonology Minion.Milestones.Array.data[1].Goals.Array.data[0].m_Description",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": -545813816,
+                                "GuidPart2": 1180517625,
+                                "GuidPart3": 267292309,
+                                "GuidPart4": 1865730845
+                            },
+                            "mSerializableLocalIdentifier": 11400000
+                        }
+                    },
+                    "ExpectedResult": 0,
+                    "Amount": 5,
+                    "LimitingUnitTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "Units/Promotions/PossessedTag.asset"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

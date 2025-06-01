@@ -1,0 +1,14 @@
+CampaignStartCrafting
+{
+    "StartItems": [
+        {
+            "ContentPath": "Items/Demonology/Cults/Cult_Default.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        }
+    ]
+}

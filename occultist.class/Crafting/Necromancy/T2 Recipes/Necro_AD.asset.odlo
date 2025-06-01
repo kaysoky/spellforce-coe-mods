@@ -1,0 +1,10 @@
+NecromancyRecipe
+{
+    "CraftingLocks": {
+        "mTags": [
+            {
+                "ContentPath": "Crafting/_LockTags/Disabled Crafting.asset"
+            }
+        ]
+    }
+}

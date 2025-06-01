@@ -1,0 +1,29 @@
+StackSlotDefinition
+{
+    "AllowedTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Can Go Into Chaff Slot.asset"
+            }
+        ]
+    },
+    "ForbiddenTags": {
+        "mTags": []
+    },
+    "Icon": {
+        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Hero_01.png"
+    },
+    "EmptySlotLocalizationId": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Order": 3
+}

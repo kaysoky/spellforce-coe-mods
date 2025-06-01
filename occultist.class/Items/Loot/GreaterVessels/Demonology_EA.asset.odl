@@ -1,0 +1,134 @@
+ItemDefinition
+{
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "Demonology_EA_GreaterVessel.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Items/Icons/Greater/Demon_EA.png"
+    },
+    "Quality": {
+        "ContentPath": "Items/Quality/4 Shaper.asset"
+    },
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Ingredient.asset"
+            },
+            {
+                "ContentPath": "Items/Tags/Soul.asset"
+            }
+        ]
+    },
+    "Stackable": true,
+    "BuyCosts": {
+        "Gold": 0,
+        "Mana": 128
+    },
+    "CanBeSold": true,
+    "CraftDuration": 7,
+    "BattleSkill": {
+        "ContentPath": ""
+    },
+    "Components": {
+        "Elemental": 2,
+        "Arcane": 1,
+        "Death": 0,
+        "Life": 0,
+        "Rainbow": 0
+    },
+    "Catalyst": {
+        "QuantityMultiplier": 1
+    },
+    "Soul": {
+        "ThresholdLimit": 3,
+        "Promotion": {
+            "ContentPath": "Units/Promotions/Normal/Demonology_EA.asset"
+        }
+    },
+    "Demonology": {
+        "Level": 0,
+        "Suffix": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        }
+    },
+    "Indestructible": false,
+    "CraftingModifiers": {
+        "SpecialSlotComponentsModifications": [],
+        "CraftedItemUnitModifiers": {
+            "rid": -2
+        }
+    },
+    "WeightedLoot": [],
+    "ProbabilityLoot": [],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+RoomRecipe
+{
+    "Modification": {
+        "<FactionModifiers>k__BackingField": {
+            "AlchemyModifiers": {
+                "IngredientSlotCount": 3,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "ThresholdLimit": 4,
+                "UnlockCatalystSlot": false,
+                "T1Output": 0,
+                "T2Output": 0,
+                "T3Output": 0,
+                "T4Output": 0
+            },
+            "NecromancyModifiers": {
+                "IngredientSlotCount": 3,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                }
+            },
+            "DemonologyModifiers": {
+                "IngredientSlotCount": 2,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "UnlockFusionCrafting": true,
+                "UnlockFusionCultSlot": false,
+                "UnlockFusionArtefactSlot": false,
+                "FusionSlotCount": 0
+            }
+        }
+    },
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Research_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CraftingSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Demon_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonBuff_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Demon_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ManaUpkeep_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_StackSlot_01.asset"
+        }
+    ]
+}
