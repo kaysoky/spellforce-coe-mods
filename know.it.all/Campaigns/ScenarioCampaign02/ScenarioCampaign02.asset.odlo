@@ -1,0 +1,9 @@
+CampaignDefinition
+{
+    "InitialCraftingRecipes": {
+        "m_Asset": {
+            "m_FileID": 304600,
+            "m_PathID": 0
+        }
+    }
+}
