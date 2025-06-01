@@ -1,0 +1,16 @@
+RoomRecipe
+{
+    "KnownDemonologyRecipes": [
+        { "ContentPath": "Crafting/Demonology/T1 Recipes/Demonology_A.asset" },
+        { "ContentPath": "Crafting/Demonology/T1 Recipes/Demonology_D.asset" },
+        { "ContentPath": "Crafting/Demonology/T1 Recipes/Demonology_E.asset" },
+        { "ContentPath": "Crafting/Demonology/T1 Recipes/Demonology_L.asset" },
+        { "ContentPath": "Crafting/Demonology/T2 Recipes/Demonology_AD.asset" },
+        { "ContentPath": "Crafting/Demonology/T2 Recipes/Demonology_AL.asset" },
+        { "ContentPath": "Crafting/Demonology/T2 Recipes/Demonology_EA.asset" },
+        { "ContentPath": "Crafting/Demonology/T2 Recipes/Demonology_ED.asset" },
+        { "ContentPath": "Crafting/Demonology/T2 Recipes/Demonology_EL.asset" },
+        { "ContentPath": "Crafting/Demonology/T3 Recipes/Demonology_EAD.asset" },
+        { "ContentPath": "Crafting/Demonology/T3 Recipes/Demonology_EAL.asset" }
+    ]
+}
