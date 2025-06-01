@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_Ray_White_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Astro_Good_04.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_StackSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_GoldUpkeep_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_05.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Demon_02.asset"
+        }
+    ]
+}

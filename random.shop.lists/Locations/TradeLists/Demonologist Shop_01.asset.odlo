@@ -104,18 +104,46 @@ ShopDefinition
             {
                 "rid": 1002,
                 "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Keeper.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
                     "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Demonology/Tier 2/Demonology_AD.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_06.asset"
                     }
                 }
             },
             {
-                "rid": 1003,
+                "rid": 1004,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1005,
                 "type": {
                     "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
@@ -128,42 +156,17 @@ ShopDefinition
                 }
             },
             {
-                "rid": 1004,
-                "type": {
-                    "class": "ShopDefinition/ItemEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Item": {
-                        "ContentPath": "Items/Demonology/Tier 2/Demonology_EA.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1005,
-                "type": {
-                    "class": "ShopDefinition/ItemEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Item": {
-                        "ContentPath": "Items/Demonology/Tier 2/Demonology_EL.asset"
-                    }
-                }
-            },
-            {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T3/Item_EDD_RitualDagger.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -175,29 +178,22 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ADDD_LivingSkull.asset"
+                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
                     }
                 }
             },
             {
                 "rid": 1008,
                 "type": {
-                    "class": "ShopDefinition/ResearchEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Occultism/Research_Occultism_Chaos Altar.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -209,21 +205,22 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Common_03.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheHealthy.asset"
                     }
                 }
             },
             {
                 "rid": 1010,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Demonology/Tier 1/Demonology_A.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -235,7 +232,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Demonology/Tier 1/Demonology_D.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_02.asset"
                     }
                 }
             },
@@ -248,7 +245,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Demonology/Tier 1/Demonology_E.asset"
+                        "ContentPath": "Items/Demonology/Tier 2/Demonology_AD.asset"
                     }
                 }
             },
@@ -261,7 +258,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T2/Item_AA_ChargedCrystal.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheArcanist.asset"
                     }
                 }
             },
@@ -274,7 +271,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T3/Item_EDD_RitualDagger.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHealthy.asset"
                     }
                 }
             },
@@ -287,7 +284,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Demons/Demon_AshenOne.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Warg.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -295,36 +292,28 @@ ShopDefinition
             {
                 "rid": 1016,
                 "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Common_03.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1017,
+                "type": {
                     "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Demons/Demon_Gargoyle.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Crossbow.asset"
                     },
                     "AllowDuplicatedEntries": true
-                }
-            },
-            {
-                "rid": 1017,
-                "type": {
-                    "class": "ShopDefinition/ResearchEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Occultism/Research_Occultism_DemonicWeapons.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
-                    }
                 }
             }
         ]

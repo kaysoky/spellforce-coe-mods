@@ -38,15 +38,14 @@ ShopDefinition
             {
                 "rid": 1001,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Souls/Lost Soul 1.asset"
+                    }
                 }
             },
             {
@@ -58,7 +57,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
+                        "ContentPath": "Units/Factions/Orcs/Orc_GoblinBrawler.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

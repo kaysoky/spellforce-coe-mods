@@ -98,15 +98,14 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Alchemist.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Artefact_Corrupted_ofTheRhino.asset"
+                    }
                 }
             },
             {
@@ -118,7 +117,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Fantastic_FlamingConstruct.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -132,7 +131,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Basilisk.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -140,15 +139,22 @@ ShopDefinition
             {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Occultism/Research_Occultism_Shapeshift 1.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
+                    }
                 }
             },
             {
@@ -174,7 +180,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

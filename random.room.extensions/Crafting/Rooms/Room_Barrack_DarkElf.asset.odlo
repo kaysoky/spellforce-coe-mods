@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Research_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Alchemy_Multiply_T3.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Mining_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Gold_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Rider_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ApprenticeBuff_02.asset"
+        }
+    ]
+}

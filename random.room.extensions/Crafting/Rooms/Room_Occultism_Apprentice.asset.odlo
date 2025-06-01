@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Dwarves_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_DarkElves_03.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Mana_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ManaUpkeep_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_MagicShield_02.asset"
+        }
+    ]
+}

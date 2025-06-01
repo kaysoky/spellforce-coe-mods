@@ -1,0 +1,17 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonBuff_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CrystalBall_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Plant_Mushroom.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Research_01.asset"
+        }
+    ]
+}

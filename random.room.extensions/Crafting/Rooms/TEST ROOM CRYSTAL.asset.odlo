@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_HiringSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Demon_Item_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_04.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Research_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_DarkElves_04.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Alchemy_01.asset"
+        }
+    ]
+}

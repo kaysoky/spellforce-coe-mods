@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_MagicAmp_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Lodge_Buff_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BE_Catapult_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_SummonBuff_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Undead_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Gold_01.asset"
+        }
+    ]
+}

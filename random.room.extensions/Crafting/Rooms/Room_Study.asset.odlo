@@ -1,0 +1,17 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Proficiency_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Beast_Buff_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CraftingSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Dwarves_01.asset"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Arcane_Blood_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_Ray_Death_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Orc_03.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Mining_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_02.asset"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_IronMaiden_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BE_Walls_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Proficiency_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Shopprices_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Animals_03.asset"
+        }
+    ]
+}

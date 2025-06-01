@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Demon_04.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Secret_Room_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Summon_Buff_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_SEimmune_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_SoulIncome_T3.asset"
+        }
+    ]
+}
