@@ -1,0 +1,194 @@
+WorldKingOfTheHillDefinition
+{
+    "OnTurnCountReached": {
+        "Effects": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            }
+        ]
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "EstablishCultEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ValidLocations": {
+                        "mTags": [
+                            {
+                                "ContentPath": "_World/Locations/LocationPropertyTags/HQ.asset"
+                            },
+                            {
+                                "ContentPath": "_World/Locations/LocationPropertyTags/City.asset"
+                            }
+                        ]
+                    },
+                    "InvalidLocations": {
+                        "mTags": [
+                            {
+                                "ContentPath": "_World/Locations/LocationPropertyTags/Heisted.asset"
+                            }
+                        ]
+                    },
+                    "PromotionToAdd": {
+                        "ContentPath": "Units/Skills/Heisted Promotion.asset"
+                    },
+                    "FactionPromotionToAdd": {
+                        "ContentPath": ""
+                    },
+                    "Mappings": [
+                        {
+                            "Location": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_Goldenfields.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_Sevenkeeps.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_Southwatch.asset"
+                                    }
+                                ]
+                            },
+                            "Cult": {
+                                "ContentPath": ""
+                            },
+                            "Loot": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/Skills/Loot/Burgle Story/Heist Storyrelevant.asset"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Location": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_Gillyshire.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_Alluvyan.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_Coldmark.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_MistyCoast.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Mugwa Trolls/City_Mugwa.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_SilverDriftHollow.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Normal Trolls/City_Trolls.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_UramGor.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_Westguard.asset"
+                                    },
+                                    {
+                                        "ContentPath": "_World/Locations/_Cities/City_Windholme.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Locations/City_DarkElf.asset"
+                                    }
+                                ]
+                            },
+                            "Cult": {
+                                "ContentPath": ""
+                            },
+                            "Loot": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/Skills/Loot/City Heist/Heist City.asset"
+                                    },
+                                    {
+                                        "ContentPath": "LootTables/Loot Locations/ItemCategories/Artifacts T4.asset"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Location": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Gor/AntagonistTower Gor.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Hokan/AntagonistTower Hokan.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Ianna/AntagonistTower Ianna.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Isgrimm/AntagonistTower Isgrimm.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Raith/AntagonistTower Raith.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Rohen/AntagonistTower Rohen.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Undergast/AntagonistTower Undergast.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Uram/AntagonistTower Uram.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Yria/AntagonistTower Yria.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Zahaar/AntagonistTower Zahaar.asset"
+                                    }
+                                    
+                                ]
+                            },
+                            "Cult": {
+                                "ContentPath": ""
+                            },
+                            "Loot": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/Skills/Loot/Antagonist Heist/Heist Antagonist.asset"
+                                    },
+                                    {
+                                        "ContentPath": "LootTables/Loot Locations/ItemCategories/Artifacts T4.asset"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "IncrementIntVariableEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Variable": {
+                        "ContentPath": "Units/Skills/Number of Heists.asset"
+                    },
+                    "Amount": 1
+                }
+            }
+        ]
+    }
+}
