@@ -1,0 +1,127 @@
+FactionDefinition
+{
+    "AntagonistData": {
+        "ProgressionEffects": [
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 8,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NaturesVengeance.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression UndyingNature.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Titan Guard Treant.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 11,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression PersistentNature.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 12,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression GreaterLifeLeech.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 13,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression AngryNature.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 14,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression GeneralBuff.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 3,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Pathfinding.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 5,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression PackTactics.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 7,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression DomainIncrease 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Stoneskin.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 3,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 2.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 3.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}

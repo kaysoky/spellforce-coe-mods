@@ -1,0 +1,55 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/SkyIron.asset"
+            }
+        ]
+    },
+    "FactionTags": {
+        "mTags": []
+    },
+    "Thresholds": 1,
+    "UnitTags": {
+        "mTags": []
+    },
+    "IgnoredUnitTags": {
+        "mTags": []
+    },
+    "OnlyForUnits": [],
+    "ValidForLevelRange": {
+        "x": 1.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "Weight": 30,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Isgrimm/Silver/Shield.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Armored.asset"
+                    },
+                    "Value": true
+                }
+            }
+        ]
+    }
+}

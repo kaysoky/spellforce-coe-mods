@@ -1,0 +1,190 @@
+AoEAttackSkill
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/AoETileSelectionCursor.prefab"
+        }
+    },
+    "CombatSequence": {
+        "ContentPath": ""
+    },
+    "SkillEvaluation": {
+        "m_FileID": 156296,
+        "m_PathID": 0
+    },
+    "ActiveSkillCosts": {
+        "AttackActions": 1,
+        "FocusCosts": 0,
+        "CurrencyCost": {
+            "Gold": 0,
+            "Mana": 0
+        },
+        "ConsumeRemainingAttackActions": false
+    },
+    "Cooldown": {
+        "Duration": 0,
+        "LimitedUse": false,
+        "Charges": 0
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#AoEDeathDmgAndPoisonSkill.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 1076781106,
+                        "GuidPart2": 1224051461,
+                        "GuidPart3": 1502073492,
+                        "GuidPart4": -609132397
+                    },
+                    "mSerializableLocalIdentifier": 11400000
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "RangedDamagingAoESkill.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "AttackType": {
+        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
+    },
+    "RemoveSourceKotH": true,
+    "RepeatWithActions": false,
+    "SkipUnitFallbackSkill": false,
+    "IgnoreAsDefault": true,
+    "FallbackPriority": 0,
+    "Initiative": 0,
+    "BaseRank": 0,
+    "CooldownMin": 0,
+    "CooldownMax": 0,
+    "Slot": {
+        "Slot": 1,
+        "Priority": 4
+    },
+    "SkillButtonConfiguration": {
+        "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
+    },
+    "Icon": {
+        "ContentPath": "Items/Icons/Potions/Icon_PlagueVessel.png"
+    },
+    "ShowPrevisualizationPanel": true,
+    "Priority": 0,
+    "HideInOtherTooltips": false,
+    "DebugInfos": "",
+    "WeaponModifiers": {
+        "Modifiers": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            }
+        ]
+    },
+    "TeamTargetType": 8,
+    "TooltipEmitAutomaticStatusEffectApply": true,
+    "StatusEffectsToApply": [
+        {
+            "Amount": 1,
+            "StatusEffect": {
+                "ContentPath": "StatusEffects/poisonSE.asset"
+            },
+            "Chance": 10
+        }
+    ],
+    "PreVisualEffect": {
+        "ContentPath": ""
+    },
+    "SourceSquadMemberVisualEffect": {
+        "ContentPath": "VisualEffects/PoisonBottle_01_VisualEffect.prefab"
+    },
+    "PostVisualEffect": {
+        "ContentPath": "VisualEffects/RangedPoisonAoE_01_VisualEffect.prefab"
+    },
+    "CastRange": 5,
+    "Radius": 2,
+    "RandomizeTargetWorldPositionInHex": false,
+    "AreaType": 0,
+    "TagFilter": {
+        "AffectsOnly": {
+            "mTags": []
+        },
+        "AffectsNot": {
+            "mTags": []
+        }
+    },
+    "UseFailConditionAsSkillFailCheck": false,
+    "Conditions": [],
+    "SourceConditions": [],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SetDamageWeaponModifier",
+                    "ns": "OwnedByGravity.Game.Logic.Gear",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "SetDamageValue": 22
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ChangeDamageTypeWeaponModifier",
+                    "ns": "OwnedByGravity.Game.Logic.Gear",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "DamageType": {
+                        "ContentPath": "Skills/DamageTypes/Death Damage Type.asset"
+                    }
+                }
+            }
+        ]
+    }
+}

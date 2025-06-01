@@ -1,0 +1,103 @@
+FactionDefinition
+{
+    "AntagonistData": {
+        "ProgressionEffects": [
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 8,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression SmallSummonOnDeath.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 11,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Titan Guard Shaper.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 13,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression LargeSummonOnDeath.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 14,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression GeneralBuff.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 0,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression BoundSummons.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 4,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression WindWalking.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression BuffSummons.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Silence.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 4,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 8,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 2.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}

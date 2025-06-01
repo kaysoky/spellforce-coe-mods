@@ -1,0 +1,71 @@
+ExtraStartUnitsBattleEnchantmentDefinition
+{
+    "Id": {
+        "Name": {
+            "Loca": {
+                "Key": "AntaProgression BE Titan Guard Shaper.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "AntaProgression BE Titan Guard Shaper.Id.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_ShaperGolem.png"
+    },
+    "Filter": {
+        "TargetTypeFilter": 1,
+        "UnitTagFilter": {
+            "AffectsOnly": {
+                "mTags": []
+            },
+            "AffectsNot": {
+                "mTags": []
+            }
+        }
+    },
+    "UnitsToSpawn": {
+        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Titan Guard Shaper Stack.asset"
+    }
+}

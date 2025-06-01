@@ -1,0 +1,199 @@
+FactionModificationSpell
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": ""
+        }
+    },
+    "OnlyUsableByOwner": true,
+    "Icon": {
+        "ContentPath": ""
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Costs": 0,
+    "UpkeepCosts": 0,
+    "Modification": {
+        "<FactionModifiers>k__BackingField": {
+            "ShopPriceModifier": 0.0,
+            "SpellpowerPerRound": 0,
+            "CraftingSlots": 0,
+            "HiringSlots": 0,
+            "MagicRooms": 0,
+            "CraftingSpeedModifier": 0,
+            "RoomCraftingSpeedModifier": 0,
+            "RoomCraftingCostModifier": 0.0,
+            "TowerHiringSpeedModifier": 0,
+            "TowerHiringCostModifier": 0.0,
+            "SlaveSellPriceModifier": 0.0,
+            "SpellcastingCostModifier": 0.0,
+            "Income": {
+                "FamePerRound": 0,
+                "MightPerRound": 0,
+                "ResearchPerRound": 0,
+                "ManaPerRound": 0,
+                "GoldPerRound": 0
+            },
+            "FactionItemFind": 0.0,
+            "FactionSoulFind": 0.0,
+            "MightDistributionManaMultiplier": 0.0,
+            "MightDistributionResearchMultiplier": 0.0,
+            "MightDistributionFameMultiplier": 0.0,
+            "FreeGoldUnitUpkeep": 0,
+            "FreeManaUpkeep": 0,
+            "MaxApprenticesCount": 0,
+            "UnhideGarrison": false,
+            "HideAllStacks": false,
+            "AdditionalLevelUpChoices": 0,
+            "TimeFrozen": false,
+            "ProhibitRetreat": false,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "AlchemyModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "ThresholdLimit": 0,
+                "UnlockCatalystSlot": false,
+                "T1Output": 0,
+                "T2Output": 0,
+                "T3Output": 0,
+                "T4Output": 0
+            },
+            "RunesmithingModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "ThresholdLimit": 0
+            },
+            "NecromancyModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                }
+            },
+            "DemonologyModifiers": {
+                "IngredientSlotCount": 0,
+                "CraftingSpeedModifier": 0,
+                "AdditionalComponents": {
+                    "Elemental": 0,
+                    "Arcane": 0,
+                    "Death": 0,
+                    "Life": 0,
+                    "Rainbow": 0
+                },
+                "UnlockFusionCrafting": false,
+                "UnlockFusionCultSlot": false,
+                "UnlockFusionArtefactSlot": false,
+                "FusionSlotCount": 0
+            },
+            "RoomExtensionModifiers": {
+                "CraftingSpeedModifier": 0
+            },
+            "FactionInfluences": [],
+            "UnlockedUnitsForHiring": [],
+            "UnitModifier": [],
+            "UnitPromotions": [],
+            "LocationModifier": [],
+            "InfluenceLocationModifier": [],
+            "InfluenceAreaUnitModifiers": [],
+            "BattleEnchantments": [
+                {
+                    "ContentPath": "BattleEnchantments/Ianna_Sleep_BattleEnchantment.asset"
+                }
+            ],
+            "InfluenceAreaBattleEnchantments": [],
+            "StackSlots": [],
+            "WeeklyIncome": [],
+            "UnitStartXP": [],
+            "CraftingLockTags": {
+                "mTags": []
+            }
+        }
+    },
+    "CastVisualEffect": {
+        "ContentPath": ""
+    },
+    "OpenTowerRoomMenuAfterSpellExecution": false
+}

@@ -1,0 +1,287 @@
+UnitDefinition
+{
+    "Portrait": {
+        "ContentPath": "Units/AstralForm/Portrait_Titan_AstralForm_01.png"
+    },
+    "NameId": {
+        "Key": "Summon Astral Form Fire.Tooltip.Name.Loca",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "NotificationOffset": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "Tier": 4,
+    "BattleFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SpawnedObjects": [
+        {
+            "ContentPath": "Units/AstralForm/Astral_Form_01.prefab"
+        }
+    ],
+    "TemplateDistribution": 0,
+    "VisualPattern": {
+        "ContentPath": ""
+    },
+    "OverlayOffset": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 0.0
+    },
+    "ScreenSpaceOverlayOffset": {
+        "x": 0.0,
+        "y": 50.0,
+        "z": 0.0
+    },
+    "CameraSetup": 2,
+    "SelectionSoundOverrides": [
+        {
+            "m_Asset": {
+                "m_FileID": 484124,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "UnitIcon": {
+        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Hero_01.png"
+    },
+    "ShortDescription": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CannotBeRenamed": false,
+    "BattleOverlay": {
+        "mGameObject": {
+            "ContentPath": "Production/UI/GameUnitOverlay.prefab"
+        }
+    },
+    "ShowInEntityList": true,
+    "IgnoreInEntityCycle": false,
+    "HireCosts": {
+        "Gold": 115,
+        "Mana": 0
+    },
+    "TowerHireDuration": 10,
+    "CraftDuration": 10,
+    "UpkeepCosts": {
+        "Gold": 0,
+        "Mana": 10
+    },
+    "GenerationPointCost": 179,
+    "UnitLevelDefinition": {
+        "ContentPath": "Units/Unit Progression/Default Progression.asset"
+    },
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Caster.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/ArcaneSpells.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/DeathSpells.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/EarthSpells.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/FireSpells.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/HolySpells.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/IceSpells.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Leader.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/ShamanSpells.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Researcher.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Mentalist.asset"
+            }
+        ]
+    },
+    "UnitSpecificLevelUps": [],
+    "StoryLevels": [],
+    "GroungHeightOffsetModifier": 0.0,
+    "Skills": {
+        "MovementSkill": {
+            "ContentPath": "Skills/Movement/MoveToAdjacent.asset"
+        },
+        "DefensiveFireSkill": {
+            "ContentPath": ""
+        },
+        "MissileSkill": {
+            "ContentPath": "Skills/Magic/Fireball.asset"
+        },
+        "MeleeSkill": {
+            "ContentPath": "Skills/Melee/MeleeSkill.asset"
+        },
+        "SpecialSkills": [
+            {
+                "ContentPath": "Skills/Support/FortifySkill.asset"
+            }
+        ],
+        "OnDeathSkills": []
+    },
+    "StackSkills": [],
+    "MovementRange": 7,
+    "Armor": 12,
+    "PhysicalResistance": 2.0,
+    "ElementalResistance": 2.0,
+    "WhiteResistance": 0.0,
+    "DeathResistance": 0.0,
+    "UnitSquadStrength": 1,
+    "TotalUnitLife": 144,
+    "Focus": 0,
+    "RoundsUntilReviveTimeInLoge": 0,
+    "XPWorth": 160.0,
+    "Morale": 15,
+    "MoraleWorth": 4.0,
+    "ZoneOfControlRange": 1,
+    "FogOfWarSettings": {
+        "CanDetectHiddenUnitsInSearchRange": false,
+        "Range": 3,
+        "ScoutRange": 0,
+        "InstantRemoveUpdate": false,
+        "IgnoreLineOfSight": false
+    },
+    "LootTags": {
+        "mTags": []
+    },
+    "LootDropChance": 2.5,
+    "SoulTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/FantasticSoulT3.asset"
+            },
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/Souls T4.asset"
+            }
+        ]
+    },
+    "SoulDropChance": 0.0,
+    "Tags": {
+        "mTags": []
+    },
+    "Role": 4,
+    "Weapons": [
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
+            },
+            "Damage": 10,
+            "ArmorPiercing": 0,
+            "Range": 0,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        },
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
+            },
+            "Damage": 18,
+            "ArmorPiercing": 0,
+            "Range": 5,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        }
+    ],
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Fantastic.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Titan.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Give Command.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/StackauraBonusExp.asset"
+        },
+        {
+            "ContentPath": "Units/AstralForm/Astral Form.asset"
+        }
+    ],
+    "DefaultStatusEffects": [],
+    "MovementRuleRefs": [
+        {
+            "ContentPath": "Units/MovementModes/World/World_Aetheric.asset"
+        }
+    ],
+    "ArtefactSlotsRefs": [
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Tome Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Tome Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Tome Slot.asset"
+        }
+    ],
+    "Considerations": [],
+    "DeploymentEvaluationRefs": [
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferNextToAllyEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferCenterEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferAwayFromEnemyEvaluation.asset"
+        }
+    ],
+    "MindSlotBreakingRequirement": {
+        "Elemental": 0,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 0
+    }
+}

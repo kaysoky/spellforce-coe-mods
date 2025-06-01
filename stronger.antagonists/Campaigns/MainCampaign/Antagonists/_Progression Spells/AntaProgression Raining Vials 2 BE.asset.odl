@@ -1,0 +1,80 @@
+RandomPositionStatusEffectSkillBattleEnchantmentDefinition
+{
+    "Id": {
+        "Name": {
+            "Loca": {
+                "Key": "#RainingVials_BattleEnchantment.Id.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#RainingVials_BattleEnchantment.Id.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Items/Icons/Potions/Icon_VialOfNiethalf.png"
+    },
+    "Filter": {
+        "TargetTypeFilter": 3,
+        "UnitTagFilter": {
+            "AffectsOnly": {
+                "mTags": []
+            },
+            "AffectsNot": {
+                "mTags": []
+            }
+        }
+    },
+    "<StatusEffect>k__BackingField": {
+        "ContentPath": "StatusEffects/Items/VialOfNiethalfSE.asset"
+    },
+    "<ApplyChance>k__BackingField": 1,
+    "<ExecuteEveryNRound>k__BackingField": 1,
+    "<NumberOfTargets>k__BackingField": 5,
+    "CastEffect": {
+        "ContentPath": "VisualEffects/Healing_Impact_VisualEffect.prefab"
+    },
+    "WarningIndicator": {
+        "ContentPath": "VFX/NegativBattleEnchantment.prefab"
+    }
+}

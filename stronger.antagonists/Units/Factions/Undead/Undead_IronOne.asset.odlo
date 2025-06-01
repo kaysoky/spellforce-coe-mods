@@ -1,0 +1,10 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/HauntedArmor.asset"
+            }
+        ]
+    }
+}

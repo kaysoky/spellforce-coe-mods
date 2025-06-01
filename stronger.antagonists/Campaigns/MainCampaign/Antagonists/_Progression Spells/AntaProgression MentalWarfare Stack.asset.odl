@@ -1,0 +1,27 @@
+FixedStackDefinition
+{
+    "StackFamily": {
+        "mTags": []
+    },
+    "SpawnSetups": [],
+    "ValidRegionsToAmbush": {
+        "mTags": []
+    },
+    "FallbackFaction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Neutral Faction.asset"
+    },
+    "Units": [
+        {
+            "ContentPath": "Units/AstralForm/Ianna_Antihero.asset"
+        }
+    ],
+    "Promotions": [],
+    "NecromancySoul": {
+        "ContentPath": ""
+    },
+    "SelectStackFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SelectUnitFirstTimeScreenTargets": 0,
+    "SelectUnitFirstTimeScreens": []
+}

@@ -1,0 +1,47 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Dwarf_CorruptedDruid.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_Wolf.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_AlphaWolf.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_Bear.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_FireBeetle.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_Griffon.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ]
+}

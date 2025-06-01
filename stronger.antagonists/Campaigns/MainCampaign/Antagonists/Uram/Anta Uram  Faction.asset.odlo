@@ -1,0 +1,111 @@
+FactionDefinition
+{
+    "AntagonistData": {
+        "ProgressionEffects": [
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 8,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Demonlord Apprentice.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Demonlord Occultism.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Demonlord City.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 11,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Demonlord Army.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 12,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Demonlord Uram.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 13,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Demonkin.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 14,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression GeneralBuff.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 4,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Pathfinding.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 7,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression DomainIncrease 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression ResistElements.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 4,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 8,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 2.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}

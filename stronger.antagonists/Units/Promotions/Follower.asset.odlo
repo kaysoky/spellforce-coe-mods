@@ -1,0 +1,10 @@
+UnitPromotionDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Follower.asset"
+            }
+        ]
+    }
+}

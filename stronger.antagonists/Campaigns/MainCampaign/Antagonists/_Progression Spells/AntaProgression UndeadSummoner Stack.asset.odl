@@ -1,0 +1,30 @@
+FixedStackDefinition
+{
+    "StackFamily": {
+        "mTags": []
+    },
+    "SpawnSetups": [],
+    "ValidRegionsToAmbush": {
+        "mTags": []
+    },
+    "FallbackFaction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Neutral Faction.asset"
+    },
+    "Units": [
+        {
+            "ContentPath": "Units/Factions/Elves/DarkElf_Ritualist.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Elves/DarkElf_Ritualist.asset"
+        }
+    ],
+    "Promotions": [],
+    "NecromancySoul": {
+        "ContentPath": ""
+    },
+    "SelectStackFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SelectUnitFirstTimeScreenTargets": 0,
+    "SelectUnitFirstTimeScreens": []
+}

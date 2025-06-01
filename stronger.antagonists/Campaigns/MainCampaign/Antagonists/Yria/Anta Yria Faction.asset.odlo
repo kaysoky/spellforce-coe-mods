@@ -1,0 +1,127 @@
+FactionDefinition
+{
+    "AntagonistData": {
+        "ProgressionEffects": [
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Drink Potions 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 7,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Drink Potions 2.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 8,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Drink Potions 3.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Drink Potions 4.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Titan Guard Lightbringer.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 11,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression DoTStatusImmunity.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 12,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Throw Bombs.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 13,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Raining Vials.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 14,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression GeneralBuff.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 4,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression DomainIncrease 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 7,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression HolyArmor.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Silence.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 5,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 2.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}

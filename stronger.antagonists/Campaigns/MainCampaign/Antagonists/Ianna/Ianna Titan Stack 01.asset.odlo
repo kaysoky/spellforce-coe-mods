@@ -1,0 +1,77 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/SpellPromotions/Wind Walking.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/GiveMindburst.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Give Mindcontrol.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Give Horrific Visions.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Hunter.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Mentalist.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Crossbowman.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Militia.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Hellebardier.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Keeper.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_Bear.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_Griffon.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ]
+}

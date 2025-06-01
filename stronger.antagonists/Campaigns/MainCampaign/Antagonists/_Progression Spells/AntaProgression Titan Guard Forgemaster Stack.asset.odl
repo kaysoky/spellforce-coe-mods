@@ -1,0 +1,33 @@
+FixedStackDefinition
+{
+    "StackFamily": {
+        "mTags": []
+    },
+    "SpawnSetups": [],
+    "ValidRegionsToAmbush": {
+        "mTags": []
+    },
+    "FallbackFaction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Neutral Faction.asset"
+    },
+    "Units": [
+        {
+            "ContentPath": "Units/Factions/Titan/Temp_Forgemaster.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Dwarves/Dwarf_Pyromancer.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Dwarves/Dwarf_RageHammer.asset"
+        }
+    ],
+    "Promotions": [],
+    "NecromancySoul": {
+        "ContentPath": ""
+    },
+    "SelectStackFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SelectUnitFirstTimeScreenTargets": 0,
+    "SelectUnitFirstTimeScreens": []
+}

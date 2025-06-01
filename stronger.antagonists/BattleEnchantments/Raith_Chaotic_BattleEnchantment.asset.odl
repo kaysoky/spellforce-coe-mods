@@ -1,0 +1,71 @@
+UnitPromotionBattleEnchantmentDefinition
+{
+    "Id": {
+        "Name": {
+            "Loca": {
+                "Key": "Chaotic.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#Raith_Chaotic_BattleEnchantment.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Units/Promotions/Icons/Icon_Chaotic_01.png"
+    },
+    "Filter": {
+        "TargetTypeFilter": 0,
+        "UnitTagFilter": {
+            "AffectsOnly": {
+                "mTags": []
+            },
+            "AffectsNot": {
+                "mTags": []
+            }
+        }
+    },
+    "Promotion": {
+        "ContentPath": "Units/Promotions/Chaotic/Chaotic.asset"
+    }
+}

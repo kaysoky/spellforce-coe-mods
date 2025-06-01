@@ -1,0 +1,75 @@
+UnitProgressionDefinition
+{
+    "NumberOfProvidedRewards": 2,
+    "Thresholds": [
+        {
+            "Tier": 2,
+            "Level": 2
+        },
+        {
+            "Tier": 4,
+            "Level": 5
+        },
+        {
+            "Tier": 8,
+            "Level": 8
+        },
+        {
+            "Tier": 24,
+            "Level": 11
+        },
+        {
+            "Tier": 24,
+            "Level": 13
+        },
+        {
+            "Tier": 24,
+            "Level": 14
+        }
+    ],
+    "Levels": [
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 1.asset"},"From":     0},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 2.asset"},"From":    40},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 3.asset"},"From":   110},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 4.asset"},"From":   205},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 5.asset"},"From":   325},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 6.asset"},"From":   470},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 7.asset"},"From":   640},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 8.asset"},"From":   835},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 9.asset"},"From":  1055},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 10.asset"},"From": 1300},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 11.asset"},"From": 1570},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 12.asset"},"From": 1865},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 13.asset"},"From": 2185},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 14.asset"},"From": 2530},
+        {"LevelDefinition": {"ContentPath": "Units/Unit Progression/Levels/Level 15.asset"},"From": 2900}
+    ],
+    "Description": {
+        "Loca": {
+            "Key": "#Ianna Progression.Description.Loca",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 11400000
+            }
+        },
+        "BlankLineInFront": false,
+        "IsEmpty": false
+    },
+    "LevelName": {
+        "Key": "Progression.LevelName",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    }
+}

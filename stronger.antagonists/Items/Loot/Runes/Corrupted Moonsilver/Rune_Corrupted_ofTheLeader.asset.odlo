@@ -1,0 +1,8 @@
+ArtefactDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "CombatModifiers": {
+            "DamageModifier": -0.3
+        }
+    }
+}

@@ -1,0 +1,268 @@
+UnitDefinition
+{
+    "Portrait": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_Minion_Demonology.png"
+    },
+    "NameId": {
+        "Key": "#Minion_Demonology.NameId",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "NotificationOffset": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "Tier": 2,
+    "BattleFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SpawnedObjects": [
+        {
+            "ContentPath": "ModelPrefabs/Units/Humans/Human_Acolyte_01_Demonology.prefab"
+        }
+    ],
+    "TemplateDistribution": 0,
+    "VisualPattern": {
+        "ContentPath": "Units/Patterns/Random_Four_01.asset"
+    },
+    "OverlayOffset": {
+        "x": 0.0,
+        "y": 5.0,
+        "z": 0.0
+    },
+    "ScreenSpaceOverlayOffset": {
+        "x": 0.0,
+        "y": 50.0,
+        "z": 0.0
+    },
+    "CameraSetup": 0,
+    "SelectionSoundOverrides": [
+        {
+            "m_Asset": {
+                "m_FileID": 467026,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "m_Asset": {
+                "m_FileID": 467024,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "UnitIcon": {
+        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Melee_01.png"
+    },
+    "ShortDescription": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CannotBeRenamed": false,
+    "BattleOverlay": {
+        "mGameObject": {
+            "ContentPath": "Production/UI/GameUnitOverlay.prefab"
+        }
+    },
+    "ShowInEntityList": true,
+    "IgnoreInEntityCycle": false,
+    "HireCosts": {
+        "Gold": 20,
+        "Mana": 0
+    },
+    "TowerHireDuration": 5,
+    "CraftDuration": 5,
+    "UpkeepCosts": {
+        "Gold": 0,
+        "Mana": 2
+    },
+    "GenerationPointCost": 56,
+    "UnitLevelDefinition": {
+        "ContentPath": "Units/Unit Progression/Default Progression.asset"
+    },
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Assassin.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Melee.asset"
+            }
+        ]
+    },
+    "UnitSpecificLevelUps": [
+        {
+            "ContentPath": "Units/Leveling/SPECIAL/ReplaceMindWithDemonSlot Entry 1.asset"
+        }
+    ],
+    "StoryLevels": [],
+    "GroungHeightOffsetModifier": 0.0,
+    "Skills": {
+        "MovementSkill": {
+            "ContentPath": "Skills/Movement/MoveToAdjacent_Ranged.asset"
+        },
+        "DefensiveFireSkill": {
+            "ContentPath": ""
+        },
+        "MissileSkill": {
+            "ContentPath": "Skills/Missile/DeathBolts.asset"
+        },
+        "MeleeSkill": {
+            "ContentPath": "Skills/Melee/MeleeSkill.asset"
+        },
+        "SpecialSkills": [
+            {
+                "ContentPath": "Skills/Support/FortifySkill.asset"
+            }
+        ],
+        "OnDeathSkills": []
+    },
+    "StackSkills": [],
+    "MovementRange": 8,
+    "Armor": 8,
+    "PhysicalResistance": -1.0,
+    "ElementalResistance": -1.0,
+    "WhiteResistance": -1.0,
+    "DeathResistance": -1.0,
+    "UnitSquadStrength": 4,
+    "TotalUnitLife": 50,
+    "Focus": 0,
+    "RoundsUntilReviveTimeInLoge": 0,
+    "XPWorth": 80.0,
+    "Morale": 7,
+    "MoraleWorth": 3.0,
+    "ZoneOfControlRange": 1,
+    "FogOfWarSettings": {
+        "CanDetectHiddenUnitsInSearchRange": false,
+        "Range": 3,
+        "ScoutRange": 0,
+        "InstantRemoveUpdate": false,
+        "IgnoreLineOfSight": false
+    },
+    "LootTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/Ingredient Mortal.asset"
+            },
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/Demon Loot.asset"
+            }
+        ]
+    },
+    "LootDropChance": 0.5,
+    "SoulTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/HumanSoulT1.asset"
+            },
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/HumanSoulT2.asset"
+            }
+        ]
+    },
+    "SoulDropChance": 0.0,
+    "Tags": {
+        "mTags": []
+    },
+    "Role": 4,
+    "Weapons": [
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
+            },
+            "Damage": 12,
+            "ArmorPiercing": 0,
+            "Range": 0,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        },
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Death Damage Type.asset"
+            },
+            "Damage": 8,
+            "ArmorPiercing": 0,
+            "Range": 5,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        }
+    ],
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Human.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Expendable.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Cultist.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/SummonOnDeath/Demon.asset"
+        }
+    ],
+    "DefaultStatusEffects": [],
+    "MovementRuleRefs": [
+        {
+            "ContentPath": "Units/MovementModes/World/World_Default.asset"
+        }
+    ],
+    "ArtefactSlotsRefs": [
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        }
+    ],
+    "Considerations": [],
+    "DeploymentEvaluationRefs": [
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferNextToAllyEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferCenterEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferAwayFromEnemyEvaluation.asset"
+        }
+    ],
+    "MindSlotBreakingRequirement": {
+        "Elemental": 0,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 0
+    }
+}

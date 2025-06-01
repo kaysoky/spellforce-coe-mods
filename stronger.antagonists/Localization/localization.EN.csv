@@ -1,0 +1,114 @@
+Package.stronger.antagonists.DisplayName;Stronger Antagonists
+AntaProgression BE Titan Guard Abomination.Tooltip.Name.Loca;Circle Titan Guards (Arachnoid Abomination)
+AntaProgression BE Titan Guard Abomination.Id.Description.Loca;The Circle mage army is reinforced with an [mUnit][unit]Arachnoid Abomination[/] and 2x [mUnit][unit]Tickbugs[/]
+AntaProgression BE Titan Guard Astralform.Tooltip.Name.Loca;Circle Titan Guards (Astral Image)
+AntaProgression BE Titan Guard Astralform.Id.Description.Loca;The Circle mage army is reinforced with 3x [mUnit][unit]Astral Images[/] of Fire, Light, and Death
+AntaProgression BE Titan Guard FleshColossos.Tooltip.Name.Loca;Circle Titan Guards (Flesh Colossos)
+AntaProgression BE Titan Guard FleshColossos.Id.Description.Loca;The Circle mage army is reinforced with a [mUnit][unit]Flesh Colossos[/], [mUnit][unit]Blood Golem[/], and 3x [mUnit][unit]Ghouls[/]
+AntaProgression BE Titan Guard Forgemaster.Tooltip.Name.Loca;Circle Titan Guards (Forgemaster)
+AntaProgression BE Titan Guard Forgemaster.Id.Description.Loca;The Circle mage army is reinforced with a [mUnit][unit]Forgemaster[/], [mUnit][unit]Pyromancer[/], and [mUnit][unit]Ragehammer[/]
+AntaProgression BE Titan Guard Lightbringer.Tooltip.Name.Loca;Circle Titan Guards (Lightbringer)
+AntaProgression BE Titan Guard Lightbringer.Id.Description.Loca;The Circle mage army is reinforced with a [mUnit][unit]Lightbringer[/], [mUnit][unit]Elven Druids[/], and [mUnit][unit]Tiara's Priests[/]
+AntaProgression BE Titan Guard Shaper.Tooltip.Name.Loca;Circle Titan Guards (Shaper Golem)
+AntaProgression BE Titan Guard Shaper.Id.Description.Loca;The Circle mage army is reinforced with a [mUnit][unit]Shaper Golem[/], [mUnit][unit]Stone Golem[/], and [mUnit][unit]Fire Golem[/]
+AntaProgression BE Titan Guard Treant.Tooltip.Name.Loca;Circle Titan Guards (Treant)
+AntaProgression BE Titan Guard Treant.Id.Description.Loca;The Circle mage army is reinforced with a [mUnit][unit]Treant[/], [mUnit][unit]Spider Queen[/], and 3x [mUnit][unit]Spiders[/]
+EvenMoreHealth.Tooltip.Name.Loca;Nature's Vigor
+AntagonistGeneralBuff.DisplayName;Overwhelming Power
+#Rune_Corrupted_ofThePathfinder.Tooltip.Description.Loca;Reduces maximum action points by [actioncost]1[/]
+IsgrimmTitanBuff.Tooltip.Name.Loca;Titanic Spire Wards
+AntaProgression BE Demonlord Apprentice.Tooltip.Name.Loca;Demonic Avatar (Sâ'Hrul)
+AntaProgression BE Demonlord Apprentice.Id.Description.Loca;Uram summons an avatar of [mUnit][unit]Demon Lord Sâ'Hrul[/] and some sacrificial [mUnit][unit]Cultists[/] as reinforcements
+AntaProgression BE Demonlord Army.Tooltip.Name.Loca;Demonic Avatar (Krahz Al'Guh)
+AntaProgression BE Demonlord Army.Id.Description.Loca;Uram summons an avatar of [mUnit][unit]Demon Lord Krahz Al'Guh[/] and some sacrificial [mUnit][unit]Cultists[/] as reinforcements
+AntaProgression BE Demonlord City.Tooltip.Name.Loca;Demonic Avatar (Mrask Durl)
+AntaProgression BE Demonlord City.Id.Description.Loca;Uram summons an avatar of [mUnit][unit]Demon Lord Mrask Dur[/] and some sacrificial [mUnit][unit]Cultists[/] as reinforcements
+AntaProgression BE Demonlord Occultism.Tooltip.Name.Loca;Demonic Avatar (Rav Ozeal)
+AntaProgression BE Demonlord Occultism.Id.Description.Loca;Uram summons an avatar of [mUnit][unit]Demon Lord Rav Ozeal[/] and some sacrificial [mUnit][unit]Cultists[/] as reinforcements
+AntaProgression BE Demonlord Uram.Tooltip.Name.Loca;Demonic Avatar (Azra'Zil)
+AntaProgression BE Demonlord Uram.Id.Description.Loca;Uram summons an avatar of [mUnit][unit]Demon Lord Azra'Zil[/] and some sacrificial [mUnit][unit]Cultists[/] as reinforcements
+Summon Astral Form Dark.Tooltip.Name.Loca;Astral Image of Death
+Summon Astral Form Fire.Tooltip.Name.Loca;Astral Image of Fire
+Summon Astral Form Light.Tooltip.Name.Loca;Astral Image of Light
+Ianna Antihero.Tooltip.Name.Loca;Imaginary Grim Reaper
+AntaProgression BE Mental Warfare.Tooltip.Name.Loca;Mental Encroachment
+AntaProgression BE Mental Warfare.Id.Description.Loca;Ianna summons an [mUnit][unit]Imaginary Grim Reaper[/], which can only be stunned by heroes or apprentices
+Ianna_MentalWarfare_BattleEnchantment.Id.Name.Loca;Heroic Willpower
+#Ianna_MentalWarfare_BattleEnchantment.Id.Description.Loca;[unit]Apprentices[/] and [unit]Heroes[/] can stun Ianna's [mUnit][unit]Imaginary Grim Reaper[/]
+#Imaginary.DisplayName;Imaginary
+#Ianna Progression.Description.Loca;This unit can reach up to level [bonus]15[/]\n\nEach level you can choose between enhancements for your unit.\nEvery [bonus]3[/] levels (and at level [bonus]14[/]) you will get the choice of powerful enhancements.
+#SummonOnDeathSmall.Tooltip.Name.Loca;Carrying Minor Research Material
+#SummonOnDeathSmall.Tooltip.Description.Loca;Randomly changes which [mUnit] [unit]Elemental[/] is dropped upon death.
+#SummonOnDeathSmallFire.Tooltip.Name.Loca;Carrying a Sealed Fire Elemental
+#SummonOnDeathSmallFire.Tooltip.Description.Loca;Drops a [mUnit] [unit]Fire Elemental[/] upon death.
+#SummonOnDeathSmallIce.Tooltip.Name.Loca;Carrying a Sealed Ice Elemental
+#SummonOnDeathSmallIce.Tooltip.Description.Loca;Drops an [mUnit] [unit]Ice Elemental[/] upon death.
+#SummonOnDeathSmallNature.Tooltip.Name.Loca;Carrying a Sealed Nature Elemental
+#SummonOnDeathSmallNature.Tooltip.Description.Loca;Drops a [mUnit] [unit]Nature Elemental[/] upon death.
+#SummonOnDeathLarge.Tooltip.Name.Loca;Carrying Important Research Material
+#SummonOnDeathLarge.Tooltip.Description.Loca;Randomly changes which [mUnit] [unit]Golem[/] is dropped upon death.
+#SummonOnDeathLargeFire.Tooltip.Name.Loca;Carrying a Fire Golem Core
+#SummonOnDeathLargeFire.Tooltip.Description.Loca;Drops a [mUnit] [unit]Fire Golem[/] upon death.
+#SummonOnDeathLargeIce.Tooltip.Name.Loca;Carrying an Ice Golem Core
+#SummonOnDeathLargeIce.Tooltip.Description.Loca;Drops an [mUnit] [unit]Ice Golem[/] upon death.
+#SummonOnDeathLargeBlood.Tooltip.Name.Loca;Carrying a Blood Golem Core
+#SummonOnDeathLargeBlood.Tooltip.Description.Loca;Drops a [mUnit] [unit]Blood Golem[/] upon death.
+#SummonOnDeathLargeStone.Tooltip.Name.Loca;Carrying a Stone Golem Core
+#SummonOnDeathLargeStone.Tooltip.Description.Loca;Drops a [mUnit] [unit]Stone Golem[/] upon death.
+#SummonOnDeathDemon.Tooltip.Name.Loca;Summoning a Demon
+#SummonOnDeathDemon.Tooltip.Description.Loca;Randomly changes which [mUnit] [unit]Demon[/] is summoned upon death.
+#SummonOnDeathDemonAshen.Tooltip.Description.Loca;Summons an [mUnit] [unit]Ashen One[/] upon death.
+#SummonOnDeathDemonGargoyle.Tooltip.Description.Loca;Summons a [mUnit] [unit]Gargoyle[/] upon death.
+#SummonOnDeathDemonCharger.Tooltip.Description.Loca;Summons a [mUnit] [unit]Horned Charger[/] upon death.
+#SummonOnDeathDemonDweller.Tooltip.Description.Loca;Summons a [mUnit] [unit]Core Dweller[/] upon death.
+#SummonOnDeathDemonHorned.Tooltip.Description.Loca;Summons a [mUnit] [unit]Horned Beast[/] upon death.
+#SummonOnDeathDemonInsect.Tooltip.Description.Loca;Summons a [mUnit] [unit]Hiveminder[/] upon death.
+AntaProgression BE DarkRitualist.Tooltip.Name.Loca;Dark Ritual
+AntaProgression BE DarkRitualist.Id.Description.Loca;Hokan suppresses the power of light with 3x [mUnit][unit]Undead Ritualists[/]
+#Undead_Ritualist.NameId;Undead Ritualist
+#DarkRitualSkill.Tooltip.Name.Loca;Dark Ritual
+#DarkRitualSkill.Tooltip.Description.Loca;Reduce the intensity of Light across the battlefield
+#DarkRitualAura.Tooltip.Name.Loca;Light Suppressed
+Hokan_Undead_Sleep_BattleEnchantment.Id.Name.Loca;Mastery Over Undeath
+Hokan_Undead_Sleep_BattleEnchantment.Id.Description.Loca;Hokan's necromantic prowess means you cannot control your [unittag]Undead[/], all of which will be [statuseffect]stunned[/] each turn.
+#HauntedArmorElementalAura.Tooltip.Name.Loca;Elemental Dampener
+#Rune_Copper_Upgrade_Enabled.Tooltip.Name.Loca;Mountain Copper Glyphs
+#Rune_Copper_Upgrade_Enabled.Tooltip.Description.Loca;Isgrimm has mined enough [item]Mountain Copper[/] to produce [item]Lesser Glyphs[/] for his minions.
+#Rune_Silver_Upgrade_Enabled.Tooltip.Name.Loca;Sky Iron Glyphs
+#Rune_Silver_Upgrade_Enabled.Tooltip.Description.Loca;Isgrimm has mined enough [item]Sky Iron[/] to produce [item]Greater Glyphs[/] for his minions.
+#Rune_Corrupted_Upgrade_Enabled.Tooltip.Name.Loca;Corrupted Glyphs
+#Rune_Corrupted_Upgrade_Enabled.Tooltip.Description.Loca;Isgrimm has mined enough [item]Corrupted Adamantium[/] to produce [item]Corrupted Glyphs[/] for his minions.
+#Rune_Pure_Upgrade_Enabled.Tooltip.Name.Loca;Pure Glyphs
+#Rune_Pure_Upgrade_Enabled.Tooltip.Description.Loca;Isgrimm has mined enough [item]Adamantium[/] to produce [item]Pure Glyphs[/] for his minions.
+#DrinkBeforeCombat.Tooltip.Name.Loca;Battle Drinks
+#DrinkBeforeCombat.Tooltip.Description.Loca;Drinks [item]Finon Beer[/], [item]Blood Mead[/], or [item]Mindnumbing Elixir[/] to calm nerves before battle.
+#PrepareBeforeCombat.Tooltip.Name.Loca;Fortifying Drinks
+#PrepareBeforeCombat.Tooltip.Description.Loca;Drinks [item]Earth Armor Elixir[/], [item]Dwarven Forgebrew[/], or [item]Draught of the Giant[/] to prepare for battle.
+#SustainingCombat.Tooltip.Name.Loca;Endurance Drinks
+#SustainingCombat.Tooltip.Description.Loca;Drinks [item]Leeching Elixir[/], [item]Potion of Regeneration[/], or [item]Allfire Essence[/] to sustain energy in battle.
+#SustainingRangedCombat.Tooltip.Description.Loca;Drinks [item]Potion of Regeneration[/] or [item]Allfire Essence[/] to sustain energy in battle.
+#ChargingIntoCombat.Tooltip.Name.Loca;Powerful Potions
+#ChargingIntoCombat.Tooltip.Description.Loca;Drinks [item]Dancers Potion[/] or applies [item]Poison Coating[/] or [item]Firebloom Coating[/] to prevail in battle.
+#RainingVials_BattleEnchantment.Id.Name.Loca;Raining Vials
+#RainingVials_BattleEnchantment.Id.Description.Loca;Each turn a [malus]mark[/] will appear on {NumberOfTargets:c} random positions on the battlefield. \n\nIf a unit ends their turn on this position they will receive [statuseffect]{StatusEffect.Tooltip.Name.Loca}[/].
+#BombsForCombat.Tooltip.Name.Loca;Holding a Bomb
+#BombsForCombat.Tooltip.Description.Loca;Brings [item]Sacred Water[/], [item]Potion of Firebreathing[/], [item]Plague Vessel[/], or [item]Toxic Distillate[/] for use in battle.
+#Elf_Mage.NameId;Elven Druids
+#Rohen_TitansOnly_BattleEnchantment.Id.Name.Loca;Divided Battlefield (Titans)
+#Rohen_TitansOnly_BattleEnchantment.Id.Description.Loca;Rohen's command over battle means his [unittag]Titans[/] are only vulnerable to your [unittag]Titans[/], [unittag]Heroes[/], and [unittag]Apprentices[/].
+#Rohen_MinionsOnly_BattleEnchantment.Id.Name.Loca;Divided Battlefield (Non-Titans)
+#Rohen_MinionsOnly_BattleEnchantment.Id.Description.Loca;Rohen's command over battle means his ordinary units take little damage from your [unittag]Titans[/].
+#Bribery_Skill.Tooltip.Name.Loca;Bribery
+#Bribery_Skill.Tooltip.Description.Loca;Pursuades a [unittag]Follower[/] to switch sides using substantial wealth.
+#Emancipation_Skill.Tooltip.Name.Loca;Emancipation
+#Emancipation_Skill.Tooltip.Description.Loca;Frees a nearby [unittag]Slave[/], causing it to switch sides.
+#Raith_ChantOfUnlife_BattleEnchantment.Id.Description.Loca;Each round a random dead unit of the defender will be revived as [mUnit][unit]{ReviveAsThis.NameId}[/].
+#Raith_CrowdControl_BattleEnchantment.Id.Description.Loca;Raith's warps time across the battlefield.\n\nEach turn one random unit has a chance to be affected by [statuseffect]{StatusEffect.Tooltip.Name.Loca}[/].
+#Raith_FantasticOnly_BattleEnchantment.Id.Name.Loca;Separate Plane of Existence
+#Raith_FantasticOnly_BattleEnchantment.Id.Description.Loca;Raith's units operate on a separate plane of existence and only take full damage from [unittag]Fantastic[/] units.
+#Raith_Chaotic_BattleEnchantment.Tooltip.Description.Loca;Raith warps reality to randomly change damage types for all units in battle.
+#DarkElf_Ritualist.NameId;Dark Elf Necromancer
+AntaProgression BE UndeadSummoner.Tooltip.Name.Loca;Dark Elf Necromancers
+AntaProgression BE UndeadSummoner.Description.Name.Loca;Raith's army is reinforced with 2x [mUnit][unit]Dark Elf Necromancers[/]
+#SummonSkeleton.Tooltip.Name.Loca;Summon Undead
+#SummonSkeleton.Description.Name.Loca;Once finished, summons an [unit]Undead Minion[/]

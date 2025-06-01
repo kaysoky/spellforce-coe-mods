@@ -1,0 +1,36 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/MountainCopper.asset"
+            }
+        ]
+    },
+    "FactionTags": {
+        "mTags": []
+    },
+    "Thresholds": 1,
+    "UnitTags": {
+        "mTags": []
+    },
+    "IgnoredUnitTags": {
+        "mTags": []
+    },
+    "OnlyForUnits": [],
+    "ValidForLevelRange": {
+        "x": 1.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": []
+    },
+    "Weight": 20,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Isgrimm/Copper/Healthy.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}

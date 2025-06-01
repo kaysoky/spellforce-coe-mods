@@ -1,0 +1,161 @@
+CharmSkill
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/SingleTargetSelectionCursor.prefab"
+        }
+    },
+    "CombatSequence": {
+        "ContentPath": ""
+    },
+    "SkillEvaluation": {
+        "m_FileID": 154622,
+        "m_PathID": 0
+    },
+    "ActiveSkillCosts": {
+        "AttackActions": 1,
+        "FocusCosts": 0,
+        "CurrencyCost": {
+            "Gold": 0,
+            "Mana": 0
+        },
+        "ConsumeRemainingAttackActions": true
+    },
+    "Cooldown": {
+        "Duration": 0,
+        "LimitedUse": false,
+        "Charges": 0
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#Emancipation_Skill.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#Emancipation_Skill.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "AttackType": {
+        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
+    },
+    "RemoveSourceKotH": true,
+    "RepeatWithActions": false,
+    "SkipUnitFallbackSkill": false,
+    "IgnoreAsDefault": true,
+    "FallbackPriority": 0,
+    "Initiative": 10,
+    "BaseRank": 1,
+    "CooldownMin": 0,
+    "CooldownMax": 0,
+    "Slot": {
+        "Slot": 1,
+        "Priority": 4
+    },
+    "SkillButtonConfiguration": {
+        "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
+    },
+    "Icon": {
+        "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_Follower_01.png"
+    },
+    "ShowPrevisualizationPanel": true,
+    "Priority": 0,
+    "HideInOtherTooltips": false,
+    "DebugInfos": "",
+    "Range": 3,
+    "ConjuringEffect": {
+        "ContentPath": ""
+    },
+    "VisualEffect": {
+        "ContentPath": "VisualEffects/Toast_01_VisualEffect.prefab"
+    },
+    "ImpactEffect": {
+        "ContentPath": ""
+    },
+    "IgnoredTags": {
+        "mTags": []
+    },
+    "RequiredTags": {
+        "mTags": []
+    },
+    "TeamTargetType": 2,
+    "TagFilter": {
+        "AffectsOnly": {
+            "mTags": [
+                {
+                    "ContentPath": "Units/UnitTags/SlaveTag.asset"
+                }
+            ]
+        },
+        "AffectsNot": {
+            "mTags": [
+                {
+                    "ContentPath": "Units/UnitTags/ImmuneToMindcontrol.asset"
+                },
+                {
+                    "ContentPath": "Units/UnitTags/ImmuneToPsychology.asset"
+                }
+            ]
+        }
+    },
+    "TargetOwnLayer": false,
+    "MoraleChangeValue": 0.0,
+    "LearnPromotionFromCharmedUnit": false,
+    "OverrideAppliedStatusEffectReference": {
+        "ContentPath": ""
+    },
+    "TargetMoralState": {
+        "ContentPath": ""
+    }
+}

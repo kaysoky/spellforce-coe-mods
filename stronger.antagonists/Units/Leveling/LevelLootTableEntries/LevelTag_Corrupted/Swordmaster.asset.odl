@@ -1,0 +1,144 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/CorruptedAdamantium.asset"
+            }
+        ]
+    },
+    "FactionTags": {
+        "mTags": []
+    },
+    "Thresholds": 1,
+    "UnitTags": {
+        "mTags": []
+    },
+    "IgnoredUnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/MagicUser.asset"
+            }
+        ]
+    },
+    "OnlyForUnits": [],
+    "ValidForLevelRange": {
+        "x": 1.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            },
+            {
+                "rid": 1002
+            },
+            {
+                "rid": 1003
+            },
+            {
+                "rid": 1004
+            },
+            {
+                "rid": 1005
+            }
+        ]
+    },
+    "Weight": 40,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Isgrimm/Corrupted/Swordmaster.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "UnitHasAttackType",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "RequiredAttackType": {
+                        "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+                    },
+                    "Value": true
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/OneAdditionalAttack.asset"
+                    },
+                    "Value": false
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Isgrimm/Corrupted/Ashen.asset"
+                    },
+                    "Value": false
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Isgrimm/Pure/White Mage.asset"
+                    },
+                    "Value": false
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Isgrimm/Pure/Spider.asset"
+                    },
+                    "Value": false
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Isgrimm/Pure/Elementalist.asset"
+                    },
+                    "Value": false
+                }
+            }
+        ]
+    }
+}

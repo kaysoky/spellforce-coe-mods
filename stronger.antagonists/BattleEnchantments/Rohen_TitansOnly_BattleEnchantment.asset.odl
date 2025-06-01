@@ -1,0 +1,81 @@
+UnitPromotionBattleEnchantmentDefinition
+{
+    "Id": {
+        "Name": {
+            "Loca": {
+                "Key": "#Rohen_TitansOnly_BattleEnchantment.Id.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#Rohen_TitansOnly_BattleEnchantment.Id.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_GoblinEscort_01.png"
+    },
+    "Filter": {
+        "TargetTypeFilter": 3,
+        "UnitTagFilter": {
+            "AffectsOnly": {
+                "mTags": []
+            },
+            "AffectsNot": {
+                "mTags": [
+                    {
+                        "ContentPath": "Units/UnitTags/Titan.asset"
+                    },
+                    {
+                        "ContentPath": "Units/UnitTags/Apprentice Tag.asset"
+                    }, 
+                    {
+                        "ContentPath": "Units/UnitTags/Hero Tag.asset"
+                    }
+                ]
+            }
+        }
+    },
+    "Promotion": {
+        "ContentPath": "BattleEnchantments/Rohen_TitansOnly_Promotion.asset"
+    }
+}

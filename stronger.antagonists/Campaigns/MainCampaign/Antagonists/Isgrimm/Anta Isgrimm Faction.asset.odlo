@@ -1,0 +1,127 @@
+FactionDefinition
+{
+    "AntagonistData": {
+        "ProgressionEffects": [
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 4,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression MountainCopper.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 7,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression SkyIron.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression CorruptedAdamantium.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Titan Guard Forgemaster.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 11,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Adamantium.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 13,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression TitanBuff.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 14,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression GeneralBuff.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 0,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Construct Regen.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 3,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression RuneBlades.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Pathfinding.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 6,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Exploitation Ore.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression RuneArmor.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 5,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 1.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 2.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}

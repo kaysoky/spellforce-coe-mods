@@ -1,0 +1,78 @@
+UnitPromotionBattleEnchantmentDefinition
+{
+    "Id": {
+        "Name": {
+            "Loca": {
+                "Key": "Ianna_MentalWarfare_BattleEnchantment.Id.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#Ianna_MentalWarfare_BattleEnchantment.Id.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Skills/Icons/PromotionIcons/StrongMind_01.png"
+    },
+    "Filter": {
+        "TargetTypeFilter": 0,
+        "UnitTagFilter": {
+            "AffectsOnly": {
+                "mTags": [
+                    {
+                        "ContentPath": "Units/UnitTags/Apprentice Tag.asset"
+                    }, 
+                    {
+                        "ContentPath": "Units/UnitTags/Hero Tag.asset"
+                    }
+                ]
+            },
+            "AffectsNot": {
+                "mTags": []
+            }
+        }
+    },
+    "Promotion": {
+        "ContentPath": "BattleEnchantments/Ianna_MentalWarfare_Promotion.asset"
+    }
+}

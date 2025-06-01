@@ -1,0 +1,50 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Hunter.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Mentalist.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_Bear.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_Griffon.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Militia.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Soldier.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Paladin.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ]
+}

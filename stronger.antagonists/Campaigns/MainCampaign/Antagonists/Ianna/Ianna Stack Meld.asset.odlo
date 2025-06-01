@@ -1,0 +1,51 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Wisp.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/SpellPromotions/Wind Walking.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Militia.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Hellebardier.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Keeper.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Hunter.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Mentalist.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ]
+}

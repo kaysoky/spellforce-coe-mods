@@ -1,0 +1,74 @@
+ReviveRandomUnitSkillBattleEnchantmentDefinition
+{
+    "Id": {
+        "Name": {
+            "Loca": {
+                "Key": "ChantOfUnlife_BattleEnchantment.Id.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#Raith_ChantOfUnlife_BattleEnchantment.Id.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Skills/Icons/Skill_138.jpg"
+    },
+    "Filter": {
+        "TargetTypeFilter": 1,
+        "UnitTagFilter": {
+            "AffectsOnly": {
+                "mTags": []
+            },
+            "AffectsNot": {
+                "mTags": []
+            }
+        }
+    },
+    "CastVisualEffect": {
+        "ContentPath": ""
+    },
+    "ReviveAsThis": {
+        "ContentPath": "Units/Factions/Undead/Raith_WalkingCorpse.asset"
+    }
+}

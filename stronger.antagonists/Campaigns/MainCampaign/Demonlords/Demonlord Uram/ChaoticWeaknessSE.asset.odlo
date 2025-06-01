@@ -1,0 +1,34 @@
+StatusEffectDefinition
+{
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "RandomlySwitchFormEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "FormStatusEffects": [
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Uram/ChaoticWeakness_Death.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Uram/ChaoticWeakness_Ele.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Uram/ChaoticWeakness_Phys.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Uram/ChaoticWeakness_White.asset"
+                        }
+                    ],
+                    "ChanceToSwitchForm": 1,
+                    "NoFormIsValidResult": false
+                }
+            }
+        ]
+    }
+}

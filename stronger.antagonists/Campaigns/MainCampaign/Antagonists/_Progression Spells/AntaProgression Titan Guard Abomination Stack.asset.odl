@@ -1,0 +1,33 @@
+FixedStackDefinition
+{
+    "StackFamily": {
+        "mTags": []
+    },
+    "SpawnSetups": [],
+    "ValidRegionsToAmbush": {
+        "mTags": []
+    },
+    "FallbackFaction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Neutral Faction.asset"
+    },
+    "Units": [
+        {
+            "ContentPath": "Units/Factions/Titan/Titan_ArachnoidAbomination.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Animals/Animal_Tickbug.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Animals/Animal_Tickbug.asset"
+        }
+    ],
+    "Promotions": [],
+    "NecromancySoul": {
+        "ContentPath": ""
+    },
+    "SelectStackFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SelectUnitFirstTimeScreenTargets": 0,
+    "SelectUnitFirstTimeScreens": []
+}

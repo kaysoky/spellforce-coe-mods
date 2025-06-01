@@ -1,0 +1,325 @@
+UnitPromotionDefinition
+{
+    "Unique": true,
+    "DoesTransferInUpgrade": true,
+    "HideInBattleUnitInfo": false,
+    "HideInUnitDetails": false,
+    "<UnitModifiers>k__BackingField": {
+        "MovementRules": [],
+        "SkillOverrides": {
+            "MovementSkill": {
+                "ContentPath": ""
+            },
+            "DefensiveFireSkill": {
+                "ContentPath": ""
+            },
+            "MissileSkill": {
+                "ContentPath": ""
+            },
+            "MeleeSkill": {
+                "ContentPath": ""
+            },
+            "SpecialSkills": [],
+            "OnDeathSkills": []
+        },
+        "SkillReplacements": [],
+        "StackSkills": [],
+        "BattleEnchantments": [],
+        "UnitUpkeepOverride": {
+            "Gold": 0,
+            "Mana": 0
+        },
+        "NoUpkeepCosts": false,
+        "UpkeepCostsViaSpell": false,
+        "AdditionalSquadmembers": 0,
+        "SquadmemberOverride": 0,
+        "IgnoresMoraleChanges": false,
+        "IgnoredMoralStates": [],
+        "ImmuneToStatusEffects": {
+            "mTags": []
+        },
+        "ImmuneToSpecificStatusEffects": [],
+        "ImmuneToAllStatusEffects": false,
+        "ImmuneToAllNegativeStatusEffects": false,
+        "ResistanceToNegativeStatusEffects": 0.0,
+        "XPBonus": 0.0,
+        "CannotGainExp": false,
+        "OverrideCannotGainExp": false,
+        "UnhideGarrison": false,
+        "DoesntViolateBorders": false,
+        "FreeConsumableUsage": false,
+        "Health": {
+            "HealthRegeneration": 0,
+            "WorldHealRateBonus": 0,
+            "RelativeWorldHealRateBonus": 0.0,
+            "WorldHealRateModifier": 0.0,
+            "HealthModifier": 0.0,
+            "AdditionalLife": 0,
+            "CannotRegenerate": false,
+            "BattleHealRateMultiplier": 0.0,
+            "StackHealBoni": []
+        },
+        "PostCombat": {
+            "PostCombatRevive": false,
+            "PostCombatFlatHeal": 0,
+            "PostCombatRelativeHeal": 0.0
+        },
+        "Focus": 0,
+        "Morale": 0,
+        "MoraleModifier": 0.0,
+        "Speed": 0,
+        "SpeedModifier": 0.0,
+        "Search": 0,
+        "ScoutBonus": 0,
+        "AdditionalMovement": 0,
+        "AdditionalLevelUpChoices": 0,
+        "ZoneOfControlRange": 0,
+        "Itemfind": 0.0,
+        "Soulfind": 0.0,
+        "SoulDropChance": 0.0,
+        "IsSoulInsured": false,
+        "GetStatusEffectsOnUnitDeaths": [],
+        "BonusLootDrops": [],
+        "ApplyToSummonsPromotions": [],
+        "AdditionalTemporaryUnitsToDeploy": [],
+        "CurrenciesOnDeath": [],
+        "IncreasedHarvestYields": [],
+        "MoraleWorthModification": 0.0,
+        "Expendable": false,
+        "CanAmbush": false,
+        "CannotBeAmbushed": false,
+        "BreaksCharge": false,
+        "CannotBreakCharge": false,
+        "CannotGetFlanked": false,
+        "DisableZoneOfControl": false,
+        "DisableCounterAttack": false,
+        "DisableAttackOfOpportunity": false,
+        "DisableRetreat": false,
+        "IsPetrified": false,
+        "IsSilenced": false,
+        "IsWorldMovementFrozen": false,
+        "IsBattleMovementFrozen": false,
+        "FirstStrike": false,
+        "FreeAttackOfOpportunity": false,
+        "DoesNotTriggerAttackOfOpportunity": false,
+        "FreeRetaliation": false,
+        "IsIncapacitated": false,
+        "AdditionalFreeAttack": false,
+        "UnlimitedFocus": false,
+        "CanZombify": false,
+        "NorsGrip": false,
+        "LeaveNoCorpse": false,
+        "LongRangeExpert": false,
+        "CannotGuard": false,
+        "CanUnlockAdventures": false,
+        "SelfRevive": {
+            "SelfRevive": false,
+            "AmountOfTurns": 0,
+            "ReviveHealth": 0.0,
+            "SelfReviveVFX": {
+                "ContentPath": ""
+            },
+            "TombstoneContinuousVFX": {
+                "ContentPath": ""
+            }
+        },
+        "StatusEffectsOnBattleSpawn": [],
+        "Protective": false,
+        "IgnoreOthersZoneOfControl": false,
+        "CanDetectHiddenUnitsInSearchRange": false,
+        "ReducedActionMaximum": 0,
+        "AdditionalArtefactSlots": [],
+        "RemoveArtefactSlots": [],
+        "AttackEffects": [],
+        "SelfAttackEffects": [],
+        "HidingSettings": [],
+        "LeechSettings": [],
+        "GridSpecificModifiers": [],
+        "FlankingSpecificModifiers": [],
+        "AllyPromotionSpecificModifiers": [],
+        "PreCombatModifiers": {
+            "IgnoredTiles": [],
+            "IgnoresTileModifications": [],
+            "IgnoredTags": {
+                "mTags": []
+            }
+        },
+        "CombatModifiers": {
+            "RetreatChance": 0.0,
+            "ChargeDamage": 0,
+            "CritChanceBonus": 0.0,
+            "Armor": 0,
+            "ArmorModifier": 0.0,
+            "DamageModifier": 0.0,
+            "DamageBonus": 0,
+            "ArmorPiercing": 0,
+            "AlwaysDealMaxDmg": false,
+            "AlwaysDealMinDmg": false,
+            "MissingHealthDamageBonus": {
+                "MaxDamage": 0
+            },
+            "OverrideDamageTypeReference": {
+                "ContentPath": ""
+            },
+            "MeleeAttackType": {
+                "MeleeDamageModifier": 0.0,
+                "MeleeDamageBonus": 0,
+                "MeleeDamageReduction": 0.0,
+                "MeleeArmorBonus": 0,
+                "MeleeMoraleBonus": 0,
+                "BonusRetaliationDamage": 0,
+                "EnemyCannotRetaliate": false
+            },
+            "MissileAttackType": {
+                "MissileDamageModifier": 0.0,
+                "MissileDamageBonus": 0,
+                "MissileDamageReduction": 0.0,
+                "MissileArmorBonus": 0,
+                "MissileMoraleBonus": 0,
+                "NoRangePenalty": false
+            },
+            "SpellAttackType": {
+                "SpellDamageModifier": 0.0,
+                "SpellDamageBonus": 0,
+                "SpellDamageReduction": 0.0,
+                "SpellArmorBonus": 0,
+                "SpellMoraleBonus": 0
+            },
+            "DamageTypes": {
+                "DamageReduction": 0.0,
+                "DeathResistance": 0.0,
+                "DeathDamageBonus": 0,
+                "WhiteResistance": 0.0,
+                "WhiteDamageBonus": 0,
+                "PhysicalDamageBonus": 0,
+                "PhysicalResistance": 0.0,
+                "ElementalResistance": 0.0,
+                "ElementalDamageBonus": 0
+            },
+            "MagicDamageModifier": 0.0,
+            "AmbushDamageModifier": 0.0,
+            "MagicDamageReduction": 0.0,
+            "InvulnerableDamageReduction": 0.0,
+            "RangeExtensions": []
+        },
+        "PromotionSpecificModifiers": [],
+        "TagSpecificModifiers": [],
+        "TierSpecificModifiers": [],
+        "StatusEffectSpecificModifiers": [],
+        "Aura": {
+            "ContentPath": "Units/Promotions/TempForgemastersBlessingAura.asset"
+        },
+        "MoraleImpactModifierFromSource": 0.0,
+        "NegativeMoraleImpactMultiplier": 0.0,
+        "PositiveMoraleImpactMultiplier": 0.0,
+        "PassiveIncome": {
+            "FamePerRound": 0,
+            "MightPerRound": 0,
+            "ResearchPerRound": 0,
+            "ManaPerRound": 0,
+            "GoldPerRound": 0
+        },
+        "LocationBasedIncomes": [],
+        "BuddyBonus": {
+            "ContentPath": ""
+        }
+    },
+    "PromotionsToAdd": [],
+    "IgnoredPromotions": [],
+    "ExposeIgnoredPromotionsInTooltip": false,
+    "IgnoredAuras": [],
+    "Tags": {
+        "mTags": []
+    },
+    "LevelUpTags": {
+        "mTags": []
+    },
+    "ShowInApprenticeSelection": false,
+    "UnitTitleOverride": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "UnitVisualOverride": {
+        "ContentPath": ""
+    },
+    "CannotBeRenamed": false,
+    "OverrideUnitSortOrder": false,
+    "UnitSortOrderOverride": 0,
+    "IsTemporary": false,
+    "QualityType": 1,
+    "ShowAsSubTooltip": true,
+    "Icon": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_Forgemaster.png"
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#ForgemastersBlessing.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 845508366,
+                        "GuidPart2": 1275785441,
+                        "GuidPart3": 1590779564,
+                        "GuidPart4": -1870823564
+                    },
+                    "mSerializableLocalIdentifier": 11400000
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Priority": 0,
+    "AutoResolveHelp": {
+        "OnlyAffectsVsAi": false,
+        "CanCatchSouls": false,
+        "CanEnslave": false,
+        "PersonalEdge": 0,
+        "DamageReduction": 0.0,
+        "SharedHealthBuffer": 0,
+        "SharedEdge": 0,
+        "AlwaysWinAutoresolve": false
+    },
+    "TooltipDonotShowHeaderIfSingleSkillGranted": true
+}

@@ -1,0 +1,109 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_GoblinBrawler.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_Slaver.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Trolls/Troll_Crusher.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Warg.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_WargRider.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_Ravager.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_Drummer.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Alchemist.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Trolls/Troll_Wallbreaker.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Trolls/Troll_BoneHexer.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Trolls/Troll_Warchief.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Lightbringer.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Forgemaster.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_ShaperGolem.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Treant.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Spellbook/Spells/Demon XP.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        3,
+        4
+    ]
+}

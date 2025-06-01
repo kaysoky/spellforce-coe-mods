@@ -1,0 +1,246 @@
+UnitDefinition
+{
+    "Portrait": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_AlphaWolf.png"
+    },
+    "NameId": {
+        "Key": "#Animal_AlphaWolf.NameId",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": -667288215,
+                "GuidPart2": 1160294073,
+                "GuidPart3": 762756992,
+                "GuidPart4": -1074646417
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "NotificationOffset": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "Tier": 2,
+    "BattleFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SpawnedObjects": [
+        {
+            "ContentPath": "ModelPrefabs/Units/Animals/Animal_Wolf_02.prefab"
+        }
+    ],
+    "TemplateDistribution": 0,
+    "VisualPattern": {
+        "ContentPath": ""
+    },
+    "OverlayOffset": {
+        "x": 0.0,
+        "y": 5.0,
+        "z": 0.0
+    },
+    "ScreenSpaceOverlayOffset": {
+        "x": 0.0,
+        "y": 50.0,
+        "z": 0.0
+    },
+    "CameraSetup": 0,
+    "SelectionSoundOverrides": [
+        {
+            "m_Asset": {
+                "m_FileID": 258938,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "UnitIcon": {
+        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Melee_01.png"
+    },
+    "ShortDescription": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CannotBeRenamed": false,
+    "BattleOverlay": {
+        "mGameObject": {
+            "ContentPath": "Production/UI/GameUnitOverlay.prefab"
+        }
+    },
+    "ShowInEntityList": true,
+    "IgnoreInEntityCycle": false,
+    "HireCosts": {
+        "Gold": 22,
+        "Mana": 0
+    },
+    "TowerHireDuration": 5,
+    "CraftDuration": 5,
+    "UpkeepCosts": {
+        "Gold": 2,
+        "Mana": 0
+    },
+    "GenerationPointCost": 75,
+    "UnitLevelDefinition": {
+        "ContentPath": "Units/Unit Progression/Ianna Progression.asset"
+    },
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Animal.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Melee.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            }
+        ]
+    },
+    "UnitSpecificLevelUps": [],
+    "StoryLevels": [],
+    "GroungHeightOffsetModifier": 0.0,
+    "Skills": {
+        "MovementSkill": {
+            "ContentPath": "Skills/Movement/MoveToAdjacent.asset"
+        },
+        "DefensiveFireSkill": {
+            "ContentPath": ""
+        },
+        "MissileSkill": {
+            "ContentPath": ""
+        },
+        "MeleeSkill": {
+            "ContentPath": "Skills/Melee/MeleeSkill.asset"
+        },
+        "SpecialSkills": [
+            {
+                "ContentPath": "Skills/Support/FortifySkill.asset"
+            },
+            {
+                "ContentPath": "Skills/Magic/SummonWolfToCorpseSkill.asset"
+            }
+        ],
+        "OnDeathSkills": []
+    },
+    "StackSkills": [],
+    "MovementRange": 8,
+    "Armor": 10,
+    "PhysicalResistance": 0.0,
+    "ElementalResistance": -0.25,
+    "WhiteResistance": 0.0,
+    "DeathResistance": 0.0,
+    "UnitSquadStrength": 1,
+    "TotalUnitLife": 90,
+    "Focus": 0,
+    "RoundsUntilReviveTimeInLoge": 0,
+    "XPWorth": 80.0,
+    "Morale": 9,
+    "MoraleWorth": 3.0,
+    "ZoneOfControlRange": 1,
+    "FogOfWarSettings": {
+        "CanDetectHiddenUnitsInSearchRange": false,
+        "Range": 3,
+        "ScoutRange": 0,
+        "InstantRemoveUpdate": false,
+        "IgnoreLineOfSight": false
+    },
+    "LootTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/Ingredient Animal.asset"
+            }
+        ]
+    },
+    "LootDropChance": 0.5,
+    "SoulTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/BeastSoulT2.asset"
+            }
+        ]
+    },
+    "SoulDropChance": 0.0,
+    "Tags": {
+        "mTags": []
+    },
+    "Role": 2,
+    "Weapons": [
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
+            },
+            "Damage": 20,
+            "ArmorPiercing": 0,
+            "Range": 0,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        },
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
+            },
+            "Damage": 10,
+            "ArmorPiercing": 0,
+            "Range": 3,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        }
+    ],
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Wild.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/StrengthOfThePack.asset"
+        }
+    ],
+    "DefaultStatusEffects": [],
+    "MovementRuleRefs": [
+        {
+            "ContentPath": "Units/MovementModes/World/World_Default.asset"
+        }
+    ],
+    "ArtefactSlotsRefs": [
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        }
+    ],
+    "Considerations": [],
+    "DeploymentEvaluationRefs": [
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferNextToAllyEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferCenterEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferCloseToEnemyEvaluation.asset"
+        }
+    ],
+    "MindSlotBreakingRequirement": {
+        "Elemental": 0,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 2
+    }
+}

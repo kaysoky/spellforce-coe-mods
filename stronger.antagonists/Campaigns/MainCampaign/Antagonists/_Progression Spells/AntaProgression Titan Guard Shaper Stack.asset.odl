@@ -1,0 +1,33 @@
+FixedStackDefinition
+{
+    "StackFamily": {
+        "mTags": []
+    },
+    "SpawnSetups": [],
+    "ValidRegionsToAmbush": {
+        "mTags": []
+    },
+    "FallbackFaction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Neutral Faction.asset"
+    },
+    "Units": [
+        {
+            "ContentPath": "Units/Factions/Titan/Titan_ShaperGolem.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Fantastic/Fantastic_StoneGolem.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Fantastic/Fantastic_FireGolem.asset"
+        }
+    ],
+    "Promotions": [],
+    "NecromancySoul": {
+        "ContentPath": ""
+    },
+    "SelectStackFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SelectUnitFirstTimeScreenTargets": 0,
+    "SelectUnitFirstTimeScreens": []
+}

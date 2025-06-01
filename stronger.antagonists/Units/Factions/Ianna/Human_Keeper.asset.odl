@@ -1,0 +1,288 @@
+UnitDefinition
+{
+    "Portrait": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_HumanKeeper.png"
+    },
+    "NameId": {
+        "Key": "#Human_Keeper.NameId",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": -1561363734,
+                "GuidPart2": 1183070847,
+                "GuidPart3": 141270459,
+                "GuidPart4": -2038888072
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "NotificationOffset": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "Tier": 3,
+    "BattleFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SpawnedObjects": [
+        {
+            "ContentPath": "ModelPrefabs/Units/Humans/Human_Paladin_Mounted_01.prefab"
+        }
+    ],
+    "TemplateDistribution": 0,
+    "VisualPattern": {
+        "ContentPath": "Units/Patterns/CavalryFormation.asset"
+    },
+    "OverlayOffset": {
+        "x": 0.0,
+        "y": 8.0,
+        "z": 0.0
+    },
+    "ScreenSpaceOverlayOffset": {
+        "x": 0.0,
+        "y": 50.0,
+        "z": 0.0
+    },
+    "CameraSetup": 0,
+    "SelectionSoundOverrides": [
+        {
+            "m_Asset": {
+                "m_FileID": 142942,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "m_Asset": {
+                "m_FileID": 356042,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "m_Asset": {
+                "m_FileID": 356046,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "m_Asset": {
+                "m_FileID": 356048,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "UnitIcon": {
+        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Cavalry_01.png"
+    },
+    "ShortDescription": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CannotBeRenamed": false,
+    "BattleOverlay": {
+        "mGameObject": {
+            "ContentPath": "Production/UI/GameUnitOverlay.prefab"
+        }
+    },
+    "ShowInEntityList": true,
+    "IgnoreInEntityCycle": false,
+    "HireCosts": {
+        "Gold": 42,
+        "Mana": 0
+    },
+    "TowerHireDuration": 8,
+    "CraftDuration": 8,
+    "UpkeepCosts": {
+        "Gold": 4,
+        "Mana": 0
+    },
+    "GenerationPointCost": 94,
+    "UnitLevelDefinition": {
+        "ContentPath": "Units/Unit Progression/Ianna Progression.asset"
+    },
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Human.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Melee.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Cavalry.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Leader.asset"
+            }
+        ]
+    },
+    "UnitSpecificLevelUps": [],
+    "StoryLevels": [],
+    "GroungHeightOffsetModifier": 0.0,
+    "Skills": {
+        "MovementSkill": {
+            "ContentPath": "Skills/Movement/MoveToAdjacent.asset"
+        },
+        "DefensiveFireSkill": {
+            "ContentPath": ""
+        },
+        "MissileSkill": {
+            "ContentPath": ""
+        },
+        "MeleeSkill": {
+            "ContentPath": "Skills/Melee/MeleeSkill.asset"
+        },
+        "SpecialSkills": [
+            {
+                "ContentPath": "Skills/Support/FortifySkill.asset"
+            }
+        ],
+        "OnDeathSkills": []
+    },
+    "StackSkills": [],
+    "MovementRange": 9,
+    "Armor": 11,
+    "PhysicalResistance": 0.0,
+    "ElementalResistance": 0.0,
+    "WhiteResistance": 0.0,
+    "DeathResistance": 0.0,
+    "UnitSquadStrength": 2,
+    "TotalUnitLife": 116,
+    "Focus": 0,
+    "RoundsUntilReviveTimeInLoge": 0,
+    "XPWorth": 120.0,
+    "Morale": 10,
+    "MoraleWorth": 4.0,
+    "ZoneOfControlRange": 1,
+    "FogOfWarSettings": {
+        "CanDetectHiddenUnitsInSearchRange": false,
+        "Range": 3,
+        "ScoutRange": 0,
+        "InstantRemoveUpdate": false,
+        "IgnoreLineOfSight": false
+    },
+    "LootTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/Ingredient Mortal.asset"
+            },
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/Tiara Loot.asset"
+            }
+        ]
+    },
+    "LootDropChance": 1.0,
+    "SoulTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/HumanSoulT2.asset"
+            },
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/HumanSoulT3.asset"
+            }
+        ]
+    },
+    "SoulDropChance": 0.0,
+    "Tags": {
+        "mTags": []
+    },
+    "Role": 2,
+    "Weapons": [
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
+            },
+            "Damage": 18,
+            "ArmorPiercing": 0,
+            "Range": 0,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        },
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
+            },
+            "Damage": 14,
+            "ArmorPiercing": 0,
+            "Range": 3,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        }
+    ],
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Human.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Cavalry.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Charge.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Armored.asset"
+        }
+    ],
+    "DefaultStatusEffects": [],
+    "MovementRuleRefs": [
+        {
+            "ContentPath": "Units/MovementModes/World/World_Default.asset"
+        }
+    ],
+    "ArtefactSlotsRefs": [
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        }
+    ],
+    "Considerations": [],
+    "DeploymentEvaluationRefs": [
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferNextToAllyEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferCenterEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferCloseToEnemyEvaluation.asset"
+        }
+    ],
+    "MindSlotBreakingRequirement": {
+        "Elemental": 0,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 3
+    }
+}

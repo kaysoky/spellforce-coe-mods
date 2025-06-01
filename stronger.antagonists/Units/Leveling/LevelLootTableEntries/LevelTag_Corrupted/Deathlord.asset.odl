@@ -1,0 +1,76 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/CorruptedAdamantium.asset"
+            }
+        ]
+    },
+    "FactionTags": {
+        "mTags": []
+    },
+    "Thresholds": 1,
+    "UnitTags": {
+        "mTags": []
+    },
+    "IgnoredUnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/MagicUser.asset"
+            }
+        ]
+    },
+    "OnlyForUnits": [],
+    "ValidForLevelRange": {
+        "x": 1.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            }
+        ]
+    },
+    "Weight": 40,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Isgrimm/Corrupted/Deathlord.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/EnemyCannotRetaliate.asset"
+                    },
+                    "Value": false
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "UnitHasAttackType",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "RequiredAttackType": {
+                        "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+                    },
+                    "Value": true
+                }
+            }
+        ]
+    }
+}

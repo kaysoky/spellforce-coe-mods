@@ -1,0 +1,228 @@
+UnitDefinition
+{
+    "Portrait": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_Apprentice_15.png"
+    },
+    "NameId": {
+        "Key": "#Undead_Ritualist.NameId",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "NotificationOffset": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "Tier": 5,
+    "BattleFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SpawnedObjects": [
+        {
+            "ContentPath": "ModelPrefabs/Units/Heroes/Apprentices/Apprentice_Undead_Okram.prefab"
+        }
+    ],
+    "TemplateDistribution": 0,
+    "VisualPattern": {
+        "ContentPath": "Units/Patterns/Random_Four_01.asset"
+    },
+    "OverlayOffset": {
+        "x": 0.0,
+        "y": 5.0,
+        "z": 0.0
+    },
+    "ScreenSpaceOverlayOffset": {
+        "x": 0.0,
+        "y": 50.0,
+        "z": 0.0
+    },
+    "CameraSetup": 0,
+    "SelectionSoundOverrides": [
+        {
+            "m_Asset": {
+                "m_FileID": 177370,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "m_Asset": {
+                "m_FileID": 261546,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "UnitIcon": {
+        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Caster_02.png"
+    },
+    "ShortDescription": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CannotBeRenamed": false,
+    "BattleOverlay": {
+        "mGameObject": {
+            "ContentPath": "Production/UI/GameUnitOverlay.prefab"
+        }
+    },
+    "ShowInEntityList": true,
+    "IgnoreInEntityCycle": false,
+    "HireCosts": {
+        "Gold": 9,
+        "Mana": 0
+    },
+    "TowerHireDuration": 2,
+    "CraftDuration": 2,
+    "UpkeepCosts": {
+        "Gold": 0,
+        "Mana": 1
+    },
+    "GenerationPointCost": 42,
+    "UnitLevelDefinition": {
+        "ContentPath": "Units/Unit Progression/Default Progression.asset"
+    },
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Undead.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Caster.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Necromancer.asset"
+            }
+        ]
+    },
+    "UnitSpecificLevelUps": [],
+    "StoryLevels": [],
+    "GroungHeightOffsetModifier": 0.0,
+    "Skills": {
+        "MovementSkill": {
+            "ContentPath": ""
+        },
+        "DefensiveFireSkill": {
+            "ContentPath": ""
+        },
+        "MissileSkill": {
+            "ContentPath": ""
+        },
+        "MeleeSkill": {
+            "ContentPath": ""
+        },
+        "SpecialSkills": [],
+        "OnDeathSkills": []
+    },
+    "StackSkills": [],
+    "MovementRange": 7,
+    "Armor": 6,
+    "PhysicalResistance": 0.0,
+    "ElementalResistance": 0.0,
+    "WhiteResistance": 0.0,
+    "DeathResistance": 0.0,
+    "UnitSquadStrength": 4,
+    "TotalUnitLife": 60,
+    "Focus": 0,
+    "RoundsUntilReviveTimeInLoge": 0,
+    "XPWorth": 40.0,
+    "Morale": 9,
+    "MoraleWorth": 2.0,
+    "ZoneOfControlRange": 1,
+    "FogOfWarSettings": {
+        "CanDetectHiddenUnitsInSearchRange": false,
+        "Range": 3,
+        "ScoutRange": 0,
+        "InstantRemoveUpdate": false,
+        "IgnoreLineOfSight": false
+    },
+    "LootTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/Ingredient Undead.asset"
+            }
+        ]
+    },
+    "LootDropChance": 0.0,
+    "SoulTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/UndeadSoulT1.asset"
+            }
+        ]
+    },
+    "SoulDropChance": 0.0,
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/MagicUser.asset"
+            }
+        ]
+    },
+    "Role": 4,
+    "Weapons": [],
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/DarkRitual/Start.asset"
+        }
+    ],
+    "DefaultStatusEffects": [],
+    "MovementRuleRefs": [
+        {
+            "ContentPath": "Units/MovementModes/World/World_Default.asset"
+        }
+    ],
+    "ArtefactSlotsRefs": [
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        }
+    ],
+    "Considerations": [],
+    "DeploymentEvaluationRefs": [
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferNextToAllyEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferCenterEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferAwayFromEnemyEvaluation.asset"
+        }
+    ],
+    "MindSlotBreakingRequirement": {
+        "Elemental": 0,
+        "Arcane": 1,
+        "Death": 0,
+        "Life": 0
+    }
+}

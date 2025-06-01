@@ -1,0 +1,89 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/MountainCopper.asset"
+            }
+        ]
+    },
+    "FactionTags": {
+        "mTags": []
+    },
+    "Thresholds": 1,
+    "UnitTags": {
+        "mTags": []
+    },
+    "IgnoredUnitTags": {
+        "mTags": []
+    },
+    "OnlyForUnits": [],
+    "ValidForLevelRange": {
+        "x": 1.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            },
+            {
+                "rid": 1002
+            }
+        ]
+    },
+    "Weight": 20,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Isgrimm/Copper/Shield.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Shielded.asset"
+                    },
+                    "Value": true
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "UnitHasSkill",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "RequiredSkill": {
+                        "ContentPath": "Skills/Support/ShieldWall.asset"
+                    },
+                    "Value": false
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "UnitHasSkill",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "RequiredSkill": {
+                        "ContentPath": "Skills/Support/FortifySkill.asset"
+                    },
+                    "Value": true
+                }
+            }
+        ]
+    }
+}

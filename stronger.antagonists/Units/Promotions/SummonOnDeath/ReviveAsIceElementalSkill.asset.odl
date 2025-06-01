@@ -1,0 +1,186 @@
+AoEReviveSkill
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/SummonTileSelectionCursor.prefab"
+        }
+    },
+    "CombatSequence": {
+        "ContentPath": ""
+    },
+    "SkillEvaluation": {
+        "m_FileID": 156296,
+        "m_PathID": 0
+    },
+    "ActiveSkillCosts": {
+        "AttackActions": 0,
+        "FocusCosts": 0,
+        "CurrencyCost": {
+            "Gold": 0,
+            "Mana": 0
+        },
+        "ConsumeRemainingAttackActions": false
+    },
+    "Cooldown": {
+        "Duration": 0,
+        "LimitedUse": false,
+        "Charges": 0
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#SummonOnDeathSmallIce.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#SummonOnDeathSmallIce.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": [
+            {
+                "Loca": {
+                    "Key": "TileConditionCliffWater.Loca",
+                    "ObjectId": {
+                        "mGuid": {
+                            "GuidPart1": 0,
+                            "GuidPart2": 0,
+                            "GuidPart3": 0,
+                            "GuidPart4": 0
+                        },
+                        "mSerializableLocalIdentifier": 0
+                    }
+                },
+                "BlankLineInFront": false,
+                "IsEmpty": false
+            }
+        ]
+    },
+    "AttackType": {
+        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
+    },
+    "RemoveSourceKotH": true,
+    "RepeatWithActions": false,
+    "SkipUnitFallbackSkill": false,
+    "IgnoreAsDefault": true,
+    "FallbackPriority": 0,
+    "Initiative": 5,
+    "BaseRank": 1,
+    "CooldownMin": 0,
+    "CooldownMax": 0,
+    "Slot": {
+        "Slot": 1,
+        "Priority": 4
+    },
+    "SkillButtonConfiguration": {
+        "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
+    },
+    "Icon": {
+        "ContentPath": "Items/Icons/Potions/Icon_GlacialConcoction.png"
+    },
+    "ShowPrevisualizationPanel": true,
+    "Priority": 0,
+    "HideInOtherTooltips": false,
+    "DebugInfos": "",
+    "PreVisualEffect": {
+        "ContentPath": ""
+    },
+    "SourceSquadMemberVisualEffect": {
+        "ContentPath": "VisualEffects/Howl_01_VisualEffect.prefab"
+    },
+    "PostVisualEffect": {
+        "ContentPath": ""
+    },
+    "RevivedUnitSpawnEffect": {
+        "ContentPath": "VisualEffects/GenericBattleEffects/IceSingleTile_01_VisualEffect.prefab"
+    },
+    "RevivedUnitPostSpawnEffect": {
+        "ContentPath": ""
+    },
+    "WaitForAnimationEvent": "",
+    "TeamTargetType": 1,
+    "AreaType": 0,
+    "Radius": 0,
+    "ReviveWithFullActions": true,
+    "ReviveAsThisUnit": {
+        "ContentPath": "Units/Factions/Fantastic/Fantastic_BabyIceGolem.asset"
+    },
+    "AddPromotionsOnRevive": [
+        {
+            "ContentPath": "Units/Promotions/Summon.asset"
+        }
+    ],
+    "CanNotSummonOntoTileWithTag": {
+        "mTags": [
+            {
+                "ContentPath": "_Battle/Tiles/Blocker.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Cover.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Full Blocker.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Cliff.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Water Deep.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Impassable.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Hole.asset"
+            }
+        ]
+    }
+}

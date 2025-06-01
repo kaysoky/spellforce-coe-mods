@@ -1,0 +1,264 @@
+UnitDefinition
+{
+    "Portrait": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_HumanMentalist.png"
+    },
+    "NameId": {
+        "Key": "#Human_Mentalist.NameId",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 1547319802,
+                "GuidPart2": 1241314783,
+                "GuidPart3": 1986645424,
+                "GuidPart4": 1963272886
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "NotificationOffset": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "Tier": 2,
+    "BattleFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SpawnedObjects": [
+        {
+            "ContentPath": "ModelPrefabs/Units/Humans/Human_Mentalist_01.prefab"
+        }
+    ],
+    "TemplateDistribution": 0,
+    "VisualPattern": {
+        "ContentPath": "Units/Patterns/Random_Four_01.asset"
+    },
+    "OverlayOffset": {
+        "x": 0.0,
+        "y": 5.0,
+        "z": 0.0
+    },
+    "ScreenSpaceOverlayOffset": {
+        "x": 0.0,
+        "y": 50.0,
+        "z": 0.0
+    },
+    "CameraSetup": 0,
+    "SelectionSoundOverrides": [
+        {
+            "m_Asset": {
+                "m_FileID": 288304,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "m_Asset": {
+                "m_FileID": 139716,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "UnitIcon": {
+        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Caster_02.png"
+    },
+    "ShortDescription": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CannotBeRenamed": false,
+    "BattleOverlay": {
+        "mGameObject": {
+            "ContentPath": "Production/UI/GameUnitOverlay.prefab"
+        }
+    },
+    "ShowInEntityList": true,
+    "IgnoreInEntityCycle": false,
+    "HireCosts": {
+        "Gold": 20,
+        "Mana": 0
+    },
+    "TowerHireDuration": 5,
+    "CraftDuration": 5,
+    "UpkeepCosts": {
+        "Gold": 2,
+        "Mana": 0
+    },
+    "GenerationPointCost": 58,
+    "UnitLevelDefinition": {
+        "ContentPath": "Units/Unit Progression/Ianna Progression.asset"
+    },
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Human.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Caster.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Mentalist.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Leader.asset"
+            }
+        ]
+    },
+    "UnitSpecificLevelUps": [],
+    "StoryLevels": [],
+    "GroungHeightOffsetModifier": 0.0,
+    "Skills": {
+        "MovementSkill": {
+            "ContentPath": "Skills/Movement/MoveToAdjacent_Ranged.asset"
+        },
+        "DefensiveFireSkill": {
+            "ContentPath": ""
+        },
+        "MissileSkill": {
+            "ContentPath": "Skills/Missile/MissileSkill_magic.asset"
+        },
+        "MeleeSkill": {
+            "ContentPath": "Skills/Melee/MeleeSkill.asset"
+        },
+        "SpecialSkills": [
+            {
+                "ContentPath": "Skills/Support/FortifySkill.asset"
+            },
+            {
+                "ContentPath": "Skills/Magic/MindcontrolSkill.asset"
+            }
+        ],
+        "OnDeathSkills": []
+    },
+    "StackSkills": [],
+    "MovementRange": 7,
+    "Armor": 8,
+    "PhysicalResistance": 0.0,
+    "ElementalResistance": 0.0,
+    "WhiteResistance": 0.0,
+    "DeathResistance": 0.0,
+    "UnitSquadStrength": 4,
+    "TotalUnitLife": 60,
+    "Focus": 0,
+    "RoundsUntilReviveTimeInLoge": 0,
+    "XPWorth": 80.0,
+    "Morale": 10,
+    "MoraleWorth": 3.0,
+    "ZoneOfControlRange": 1,
+    "FogOfWarSettings": {
+        "CanDetectHiddenUnitsInSearchRange": false,
+        "Range": 3,
+        "ScoutRange": 0,
+        "InstantRemoveUpdate": false,
+        "IgnoreLineOfSight": false
+    },
+    "LootTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/Ingredient Mortal.asset"
+            }
+        ]
+    },
+    "LootDropChance": 0.5,
+    "SoulTags": {
+        "mTags": [
+            {
+                "ContentPath": "LootTables/Loot Locations/ItemCategories/HumanSoulT2.asset"
+            }
+        ]
+    },
+    "SoulDropChance": 0.0,
+    "Tags": {
+        "mTags": []
+    },
+    "Role": 4,
+    "Weapons": [
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
+            },
+            "Damage": 10,
+            "ArmorPiercing": 0,
+            "Range": 0,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        },
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/White Damage Type.asset"
+            },
+            "Damage": 8,
+            "ArmorPiercing": 0,
+            "Range": 5,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        }
+    ],
+    "DefaultPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Human.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/ImmuneToMindcontrol.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/MagicUser.asset"
+        }
+    ],
+    "DefaultStatusEffects": [],
+    "MovementRuleRefs": [
+        {
+            "ContentPath": "Units/MovementModes/World/World_Default.asset"
+        }
+    ],
+    "ArtefactSlotsRefs": [
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        },
+        {
+            "ContentPath": "Items/Slots/Rune Slot.asset"
+        }
+    ],
+    "Considerations": [],
+    "DeploymentEvaluationRefs": [
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferNextToAllyEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferCenterEvaluation.asset"
+        },
+        {
+            "ContentPath": "Units/DeploymentEvaluations/PreferAwayFromEnemyEvaluation.asset"
+        }
+    ],
+    "MindSlotBreakingRequirement": {
+        "Elemental": 0,
+        "Arcane": 2,
+        "Death": 0,
+        "Life": 0
+    }
+}
