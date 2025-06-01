@@ -1,0 +1,11 @@
+{
+    "HardDependencies": [
+        {"Package":"com.ownedbygravity.sf.base"},
+        {"Package":"com.ownedbygravity.sf.dlc1"},
+        {"Package":"com.ownedbygravity.sf.dlc2"},
+        {"Package":"stronger.antagonists"},
+        {"Package":"orian34.notevenbones"}
+    ],
+    "SoftDependencies": [],
+    "IsDependencyForSavegames":false
+}
