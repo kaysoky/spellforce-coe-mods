@@ -1,0 +1,12 @@
+FakeItemSlotSettings
+{
+    "Filter": {
+        "AffectsNot": {
+            "mTags": [
+                {
+                    "ContentPath": "Units/Promotions/PossessedTag.asset"
+                }
+            ]
+        }
+    }
+}
