@@ -338,11 +338,11 @@ LocationDefinition
     },
     "LocationOverlay": {
         "m_Asset": {
-            "m_FileID": 163340,
+            "m_FileID": 0,
             "m_PathID": 0
         },
         "m_Ref": {
-            "ContentPath": ""
+            "ContentPath": "Production/UI/LocationOverlay.prefab"
         }
     },
     "LodgeLevels": [],

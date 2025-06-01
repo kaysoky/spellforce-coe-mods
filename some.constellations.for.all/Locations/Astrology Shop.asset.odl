@@ -209,7 +209,7 @@ LocationDefinition
         }
     },
     "Portrait": {
-        "ContentPath": "Production/WorldMapOverview/OverviewMap_Shop.png"
+        "ContentPath": "_World/Locations/Portraits/Location_Shop.png"
     },
     "DestroyVisualEffect": {
         "ContentPath": ""
@@ -312,11 +312,11 @@ LocationDefinition
     },
     "LocationOverlay": {
         "m_Asset": {
-            "m_FileID": 163340,
+            "m_FileID": 0,
             "m_PathID": 0
         },
         "m_Ref": {
-            "ContentPath": ""
+            "ContentPath": "Production/UI/LocationOverlay.prefab"
         }
     },
     "LodgeLevels": [],
