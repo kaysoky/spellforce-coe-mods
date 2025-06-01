@@ -1,8 +1,8 @@
 UnitDefinition
 {
     "MindSlotBreakingRequirement": {
-        "Elemental": 3,
-        "Arcane": 0,
+        "Elemental": 2,
+        "Arcane": 3,
         "Death": 0,
         "Life": 0
     }
