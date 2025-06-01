@@ -1,0 +1,100 @@
+ShopDefinition
+{
+    "Ranks": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        }
+    ],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -1057376069,
+                        "GuidPart2": 1266688760,
+                        "GuidPart3": 814180793,
+                        "GuidPart4": -796943527
+                    },
+                    "ReputationLevel": 3,
+                    "CanRefill": false,
+                    "SlotAmount": 1,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1003
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -672938569,
+                        "GuidPart2": 1106307251,
+                        "GuidPart3": 1014191235,
+                        "GuidPart4": -403121838
+                    },
+                    "ReputationLevel": 1,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -533287608,
+                        "GuidPart2": 1267010696,
+                        "GuidPart3": 282403716,
+                        "GuidPart4": -1625640509
+                    },
+                    "ReputationLevel": 0,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/ResearchEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/Rooms/Room_Barrack_Human.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 483357176,
+                            "GuidPart2": 1092647685,
+                            "GuidPart3": 2025656980,
+                            "GuidPart4": 1629019861
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

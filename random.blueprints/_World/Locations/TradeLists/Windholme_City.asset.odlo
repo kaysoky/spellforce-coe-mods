@@ -1,0 +1,100 @@
+ShopDefinition
+{
+    "Ranks": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        }
+    ],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": 1180869295,
+                        "GuidPart2": 1339660245,
+                        "GuidPart3": 223868334,
+                        "GuidPart4": -899801783
+                    },
+                    "ReputationLevel": 3,
+                    "CanRefill": false,
+                    "SlotAmount": 1,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1003
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -690872350,
+                        "GuidPart2": 1194577157,
+                        "GuidPart3": 1368544185,
+                        "GuidPart4": -855360591
+                    },
+                    "ReputationLevel": 2,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -752406467,
+                        "GuidPart2": 1336141949,
+                        "GuidPart3": 1387630512,
+                        "GuidPart4": -19758836
+                    },
+                    "ReputationLevel": 0,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/ResearchEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/Rooms/Room_Barrack_Dwarf.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 483357176,
+                            "GuidPart2": 1092647685,
+                            "GuidPart3": 2025656980,
+                            "GuidPart4": 1629019861
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

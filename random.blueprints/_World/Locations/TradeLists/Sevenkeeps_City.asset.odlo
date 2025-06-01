@@ -1,0 +1,135 @@
+ShopDefinition
+{
+    "Ranks": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        },
+        {
+            "rid": 1004
+        }
+    ],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -303555818,
+                        "GuidPart2": 1127353344,
+                        "GuidPart3": -2144620381,
+                        "GuidPart4": 473652988
+                    },
+                    "ReputationLevel": 3,
+                    "CanRefill": false,
+                    "SlotAmount": 1,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1005
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": 1717056249,
+                        "GuidPart2": 1120519269,
+                        "GuidPart3": 1329592221,
+                        "GuidPart4": -1297562070
+                    },
+                    "ReputationLevel": 3,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": 802955945,
+                        "GuidPart2": 1219691746,
+                        "GuidPart3": 1174782863,
+                        "GuidPart4": 1573567470
+                    },
+                    "ReputationLevel": 2,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -1801245034,
+                        "GuidPart2": 1114340691,
+                        "GuidPart3": 1317376417,
+                        "GuidPart4": 23304904
+                    },
+                    "ReputationLevel": 1,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": 1501961629,
+                        "GuidPart2": 1260144231,
+                        "GuidPart3": 895320463,
+                        "GuidPart4": -629194781
+                    },
+                    "ReputationLevel": 0,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Keeper.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            }
+        ]
+    }
+}

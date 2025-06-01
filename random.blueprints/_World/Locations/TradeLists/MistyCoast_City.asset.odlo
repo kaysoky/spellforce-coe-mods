@@ -1,0 +1,121 @@
+ShopDefinition
+{
+    "Ranks": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        },
+        {
+            "rid": 1002
+        },
+        {
+            "rid": 1003
+        }
+    ],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": 361552807,
+                        "GuidPart2": 1132370716,
+                        "GuidPart3": -1342449505,
+                        "GuidPart4": 1215786037
+                    },
+                    "ReputationLevel": 3,
+                    "CanRefill": false,
+                    "SlotAmount": 1,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1004
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": 1871110075,
+                        "GuidPart2": 1162021673,
+                        "GuidPart3": -684858448,
+                        "GuidPart4": -1819147058
+                    },
+                    "ReputationLevel": 2,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": 1403099563,
+                        "GuidPart2": 1338612125,
+                        "GuidPart3": -951625086,
+                        "GuidPart4": 528381405
+                    },
+                    "ReputationLevel": 1,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/DynamicAdventureRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": 1705986263,
+                        "GuidPart2": 1145922770,
+                        "GuidPart3": 1273014164,
+                        "GuidPart4": 1034295199
+                    },
+                    "ReputationLevel": 0,
+                    "CanRefill": false
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ShopDefinition/ResearchEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/Rooms/Room_Barrack_Orc.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 483357176,
+                            "GuidPart2": 1092647685,
+                            "GuidPart3": 2025656980,
+                            "GuidPart4": 1629019861
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
