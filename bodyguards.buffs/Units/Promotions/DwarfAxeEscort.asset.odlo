@@ -1,0 +1,23 @@
+UnitPromotionDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "AdditionalTemporaryUnitsToDeploy": [
+            {
+                "UnitReference": {
+                    "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
+                },
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/Expendable.asset"
+                    }, 
+                    {
+                        "ContentPath": "Units/Promotions/DeathSkillGroupFrenzy.asset"
+                    }, 
+                    {
+                        "ContentPath": "Units/Promotions/FieldBlacksmith.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}

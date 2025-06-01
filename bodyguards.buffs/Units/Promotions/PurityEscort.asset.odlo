@@ -1,0 +1,17 @@
+UnitPromotionDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "AdditionalTemporaryUnitsToDeploy": [
+            {
+                "UnitReference": {
+                    "ContentPath": "Units/Factions/PurityOfLight/Purity_Militia.asset"
+                },
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/FieldMedic.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+UnitPromotionDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "AdditionalTemporaryUnitsToDeploy": [
+            {
+                "UnitReference": {
+                    "ContentPath": "Units/Factions/Orcs/Orc_GoblinBrawler.asset"
+                },
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/GoblinDistraction.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "HardDependencies": [
+        {"Package":"com.ownedbygravity.sf.base"},
+        {"Package":"com.ownedbygravity.sf.dlc1"},
+        {"Package":"bodyguards.galore"}
+    ],
+    "SoftDependencies": [],
+    "IsDependencyForSavegames":false
+}

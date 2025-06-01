@@ -1,0 +1,140 @@
+AoEApplyStatusEffect
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/AoESelfSelectionCursor.prefab"
+        }
+    },
+    "CombatSequence": {
+        "ContentPath": ""
+    },
+    "SkillEvaluation": {
+        "m_FileID": 191898,
+        "m_PathID": 0
+    },
+    "ActiveSkillCosts": {
+        "AttackActions": 0,
+        "FocusCosts": 0,
+        "CurrencyCost": {
+            "Gold": 0,
+            "Mana": 0
+        },
+        "ConsumeRemainingAttackActions": false
+    },
+    "Cooldown": {
+        "Duration": 0,
+        "LimitedUse": false,
+        "Charges": 0
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#BattleCrySkill.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 1809914351,
+                        "GuidPart2": 1201261408,
+                        "GuidPart3": 357175431,
+                        "GuidPart4": 2107418944
+                    },
+                    "mSerializableLocalIdentifier": 11400000
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "AoEApplyStatusSkill.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "AttackType": {
+        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
+    },
+    "RemoveSourceKotH": true,
+    "RepeatWithActions": false,
+    "SkipUnitFallbackSkill": false,
+    "IgnoreAsDefault": true,
+    "FallbackPriority": 0,
+    "Initiative": 0,
+    "BaseRank": 1,
+    "CooldownMin": 0,
+    "CooldownMax": 0,
+    "Slot": {
+        "Slot": 1,
+        "Priority": 4
+    },
+    "SkillButtonConfiguration": {
+        "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
+    },
+    "Icon": {
+        "ContentPath": "Skills/Icons/SkillIcons/BattleCry_01.png"
+    },
+    "ShowPrevisualizationPanel": true,
+    "Priority": 1,
+    "HideInOtherTooltips": false,
+    "DebugInfos": "",
+    "TooltipEmitAutomaticStatusEffectApply": false,
+    "StatusEffectsToApply": [
+        {
+            "Amount": 1,
+            "StatusEffect": {
+                "ContentPath": "StatusEffects/FrenzySE.asset"
+            },
+            "Chance": 10
+        }
+    ],
+    "StartSkillEffect": {
+        "ContentPath": "VisualEffects/ConjuringEffects/Fire_CastSelf_Conjuring_VisualEffect.prefab"
+    },
+    "VisualEffect": {
+        "ContentPath": "VisualEffects/Battlecry_VisualEffect.prefab"
+    },
+    "TargetSquadmemberEffect": {
+        "ContentPath": ""
+    },
+    "WaitForAnimationEvent": "",
+    "TargetOwnLayer": false,
+    "TeamTargetType": 4,
+    "AreaType": 0,
+    "Radius": 6
+}

@@ -1,0 +1,17 @@
+UnitPromotionDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "AdditionalTemporaryUnitsToDeploy": [
+            {
+                "UnitReference": {
+                    "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                },
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/FieldMedic.asset"
+                    }
+                ]
+            }
+        ]
+    }
+}
