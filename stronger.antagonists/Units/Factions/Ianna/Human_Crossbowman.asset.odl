@@ -43,17 +43,7 @@ UnitDefinition
         "z": 0.0
     },
     "CameraSetup": 0,
-    "SelectionSoundOverrides": [
-        {
-            "m_Asset": {
-                "m_FileID": 257760,
-                "m_PathID": 0
-            },
-            "m_Ref": {
-                "ContentPath": ""
-            }
-        }
-    ],
+    "SelectionSoundOverrides": [],
     "UnitIcon": {
         "ContentPath": "UI/Icons/UnitRole/Icon_Role_Ranged_01.png"
     },

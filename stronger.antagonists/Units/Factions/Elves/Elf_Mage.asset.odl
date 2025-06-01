@@ -19,13 +19,22 @@ UnitDefinition
         "x": 0.0,
         "y": 0.0
     },
-    "Tier": 3,
+    "Tier": 2,
     "BattleFirstTimeScreen": {
         "ContentPath": ""
     },
     "SpawnedObjects": [
         {
             "ContentPath": "ModelPrefabs/Units/Heroes/Apprentices/Apprentice_Elf_Female_Orange.prefab"
+        },
+        {
+            "ContentPath": "ModelPrefabs/Units/Heroes/Apprentices/Apprentice_Elf_Female_Black.prefab"
+        },
+        {
+            "ContentPath": "ModelPrefabs/Units/Heroes/Apprentices/Apprentice_Elf_Female_Turquoise.prefab"
+        },
+        {
+            "ContentPath": "ModelPrefabs/Units/Heroes/Apprentices/Apprentice_Elf_Female_White.prefab"
         }
     ],
     "TemplateDistribution": 0,
@@ -43,17 +52,7 @@ UnitDefinition
         "z": 0.0
     },
     "CameraSetup": 0,
-    "SelectionSoundOverrides": [
-        {
-            "m_Asset": {
-                "m_FileID": 101626,
-                "m_PathID": 0
-            },
-            "m_Ref": {
-                "ContentPath": ""
-            }
-        }
-    ],
+    "SelectionSoundOverrides": [],
     "UnitIcon": {
         "ContentPath": "UI/Icons/UnitRole/Icon_Role_Ranged_01.png"
     },
@@ -204,9 +203,9 @@ UnitDefinition
                 "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
             },
             "DamageType": {
-                "ContentPath": "Skills/DamageTypes/White Damage Type.asset"
+                "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
             },
-            "Damage": 15,
+            "Damage": 19,
             "ArmorPiercing": 0,
             "Range": 5,
             "DirectLoS": false,

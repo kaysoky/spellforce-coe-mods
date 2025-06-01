@@ -15,6 +15,14 @@ Summon Astral Form Light.Tooltip.Name.Loca;Astral Image of Light
 #SummonOnDeathSmallIce.Tooltip.Description.Loca;Drops an [mUnit] [unit]Ice Elemental[/] upon death.
 #SummonOnDeathSmallNature.Tooltip.Name.Loca;Carrying a Sealed Nature Elemental
 #SummonOnDeathSmallNature.Tooltip.Description.Loca;Drops a [mUnit] [unit]Nature Elemental[/] upon death.
+#SummonOnDeathSmallChaos.Tooltip.Name.Loca;Carrying a Sealed Chaotic Spirit
+#SummonOnDeathSmallChaos.Tooltip.Description.Loca;Drops a [mUnit] [unit]Chaotic Spirit[/] upon death.
+#SummonOnDeathSmallAlchemy.Tooltip.Name.Loca;Carrying a Captured Alchemist Minion
+#SummonOnDeathSmallAlchemy.Tooltip.Description.Loca;Drops an [mUnit] [unit]Alchemist Minion[/] upon death.
+#SummonOnDeathSmallRune.Tooltip.Name.Loca;Carrying a Captured Runesmith Minion
+#SummonOnDeathSmallRune.Tooltip.Description.Loca;Drops a [mUnit] [unit]Runesmith Minion[/] upon death.
+#SummonOnDeathSmallNecro.Tooltip.Name.Loca;Carrying a Captured Necromancer Minion
+#SummonOnDeathSmallNecro.Tooltip.Description.Loca;Drops a [mUnit] [unit]Necromancer Minion[/] upon death.
 #SummonOnDeathLarge.Tooltip.Name.Loca;Carrying Important Research Material
 #SummonOnDeathLarge.Tooltip.Description.Loca;Randomly changes which [mUnit] [unit]Golem[/] is dropped upon death.
 #SummonOnDeathLargeFire.Tooltip.Name.Loca;Carrying a Fire Golem Core
@@ -33,6 +41,9 @@ Summon Astral Form Light.Tooltip.Name.Loca;Astral Image of Light
 #SummonOnDeathDemonDweller.Tooltip.Description.Loca;Summons a [mUnit] [unit]Core Dweller[/] upon death.
 #SummonOnDeathDemonHorned.Tooltip.Description.Loca;Summons a [mUnit] [unit]Horned Beast[/] upon death.
 #SummonOnDeathDemonInsect.Tooltip.Description.Loca;Summons a [mUnit] [unit]Hiveminder[/] upon death.
+#SummonOnDeathDemonGlutton.Tooltip.Description.Loca;Summons a [mUnit] [unit]Glutton[/] upon death.
+#SummonOnDeathDemonTank.Tooltip.Description.Loca;Summons a [mUnit] [unit]Leviathan[/] upon death.
+#SummonOnDeathDemonWendigo.Tooltip.Description.Loca;Summons a [mUnit] [unit]Wendigo[/] upon death.
 AntaProgression BE DarkRitualist.Tooltip.Name.Loca;Dark Ritual
 AntaProgression BE DarkRitualist.Id.Description.Loca;Hokan suppresses the power of light with 3x [mUnit][unit]Undead Ritualists[/]
 #Undead_Ritualist.NameId;Undead Ritualist
@@ -82,9 +93,23 @@ AntaProgression BE UndeadSummoner.Tooltip.Name.Loca;Dark Elf Necromancers
 AntaProgression BE UndeadSummoner.Description.Name.Loca;Raith's army is reinforced with 2x [mUnit][unit]Dark Elf Necromancers[/]
 #SummonSkeleton.Tooltip.Name.Loca;Summon Undead
 #SummonSkeleton.Description.Name.Loca;Once finished, summons an [unit]Undead Minion[/]
+#SummonDemon.Tooltip.Name.Loca;Summon Demon
+#SummonDemon.Description.Name.Loca;Once finished, summons a minor [unit]Demon[/]
 Progression.4;Keep Up or Perish + 20%
 Progression.5;Keep Up or Perish + 40%
 Progression.6;Keep Up or Perish + 60%
 Progression.7;Keep Up or Perish + 80%
 Progression.8;Keep Up or Perish + 100%
 Progression.9;Keep Up or Perish + 120%
+#Demon_MinorWendigo.NameId;Lycanthropes
+#SummonOnDeathMinorWendigo.Tooltip.Description.Loca;Transforms into [mUnit] [unit]Lycanthropes[/] upon death.
+#RandomMinorDream.Tooltip.Name.Loca;Daydreaming
+#RandomMinorDream.Tooltip.Description.Loca;Enters battle with a random daydream.
+#RandomMajorDream.Tooltip.Name.Loca;Lucid Dreaming
+#RandomMajorDream.Tooltip.Description.Loca;Enters battle with a random ambitious dream.
+AntaProgression BE SacrificialCultists.Id.Name.Loca;Sacrificial Cultists
+AntaProgression BE SacrificialCultists.Id.Description.Loca;Uram's brings 2x [mUnit][unit]Cultists[/] that summon additional [mUnit][unit]Demons[/] with their sacrifice
+#Grounded.Tooltip.Name.Loca;Grounded
+#Grounded.Tooltip.Description.Loca;Any inherent flying capabilities are clipped.
+#CauseCorrosion.Tooltip.Name.Loca;Corrosive Weapons
+#corrosionSE.Tooltip.Name.Loca;Corrosion

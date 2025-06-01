@@ -37,6 +37,9 @@ DynamicStackDefinition
                 },
                 {
                     "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Elves/Elf_Mage.asset"
                 }
             ],
             "PromotionsToAdd": [],

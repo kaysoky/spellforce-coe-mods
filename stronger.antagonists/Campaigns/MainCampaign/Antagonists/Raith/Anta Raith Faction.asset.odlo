@@ -14,10 +14,18 @@ FactionDefinition
                 ]
             },
             {
+                "Progression": 7,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Corrosive.asset"
+                    }
+                ]
+            },
+            {
                 "Progression": 8,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression ChantOfUnlife.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression AllChaotic.asset"
                     }
                 ]
             },
@@ -25,7 +33,7 @@ FactionDefinition
                 "Progression": 9,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression ManySlows.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression ChantOfUnlife.asset"
                     }
                 ]
             },
@@ -49,7 +57,7 @@ FactionDefinition
                 "Progression": 12,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression AllChaotic.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression ManySlows.asset"
                     }
                 ]
             },

@@ -16,9 +16,9 @@ StatusEffectDefinition
     },
     "InitialCanBeRemovedByCleansing": false,
     "InitialCanBeRemovedByResting": false,
-    "Expires": false,
+    "Expires": true,
     "IsStackable": false,
-    "Duration": 0,
+    "Duration": 1,
     "OnEnter": {
         "Effects": []
     },
@@ -345,9 +345,18 @@ StatusEffectDefinition
                         },
                         {
                             "ContentPath": "Units/Promotions/SummonOnDeath/Large_Stone.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Glutton.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Tank.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Wendigo.asset"
                         }
                     ],
-                    "ChanceToSwitchForm": 0.5,
+                    "ChanceToSwitchForm": 1.0,
                     "NoFormIsValidResult": false
                 }
             }

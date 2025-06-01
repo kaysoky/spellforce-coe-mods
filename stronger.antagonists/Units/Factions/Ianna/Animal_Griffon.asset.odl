@@ -43,26 +43,7 @@ UnitDefinition
         "z": 0.0
     },
     "CameraSetup": 1,
-    "SelectionSoundOverrides": [
-        {
-            "m_Asset": {
-                "m_FileID": 372062,
-                "m_PathID": 0
-            },
-            "m_Ref": {
-                "ContentPath": ""
-            }
-        },
-        {
-            "m_Asset": {
-                "m_FileID": 372058,
-                "m_PathID": 0
-            },
-            "m_Ref": {
-                "ContentPath": ""
-            }
-        }
-    ],
+    "SelectionSoundOverrides": [],
     "UnitIcon": {
         "ContentPath": "UI/Icons/UnitRole/Icon_Role_Melee_01.png"
     },

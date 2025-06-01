@@ -19,7 +19,7 @@ AoEReviveSkill
         "ContentPath": ""
     },
     "SkillEvaluation": {
-        "m_FileID": 156296,
+        "m_FileID": 0,
         "m_PathID": 0
     },
     "ActiveSkillCosts": {
@@ -156,6 +156,9 @@ AoEReviveSkill
     "AddPromotionsOnRevive": [
         {
             "ContentPath": "Units/Promotions/Summon.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Grounded.asset"
         }
     ],
     "CanNotSummonOntoTileWithTag": {

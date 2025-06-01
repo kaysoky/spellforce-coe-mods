@@ -3,7 +3,7 @@ ExtraStartUnitsBattleEnchantmentDefinition
     "Id": {
         "Name": {
             "Loca": {
-                "Key": "#Minion_Demonology.NameId",
+                "Key": "AntaProgression BE SacrificialCultists.Id.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -19,7 +19,7 @@ ExtraStartUnitsBattleEnchantmentDefinition
         },
         "Description": {
             "Loca": {
-                "Key": "",
+                "Key": "AntaProgression BE SacrificialCultists.Id.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -31,7 +31,7 @@ ExtraStartUnitsBattleEnchantmentDefinition
                 }
             },
             "BlankLineInFront": false,
-            "IsEmpty": true
+            "IsEmpty": false
         },
         "Fluff": {
             "Loca": {

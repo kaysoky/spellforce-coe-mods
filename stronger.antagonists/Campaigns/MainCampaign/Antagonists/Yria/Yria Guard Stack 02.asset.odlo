@@ -5,6 +5,9 @@ DynamicStackDefinition
             "Units": [
                 {
                     "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Elves/Elf_Mage.asset"
                 }
             ],
             "PromotionsToAdd": [],

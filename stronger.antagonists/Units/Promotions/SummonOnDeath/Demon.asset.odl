@@ -141,12 +141,6 @@ UnitPromotionDefinition
                     "ContentPath": "StatusEffects/burnSE.asset"
                 },
                 "ApplyForSummon": false
-            },
-            {
-                "SpawnStatusEffect": {
-                    "ContentPath": "StatusEffects/poisonSE.asset"
-                },
-                "ApplyForSummon": false
             }
         ],
         "Protective": false,

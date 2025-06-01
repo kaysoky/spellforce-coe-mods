@@ -335,9 +335,6 @@ StatusEffectDefinition
                 "data": {
                     "FormStatusEffects": [
                         {
-                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Ashen.asset"
-                        },
-                        {
                             "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Charger.asset"
                         },
                         {

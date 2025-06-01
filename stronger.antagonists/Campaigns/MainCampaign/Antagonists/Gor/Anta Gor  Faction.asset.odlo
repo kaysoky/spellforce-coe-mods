@@ -10,6 +10,9 @@ FactionDefinition
                     },
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression FantasticBeasts.asset"
                     }
                 ]
             },
@@ -26,6 +29,12 @@ FactionDefinition
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression UndyingNature.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression SpiderEscort.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Lycanthropes.asset"
                     }
                 ]
             },

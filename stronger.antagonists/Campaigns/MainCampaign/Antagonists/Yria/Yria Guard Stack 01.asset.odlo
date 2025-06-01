@@ -8,6 +8,9 @@ DynamicStackDefinition
                 },
                 {
                     "ContentPath": "Units/Factions/Fantastic/Fantastic_MedusaArcher.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Elves/Elf_Mage.asset"
                 }
             ],
             "PromotionsToAdd": [],

@@ -43,26 +43,7 @@ UnitDefinition
         "z": 0.0
     },
     "CameraSetup": 0,
-    "SelectionSoundOverrides": [
-        {
-            "m_Asset": {
-                "m_FileID": 467026,
-                "m_PathID": 0
-            },
-            "m_Ref": {
-                "ContentPath": ""
-            }
-        },
-        {
-            "m_Asset": {
-                "m_FileID": 467024,
-                "m_PathID": 0
-            },
-            "m_Ref": {
-                "ContentPath": ""
-            }
-        }
-    ],
+    "SelectionSoundOverrides": [],
     "UnitIcon": {
         "ContentPath": "UI/Icons/UnitRole/Icon_Role_Melee_01.png"
     },
@@ -128,14 +109,17 @@ UnitDefinition
             "ContentPath": ""
         },
         "MissileSkill": {
-            "ContentPath": "Skills/Missile/DeathBolts.asset"
+            "ContentPath": ""
         },
         "MeleeSkill": {
-            "ContentPath": "Skills/Melee/MeleeSkill.asset"
+            "ContentPath": ""
         },
         "SpecialSkills": [
             {
-                "ContentPath": "Skills/Support/FortifySkill.asset"
+                "ContentPath": "Skills/Support/SummonAshenOneSkill.asset"
+            },
+            {
+                "ContentPath": "Skills/Support/SummonGargoyleSkill.asset"
             }
         ],
         "OnDeathSkills": []
@@ -143,10 +127,10 @@ UnitDefinition
     "StackSkills": [],
     "MovementRange": 8,
     "Armor": 8,
-    "PhysicalResistance": -1.0,
-    "ElementalResistance": -1.0,
-    "WhiteResistance": -1.0,
-    "DeathResistance": -1.0,
+    "PhysicalResistance": 0.0,
+    "ElementalResistance": 0.0,
+    "WhiteResistance": 0.0,
+    "DeathResistance": 0.0,
     "UnitSquadStrength": 4,
     "TotalUnitLife": 50,
     "Focus": 0,

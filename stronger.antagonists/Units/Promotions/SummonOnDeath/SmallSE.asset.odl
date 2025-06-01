@@ -16,9 +16,9 @@ StatusEffectDefinition
     },
     "InitialCanBeRemovedByCleansing": false,
     "InitialCanBeRemovedByResting": false,
-    "Expires": false,
+    "Expires": true,
     "IsStackable": false,
-    "Duration": 0,
+    "Duration": 1,
     "OnEnter": {
         "Effects": []
     },
@@ -338,13 +338,46 @@ StatusEffectDefinition
                             "ContentPath": "Units/Promotions/SummonOnDeath/Small_Fire.asset"
                         },
                         {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Small_FireSpirit.asset"
+                        },
+                        {
                             "ContentPath": "Units/Promotions/SummonOnDeath/Small_Ice.asset"
                         },
                         {
                             "ContentPath": "Units/Promotions/SummonOnDeath/Small_Nature.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Small_Chaos.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Ashen.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Charger.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Gargoyle.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Horned.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Insect.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Demon_Dweller.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Small_Alchemy.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Small_Runesmith.asset"
+                        },
+                        {
+                            "ContentPath": "Units/Promotions/SummonOnDeath/Small_Necro.asset"
                         }
                     ],
-                    "ChanceToSwitchForm": 0.5,
+                    "ChanceToSwitchForm": 1.0,
                     "NoFormIsValidResult": false
                 }
             }

@@ -123,6 +123,14 @@ FactionDefinition
                 ]
             },
             {
+                "Progression": 5,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression MinorDreams.asset"
+                    }
+                ]
+            },
+            {
                 "Progression": 6,
                 "FactionModifierSpells": [
                     {
@@ -138,6 +146,17 @@ FactionDefinition
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Sleep.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 9,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InnerEye.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression MajorDreams.asset"
                     }
                 ]
             },
@@ -162,6 +181,14 @@ FactionDefinition
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 5.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 13,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression DreamweaverHats.asset"
                     }
                 ]
             },

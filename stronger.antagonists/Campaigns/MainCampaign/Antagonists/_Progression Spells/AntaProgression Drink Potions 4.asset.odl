@@ -218,6 +218,36 @@ FactionModificationSpell
                     "Promotion": {
                         "ContentPath": "Units/Promotions/Yria/Arcane Concoction.asset"
                     }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Yria/DeathControl.asset"
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Yria/LovePotion.asset"
+                    }
                 }
             ],
             "LocationModifier": [],
