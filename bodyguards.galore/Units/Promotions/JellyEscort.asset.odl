@@ -86,7 +86,11 @@ UnitPromotionDefinition
                 "UnitReference": {
                     "ContentPath": "Units/Factions/Fantastic/Fantastic_SmallJelly.asset"
                 },
-                "Promotions": []
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/Expendable.asset"
+                    }
+                ]
             }
         ],
         "CurrenciesOnDeath": [],

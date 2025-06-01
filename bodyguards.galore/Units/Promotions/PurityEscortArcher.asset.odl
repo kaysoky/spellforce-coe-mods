@@ -86,7 +86,11 @@ UnitPromotionDefinition
                 "UnitReference": {
                     "ContentPath": "Units/Factions/PurityOfLight/Purity_Archer.asset"
                 },
-                "Promotions": []
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/Expendable.asset"
+                    }
+                ]
             }
         ],
         "CurrenciesOnDeath": [],

@@ -84,7 +84,7 @@ UnitPromotionDefinition
         "AdditionalTemporaryUnitsToDeploy": [
             {
                 "UnitReference": {
-                    "ContentPath": "Units/Factions/Undead/Undead_SkeletonWarrior.asset"
+                    "ContentPath": "Units/Factions/Animals/Animal_FireBeetle.asset"
                 },
                 "Promotions": [
                     {

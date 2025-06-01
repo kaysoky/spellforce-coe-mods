@@ -17,7 +17,7 @@ UnitDefinition
             "ContentPath": "Units/Promotions/Steadfast.asset"
         },
         {
-            "ContentPath": "Units/Promotions/JellyEscort.asset"
+            "ContentPath": "Units/Promotions/BeetleEscort.asset"
         },
         {
             "ContentPath": "Units/Promotions/HornetEscort.asset"

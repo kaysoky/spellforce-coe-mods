@@ -11,7 +11,7 @@ UnitDefinition
             "ContentPath": "Units/Promotions/VsFeared.asset"
         },
         {
-            "ContentPath": "Units/Promotions/SkeletonEscortArcher.asset"
+            "ContentPath": "Units/Promotions/SkeletonEscort.asset"
         },
         {
             "ContentPath": "Units/Promotions/SkeletonEscortMage.asset"

@@ -11,7 +11,7 @@ UnitDefinition
             "ContentPath": "Units/Promotions/Flying.asset"
         },
         {
-            "ContentPath": "Units/Promotions/JellyEscort.asset"
+            "ContentPath": "Units/Promotions/FireBeetleEscort.asset"
         },
         {
             "ContentPath": "Units/Promotions/FireWispEscort.asset"

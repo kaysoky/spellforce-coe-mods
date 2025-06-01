@@ -86,19 +86,31 @@ UnitPromotionDefinition
                 "UnitReference": {
                     "ContentPath": "Units/Factions/Animals/Animal_Spider.asset"
                 },
-                "Promotions": []
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/Expendable.asset"
+                    }
+                ]
             },
             {
                 "UnitReference": {
                     "ContentPath": "Units/Factions/Animals/Animal_Spider.asset"
                 },
-                "Promotions": []
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/Expendable.asset"
+                    }
+                ]
             },
             {
                 "UnitReference": {
                     "ContentPath": "Units/Factions/Animals/Animal_Spider.asset"
                 },
-                "Promotions": []
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/Expendable.asset"
+                    }
+                ]
             }
         ],
         "CurrenciesOnDeath": [],

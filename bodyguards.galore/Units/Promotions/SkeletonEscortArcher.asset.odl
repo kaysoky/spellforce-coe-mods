@@ -86,7 +86,11 @@ UnitPromotionDefinition
                 "UnitReference": {
                     "ContentPath": "Units/Factions/Undead/Undead_SkeletonArcher.asset"
                 },
-                "Promotions": []
+                "Promotions": [
+                    {
+                        "ContentPath": "Units/Promotions/Expendable.asset"
+                    }
+                ]
             }
         ],
         "CurrenciesOnDeath": [],

@@ -14,7 +14,7 @@ UnitDefinition
             "ContentPath": "Units/Promotions/SkeletonEscortArcher.asset"
         },
         {
-            "ContentPath": "Units/Promotions/SkeletonEscortMage.asset"
+            "ContentPath": "Units/Promotions/SkeletonEscort.asset"
         }
     ]
 }
