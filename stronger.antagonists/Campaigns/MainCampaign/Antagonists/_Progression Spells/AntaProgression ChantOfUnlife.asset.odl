@@ -180,7 +180,7 @@ FactionModificationSpell
             "InfluenceAreaUnitModifiers": [],
             "BattleEnchantments": [
                 {
-                    "ContentPath": "BattleEnchantments/Raith_ChantOfUnlife_BattleEnchantment.asset"
+                    "ContentPath": "BattleEnchantments/Raith_Silenced_BattleEnchantment.asset"
                 }
             ],
             "InfluenceAreaBattleEnchantments": [],
