@@ -1,0 +1,18 @@
+FakeItemSlotSettings
+{
+    "Filter": {
+        "AffectsOnly": {
+            "mTags": [
+                {
+                    "ContentPath": "Units/UnitTags/Mortal.asset"
+                },
+                {
+                    "ContentPath": "Units/UnitTags/Undead.asset"
+                },
+                {
+                    "ContentPath": "Units/UnitTags/Fantastic.asset"
+                }
+            ]
+        }
+    }
+}
