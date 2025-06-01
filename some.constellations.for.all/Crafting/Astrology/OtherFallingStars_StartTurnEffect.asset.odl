@@ -1,0 +1,171 @@
+TurnStartEffectSequence
+{
+    "AutomaticallyAddedTo": {
+        "mTags": [
+            {
+                "ContentPath": "Campaigns/MainCampaign/Main Campaign Prototype 3_3.asset"
+            },
+            {
+                "ContentPath": "Campaigns/FreeMode/FreeMode Campaign.asset"
+            },
+            {
+                "ContentPath": "Campaigns/FreeMode Random/FreeMode Random Campaign.asset"
+            },
+            {
+                "ContentPath": "Campaigns/RandomWorldMap/RandomCampaign_01.asset"
+            },
+            {
+                "ContentPath": "Campaigns/ScenarioCampaign01/ScenarioCampaign01.asset"
+            },
+            {
+                "ContentPath": "Campaigns/ScenarioCampaign02/ScenarioCampaign02.asset"
+            },
+            {
+                "ContentPath": "Campaigns/ScenarioCampaign04/ScenarioCampaign04.asset"
+            }
+        ]
+    },
+    "Condition": {
+        "Conditions": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            }
+        ]
+    },
+    "Execution": {
+        "rid": 1002
+    },
+    "ShowUsingEffectTracker": false,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "PrimaryCraftingCondition",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Crafting": {
+                        "ContentPath": "Campaigns/MainCampaign/Setups/StartCrafting_Astrology.asset"
+                    },
+                    "Invert": true
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "GameTurnCondition",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "AtLeastTurn": 7,
+                    "Invert": false
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "IntervalExecution/Factory",
+                    "ns": "OwnedByGravity.Game.Logic.TurnStartEffects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Interval": {
+                        "Min": 5,
+                        "Max": 8
+                    },
+                    "What": {
+                        "rid": 1003
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "SingleExecution/Factory",
+                    "ns": "OwnedByGravity.Game.Logic.TurnStartEffects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ContextSetup": {
+                        "m_Setups": []
+                    },
+                    "Effects": {
+                        "Effects": [
+                            {
+                                "rid": 1004
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "FallingStarEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "SpawnVisualEffect": {
+                        "ContentPath": "VisualEffects/WorldEffects/World_StarchildSummon_VisualEffect.prefab"
+                    },
+                    "Location": {
+                        "ContentPath": "Locations/Loot_Stardust_Other.asset"
+                    },
+                    "Target": {
+                        "rid": 1005
+                    },
+                    "FirstTimeScreen": {
+                        "ContentPath": "FirstTimeScreens/FirstTimeScreenEntries/FirstTimeScreen_FallingStar.prefab"
+                    }
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "GetPositionEffectTargetPosition",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects.TargetPositions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "SpawnType": 2,
+                    "RegionFilter": {
+                        "mTags": []
+                    },
+                    "InvalidRegions": {
+                        "mTags": []
+                    },
+                    "BiomeFilter": {
+                        "mTags": []
+                    },
+                    "WorldTileFilter": {
+                        "mTags": []
+                    },
+                    "WorldMapHint": {
+                        "ContentPath": ""
+                    },
+                    "Location": {
+                        "ContentPath": ""
+                    },
+                    "HQFaction": {
+                        "ContentPath": "Campaigns/MainCampaign/Factions/Player Faction.asset"
+                    },
+                    "MinimumDistance": 12,
+                    "AdditionalRandomDistance": 10,
+                    "IgnoreLocationSafezones": true,
+                    "LimitToCoolPositions": false,
+                    "UseDistanceLimit": false,
+                    "DistanceLimit": 0,
+                    "AvoidDomains": false
+                }
+            }
+        ]
+    }
+}

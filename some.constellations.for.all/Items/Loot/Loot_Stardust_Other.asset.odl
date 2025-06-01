@@ -1,0 +1,74 @@
+WeightedLootTableEntry
+{
+    "LootTags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Loot/Pickup_Stardust_Other.asset"
+            }
+        ]
+    },
+    "FactionTags": {
+        "mTags": []
+    },
+    "UnitTags": {
+        "mTags": []
+    },
+    "Conditions": {
+        "Conditions": []
+    },
+    "Effects": {
+        "Effects": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            }
+        ]
+    },
+    "Weight": 10,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "LootEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "LootTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "Items/Loot/Crystal T1.asset"
+                            }
+                        ]
+                    },
+                    "NumberOfRolls": 2
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "LootEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "LootTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "Items/Loot/Crystal Special.asset"
+                            },
+                            {
+                                "ContentPath": "Items/Loot/Crystal T2.asset"
+                            }
+                        ]
+                    },
+                    "NumberOfRolls": 1
+                }
+            }
+        ]
+    }
+}
