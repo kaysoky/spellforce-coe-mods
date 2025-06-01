@@ -1,0 +1,22 @@
+GameDirectorConfig
+{
+    "PointsPerDay": 500,
+    "PointsPerResearch": 10,
+    "PointsPerTowerLevel": 100,
+    "ThresholdsWhereProgressionIncreases": [
+        200,
+        500,
+        800,
+        1200,
+        1500,
+        1800,
+        2100,
+        2400,
+        2700,
+        3000,
+        3300,
+        3700,
+        4100,
+        4500
+    ]
+}
