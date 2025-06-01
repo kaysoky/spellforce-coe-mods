@@ -1,0 +1,266 @@
+ShopDefinition
+{
+    "Ranks": [
+        {
+            "rid": 1000
+        },
+        {
+            "rid": 1001
+        }
+    ],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -1948085511,
+                        "GuidPart2": 1325289102,
+                        "GuidPart3": -1355677815,
+                        "GuidPart4": -970020206
+                    },
+                    "ReputationLevel": 3,
+                    "CanRefill": true,
+                    "SlotAmount": 2,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1002
+                        },
+                        {
+                            "rid": 1003
+                        },
+                        {
+                            "rid": 1004
+                        },
+                        {
+                            "rid": 1005
+                        },
+                        {
+                            "rid": 1006
+                        },
+                        {
+                            "rid": 1007
+                        },
+                        {
+                            "rid": 1008
+                        },
+                        {
+                            "rid": 1009
+                        },
+                        {
+                            "rid": 1010
+                        },
+                        {
+                            "rid": 1011
+                        },
+                        {
+                            "rid": 1012
+                        },
+                        {
+                            "rid": 1013
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -825209471,
+                        "GuidPart2": 1119124980,
+                        "GuidPart3": -972235872,
+                        "GuidPart4": -103497706
+                    },
+                    "ReputationLevel": 0,
+                    "CanRefill": true,
+                    "SlotAmount": 3,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1014
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Artefact_Copper_ofTheOccultism.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Moonsilver/Artefact_Moonsilver_ofTheElementalist.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Moonsilver/Artefact_Moonsilver_ofTheOwl.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Moonsilver/Artefact_Moonsilver_ofTheSpider.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T3/Item_EEA_MysteriousSchematics.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Potions/DarkFeast.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Uncommon_01.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Uncommon_02.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Rare_01.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Common_01.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Common_02.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1013,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Common_03.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1014,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ALLL_LightbringersPrayerbook.asset"
+                    }
+                }
+            }
+        ]
+    }
+}

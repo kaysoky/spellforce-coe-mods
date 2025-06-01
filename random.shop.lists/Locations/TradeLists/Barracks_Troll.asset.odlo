@@ -1,0 +1,85 @@
+ShopDefinition
+{
+    "Ranks": [
+        {
+            "rid": 1000
+        }
+    ],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -729027911,
+                        "GuidPart2": 1180153786,
+                        "GuidPart3": -1707567988,
+                        "GuidPart4": 1273946050
+                    },
+                    "ReputationLevel": 0,
+                    "CanRefill": true,
+                    "SlotAmount": 1,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1001
+                        },
+                        {
+                            "rid": 1002
+                        },
+                        {
+                            "rid": 1003
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Trolls/Troll_Crusher.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Trolls/Troll_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            }
+        ]
+    }
+}

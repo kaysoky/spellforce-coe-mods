@@ -1,0 +1,98 @@
+ShopDefinition
+{
+    "Ranks": [
+        {
+            "rid": 1000
+        }
+    ],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -1924144210,
+                        "GuidPart2": 1231148191,
+                        "GuidPart3": 1755111042,
+                        "GuidPart4": -1792659630
+                    },
+                    "ReputationLevel": 1,
+                    "CanRefill": true,
+                    "SlotAmount": 4,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1001
+                        },
+                        {
+                            "rid": 1002
+                        },
+                        {
+                            "rid": 1003
+                        },
+                        {
+                            "rid": 1004
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Plants/Plant_BlackWood.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_EE_Flintstone.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_EE_Flintstone.asset"
+                    }
+                }
+            }
+        ]
+    }
+}

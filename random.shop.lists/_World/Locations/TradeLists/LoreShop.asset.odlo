@@ -1,0 +1,50 @@
+ShopDefinition
+{
+    "Ranks": [
+        {
+            "rid": 1000
+        }
+    ],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ShopDefinition/EntryRank",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Guid": {
+                        "GuidPart1": -290585025,
+                        "GuidPart2": 1296555847,
+                        "GuidPart3": -369436503,
+                        "GuidPart4": 832101130
+                    },
+                    "ReputationLevel": 0,
+                    "CanRefill": true,
+                    "SlotAmount": 3,
+                    "PossibleEntries": [
+                        {
+                            "rid": 1001
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Potions/DwarvenForgebrew.asset"
+                    }
+                }
+            }
+        ]
+    }
+}
