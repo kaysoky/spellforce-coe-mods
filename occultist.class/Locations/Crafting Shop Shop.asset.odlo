@@ -1,5 +1,10 @@
 ShopDefinition
 {
+    "Ranks": [
+        {
+            "rid": 1000
+        }
+    ],
     "references": {
         "version": 2,
         "RefIds": [
@@ -25,10 +30,10 @@ ShopDefinition
                             "rid": 1001
                         },
                         {
-                            "rid": 1002
+                            "rid": 1004
                         },
                         {
-                            "rid": 1004
+                            "rid": 1005
                         }
                     ]
                 }
@@ -50,22 +55,6 @@ ShopDefinition
                 }
             },
             {
-                "rid": 1002,
-                "type": {
-                    "class": "ShopDefinition/ResearchPageEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Spellpage": {
-                        "ContentPath": "Spellbook/Tags/CRAFTING DEMONOLOGY.asset"
-                    },
-                    "HiddenItemToAward": {
-                        "ContentPath": "Items/Demonology/Cults/Cult_Default.asset"
-                    }
-                }
-            },
-            {
                 "rid": 1004,
                 "type": {
                     "class": "ShopDefinition/ResearchPageEntry",
@@ -78,6 +67,22 @@ ShopDefinition
                     },
                     "HiddenItemToAward": {
                         "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "ShopDefinition/ResearchPageEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Spellpage": {
+                        "ContentPath": "Spellbook/Tags/CRAFTING ASTROLOGY.asset"
+                    },
+                    "HiddenItemToAward": {
+                        "ContentPath": ""
                     }
                 }
             }

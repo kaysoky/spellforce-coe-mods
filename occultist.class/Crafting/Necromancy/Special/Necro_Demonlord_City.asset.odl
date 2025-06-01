@@ -1,0 +1,45 @@
+NecromancyRecipe
+{
+    "CraftingLocks": {
+        "mTags": []
+    },
+    "Condition": {
+        "rid": 1000
+    },
+    "Result": {
+        "rid": 1001
+    },
+    "Order": 99,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SpecificNecromancyCondition",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Necromancy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Soul": {
+                        "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord City/Demonlord City Artefact.asset"
+                    },
+                    "RequiredItems": []
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "NecromancyUnitResult",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Necromancy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Demons/Demonlord_City.asset"
+                    }
+                }
+            }
+        ]
+    }
+}

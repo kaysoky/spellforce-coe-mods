@@ -1,0 +1,16 @@
+ItemDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Ingredient.asset"
+            }
+        ]
+    },
+    "Soul": {
+        "ThresholdLimit": 0,
+        "Promotion": {
+            "ContentPath": ""
+        }
+    }
+}

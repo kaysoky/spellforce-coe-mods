@@ -89,5 +89,148 @@ ResearchDefinition
             },
             "mSerializableLocalIdentifier": 0
         }
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            },
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ResearchesCompletedResearchGoal",
+                    "ns": "OwnedByGravity.Game.Logic.Research.Goals",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "FluffTitle": {
+                        "Key": "",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "FluffText": {
+                        "Key": "",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "ShowInTaskList": false,
+                    "m_Guid": {
+                        "GuidPart1": -1078633345,
+                        "GuidPart2": 1199818504,
+                        "GuidPart3": -1571871829,
+                        "GuidPart4": 1848726074
+                    },
+                    "m_BoostedGoal": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "BoostPercentage": 0.0,
+                    "m_Description": {
+                        "Key": "ResearchesCompletedGoal.Description",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "Amount": 2,
+                    "ApplicableTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "Spellbook/Tags/CRAFTING DEMONOLOGY.asset"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "NecromancyCraftingResearchGoal",
+                    "ns": "OwnedByGravity.Game.Logic.Research.Goals",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "FluffTitle": {
+                        "Key": "Demonology Spell 2.DisplayName",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "FluffText": {
+                        "Key": "Demonology Spell 2.Milestones.Array.data[1].Goals.Array.data[0].FluffText",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "ShowInTaskList": false,
+                    "m_Guid": {
+                        "GuidPart1": 2066942964,
+                        "GuidPart2": 1143411621,
+                        "GuidPart3": -745881725,
+                        "GuidPart4": -1239704017
+                    },
+                    "m_BoostedGoal": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "BoostPercentage": 0.0,
+                    "m_Description": {
+                        "Key": "OccultismCraftingResearchGoal.Description",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "Amount": 8
+                }
+            }
+        ]
     }
 }

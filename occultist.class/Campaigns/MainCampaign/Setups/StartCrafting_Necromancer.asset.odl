@@ -26,20 +26,20 @@ CampaignStartCrafting
     },
     "CraftingMenuImage": {
         "m_Asset": {
-            "m_FileID": 433096,
+            "m_FileID": 0,
             "m_PathID": 0
         },
         "m_Ref": {
-            "ContentPath": ""
+            "ContentPath": "Campaigns/MainCampaign/Setups/StartCrafting_Demonology_Icon_01.png"
         }
     },
     "ArchetypePortrait": {
         "m_Asset": {
-            "m_FileID": 433094,
+            "m_FileID": 0,
             "m_PathID": 0
         },
         "m_Ref": {
-            "ContentPath": ""
+            "ContentPath": "Campaigns/MainCampaign/Setups/ArchetypeDemonologist_CampaignStartup_Icon_01.png"
         }
     },
     "Tower": {
@@ -102,11 +102,11 @@ CampaignStartCrafting
     },
     "ClickSoundOverride": {
         "m_Asset": {
-            "m_FileID": 274574,
+            "m_FileID": 0,
             "m_PathID": 0
         },
         "m_Ref": {
-            "ContentPath": ""
+            "ContentPath": "Audio/UI/ui_Necromancy_Craft_01.wav"
         }
     }
 }

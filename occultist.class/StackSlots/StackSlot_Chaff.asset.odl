@@ -11,10 +11,16 @@ StackSlotDefinition
         "mTags": []
     },
     "Icon": {
-        "ContentPath": "UI/Icons/UnitRole/Icon_Role_Hero_01.png"
+        "ContentPath": "UI/Icons/Icons/Icon_Bucket_01.png"
+    },
+    "IconColor": {
+        "r": 0.7490196228027344,
+        "g": 0.6235294342041016,
+        "b": 0.3843137323856354,
+        "a": 1.0
     },
     "EmptySlotLocalizationId": {
-        "Key": "",
+        "Key": "StackCanvas.StackSlot.Chaff.Tooltip",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,
@@ -25,5 +31,6 @@ StackSlotDefinition
             "mSerializableLocalIdentifier": 0
         }
     },
-    "Order": 3
+    "Order": 3,
+    "FillOrder": 3
 }

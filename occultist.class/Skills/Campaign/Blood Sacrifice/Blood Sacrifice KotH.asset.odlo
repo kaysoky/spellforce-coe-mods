@@ -1,0 +1,93 @@
+WorldKingOfTheHillDefinition
+{
+    "Expires": true,
+    "BaseDuration": 4,
+    "FasterWithMoreUsers": true,
+    "OnTurnCountReached": {
+        "Effects": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            },
+            {
+                "rid": 1002
+            },
+            {
+                "rid": 1003
+            }
+        ]
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "HarvestLocationEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "LootTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "Skills/Campaign/Blood Sacrifice/Blood Sacrifice.asset"
+                            }
+                        ]
+                    },
+                    "NumberOfRolls": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "HarvestLocationEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "LootTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "LootTables/Loot Locations/ItemCategories/SacrificialOffering.asset"
+                            }
+                        ]
+                    },
+                    "NumberOfRolls": 2
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "CreateLocationEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Location": {
+                        "ContentPath": "_World/Locations/Village Sullied.asset"
+                    },
+                    "Adventure": {
+                        "ContentPath": ""
+                    },
+                    "Owner": {
+                        "ContentPath": ""
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "LoseReputationEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ReputationImpactOnUse": -25
+                }
+            }
+        ]
+    }
+}

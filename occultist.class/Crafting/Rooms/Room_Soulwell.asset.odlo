@@ -1,0 +1,41 @@
+RoomRecipe
+{
+    "Modification": {
+        "<FactionModifiers>k__BackingField": {
+            "WeeklyIncome": [
+                {
+                    "RestrictedTo": {
+                        "mTags": []
+                    },
+                    "Picks": 6,
+                    "Items": [],
+                    "Units": [],
+                    "LootTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "LootTables/Loot Locations/ItemCategories/SacrificialOffering.asset"
+                            }
+                        ]
+                    },
+                    "TooltipLoca": {
+                        "Key": "",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    }
+                }
+            ],
+            "UnitStartXP": [],
+            "UnitPassiveXP": [],
+            "CraftingLockTags": {
+                "mTags": []
+            }
+        }
+    }
+}

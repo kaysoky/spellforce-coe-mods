@@ -56,3 +56,13 @@ Demonology_EAD_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Paradox)
 Demonology_EAL_GreaterVessel.Tooltip.Name.Loca;Greater Demonic Vessel (Arbiter)
 Summon Minion Demon.Tooltip.Name.Loca;Compel the Feeble
 Demonology Minion.Description;Bolster your forces with brainwashed and expendable local units.
+Research.Demonology_Minion.Text_01;I can now hire <nobr>[unit][mUnit] Arsonists[/]</nobr> in my tower.
+Research.Demonology_Minion.Text_02;I should use them as cheap hosts or to fill my ranks with expendable units.
+#Room_Soulwell.Tooltip.TooltipEntries.Array.data[0].Loca;Receive 6 [item]Sacrificial Offerings[/] per week.
+Demonology Spell 1.DisplayName;Craft Demonic Vessels
+Demonology Spell 1.Description;Destruction alone will only grant me blood.  Extracting offerings requires some demonic finesse.
+Demonology Spell 1.Milestones.Array.data[1].Goals.Array.data[0].m_Description;Having my [possessed]Possessed[/] extract offerings from battle is merely one way to prepare for demonic incarnation.
+Demonology Spell 2.DisplayName;Incarnate Demons
+Demonology Spell 2.Milestones.Array.data[1].Goals.Array.data[0].FluffText;The stronger the demon, the harder it is to retain the vessel after the demon perishes.  But with some practice, I can save the vessels I choose.
+OccultismCraftingResearchGoal.Description;Incarnate {Amount} Demons into Vessels!
+StackCanvas.StackSlot.Chaff.Tooltip;<b>Chaff</b>\n\nThis slot is reserved for [unit][mUnit]Tier 1 units[/].

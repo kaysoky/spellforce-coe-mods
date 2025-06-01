@@ -2,19 +2,20 @@ Demonologist Replacement
     Uses Alchemist crafting to translates lesser demons into souls
         Lesser Demons are Artefacts and have levels - Souls are Items and don't have levels
             No straightforward translation from Lesser Demon into Souls
+            Souls are re-tagged so they can't be used to summon demons
+                I do this because the crafting slots are unity references and change between releases
         Instead, level 3 lesser demons add extra loot drops (Sacrificial Offerings) associated with themselves
             Can't retain Cult info this way, but better than nothing
         3x Sacrificial Offerings = Lesser Demonic Vessel
             Equivalent to a level 2 Lesser Demon + Soul Cage
         3x Lesser Demonic Vessels = Medium Demonic Vessel
         3x Medium Demonic Vessels = Greater Demonic Vessel
-        (TODO) 3x Greater Demonic Vessels = Ultimate Demonic Vessel (Replacement for Greater Demons via Amalgamation)
     Uses Necromancer crafting to summon demons
         Tier 1 - Lesser Demonic Vessel
             A | Gargoyle
             D | Cultists (Transformed into Tier 1 unit)
             E | Ashen Ones
-            L | Slaves? Lesser Wendigo? (TODO: Not allowed due to life essence)
+            L | Slaves
         Tier 2 - Medium Demonic Vessel
             EA | Hiveminder
             ED | Horned Beast
@@ -31,20 +32,24 @@ Demonologist Replacement
             EDD | Philo?
             EEA | Psuedo Apprentice?
             EEE | Ashen Horde?
-        Tier 4 - Demon Lords
-            Modify Demon Lord item drop
-            Not sure if required Soul can be dynamic
 -^^- TODO -^^-
+        Tier 4 - Demon Lords
+            Using Demon Lord's artifact = summon Demon Lord
     Necromancer-like army size
         Remove 1 stackslot, but add 2 dedicated to Tier 1 units
-Demonologist Grimoire Page
+Demonologist Grimoire Page (TODO Test)
     Ritual Chamber -> Unlocks Demonology, Alchemy, and Necromancy
-    Hire Cultist -> Summon chaff (random Tier 1 unit)
-    Eager Mind -> Soul Cage (Necromancer ability)
+    Hire Cultist -> Hire Arsonists
     Amalgamation Chamber -> Soul Well (Necromancer one)
+        Weekly income of Sacrificial Offerings instead of 2 Greater Souls
+    Banish Demon -> Sully Village ability
+        Unlock requirement changed to Alchemy potions (upgrading sacrificial offerings)
+        Larger reputation penalty
+        2x Sacrificial Offerings extra as loot
+        Can be acquired quicker if Galtrak is chosen
+    Eager Mind -> Soul Cage (Necromancer ability)
+        Unlock requirement to necromancy (incarnating demons)
 -vv- TODO -vv-
-    Banish Demon -> Sully Village ability (urban tile -> sullied village = negative reputation each turn + weekly Demonic Vessel income)
-        See Galtrak's abilities
 Occultism spell replacements
     Sacrificial Summon -> ???
     Greater Sacrificial Summon -> ???

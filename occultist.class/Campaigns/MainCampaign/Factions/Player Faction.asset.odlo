@@ -11,7 +11,7 @@ FactionDefinition
             "SlotType": {
                 "ContentPath": "StackSlots/StackSlot_NonHero.asset"
             },
-            "Amount": 3
+            "Amount": 2
         },
         {
             "SlotType": {

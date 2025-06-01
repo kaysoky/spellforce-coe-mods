@@ -1,0 +1,13 @@
+FactionPromotionDefinition
+{
+    "Icon": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_HumanArsonist.png"
+    },
+    "<FactionModifiers>k__BackingField": {
+        "UnlockedUnitsForHiring": [
+            {
+                "ContentPath": "Units/Factions/Humans/Human_Arsonist.asset"
+            }
+        ]
+    }
+}

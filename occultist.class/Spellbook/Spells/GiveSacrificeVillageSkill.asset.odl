@@ -1,0 +1,99 @@
+AddPromotionToUnitInStackSpell
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/World/WorldAddUnitPromotionSelectionCursor.prefab"
+        }
+    },
+    "OnlyUsableByOwner": true,
+    "Icon": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_Galtrak.png"
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "Blood Sacrifice Skill.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#Blood Sacrifice Skill.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": -252959068,
+                        "GuidPart2": 1101190095,
+                        "GuidPart3": -1352650349,
+                        "GuidPart4": 1766071468
+                    },
+                    "mSerializableLocalIdentifier": 11400000
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Costs": 20,
+    "SpellTags": {
+        "mTags": [
+            {
+                "ContentPath": "Spellbook/Tags/CRAFTING DEMONOLOGY.asset"
+            },
+            {
+                "ContentPath": "Spellbook/Tags/Unit Enchantment.asset"
+            }
+        ]
+    },
+    "UpkeepCosts": 2,
+    "Permanent": false,
+    "TargetStack": 4,
+    "IgnoredUnitTags": {
+        "mTags": []
+    },
+    "RequiredUnitTags": {
+        "mTags": []
+    },
+    "PromotionToAdd": {
+        "ContentPath": "Units/Promotions/Galtrak_VillageDestroyer.asset"
+    },
+    "CastVisualEffect": {
+        "ContentPath": "VFX/World_DemonologyImpact_VisualEffect.prefab"
+    }
+}

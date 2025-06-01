@@ -26,11 +26,11 @@ CampaignStartArchetype
     },
     "ArchetypeMenuImage": {
         "m_Asset": {
-            "m_FileID": 293618,
+            "m_FileID": 0,
             "m_PathID": 0
         },
         "m_Ref": {
-            "ContentPath": ""
+            "ContentPath": "Campaigns/MainCampaign/Setups/ArchetypeDemonologist_CampaignStartup_Icon_01.png"
         }
     },
     "SavegameIcon": {
@@ -63,11 +63,11 @@ CampaignStartArchetype
     },
     "ClickSoundOverride": {
         "m_Asset": {
-            "m_FileID": 274574,
+            "m_FileID": 0,
             "m_PathID": 0
         },
         "m_Ref": {
-            "ContentPath": ""
+            "ContentPath": "Audio/UI/ui_Necromancy_Craft_01.wav"
         }
     }
 }
