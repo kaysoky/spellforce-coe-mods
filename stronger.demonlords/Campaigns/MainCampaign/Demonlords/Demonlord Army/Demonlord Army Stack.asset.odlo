@@ -58,7 +58,16 @@ DynamicStackDefinition
         {
             "Units": [
                 {
-                    "ContentPath": "Units/Factions/Demons/Demon_Insect.asset"
+                    "ContentPath": "Units/Factions/Human/Human_Slaves.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_AshenOne.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_SkeletonWarrior.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_WalkingCorpse.asset"
                 }
             ],
             "PromotionsToAdd": [],
@@ -68,45 +77,14 @@ DynamicStackDefinition
         },
         {
             "Units": [
-                {
-                    "ContentPath": "Units/Factions/Demons/Demon_Glutton.asset"
-                },
-                {
-                    "ContentPath": "Units/Factions/Demons/Demon_Tank.asset"
-                },
-                {
-                    "ContentPath": "Units/Factions/Fantastic/Fantastic_FireGolem.asset"
-                }
-            ],
-            "PromotionsToAdd": [],
-            "NecromancySoul": {
-                "ContentPath": ""
-            }
-        },
-        {
-            "Units": [
-                {
-                    "ContentPath": "Units/Factions/Fantastic/Fantastic_Hellhound.asset"
-                },
-                {
-                    "ContentPath": "Units/Factions/Demons/Demon_Wendigo.asset"
-                }
-            ],
-            "PromotionsToAdd": [],
-            "NecromancySoul": {
-                "ContentPath": ""
-            }
-        },
-        {
-            "Units": [
-                {
-                    "ContentPath": "Units/Factions/Demons/Demon_CoreDweller.asset"
-                },
                 {
                     "ContentPath": "Units/Factions/Demons/Demon_HornedBeast.asset"
                 },
                 {
                     "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_FlayedOne.asset"
                 }
             ],
             "PromotionsToAdd": [],
@@ -119,22 +97,22 @@ DynamicStackDefinition
         0,
         2,
         3,
-        4,
-        4,
-        5,
-        5,
-        5
+        2,
+        2,
+        2,
+        2,
+        2
     ],
     "BrutalBuildOrder": [
         1,
         2,
         3,
-        4,
-        4,
-        5,
-        5,
-        5,
-        5,
-        5
+        2,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2
     ]
 }

@@ -49,10 +49,13 @@ DynamicStackDefinition
     "BuildOrder": [
         0,
         2,
+        2,
         2
     ],
     "BrutalBuildOrder": [
         1,
+        2,
+        2,
         2,
         2,
         2,
