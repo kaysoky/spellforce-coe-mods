@@ -1,0 +1,103 @@
+WorldKingOfTheHillDefinition
+{
+    "OnTurnCountReached": {
+        "Effects": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "TreasureHuntEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "TreasureType": {
+                        "ContentPath": "Skills/Stargaze/Constellation_TreasureHunt.asset"
+                    },
+                    "FinishDelay": 1.5,
+                    "NoMoreTreasureHuntLocationsHeader": {
+                        "Key": "Stargaze.AllConstellationFound.Header",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "NoMoreTreasureHuntLocationsMessage": {
+                        "Key": "Stargaze.AllConstellationFound.Message",
+                        "ObjectId": {
+                            "mGuid": {
+                                "GuidPart1": 0,
+                                "GuidPart2": 0,
+                                "GuidPart3": 0,
+                                "GuidPart4": 0
+                            },
+                            "mSerializableLocalIdentifier": 0
+                        }
+                    },
+                    "OnTreasureFound": {
+                        "Effects": [
+                            {
+                                "rid": 1001
+                            },
+                            {
+                                "rid": 1002
+                            },
+                            {
+                                "rid": 1003
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "AstrologyConstellationSelectionEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "NumberOfConstellationsToChooseFrom": 4
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "GiveExperienceEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "XP": {
+                        "ContentPath": "Currencies/Static/XP Rewards/XP High.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "TriggerAchievementEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Achievement": {
+                        "ContentPath": "Achievements/Achievement_FoundFirstConstellation.asset"
+                    }
+                }
+            }
+        ]
+    }
+}
