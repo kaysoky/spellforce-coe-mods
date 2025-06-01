@@ -1,0 +1,8 @@
+UnitPromotionDefinition
+{
+    "IgnoredPromotions": [
+        {
+            "ContentPath": "Units/Promotions/Mortal.asset"
+        }
+    ]
+}
