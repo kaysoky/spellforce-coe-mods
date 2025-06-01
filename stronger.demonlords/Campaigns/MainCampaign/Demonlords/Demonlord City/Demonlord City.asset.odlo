@@ -1,0 +1,11 @@
+FactionDefinition
+{
+    "StackSlots": [
+        {
+            "SlotType": {
+                "ContentPath": "StackSlots/StackSlot_Any.asset"
+            },
+            "Amount": 10
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_City.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord City/Demonlord City BE Promotion.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_City.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord City/Demonlord City BE Promotion.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Executioner.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Insect.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Glutton.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Tank.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_FireGolem.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_Hellhound.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Wendigo.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_CoreDweller.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_HornedBeast.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        5
+    ],
+    "BrutalBuildOrder": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5
+    ]
+}

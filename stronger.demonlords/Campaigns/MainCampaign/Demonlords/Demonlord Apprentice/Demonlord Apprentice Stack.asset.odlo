@@ -1,0 +1,61 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_Apprentice.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Apprentice/Demonlord Apprentice BE Promotion.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_Apprentice.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Apprentice/Demonlord Apprentice BE Promotion.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_AshenOne.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Gargoyle.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        2,
+        2
+    ],
+    "BrutalBuildOrder": [
+        1,
+        2,
+        2,
+        2,
+        2
+    ]
+}

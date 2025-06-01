@@ -1,0 +1,140 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_Army.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Army/Demonlord Army BE Promotion.asset"
+                },
+                {
+                    "ContentPath": "Skills/Trolls/GiveTrollConsumeCorpse.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/GiveRefillSlaveActionsSkill.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Give Plague Breath.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_Army.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Army/Demonlord Army BE Promotion.asset"
+                },
+                {
+                    "ContentPath": "Skills/Trolls/GiveTrollConsumeCorpse.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/GreaterLeechLife.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/GiveRefillSlaveActionsSkill.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Give Plague Breath.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Frenzy.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Insect.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Glutton.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Tank.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_FireGolem.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_Hellhound.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Wendigo.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_CoreDweller.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_HornedBeast.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        2,
+        3,
+        4,
+        4,
+        5,
+        5,
+        5
+    ],
+    "BrutalBuildOrder": [
+        1,
+        2,
+        3,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+    ]
+}
