@@ -1,0 +1,14 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Troll_Kitchen_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_XP_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BE_Walls_01.asset"
+        }
+    ]
+}

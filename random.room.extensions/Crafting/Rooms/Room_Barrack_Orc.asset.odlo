@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BE_Fumes_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CraftingSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Dreamweaver_Sleep.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Dreamweaver_Stars.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_05.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Beast_Buff_01.asset"
+        }
+    ]
+}

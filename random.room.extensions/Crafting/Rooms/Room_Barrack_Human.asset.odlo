@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_Ray_Death_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Dreamweaver_Loom.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_HiringSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_UnitArmor_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonKin_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Itemfind_02.asset"
+        }
+    ]
+}

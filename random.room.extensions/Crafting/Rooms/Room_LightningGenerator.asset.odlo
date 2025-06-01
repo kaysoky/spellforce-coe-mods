@@ -1,0 +1,14 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_MagicAmp_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Shopprices_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_AriaIncome_01.asset"
+        }
+    ]
+}

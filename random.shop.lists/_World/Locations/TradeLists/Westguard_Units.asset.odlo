@@ -101,15 +101,14 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Griffon.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Uncommon_01.asset"
+                    }
                 }
             },
             {
@@ -121,7 +120,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Crossbow.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -135,7 +134,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_IronBeak.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -149,7 +148,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -163,7 +162,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
+                        "ContentPath": "Units/Factions/Demons/Demon_AshenOne.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -171,29 +170,27 @@ ShopDefinition
             {
                 "rid": 1008,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheRhino.asset"
+                    }
                 }
             },
             {
                 "rid": 1009,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheBowman.asset"
+                    }
                 }
             }
         ]

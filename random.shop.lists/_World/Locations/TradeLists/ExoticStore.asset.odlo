@@ -119,7 +119,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheFirewielder.asset"
+                        "ContentPath": "Items/Loot/Ingredients/T3/Item_AAD_CursedCandle.asset"
                     }
                 }
             },
@@ -132,7 +132,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheBlight.asset"
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheEel.asset"
                     }
                 }
             },
@@ -145,21 +145,22 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheHealthy.asset"
+                        "ContentPath": "Items/Loot/Plants/Plant_Shroom.asset"
                     }
                 }
             },
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheDespair.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_Bear.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -171,7 +172,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheEel.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheCutthroat.asset"
                     }
                 }
             },
@@ -184,7 +185,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T2/Item_AL_GoodLuckCharm.asset"
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheHealthy.asset"
                     }
                 }
             },
@@ -197,7 +198,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Artefact_Corrupted_ofTheRhino.asset"
+                        "ContentPath": "Items/Moonsilver/Runes/RealMoonsilver_Necklace_01.asset"
                     }
                 }
             },
@@ -210,7 +211,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Artefact_Corrupted_ofTheAshen.asset"
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheFirewielder.asset"
                     }
                 }
             },
@@ -223,20 +224,28 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Artefact_Corrupted_ofTheCutthroat.asset"
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Artefact_Corrupted_ofTheRhino.asset"
                     }
                 }
             },
             {
                 "rid": 1011,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Artefact_Corrupted_ofTheRhino.asset"
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Manipulation/Research_Manipulation_Confuse.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
                     }
                 }
             },
@@ -249,7 +258,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheOwl.asset"
+                        "ContentPath": "Items/Loot/Potions/LeechingElixir.asset"
                     }
                 }
             },
@@ -262,7 +271,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ores/Moonsilver.asset"
+                        "ContentPath": "Items/Loot/Plants/Plant_Lenya.asset"
                     }
                 }
             },
@@ -275,34 +284,36 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/SealedElemental.asset"
+                        "ContentPath": "Items/Loot/Ingredients/T3/Item_EDD_RitualDagger.asset"
                     }
                 }
             },
             {
                 "rid": 1015,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Potions/PotionOfRegeneration.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
                 "rid": 1016,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Potions/CharmPotion.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -314,7 +325,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_AAAD_EtherDistillate.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheSeer.asset"
                     }
                 }
             },
@@ -327,7 +338,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Lenya.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHerbalist.asset"
                     }
                 }
             },
@@ -340,7 +351,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EEEL_EternalFlame.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheDeathlord.asset"
                     }
                 }
             },
@@ -353,7 +364,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ADDD_LivingSkull.asset"
+                        "ContentPath": "Items/Loot/Potions/CharmPotion.asset"
                     }
                 }
             }

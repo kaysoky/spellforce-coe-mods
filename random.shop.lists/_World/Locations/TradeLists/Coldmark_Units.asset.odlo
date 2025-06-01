@@ -101,15 +101,14 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_RageHammer.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Potions/DarkFeast.asset"
+                    }
                 }
             },
             {
@@ -121,7 +120,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Crossbow.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -135,7 +134,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_MoleRider.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -149,7 +148,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_MoleRider.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Mentalist.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -157,29 +156,27 @@ ShopDefinition
             {
                 "rid": 1007,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Worker.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheMountainGoat.asset"
+                    }
                 }
             },
             {
                 "rid": 1008,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Earthshaper.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                    }
                 }
             },
             {
@@ -191,7 +188,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Cutthroat.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

@@ -1,0 +1,14 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DarkBuff_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_XP_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_TowerMovement_01.asset"
+        }
+    ]
+}

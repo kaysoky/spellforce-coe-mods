@@ -86,28 +86,28 @@ ShopDefinition
             {
                 "rid": 1002,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_BoneHexer.asset"
-                    },
-                    "AllowDuplicatedEntries": true
-                }
-            },
-            {
-                "rid": 1003,
-                "type": {
                     "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T3/Item_AAD_CursedCandle.asset"
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_AAAD_EtherDistillate.asset"
                     }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -119,7 +119,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EAAD_BelongingsOfTheDeceased.asset"
+                        "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
                     }
                 }
             },
@@ -132,12 +132,25 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/LeechingElixir.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_02.asset"
                     }
                 }
             },
             {
                 "rid": 1006,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_05.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1007,
                 "type": {
                     "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
@@ -158,44 +171,15 @@ ShopDefinition
                 }
             },
             {
-                "rid": 1007,
-                "type": {
-                    "class": "ShopDefinition/ResearchEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Death/Research_Death_Cannibalize.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
-                    }
-                }
-            },
-            {
                 "rid": 1008,
                 "type": {
-                    "class": "ShopDefinition/ResearchEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Nature/Research_Nature_GiantStrength.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EAAD_BelongingsOfTheDeceased.asset"
                     }
                 }
             },
@@ -208,7 +192,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Cannibalist.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Earthshaper.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -216,15 +200,14 @@ ShopDefinition
             {
                 "rid": 1010,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Cannibalist.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Demonology/Tier 2/Demonology_EA.asset"
+                    }
                 }
             },
             {
@@ -236,7 +219,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Bile.asset"
+                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Infantry.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

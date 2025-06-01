@@ -1,0 +1,14 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Ore_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Lodge_Buff_01.asset"
+        }
+    ]
+}

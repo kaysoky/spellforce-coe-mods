@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_IronMaiden_03.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_GoldUpkeep_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_Fear_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ManaUpkeep_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Soulfind_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BloodRage_01.asset"
+        }
+    ]
+}

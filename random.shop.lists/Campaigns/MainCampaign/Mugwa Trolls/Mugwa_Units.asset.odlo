@@ -101,7 +101,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Warchief.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Griffon.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -115,7 +115,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Crusher.asset"
+                        "ContentPath": "Units/Factions/Trolls/Troll_SpikeFlinger.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -129,7 +129,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_SpikeFlinger.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -137,15 +137,14 @@ ShopDefinition
             {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Worker.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Common_02.asset"
+                    }
                 }
             },
             {
@@ -157,7 +156,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Dwarves_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Plant_Lenya.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Harvesting_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Plant_Pumpkin.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_HireWorkers.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Orc_01.asset"
+        }
+    ]
+}

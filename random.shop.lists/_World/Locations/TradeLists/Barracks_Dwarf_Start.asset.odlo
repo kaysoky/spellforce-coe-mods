@@ -41,7 +41,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Crossbow.asset"
+                        "ContentPath": "Units/Factions/Orcs/Orc_WargRider.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

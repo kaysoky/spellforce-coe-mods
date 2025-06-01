@@ -77,22 +77,15 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/ResearchEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/Rooms/Room_Expedition.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 483357176,
-                            "GuidPart2": 1092647685,
-                            "GuidPart3": 2025656980,
-                            "GuidPart4": 1629019861
-                        }
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Keeper.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             }
         ]

@@ -152,7 +152,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ADDD_LivingSkull.asset"
+                        "ContentPath": "Items/Demonology/Tier 3/Demonology_EAL.asset"
                     }
                 }
             },
@@ -165,7 +165,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EEED_BlackAsh.asset"
+                        "ContentPath": "Items/Loot/Special/DistAria.asset"
                     }
                 }
             },
@@ -178,7 +178,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_AAAD_EtherDistillate.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Uncommon_01.asset"
                     }
                 }
             },
@@ -198,14 +198,15 @@ ShopDefinition
             {
                 "rid": 1007,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Special/DistAria.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -217,20 +218,28 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Lenya.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Artefact_Copper_ofTheLeader.asset"
                     }
                 }
             },
             {
                 "rid": 1009,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Shroom.asset"
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Manipulation/Research_Manipulation_Slaver.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
                     }
                 }
             },
@@ -243,21 +252,22 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Shroom.asset"
+                        "ContentPath": "Items/Loot/Plants/Plant_BlackWood.asset"
                     }
                 }
             },
             {
                 "rid": 1011,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_BlackWood.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -269,21 +279,22 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheHerbalist.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHealthy.asset"
                     }
                 }
             },
             {
                 "rid": 1013,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHerbalist.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -295,7 +306,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Heal.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheGraverobber.asset"
                     }
                 }
             },
@@ -308,7 +319,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Heal.asset"
+                        "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
                     }
                 }
             },
@@ -321,7 +332,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Pumpkin.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Common_01.asset"
                     }
                 }
             },
@@ -334,34 +345,36 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Speed.asset"
+                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
                     }
                 }
             },
             {
                 "rid": 1018,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Special/Waterskin.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
                 "rid": 1019,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheHerbalist.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_Hornet.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -373,7 +386,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Blossom.asset"
+                        "ContentPath": "Items/Loot/Potions/SmokeBomb.asset"
                     }
                 }
             },
@@ -386,7 +399,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Sap.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheBlight.asset"
                     }
                 }
             },
@@ -399,7 +412,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Seed.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheDespair.asset"
                     }
                 }
             },
@@ -412,7 +425,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Plants/Plant_Root.asset"
+                        "ContentPath": "Items/Loot/Plants/Plant_Pumpkin.asset"
                     }
                 }
             },
@@ -425,7 +438,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_06.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheHealthy.asset"
                     }
                 }
             }

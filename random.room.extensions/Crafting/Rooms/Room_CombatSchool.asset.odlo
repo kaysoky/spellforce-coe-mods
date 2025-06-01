@@ -1,0 +1,17 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_06.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_XP_Bonus_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_XP_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Plant_Windweed.asset"
+        }
+    ]
+}

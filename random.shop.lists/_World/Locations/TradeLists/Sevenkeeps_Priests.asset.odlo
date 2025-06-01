@@ -77,28 +77,28 @@ ShopDefinition
             {
                 "rid": 1002,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
-                    },
-                    "AllowDuplicatedEntries": true
-                }
-            },
-            {
-                "rid": 1003,
-                "type": {
                     "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EALL_TiarasRevelations.asset"
+                        "ContentPath": "Items/Loot/Runes/Moonsilver/Artefact_Moonsilver_ofTheElementalist.asset"
                     }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -110,7 +110,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/VialOfTiara.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Artefact_Copper_ofTheOccultism.asset"
                     }
                 }
             },
@@ -123,12 +123,33 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/VialOfAonir.asset"
+                        "ContentPath": "Items/Souls/Dark Soul 2.asset"
                     }
                 }
             },
             {
                 "rid": 1006,
+                "type": {
+                    "class": "ShopDefinition/ResearchEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Manipulation/Research_Manipulation_Levy.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
+                    }
+                }
+            },
+            {
+                "rid": 1007,
                 "type": {
                     "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
@@ -136,49 +157,20 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ALLL_LightbringersPrayerbook.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1007,
-                "type": {
-                    "class": "ShopDefinition/ResearchEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Guardian/Research_Guardian_Righteous.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Common_03.asset"
                     }
                 }
             },
             {
                 "rid": 1008,
                 "type": {
-                    "class": "ShopDefinition/ResearchEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Guardian/Research_Guardian_HolyWeapon.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Uncommon_02.asset"
                     }
                 }
             }
