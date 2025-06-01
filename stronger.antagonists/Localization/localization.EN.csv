@@ -82,3 +82,9 @@ AntaProgression BE UndeadSummoner.Tooltip.Name.Loca;Dark Elf Necromancers
 AntaProgression BE UndeadSummoner.Description.Name.Loca;Raith's army is reinforced with 2x [mUnit][unit]Dark Elf Necromancers[/]
 #SummonSkeleton.Tooltip.Name.Loca;Summon Undead
 #SummonSkeleton.Description.Name.Loca;Once finished, summons an [unit]Undead Minion[/]
+Progression.4;Keep Up or Perish + 20%
+Progression.5;Keep Up or Perish + 40%
+Progression.6;Keep Up or Perish + 60%
+Progression.7;Keep Up or Perish + 80%
+Progression.8;Keep Up or Perish + 100%
+Progression.9;Keep Up or Perish + 120%

@@ -1,0 +1,18 @@
+WorldProgressionDifficultyEntry
+{
+    "IsSelectable": true,
+    "Name": {
+        "Key": "Progression.6",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Score": 50,
+    "ProgressionMultiplier": 1.8
+}
