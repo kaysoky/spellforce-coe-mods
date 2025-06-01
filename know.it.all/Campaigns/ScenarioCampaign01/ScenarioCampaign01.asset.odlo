@@ -2,8 +2,11 @@ CampaignDefinition
 {
     "InitialCraftingRecipes": {
         "m_Asset": {
-            "m_FileID": 304600,
+            "m_FileID": 0,
             "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Campaigns/MainCampaign/Main Campaign Initial Known Recipes.asset"
         }
     }
 }
