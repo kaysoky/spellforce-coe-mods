@@ -3,6 +3,14 @@ FactionDefinition
     "AntagonistData": {
         "ProgressionEffects": [
             {
+                "Progression": 5,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression DemonHealing.asset"
+                    }
+                ]
+            },
+            {
                 "Progression": 6,
                 "FactionModifierSpells": [
                     {

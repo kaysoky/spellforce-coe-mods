@@ -58,6 +58,12 @@ DynamicStackDefinition
             "PromotionsToAdd": [
                 {
                     "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Apprentice/Demonlord Apprentice BE Promotion.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/DemonicSlaughter.asset"
                 }
             ],
             "NecromancySoul": {
@@ -91,6 +97,12 @@ DynamicStackDefinition
                 },
                 {
                     "ContentPath": "Units/Promotions/Frenzy.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/DemonicSlaughter.asset"
                 }
             ],
             "NecromancySoul": {
@@ -109,6 +121,12 @@ DynamicStackDefinition
                 },
                 {
                     "ContentPath": "Units/Promotions/LeadTheCharge.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/DemonicSlaughter.asset"
                 }
             ],
             "NecromancySoul": {

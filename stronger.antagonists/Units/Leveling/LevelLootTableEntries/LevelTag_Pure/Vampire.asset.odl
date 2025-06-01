@@ -18,6 +18,9 @@ LevelUpPromotionEntry
         "mTags": [
             {
                 "ContentPath": "Units/UnitTags/MagicUser.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/NoMeleeAttack.asset"
             }
         ]
     },

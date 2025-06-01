@@ -1,18 +1,10 @@
 UnitDefinition
 {
-    "Weapons": [
-        {
-            "AttackType": {
-                "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
-            },
-            "DamageType": {
-                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
-            },
-            "Damage": 7,
-            "ArmorPiercing": 0,
-            "Range": 5,
-            "DirectLoS": true,
-            "IgnoresDefaultDamage": false
-        }
-    ]
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/NoMeleeAttack.asset"
+            }
+        ]
+    }
 }

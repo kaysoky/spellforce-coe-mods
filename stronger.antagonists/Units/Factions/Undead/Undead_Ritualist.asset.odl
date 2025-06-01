@@ -162,7 +162,21 @@ UnitDefinition
         ]
     },
     "Role": 4,
-    "Weapons": [],
+    "Weapons": [
+        {
+            "AttackType": {
+                "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+            },
+            "DamageType": {
+                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
+            },
+            "Damage": 10,
+            "ArmorPiercing": 0,
+            "Range": 0,
+            "DirectLoS": false,
+            "IgnoresDefaultDamage": false
+        }
+    ],
     "DefaultPromotions": [
         {
             "ContentPath": "Units/Promotions/Undead.asset"

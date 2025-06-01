@@ -15,7 +15,11 @@ LevelUpPromotionEntry
         "mTags": []
     },
     "IgnoredUnitTags": {
-        "mTags": []
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/NoMeleeAttack.asset"
+            }
+        ]
     },
     "OnlyForUnits": [],
     "ValidForLevelRange": {

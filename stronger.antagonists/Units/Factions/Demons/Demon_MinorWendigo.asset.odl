@@ -182,19 +182,6 @@ UnitDefinition
             "Range": 0,
             "DirectLoS": false,
             "IgnoresDefaultDamage": false
-        },
-        {
-            "AttackType": {
-                "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
-            },
-            "DamageType": {
-                "ContentPath": "Skills/DamageTypes/Physical Damage Type.asset"
-            },
-            "Damage": 14,
-            "ArmorPiercing": 0,
-            "Range": 3,
-            "DirectLoS": false,
-            "IgnoresDefaultDamage": false
         }
     ],
     "DefaultPromotions": [

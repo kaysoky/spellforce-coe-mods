@@ -22,7 +22,7 @@ UnitPromotionDefinition
             "SpecialSkills": [],
             "OnDeathSkills": [
                 {
-                    "ContentPath": "Skills/Magic/Incinerate.asset"
+                    "ContentPath": "Skills/Magic/Exhaustion.asset"
                 }
             ]
         },

@@ -82,6 +82,12 @@ DynamicStackDefinition
             "PromotionsToAdd": [
                 {
                     "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Apprentice/Demonlord Apprentice BE Promotion.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/DemonicSlaughter.asset"
                 }
             ],
             "NecromancySoul": {
@@ -94,7 +100,14 @@ DynamicStackDefinition
                     "ContentPath": "Units/Factions/Demons/Demonlord_Occultism.asset"
                 }
             ],
-            "PromotionsToAdd": [],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/DemonicSlaughter.asset"
+                }
+            ],
             "NecromancySoul": {
                 "ContentPath": ""
             }
@@ -111,6 +124,12 @@ DynamicStackDefinition
                 },
                 {
                     "ContentPath": "Units/Promotions/Executioner.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/DemonicSlaughter.asset"
                 }
             ],
             "NecromancySoul": {
@@ -135,6 +154,9 @@ DynamicStackDefinition
                 },
                 {
                     "ContentPath": "Units/Promotions/Frenzy.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/DemonicSlaughter.asset"
                 }
             ],
             "NecromancySoul": {
@@ -153,6 +175,12 @@ DynamicStackDefinition
                 },
                 {
                     "ContentPath": "Units/Promotions/LeadTheCharge.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/DemonicSlaughter.asset"
                 }
             ],
             "NecromancySoul": {

@@ -108,7 +108,7 @@ Progression.9;Keep Up or Perish + 120%
 #RandomMajorDream.Tooltip.Name.Loca;Lucid Dreaming
 #RandomMajorDream.Tooltip.Description.Loca;Enters battle with a random ambitious dream.
 AntaProgression BE SacrificialCultists.Id.Name.Loca;Sacrificial Cultists
-AntaProgression BE SacrificialCultists.Id.Description.Loca;Uram's brings 2x [mUnit][unit]Cultists[/] that summon additional [mUnit][unit]Demons[/] with their sacrifice
+AntaProgression BE SacrificialCultists.Id.Description.Loca;Uram brings 2x [mUnit][unit]Cultists[/] that summon additional [mUnit][unit]Demons[/] with their sacrifice
 #Grounded.Tooltip.Name.Loca;Grounded
 #Grounded.Tooltip.Description.Loca;Any inherent flying capabilities are clipped.
 #CauseCorrosion.Tooltip.Name.Loca;Corrosive Weapons
