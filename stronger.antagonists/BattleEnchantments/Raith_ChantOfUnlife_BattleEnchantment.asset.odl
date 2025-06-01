@@ -55,7 +55,7 @@ ReviveRandomUnitSkillBattleEnchantmentDefinition
         "ContentPath": "Skills/Icons/Skill_138.jpg"
     },
     "Filter": {
-        "TargetTypeFilter": 1,
+        "TargetTypeFilter": 4,
         "UnitTagFilter": {
             "AffectsOnly": {
                 "mTags": []

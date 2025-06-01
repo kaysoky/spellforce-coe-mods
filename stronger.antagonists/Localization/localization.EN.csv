@@ -83,7 +83,7 @@ Hokan_Undead_Sleep_BattleEnchantment.Id.Description.Loca;Hokan's necromantic pro
 #Bribery_Skill.Tooltip.Description.Loca;Pursuades a [unittag]Follower[/] to switch sides using substantial wealth.
 #Emancipation_Skill.Tooltip.Name.Loca;Emancipation
 #Emancipation_Skill.Tooltip.Description.Loca;Frees a nearby [unittag]Slave[/], causing it to switch sides.
-#Raith_ChantOfUnlife_BattleEnchantment.Id.Description.Loca;Each round a random dead unit of the defender will be revived as [mUnit][unit]{ReviveAsThis.NameId}[/].
+#Raith_ChantOfUnlife_BattleEnchantment.Id.Description.Loca;Each round a random dead unit of the Circle Mage will be revived as [mUnit][unit]{ReviveAsThis.NameId}[/].
 #Raith_CrowdControl_BattleEnchantment.Id.Description.Loca;Raith's warps time across the battlefield.\n\nEach turn one random unit has a chance to be affected by [statuseffect]{StatusEffect.Tooltip.Name.Loca}[/].
 #Raith_FantasticOnly_BattleEnchantment.Id.Name.Loca;Separate Plane of Existence
 #Raith_FantasticOnly_BattleEnchantment.Id.Description.Loca;Raith's units operate on a separate plane of existence and only take full damage from [unittag]Fantastic[/] units.

@@ -55,7 +55,7 @@ ExtraStartUnitsBattleEnchantmentDefinition
         "ContentPath": "Units/Portraits/UnitPortraits/Portrait_Minion_Demonology.png"
     },
     "Filter": {
-        "TargetTypeFilter": 1,
+        "TargetTypeFilter": 4,
         "UnitTagFilter": {
             "AffectsOnly": {
                 "mTags": []
