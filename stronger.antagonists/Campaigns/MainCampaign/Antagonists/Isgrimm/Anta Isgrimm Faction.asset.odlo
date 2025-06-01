@@ -7,6 +7,9 @@ FactionDefinition
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
                     }
                 ]
             },
@@ -38,7 +41,7 @@ FactionDefinition
                 "Progression": 10,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Titan Guard Forgemaster.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 3.asset"
                     }
                 ]
             },

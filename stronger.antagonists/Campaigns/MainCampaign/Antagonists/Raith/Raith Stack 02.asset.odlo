@@ -1,0 +1,72 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_PlagueBeetle.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_RisenPlaguebearers.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Ghoul.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_RisenPlaguebearers.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_EmissaryOfCalamity.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Mage.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Tormentor.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_FleshColossos.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        0,
+        2,
+        3
+    ]
+}

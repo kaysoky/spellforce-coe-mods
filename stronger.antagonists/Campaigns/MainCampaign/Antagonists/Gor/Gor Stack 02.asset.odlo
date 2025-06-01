@@ -1,0 +1,75 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_WargRider.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_Ravager.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Bear.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Wyvern.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_BronzeWyvern.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_GoblinStoner.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Orcs/Orc_Hunter.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Treant.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_FleshColossos.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        2,
+        2,
+        3
+    ]
+}

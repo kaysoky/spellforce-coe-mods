@@ -89,7 +89,7 @@ UnitDefinition
     },
     "GenerationPointCost": 179,
     "UnitLevelDefinition": {
-        "ContentPath": "Units/Unit Progression/Default Progression.asset"
+        "ContentPath": "Units/Unit Progression/Ianna Progression.asset"
     },
     "LevelUpTags": {
         "mTags": [
@@ -103,25 +103,10 @@ UnitDefinition
                 "ContentPath": "Units/Leveling/LevelLootTableTags/ArcaneSpells.asset"
             },
             {
-                "ContentPath": "Units/Leveling/LevelLootTableTags/DeathSpells.asset"
-            },
-            {
-                "ContentPath": "Units/Leveling/LevelLootTableTags/EarthSpells.asset"
-            },
-            {
-                "ContentPath": "Units/Leveling/LevelLootTableTags/FireSpells.asset"
-            },
-            {
                 "ContentPath": "Units/Leveling/LevelLootTableTags/HolySpells.asset"
             },
             {
-                "ContentPath": "Units/Leveling/LevelLootTableTags/IceSpells.asset"
-            },
-            {
                 "ContentPath": "Units/Leveling/LevelLootTableTags/Leader.asset"
-            },
-            {
-                "ContentPath": "Units/Leveling/LevelLootTableTags/ShamanSpells.asset"
             },
             {
                 "ContentPath": "Units/Leveling/LevelLootTableTags/Researcher.asset"

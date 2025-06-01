@@ -1,0 +1,74 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Dwarves/Dwarf_MoleRider.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Mountainbear.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_FireBeetle.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Dwarves/Dwarf_Crossbow.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Minion_Runesmith.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Dwarves/Dwarf_Worker.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Dwarves/Dwarf_Earthshaper.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Forgemaster.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0,
+        0,
+        3
+    ]
+}

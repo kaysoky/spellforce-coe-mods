@@ -7,6 +7,9 @@ FactionDefinition
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
                     }
                 ]
             },
@@ -14,7 +17,7 @@ FactionDefinition
                 "Progression": 8,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression SmallSummonOnDeath.asset"
                     }
                 ]
             },
@@ -22,20 +25,20 @@ FactionDefinition
                 "Progression": 9,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression SmallSummonOnDeath.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 3.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 10,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 4.asset"
                     }
                 ]
             },
             {
                 "Progression": 11,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Titan Guard Shaper.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 13,
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression LargeSummonOnDeath.asset"

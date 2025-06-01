@@ -7,6 +7,9 @@ FactionDefinition
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
                     }
                 ]
             },
@@ -30,7 +33,7 @@ FactionDefinition
                 "Progression": 10,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Titan Guard FleshColossos.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 4.asset"
                     }
                 ]
             },
@@ -46,7 +49,7 @@ FactionDefinition
                 "Progression": 12,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression EeryOverlord.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression UndeadOfficer.asset"
                     }
                 ]
             },
@@ -54,7 +57,7 @@ FactionDefinition
                 "Progression": 13,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression MasterAfterlife.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression EeryOverlord.asset"
                     }
                 ]
             },

@@ -44,7 +44,7 @@ DynamicStackDefinition
                     "ContentPath": "Units/Factions/Ianna/Human_Hellebardier.asset"
                 },
                 {
-                    "ContentPath": "Units/Factions/Fantastic/Fantastic_MedusaWarrior.asset"
+                    "ContentPath": "Units/Factions/Ianna/Fantastic_MedusaWarrior.asset"
                 }
             ],
             "PromotionsToAdd": [],
@@ -55,7 +55,29 @@ DynamicStackDefinition
         {
             "Units": [
                 {
-                    "ContentPath": "Units/AstralForm/Titan_AstralForm.asset"
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Light.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Dark.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Fire.asset"
                 }
             ],
             "PromotionsToAdd": [],
@@ -63,5 +85,29 @@ DynamicStackDefinition
                 "ContentPath": ""
             }
         }
+    ],
+    "BuildOrder": [
+        2,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        3,
+        4,
+        5
+    ],
+    "BrutalBuildOrder": [
+        3,
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2,
+        4,
+        5
     ]
 }

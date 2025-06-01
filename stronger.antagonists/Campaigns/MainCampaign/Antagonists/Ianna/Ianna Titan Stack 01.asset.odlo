@@ -4,7 +4,7 @@ DynamicStackDefinition
         {
             "Units": [
                 {
-                    "ContentPath": "Units/AstralForm/Titan_AstralForm.asset"
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Light.asset"
                 }
             ],
             "PromotionsToAdd": [
@@ -72,6 +72,54 @@ DynamicStackDefinition
             "NecromancySoul": {
                 "ContentPath": ""
             }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Dark.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/GiveNightfall.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Give Mindcontrol.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Fire.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/GiveMeteor.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Give Mindcontrol.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
         }
+    ],
+    "BuildOrder": [
+        0,
+        2,
+        1,
+        3,
+        2,
+        1,
+        3,
+        2,
+        4,
+        5
     ]
 }

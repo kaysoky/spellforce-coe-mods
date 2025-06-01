@@ -1,0 +1,68 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Keeper.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Minion_Alchemy.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Lightbringer.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        2,
+        3
+    ]
+}

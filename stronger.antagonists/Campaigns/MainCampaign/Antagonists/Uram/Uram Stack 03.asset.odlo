@@ -1,0 +1,126 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Human/Human_Slaves.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_AshenOne.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Cutthroat.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_HornedBeast.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Arsonist.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_Gargoyle.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demon_AetherGhost.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_Apprentice.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_Occultism.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Apprentice/Demonlord Apprentice BE Promotion.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_City.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_Army.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord City/Demonlord City BE Promotion.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Executioner.asset"
+                },
+                {
+                    "ContentPath": "Skills/Trolls/GiveTrollConsumeCorpse.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/GreaterLeechLife.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Give Plague Breath.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/Frenzy.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Demons/Demonlord_Uram.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/GiveImpenetrableBastionSkill.asset"
+                },
+                {
+                    "ContentPath": "Units/Promotions/LeadTheCharge.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4
+    ]
+}

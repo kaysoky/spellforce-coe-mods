@@ -1,0 +1,80 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Bear.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_AlphaWolf.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Griffon.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_AquaticWyvern.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Wisp.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Minion_Alchemy.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Treant.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Lightbringer.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        1,
+        0,
+        3
+    ]
+}

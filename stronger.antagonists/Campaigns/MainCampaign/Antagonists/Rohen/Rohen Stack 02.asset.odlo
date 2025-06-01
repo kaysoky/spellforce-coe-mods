@@ -81,11 +81,7 @@ DynamicStackDefinition
                     "ContentPath": "Units/Factions/Titan/Titan_Treant.asset"
                 }
             ],
-            "PromotionsToAdd": [
-                {
-                    "ContentPath": "Spellbook/Spells/Demon XP.asset"
-                }
-            ],
+            "PromotionsToAdd": [],
             "NecromancySoul": {
                 "ContentPath": ""
             }

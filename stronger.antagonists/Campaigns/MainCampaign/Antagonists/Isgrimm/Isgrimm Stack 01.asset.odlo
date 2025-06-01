@@ -1,0 +1,57 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Minion_Runesmith.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Dwarves/Dwarf_Pyromancer.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Dwarves/Fantastic_FlamingConstruct.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Minion_Runesmith.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Forgemaster.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2
+    ]
+}

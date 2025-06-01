@@ -1,0 +1,62 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Scout.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Human_Keeper.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_Wolf.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Ianna/Animal_AlphaWolf.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Dark.asset"
+                },
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Fire.asset"
+                },
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Light.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        2
+    ]
+}

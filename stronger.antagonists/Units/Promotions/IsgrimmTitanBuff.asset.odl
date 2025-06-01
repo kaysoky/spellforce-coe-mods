@@ -53,7 +53,7 @@ UnitPromotionDefinition
             "WorldHealRateBonus": 0,
             "RelativeWorldHealRateBonus": 0.0,
             "WorldHealRateModifier": 0.0,
-            "HealthModifier": 1.0,
+            "HealthModifier": 0.5,
             "AdditionalLife": 0,
             "CannotRegenerate": false,
             "BattleHealRateMultiplier": 0.0,
@@ -65,7 +65,7 @@ UnitPromotionDefinition
             "PostCombatRelativeHeal": 0.0
         },
         "Focus": 0,
-        "Morale": 10,
+        "Morale": 5,
         "MoraleModifier": 0.0,
         "Speed": 0,
         "SpeedModifier": 0.0,
@@ -90,7 +90,7 @@ UnitPromotionDefinition
         "CannotBeAmbushed": false,
         "BreaksCharge": false,
         "CannotBreakCharge": false,
-        "CannotGetFlanked": true,
+        "CannotGetFlanked": false,
         "DisableZoneOfControl": false,
         "DisableCounterAttack": false,
         "DisableAttackOfOpportunity": false,
@@ -99,12 +99,12 @@ UnitPromotionDefinition
         "IsSilenced": false,
         "IsWorldMovementFrozen": false,
         "IsBattleMovementFrozen": false,
-        "FirstStrike": true,
-        "FreeAttackOfOpportunity": true,
+        "FirstStrike": false,
+        "FreeAttackOfOpportunity": false,
         "DoesNotTriggerAttackOfOpportunity": false,
-        "FreeRetaliation": true,
+        "FreeRetaliation": false,
         "IsIncapacitated": false,
-        "AdditionalFreeAttack": true,
+        "AdditionalFreeAttack": false,
         "UnlimitedFocus": false,
         "CanZombify": false,
         "NorsGrip": false,
@@ -148,9 +148,9 @@ UnitPromotionDefinition
             "RetreatChance": 0.0,
             "ChargeDamage": 0,
             "CritChanceBonus": 0.0,
-            "Armor": 10,
+            "Armor": 5,
             "ArmorModifier": 0.0,
-            "DamageModifier": 0.25,
+            "DamageModifier": 0.10,
             "DamageBonus": 0,
             "ArmorPiercing": 0,
             "AlwaysDealMaxDmg": false,
@@ -224,7 +224,20 @@ UnitPromotionDefinition
             "ContentPath": ""
         }
     },
-    "PromotionsToAdd": [],
+    "PromotionsToAdd": [
+        {
+            "ContentPath": "Units/Promotions/FirstStrike.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/FreeRetaliation.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/OneAdditionalAttack.asset"
+        },
+        {
+            "ContentPath": "Units/Promotions/Unflankable.asset"
+        }
+    ],
     "IgnoredPromotions": [],
     "ExposeIgnoredPromotionsInTooltip": false,
     "IgnoredAuras": [],

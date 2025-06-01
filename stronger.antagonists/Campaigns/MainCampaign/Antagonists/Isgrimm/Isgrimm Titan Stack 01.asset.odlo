@@ -1,0 +1,13 @@
+DynamicStackDefinition
+{
+    "BuildOrder": [
+        0,
+        2,
+        2,
+        1,
+        1,
+        1,
+        2,
+        0
+    ]
+}

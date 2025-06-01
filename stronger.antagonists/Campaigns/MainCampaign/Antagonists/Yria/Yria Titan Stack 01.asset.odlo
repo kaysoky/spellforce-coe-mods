@@ -1,0 +1,95 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Treant.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/SpellPromotions/Wind Walking.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Hornet.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Griffon.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Lightbringer.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Treant.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Lightbringer.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        4
+    ],
+    "BrutalBuildOrder": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        3,
+        1,
+        1,
+        4
+    ]
+}

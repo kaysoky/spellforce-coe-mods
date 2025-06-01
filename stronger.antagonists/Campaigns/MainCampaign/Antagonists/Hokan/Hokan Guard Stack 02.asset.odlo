@@ -1,0 +1,73 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Wraith.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Reaper.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Banshee.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Spectre.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_SkeletonWarrior.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_FlayedOne.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_IronOne.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_FleshColossos.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3
+    ]
+}

@@ -1,0 +1,76 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_SkeletonWarrior.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_FlayedOne.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_IronOne.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Mage.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Minion_Necro.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Lich.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_Mage.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Minion_Necro.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_FleshColossos.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        2,
+        0,
+        3
+    ]
+}

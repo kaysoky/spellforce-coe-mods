@@ -1,0 +1,77 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_GhostRecruit.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_MedusaWarrior.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Wisp.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_SmallJelly.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_MedusaArcher.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_BloodGolem.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_FireGolem.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_IceGolem.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_StoneGolem.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_ShaperGolem.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2,
+        3
+    ]
+}

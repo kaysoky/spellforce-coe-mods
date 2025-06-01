@@ -42,6 +42,35 @@ DynamicStackDefinition
             "NecromancySoul": {
                 "ContentPath": ""
             }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Dark.asset"
+                },
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Fire.asset"
+                },
+                {
+                    "ContentPath": "Units/AstralForm/Titan_AstralForm_Light.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
         }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        1,
+        0,
+        3,
+        3,
+        3
     ]
 }

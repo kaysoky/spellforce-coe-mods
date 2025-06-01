@@ -1,0 +1,88 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Paladin.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_MegaWisp.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_Alchemist.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_GhostRecruit.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Animals/Animal_Griffon.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Treant.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_Lightbringer.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        0,
+        3,
+        2,
+        1,
+        0,
+        4
+    ]
+}

@@ -1,0 +1,102 @@
+DynamicStackDefinition
+{
+    "Pools": [
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_ShaperGolem.asset"
+                }
+            ],
+            "PromotionsToAdd": [
+                {
+                    "ContentPath": "Units/Promotions/SpellPromotions/Wind Walking.asset"
+                }
+            ],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_GhostRecruit.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Wisp.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_SmallJelly.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_MegaWisp.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_BigJelly.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Undead/Undead_BloodGolem.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_FireGolem.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_IceGolem.asset"
+                },
+                {
+                    "ContentPath": "Units/Factions/Fantastic/Fantastic_StoneGolem.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        },
+        {
+            "Units": [
+                {
+                    "ContentPath": "Units/Factions/Titan/Titan_ShaperGolem.asset"
+                }
+            ],
+            "PromotionsToAdd": [],
+            "NecromancySoul": {
+                "ContentPath": ""
+            }
+        }
+    ],
+    "BuildOrder": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        3,
+        0
+    ],
+    "BrutalBuildOrder": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        3,
+        0
+    ]
+}
