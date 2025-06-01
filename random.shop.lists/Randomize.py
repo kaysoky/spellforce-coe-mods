@@ -1,5 +1,6 @@
 import random
 import json
+import os
 
 shops = [
     "_World/Locations/TradeLists/Alluvyan_Herbs.asset.odlo",
@@ -61,6 +62,9 @@ def extract_reputation(refs):
 
 def is_shop_entry(name):
     return name == "ShopDefinition/ItemEntry" or name == "ShopDefinition/UnitEntry" or name == "ShopDefinition/ResearchEntry"
+
+# Change the directory to the script's location, to make sure we're opening files from the right relative location.
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # One list for each reputation level
 entries = [[], [], [], []]
