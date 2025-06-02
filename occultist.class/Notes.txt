@@ -17,22 +17,32 @@ Demonologist Replacement
             E | Ashen Ones
             L | Slaves
         Tier 2 - Medium Demonic Vessel
+            AA | ???
+            AD | ???
+            AL | ???
+            DD | ???
             EA | Hiveminder
             ED | Horned Beast
             EE | Core Dweller
             EL | Horned Charger
+            LL | ??? Minor Wendigo
         Tier 3 - Greater Demonic Vessel
+            AAA | ??? Psuedo Apprentice
+            AAD | ???
+            AAL | ???
+            ADD | ???
+            ALL | ???
+            DDD | ???
+            EAA | ??? Greater Gargoyle
             EAD | Aether Beast
+            EAL | ??? Sa'Hrul Doppelganger
+            EDD | ??? Philo
+            EEA | ??? Burning Tree
             EED | Glutton
+            EEE | ??? Ashen Horde
             EEL | Leviathan
             ELL | Wendigo
--vv- TODO -vv-
-            EAA | Greater Gargoyle?
-            EAL | Sa'Hrul Doppelganger?
-            EDD | Philo?
-            EEA | Psuedo Apprentice?
-            EEE | Ashen Horde?
--^^- TODO -^^-
+            LLL | ??? Hellhound
         Tier 4 - Demon Lords
             Using Demon Lord's artifact = summon Demon Lord
     Necromancer-like army size
@@ -40,6 +50,7 @@ Demonologist Replacement
 Demonologist Grimoire Page (TODO Test)
     Ritual Chamber -> Unlocks Demonology, Alchemy, and Necromancy
     Hire Cultist -> Hire Arsonists
+        TODO: Add Sully Village as major threshold promotion
     Amalgamation Chamber -> Soul Well (Necromancer one)
         Weekly income of Sacrificial Offerings instead of 2 Greater Souls
     Banish Demon -> Sully Village ability
@@ -56,6 +67,11 @@ Occultism spell replacements
     Infused Memory -> ??? Might be fine as-is
     Chaos Altar & Shrine -> Provides weekly income instead of hiring demons
     Pandemonium -> Higher stat buff instead of hiring demons
+Cities are spawners
+    Mostly focused on guarding, but will ambush at lowest reputation
+    Sully Village gives Siege City ability too?
+New equipment slot for Cult?
+    Cult crafting recipe?  Does a blank work?
 Lesser Demon Rebalance
     Vulture
         All level 3 lesser demons effectively gain +1 mana per battle, so Vulture's bonus not as good
