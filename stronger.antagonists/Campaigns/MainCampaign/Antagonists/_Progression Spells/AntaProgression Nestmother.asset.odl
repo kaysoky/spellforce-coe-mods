@@ -2,8 +2,28 @@ FactionModificationSpell
 {
     "Modification": {
         "<FactionModifiers>k__BackingField": {
-            "UnitPromotions": [],
-            "BattleEnchantments": []
+            "UnitPromotions": [
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/VsNestmothersKiss.asset"
+                    }
+                }
+            ],
+            "BattleEnchantments": [
+                {
+                    "ContentPath": "BattleEnchantments/Zahaar_Nestmother_BattleEnchantment.asset"
+                }
+            ]
         }
     }
 }

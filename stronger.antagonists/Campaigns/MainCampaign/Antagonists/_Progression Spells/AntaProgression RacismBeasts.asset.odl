@@ -2,8 +2,97 @@ FactionModificationSpell
 {
     "Modification": {
         "<FactionModifiers>k__BackingField": {
-            "UnitPromotions": [],
-            "BattleEnchantments": []
+            "UnitPromotions": [
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/UnitTags/Wild.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Units/UnitTags/Lycanthrope.asset"
+                                    }
+                                ]
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Crafting/Rooms/Extensions/Ext_Beast_Buff_01_Promotion.asset"
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/UnitTags/Wild.asset"
+                                    },
+                                    {
+                                        "ContentPath": "Units/UnitTags/Lycanthrope.asset"
+                                    }
+                                ]
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/ImmuneToMindcontrol.asset"
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/VsDwarves.asset"
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/VsElves.asset"
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/VsHumans.asset"
+                    }
+                }
+            ]
         }
     }
 }

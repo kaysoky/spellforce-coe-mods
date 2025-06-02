@@ -121,3 +121,9 @@ AntaProgression BE SacrificialCultists.Id.Description.Loca;Uram brings 2x [mUnit
 #Shield_Upgrade_Enabled.Tooltip.Description.Loca;Zahaar has opened his collection of [item]Shields[/] to this minion.
 #Weapon_Upgrade_Enabled.Tooltip.Name.Loca;Weapon Collection
 #Weapon_Upgrade_Enabled.Tooltip.Description.Loca;Zahaar has opened his collection of [item]Weapons[/] to this minion.
+#Zahaar_Poison_BattleEnchantment.Id.Description.Loca;Zahaar has placed traps over the battlefield.\n\nEach turn two random units have a chance to be affected by [statuseffect]{StatusEffect.Tooltip.Name.Loca}[/].
+#Zahaar_TiarasCurse_BattleEnchantment.Id.Description.Loca;Nor's presence means Tiara's absence.\n\nYour units are affected by [statuseffect]{StatusEffect.Tooltip.Name.Loca}[/] at the beginning of combat.
+#Zahaar_Nestmother_BattleEnchantment.Id.Description.Loca;Spiders are everywhere!\n\nYour units are affected by [statuseffect]{StatusEffect.Tooltip.Name.Loca}[/] at the beginning of combat.
+#VsDwarves.Tooltip.Name.Loca;Hatred for Dwarves
+#VsElves.Tooltip.Name.Loca;Hatred for Elves
+#VsHumans.Tooltip.Name.Loca;Hatred for Humans

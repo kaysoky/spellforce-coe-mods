@@ -1,0 +1,10 @@
+StatusEffectDefinition
+{
+    "OnEnter": {
+        "Effects": []
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}

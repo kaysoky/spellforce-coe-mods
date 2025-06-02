@@ -2,8 +2,38 @@ FactionModificationSpell
 {
     "Modification": {
         "<FactionModifiers>k__BackingField": {
-            "UnitPromotions": [],
-            "BattleEnchantments": []
+            "UnitPromotions": [
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/LeadTheCharge.asset"
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/RecoverActionOnKill.asset"
+                    }
+                }
+            ]
         }
     }
 }

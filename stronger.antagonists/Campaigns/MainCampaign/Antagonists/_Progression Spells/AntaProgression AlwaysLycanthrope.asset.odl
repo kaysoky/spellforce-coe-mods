@@ -2,8 +2,27 @@ FactionModificationSpell
 {
     "Modification": {
         "<FactionModifiers>k__BackingField": {
-            "UnitPromotions": [],
-            "BattleEnchantments": []
+            "UnitPromotions": [
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/UnitTags/Lycanthrope.asset"
+                                    }
+                                ]
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/AlwaysLycanthropy.asset"
+                    }
+                }
+            ]
         }
     }
 }

@@ -2,8 +2,14 @@ FactionModificationSpell
 {
     "Modification": {
         "<FactionModifiers>k__BackingField": {
-            "UnitPromotions": [],
-            "BattleEnchantments": []
+            "BattleEnchantments": [
+                {
+                    "ContentPath": "BattleEnchantments/Zahaar_Poison_BattleEnchantment.asset"
+                },
+                {
+                    "ContentPath": "BattleEnchantments/Zahaar_TiarasCurse_BattleEnchantment.asset"
+                }
+            ]
         }
     }
 }
