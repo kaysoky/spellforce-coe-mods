@@ -1,0 +1,17 @@
+ArtefactDefinition
+{
+    "Levels": [
+        {
+            "Condition": {
+                "rid": 1000
+            },
+            "<UnitModifiers>k__BackingField": {
+                "AdditionalArtefactSlotReferences": [
+                    {
+                        "ContentPath": "Items/Slots/Shield Slot.asset"
+                    }
+                ]
+            }
+        }
+    ]
+}

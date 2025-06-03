@@ -1,0 +1,20 @@
+ArtefactDefinition
+{
+    "Levels": [
+        {
+            "Condition": {
+                "rid": 1000
+            },
+            "<UnitModifiers>k__BackingField": {
+                "AdditionalArtefactSlotReferences": [
+                    {
+                        "ContentPath": "Items/Slots/Melee Slot.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Slots/Armor Slot.asset"
+                    }
+                ]
+            }
+        }
+    ]
+}
