@@ -1,4 +1,4 @@
-SimpleProjectileSkill
+AoEAttackSkill
 {
     "MouseCursorHandle": {
         "Texture": {
@@ -12,11 +12,11 @@ SimpleProjectileSkill
     },
     "SelectionCursor": {
         "mGameObject": {
-            "ContentPath": "Skills/SelectionCursors/MissileSelectionCursor.prefab"
+            "ContentPath": "Skills/SelectionCursors/AoETileSelectionCursor.prefab"
         }
     },
     "CombatSequence": {
-        "ContentPath": "CombatLoop/MissileSequence.asset"
+        "ContentPath": ""
     },
     "SkillEvaluation": {
         "m_FileID": 0,
@@ -85,27 +85,10 @@ SimpleProjectileSkill
             "BlankLineInFront": false,
             "IsEmpty": true
         },
-        "TooltipEntries": [
-            {
-                "Loca": {
-                    "Key": "ArmorPierce.Tooltip.TooltipEntries.Array.data[0].Loca",
-                    "ObjectId": {
-                        "mGuid": {
-                            "GuidPart1": 0,
-                            "GuidPart2": 0,
-                            "GuidPart3": 0,
-                            "GuidPart4": 0
-                        },
-                        "mSerializableLocalIdentifier": 0
-                    }
-                },
-                "BlankLineInFront": false,
-                "IsEmpty": false
-            }
-        ]
+        "TooltipEntries": []
     },
     "AttackType": {
-        "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
+        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
     },
     "RemoveSourceKotH": true,
     "RepeatWithActions": false,
@@ -141,7 +124,7 @@ SimpleProjectileSkill
             }
         ]
     },
-    "TeamTargetType": 2,
+    "TeamTargetType": 10,
     "TooltipEmitAutomaticStatusEffectApply": true,
     "StatusEffectsToApply": [
         {
@@ -149,21 +132,32 @@ SimpleProjectileSkill
             "StatusEffect": {
                 "ContentPath": "StatusEffects/burnSE.asset"
             },
-            "Chance": 10
+            "Chance": 0
         }
     ],
-    "SelfStatusEffect": [],
-    "ProjectileEffectReference": {
-        "ContentPath": "VisualEffects/SpitFire_Projectile_01_VisualEffect.prefab"
-    },
-    "TargetPositionEffectReference": {
+    "PreVisualEffect": {
         "ContentPath": ""
     },
-    "RetreatAfterAttack": false,
-    "CannotUsedWhenEngaged": false,
-    "ReloadEffect": {
-        "ContentPath": ""
+    "SourceSquadMemberVisualEffect": {
+        "ContentPath": "VisualEffects/Bottles/BottleRed_Projectile_01_VisualEffect.prefab"
     },
+    "PostVisualEffect": {
+        "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
+    },
+    "CastRange": 4,
+    "Radius": 0,
+    "RandomizeTargetWorldPositionInHex": false,
+    "AreaType": 0,
+    "TagFilter": {
+        "AffectsOnly": {
+            "mTags": []
+        },
+        "AffectsNot": {
+            "mTags": []
+        }
+    },
+    "UseFailConditionAsSkillFailCheck": false,
+    "Conditions": [],
     "SourceConditions": [],
     "references": {
         "version": 2,

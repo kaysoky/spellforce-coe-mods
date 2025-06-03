@@ -2,7 +2,7 @@ ItemDefinition
 {
     "ConstellationFactionModifiers": {
         "<FactionModifiers>k__BackingField": {
-            "ConditionalUnitModifier": [
+            "UnitPromotions": [
                 {
                     "Condition": {
                         "TagFilter": {

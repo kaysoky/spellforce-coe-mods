@@ -55,7 +55,7 @@ ApplyStatusEffectInAreaSkill
         },
         "Description": {
             "Loca": {
-                "Key": "SimpleProjectileSkill.Tooltip.Description.Loca",
+                "Key": "SingleTargetApplySingleStatusSkill.Tooltip.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
