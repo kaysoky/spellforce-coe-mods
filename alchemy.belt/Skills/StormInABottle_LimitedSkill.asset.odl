@@ -34,12 +34,12 @@ AoEAttackSkill
     "Cooldown": {
         "Duration": 0,
         "LimitedUse": true,
-        "Charges": 3
+        "Charges": 1
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "BagOfFire_LimitedSkill.Tooltip.Name.Loca",
+                "Key": "StormInABottle_LimitedSkill.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -98,17 +98,17 @@ AoEAttackSkill
     "FallbackPriority": 0,
     "Initiative": 0,
     "BaseRank": 1,
-    "CooldownMin": 0,
-    "CooldownMax": 0,
+    "CooldownMin": 2,
+    "CooldownMax": 5,
     "Slot": {
         "Slot": 1,
-        "Priority": 4
+        "Priority": 10
     },
     "SkillButtonConfiguration": {
         "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
     },
     "Icon": {
-        "ContentPath": "Items/Icons/Potions/Icon_DwarvenIgnition.png"
+        "ContentPath": "Items/Icons/Potions/Icon_StormInABottle.png"
     },
     "ShowPrevisualizationPanel": true,
     "Priority": 0,
@@ -124,27 +124,19 @@ AoEAttackSkill
             }
         ]
     },
-    "TeamTargetType": 10,
+    "TeamTargetType": 8,
     "TooltipEmitAutomaticStatusEffectApply": true,
-    "StatusEffectsToApply": [
-        {
-            "Amount": 1,
-            "StatusEffect": {
-                "ContentPath": "StatusEffects/burnSE.asset"
-            },
-            "Chance": 0
-        }
-    ],
+    "StatusEffectsToApply": [],
     "PreVisualEffect": {
         "ContentPath": ""
     },
     "SourceSquadMemberVisualEffect": {
-        "ContentPath": "VisualEffects/Bottles/BottleRed_Projectile_01_VisualEffect.prefab"
+        "ContentPath": "VisualEffects/PlayCastDirectionalAnimation_VisualEffect.prefab"
     },
     "PostVisualEffect": {
-        "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
+        "ContentPath": "VisualEffects/CallLightning_VisualEffect.prefab"
     },
-    "CastRange": 4,
+    "CastRange": 7,
     "Radius": 0,
     "RandomizeTargetWorldPositionInHex": false,
     "AreaType": 0,
@@ -171,7 +163,7 @@ AoEAttackSkill
                 },
                 "data": {
                     "DamageType": {
-                        "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
+                        "ContentPath": "Skills/DamageTypes/White Damage Type.asset"
                     }
                 }
             },
@@ -183,7 +175,7 @@ AoEAttackSkill
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "SetDamageValue": 10
+                    "SetDamageValue": 12
                 }
             }
         ]

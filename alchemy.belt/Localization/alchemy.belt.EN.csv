@@ -2,3 +2,19 @@ Package.alchemy.belt.DisplayName;Alchemist Utility Belts
 #UtilityBelt.Tooltip.Name.Loca;Alchemist's Utility Belt
 #UtilityBelt.Tooltip.Description.Loca;This unit is equipped with an Alchemist's Utility Belt, giving them the benefits of their master's [moon]Alchemy Lab[/].
 #AlchemyBeltTag.Name;Utility Belt
+BagOfFire_LimitedSkill.Tooltip.Name.Loca;Belt Bombs
+BagOfSmokebombs_LimitedSkill.Tooltip.Name.Loca;Emergency Smoke Bombs
+Promotion_BagOfEagleSpirit.Tooltip.Name.Loca;Infused Eagle Spirits
+ThrowingKnife_LimitedSkill.Tooltip.Name.Loca;Hidden Blade
+ToxicDistillate_LimitedSkill.Tooltip.Name.Loca;Poison Dart
+TinktureOfMuting_LimitedSkill.Tooltip.Name.Loca;Silencing Dart
+StormInABottle_LimitedSkill.Tooltip.Name.Loca;Lightning Dart
+StoneSkinElixir_LimitedSkill.Tooltip.Name.Loca;Dilute Stone Skin Elixir
+RevitalizingNectar_LimitedSkill.Tooltip.Name.Loca;Cleansing Poultice
+PotionOfRestoration_LimitedSkill.Tooltip.Name.Loca;Field Surgery
+PotionOfRestoration_LimitedSkill.Tooltip.Description.Loca;Revives {targettype} target unit in {range} and permanently grant it [spell]Enslaved[/].
+PotionOfRevivification_LimitedSkill.Tooltip.Name.Loca;Field Resurrection
+PotionOfRevivification_LimitedSkill.Tooltip.Description.Loca;Revives {targettype} target unit in {range} and permanently grant it [spell]Undead[/].
+AllfireEssence_LimitedSkill.Tooltip.Name.Loca;Field Sacrifice
+AllfireEssence_LimitedSkill.Tooltip.Description.Loca;Revives {targettype} target unit in {range} and permanently grant it [spell]Demon[/].
+PlagueVessel_LimitedSkill.Tooltip.Name.Loca;Toxic Distillate

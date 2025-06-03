@@ -1,4 +1,4 @@
-AoEAttackSkill
+SingleTargetReviveAsShaikan
 {
     "MouseCursorHandle": {
         "Texture": {
@@ -12,7 +12,7 @@ AoEAttackSkill
     },
     "SelectionCursor": {
         "mGameObject": {
-            "ContentPath": "Skills/SelectionCursors/AoETileSelectionCursor.prefab"
+            "ContentPath": "Skills/SelectionCursors/SingleGraveTileSelectionCursor.prefab"
         }
     },
     "CombatSequence": {
@@ -23,23 +23,23 @@ AoEAttackSkill
         "m_PathID": 0
     },
     "ActiveSkillCosts": {
-        "AttackActions": 1,
-        "FocusCosts": 0,
+        "AttackActions": 3,
+        "FocusCosts": 3,
         "CurrencyCost": {
             "Gold": 0,
             "Mana": 0
         },
-        "ConsumeRemainingAttackActions": false
+        "ConsumeRemainingAttackActions": true
     },
     "Cooldown": {
         "Duration": 0,
         "LimitedUse": true,
-        "Charges": 3
+        "Charges": 1
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "BagOfFire_LimitedSkill.Tooltip.Name.Loca",
+                "Key": "PotionOfRevivification_LimitedSkill.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -55,7 +55,7 @@ AoEAttackSkill
         },
         "Description": {
             "Loca": {
-                "Key": "SimpleProjectileSkill.Tooltip.Description.Loca",
+                "Key": "PotionOfRevivification_LimitedSkill.Tooltip.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -108,84 +108,34 @@ AoEAttackSkill
         "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
     },
     "Icon": {
-        "ContentPath": "Items/Icons/Potions/Icon_DwarvenIgnition.png"
+        "ContentPath": "Items/Icons/Potions/Icon_ScrollOfRevivification.png"
     },
     "ShowPrevisualizationPanel": true,
     "Priority": 0,
     "HideInOtherTooltips": false,
     "DebugInfos": "",
-    "WeaponModifiers": {
-        "Modifiers": [
-            {
-                "rid": 1000
-            },
-            {
-                "rid": 1001
-            }
-        ]
-    },
-    "TeamTargetType": 10,
-    "TooltipEmitAutomaticStatusEffectApply": true,
-    "StatusEffectsToApply": [
-        {
-            "Amount": 1,
-            "StatusEffect": {
-                "ContentPath": "StatusEffects/burnSE.asset"
-            },
-            "Chance": 0
-        }
-    ],
     "PreVisualEffect": {
         "ContentPath": ""
     },
     "SourceSquadMemberVisualEffect": {
-        "ContentPath": "VisualEffects/Bottles/BottleRed_Projectile_01_VisualEffect.prefab"
+        "ContentPath": ""
     },
     "PostVisualEffect": {
-        "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
+        "ContentPath": "VisualEffects/GenericBattleEffects/LightSingleTile_01_VisualEffect.prefab"
     },
-    "CastRange": 4,
-    "Radius": 0,
-    "RandomizeTargetWorldPositionInHex": false,
-    "AreaType": 0,
-    "TagFilter": {
-        "AffectsOnly": {
-            "mTags": []
-        },
-        "AffectsNot": {
-            "mTags": []
+    "RevivedUnitSpawnEffect": {
+        "ContentPath": ""
+    },
+    "WaitForAnimationEvent": "",
+    "Range": 1,
+    "TeamTargetType": 5,
+    "ReviveWithFullActions": false,
+    "ReviveAsThisUnit": {
+        "ContentPath": ""
+    },
+    "AddPromotionsOnRevive": [
+        {
+            "ContentPath": "Units/Promotions/Undead.asset"
         }
-    },
-    "UseFailConditionAsSkillFailCheck": false,
-    "Conditions": [],
-    "SourceConditions": [],
-    "references": {
-        "version": 2,
-        "RefIds": [
-            {
-                "rid": 1000,
-                "type": {
-                    "class": "ChangeDamageTypeWeaponModifier",
-                    "ns": "OwnedByGravity.Game.Logic.Gear",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "DamageType": {
-                        "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1001,
-                "type": {
-                    "class": "SetDamageWeaponModifier",
-                    "ns": "OwnedByGravity.Game.Logic.Gear",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "SetDamageValue": 10
-                }
-            }
-        ]
-    }
+    ]
 }

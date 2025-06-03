@@ -1,4 +1,4 @@
-AoEAttackSkill
+ApplyStatusEffectSkill
 {
     "MouseCursorHandle": {
         "Texture": {
@@ -12,7 +12,7 @@ AoEAttackSkill
     },
     "SelectionCursor": {
         "mGameObject": {
-            "ContentPath": "Skills/SelectionCursors/AoETileSelectionCursor.prefab"
+            "ContentPath": "Skills/SelectionCursors/SingleTargetSelectionCursor.prefab"
         }
     },
     "CombatSequence": {
@@ -34,12 +34,12 @@ AoEAttackSkill
     "Cooldown": {
         "Duration": 0,
         "LimitedUse": true,
-        "Charges": 3
+        "Charges": 2
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "BagOfFire_LimitedSkill.Tooltip.Name.Loca",
+                "Key": "StoneSkinElixir_LimitedSkill.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -55,7 +55,7 @@ AoEAttackSkill
         },
         "Description": {
             "Loca": {
-                "Key": "SimpleProjectileSkill.Tooltip.Description.Loca",
+                "Key": "SingleTargetApplySingleStatusSkill.Tooltip.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -94,9 +94,9 @@ AoEAttackSkill
     "RepeatWithActions": false,
     "UnitPowerGain": 0,
     "SkipUnitFallbackSkill": false,
-    "IgnoreAsDefault": true,
+    "IgnoreAsDefault": false,
     "FallbackPriority": 0,
-    "Initiative": 0,
+    "Initiative": 10,
     "BaseRank": 1,
     "CooldownMin": 0,
     "CooldownMax": 0,
@@ -108,46 +108,23 @@ AoEAttackSkill
         "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
     },
     "Icon": {
-        "ContentPath": "Items/Icons/Potions/Icon_DwarvenIgnition.png"
+        "ContentPath": "Items/Icons/Potions/Icon_StoneskinElixir.png"
     },
-    "ShowPrevisualizationPanel": true,
+    "ShowPrevisualizationPanel": false,
     "Priority": 0,
     "HideInOtherTooltips": false,
     "DebugInfos": "",
-    "WeaponModifiers": {
-        "Modifiers": [
-            {
-                "rid": 1000
-            },
-            {
-                "rid": 1001
-            }
-        ]
-    },
-    "TeamTargetType": 10,
-    "TooltipEmitAutomaticStatusEffectApply": true,
+    "TooltipEmitAutomaticStatusEffectApply": false,
     "StatusEffectsToApply": [
         {
             "Amount": 1,
             "StatusEffect": {
-                "ContentPath": "StatusEffects/burnSE.asset"
+                "ContentPath": "StatusEffects/StoneSkinElixir_SE.asset"
             },
-            "Chance": 0
+            "Chance": 10
         }
     ],
-    "PreVisualEffect": {
-        "ContentPath": ""
-    },
-    "SourceSquadMemberVisualEffect": {
-        "ContentPath": "VisualEffects/Bottles/BottleRed_Projectile_01_VisualEffect.prefab"
-    },
-    "PostVisualEffect": {
-        "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
-    },
-    "CastRange": 4,
-    "Radius": 0,
-    "RandomizeTargetWorldPositionInHex": false,
-    "AreaType": 0,
+    "TeamTargetType": 5,
     "TagFilter": {
         "AffectsOnly": {
             "mTags": []
@@ -156,36 +133,32 @@ AoEAttackSkill
             "mTags": []
         }
     },
-    "UseFailConditionAsSkillFailCheck": false,
+    "CastRange": 1,
+    "ConsumeTargetActions": false,
+    "StartDelayEffect": {
+        "ContentPath": ""
+    },
+    "StartSkillEffect": {
+        "ContentPath": ""
+    },
+    "VisualEffect": {
+        "ContentPath": ""
+    },
+    "EndVisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetUnitVisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetSquadMemberVisualEffect": {
+        "ContentPath": ""
+    },
+    "WaitForAnimationEvent": "",
+    "RequiredAndConsumedStatusEffect": {
+        "ContentPath": ""
+    },
+    "WaitAtTheEnd": 0.0,
     "Conditions": [],
-    "SourceConditions": [],
-    "references": {
-        "version": 2,
-        "RefIds": [
-            {
-                "rid": 1000,
-                "type": {
-                    "class": "ChangeDamageTypeWeaponModifier",
-                    "ns": "OwnedByGravity.Game.Logic.Gear",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "DamageType": {
-                        "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1001,
-                "type": {
-                    "class": "SetDamageWeaponModifier",
-                    "ns": "OwnedByGravity.Game.Logic.Gear",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "SetDamageValue": 10
-                }
-            }
-        ]
-    }
+    "TargetSelf": true,
+    "TargetOwnLayer": false
 }

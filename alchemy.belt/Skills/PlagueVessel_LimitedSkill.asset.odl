@@ -34,12 +34,12 @@ AoEAttackSkill
     "Cooldown": {
         "Duration": 0,
         "LimitedUse": true,
-        "Charges": 3
+        "Charges": 1
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "BagOfFire_LimitedSkill.Tooltip.Name.Loca",
+                "Key": "PlagueVessel_LimitedSkill.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -55,7 +55,7 @@ AoEAttackSkill
         },
         "Description": {
             "Loca": {
-                "Key": "SimpleProjectileSkill.Tooltip.Description.Loca",
+                "Key": "RangedDamagingAoESkill.Tooltip.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -108,7 +108,7 @@ AoEAttackSkill
         "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
     },
     "Icon": {
-        "ContentPath": "Items/Icons/Potions/Icon_DwarvenIgnition.png"
+        "ContentPath": "Items/Icons/Potions/Icon_PlagueVessel.png"
     },
     "ShowPrevisualizationPanel": true,
     "Priority": 0,
@@ -130,22 +130,22 @@ AoEAttackSkill
         {
             "Amount": 1,
             "StatusEffect": {
-                "ContentPath": "StatusEffects/burnSE.asset"
+                "ContentPath": "StatusEffects/poisonSE.asset"
             },
-            "Chance": 0
+            "Chance": 10
         }
     ],
     "PreVisualEffect": {
         "ContentPath": ""
     },
     "SourceSquadMemberVisualEffect": {
-        "ContentPath": "VisualEffects/Bottles/BottleRed_Projectile_01_VisualEffect.prefab"
+        "ContentPath": "VisualEffects/PoisonBottle_01_VisualEffect.prefab"
     },
     "PostVisualEffect": {
-        "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
+        "ContentPath": "VisualEffects/ToxicDestillate_01_VisualEffect.prefab"
     },
-    "CastRange": 4,
-    "Radius": 0,
+    "CastRange": 6,
+    "Radius": 1,
     "RandomizeTargetWorldPositionInHex": false,
     "AreaType": 0,
     "TagFilter": {
@@ -171,7 +171,7 @@ AoEAttackSkill
                 },
                 "data": {
                     "DamageType": {
-                        "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
+                        "ContentPath": "Skills/DamageTypes/Death Damage Type.asset"
                     }
                 }
             },
@@ -183,7 +183,7 @@ AoEAttackSkill
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "SetDamageValue": 10
+                    "SetDamageValue": 14
                 }
             }
         ]

@@ -1,8 +1,8 @@
-ArtefactDefinition
+ItemDefinition
 {
     "ConstellationFactionModifiers": {
         "<FactionModifiers>k__BackingField": {
-            "UnitPromotions": [
+            "ConditionalUnitModifier": [
                 {
                     "Condition": {
                         "TagFilter": {
@@ -18,8 +18,10 @@ ArtefactDefinition
                             }
                         }
                     },
-                    "Promotion": {
-                        "ContentPath": "Promotions/Promotion_BagOfEagleSpirit.asset"
+                    "<UnitModifiers>k__BackingField": {
+                        "BuddyBonus": {
+                            "ContentPath": "Promotions/Buddybonus_HealingPotion.asset"
+                        }
                     }
                 }
             ]

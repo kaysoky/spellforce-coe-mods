@@ -1,4 +1,4 @@
-AoEAttackSkill
+HealSkill
 {
     "MouseCursorHandle": {
         "Texture": {
@@ -6,13 +6,13 @@ AoEAttackSkill
             "m_PathID": 0
         },
         "HotSpot": {
-            "x": 0.0,
-            "y": 0.0
+            "x": 7.0,
+            "y": 5.0
         }
     },
     "SelectionCursor": {
         "mGameObject": {
-            "ContentPath": "Skills/SelectionCursors/AoETileSelectionCursor.prefab"
+            "ContentPath": "Skills/SelectionCursors/SingleTargetSelectionCursor.prefab"
         }
     },
     "CombatSequence": {
@@ -34,12 +34,12 @@ AoEAttackSkill
     "Cooldown": {
         "Duration": 0,
         "LimitedUse": true,
-        "Charges": 3
+        "Charges": 1
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "BagOfFire_LimitedSkill.Tooltip.Name.Loca",
+                "Key": "RevitalizingNectar_LimitedSkill.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -55,7 +55,7 @@ AoEAttackSkill
         },
         "Description": {
             "Loca": {
-                "Key": "SimpleProjectileSkill.Tooltip.Description.Loca",
+                "Key": "SingleTargetHealSkill.Tooltip.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -82,19 +82,36 @@ AoEAttackSkill
                     "mSerializableLocalIdentifier": 0
                 }
             },
-            "BlankLineInFront": false,
+            "BlankLineInFront": true,
             "IsEmpty": true
         },
-        "TooltipEntries": []
+        "TooltipEntries": [
+            {
+                "Loca": {
+                    "Key": "#RevitalizingNectarSkill.Tooltip.TooltipEntries.Array.data[0].Loca",
+                    "ObjectId": {
+                        "mGuid": {
+                            "GuidPart1": 0,
+                            "GuidPart2": 0,
+                            "GuidPart3": 0,
+                            "GuidPart4": 0
+                        },
+                        "mSerializableLocalIdentifier": 0
+                    }
+                },
+                "BlankLineInFront": false,
+                "IsEmpty": false
+            }
+        ]
     },
     "AttackType": {
-        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
+        "ContentPath": ""
     },
     "RemoveSourceKotH": true,
     "RepeatWithActions": false,
     "UnitPowerGain": 0,
     "SkipUnitFallbackSkill": false,
-    "IgnoreAsDefault": true,
+    "IgnoreAsDefault": false,
     "FallbackPriority": 0,
     "Initiative": 0,
     "BaseRank": 1,
@@ -108,84 +125,53 @@ AoEAttackSkill
         "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
     },
     "Icon": {
-        "ContentPath": "Items/Icons/Potions/Icon_DwarvenIgnition.png"
+        "ContentPath": "Items/Icons/Potions/Icon_RevitalizingNectar.png"
     },
-    "ShowPrevisualizationPanel": true,
+    "ShowPrevisualizationPanel": false,
     "Priority": 0,
     "HideInOtherTooltips": false,
     "DebugInfos": "",
-    "WeaponModifiers": {
-        "Modifiers": [
-            {
-                "rid": 1000
-            },
-            {
-                "rid": 1001
-            }
-        ]
-    },
-    "TeamTargetType": 10,
     "TooltipEmitAutomaticStatusEffectApply": true,
-    "StatusEffectsToApply": [
-        {
-            "Amount": 1,
-            "StatusEffect": {
-                "ContentPath": "StatusEffects/burnSE.asset"
-            },
-            "Chance": 0
-        }
-    ],
-    "PreVisualEffect": {
+    "StatusEffectsToApply": [],
+    "StartDelayEffect": {
         "ContentPath": ""
     },
-    "SourceSquadMemberVisualEffect": {
-        "ContentPath": "VisualEffects/Bottles/BottleRed_Projectile_01_VisualEffect.prefab"
+    "StartSkillEffect": {
+        "ContentPath": ""
     },
-    "PostVisualEffect": {
-        "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
+    "CastEffect": {
+        "ContentPath": ""
     },
-    "CastRange": 4,
-    "Radius": 0,
-    "RandomizeTargetWorldPositionInHex": false,
-    "AreaType": 0,
+    "VisualEffect": {
+        "ContentPath": ""
+    },
+    "ProjectileVisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetUnitVisualEffect": {
+        "ContentPath": "VisualEffects/Healing_Target_01_VisualEffect.prefab"
+    },
+    "DefaultResurrectEffect": {
+        "ContentPath": ""
+    },
+    "TeamTargetType": 4,
     "TagFilter": {
         "AffectsOnly": {
-            "mTags": []
+            "mTags": [
+                {
+                    "ContentPath": "Units/UnitTags/Mortal.asset"
+                }
+            ]
         },
         "AffectsNot": {
             "mTags": []
         }
     },
-    "UseFailConditionAsSkillFailCheck": false,
-    "Conditions": [],
-    "SourceConditions": [],
-    "references": {
-        "version": 2,
-        "RefIds": [
-            {
-                "rid": 1000,
-                "type": {
-                    "class": "ChangeDamageTypeWeaponModifier",
-                    "ns": "OwnedByGravity.Game.Logic.Gear",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "DamageType": {
-                        "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1001,
-                "type": {
-                    "class": "SetDamageWeaponModifier",
-                    "ns": "OwnedByGravity.Game.Logic.Gear",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "SetDamageValue": 10
-                }
-            }
-        ]
-    }
+    "MoralChangePerResurrectedUnit": 0.0,
+    "Range": 1,
+    "RemoveSe": true,
+    "StatusQualityToRemove": 2,
+    "AmountOfSeToRemove": 10,
+    "HealTarget": 0,
+    "HealthValue": 50
 }

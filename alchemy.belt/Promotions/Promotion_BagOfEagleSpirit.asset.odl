@@ -2,8 +2,8 @@ UnitPromotionDefinition
 {
     "Unique": true,
     "DoesTransferInUpgrade": true,
-    "HideInBattleUnitInfo": true,
-    "HideInUnitDetails": true,
+    "HideInBattleUnitInfo": false,
+    "HideInUnitDetails": false,
     "<UnitModifiers>k__BackingField": {
         "MovementRules": [],
         "SkillOverrides": {
@@ -225,7 +225,7 @@ UnitPromotionDefinition
         },
         "LocationBasedIncomes": [],
         "BuddyBonus": {
-            "ContentPath": ""
+            "ContentPath": "Promotions/Buddybonus_BagOfEagleSpirit.asset"
         }
     },
     "PromotionsToAdd": [],
@@ -234,11 +234,7 @@ UnitPromotionDefinition
     "ExposeIgnoredPromotionsInTooltip": false,
     "IgnoredAuras": [],
     "Tags": {
-        "mTags": [
-            {
-                "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-            }
-        ]
+        "mTags": []
     },
     "LevelUpTags": {
         "mTags": []
@@ -264,14 +260,14 @@ UnitPromotionDefinition
     "UnitSortOrderOverride": 0,
     "IsTemporary": false,
     "QualityType": 1,
-    "ShowAsSubTooltip": false,
+    "ShowAsSubTooltip": true,
     "Icon": {
-        "ContentPath": "Items/Loot/Artefacts/Trinkets/Icon_UtilityBelt.png"
+        "ContentPath": "Items/Icons/Potions/Icon_EagleSpirit.png"
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "#UtilityBelt.Tooltip.Name.Loca",
+                "Key": "Promotion_BagOfEagleSpirit.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -283,7 +279,7 @@ UnitPromotionDefinition
                 }
             },
             "BlankLineInFront": false,
-            "IsEmpty": true
+            "IsEmpty": false
         },
         "Description": {
             "Loca": {

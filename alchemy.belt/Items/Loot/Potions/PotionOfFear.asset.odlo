@@ -1,8 +1,8 @@
-ArtefactDefinition
+ItemDefinition
 {
     "ConstellationFactionModifiers": {
         "<FactionModifiers>k__BackingField": {
-            "UnitPromotions": [
+            "ConditionalUnitModifier": [
                 {
                     "Condition": {
                         "TagFilter": {
@@ -19,7 +19,7 @@ ArtefactDefinition
                         }
                     },
                     "Promotion": {
-                        "ContentPath": "Promotions/Promotion_BagOfEagleSpirit.asset"
+                        "ContentPath": "Units/Promotions/CauseFear.asset"
                     }
                 }
             ]

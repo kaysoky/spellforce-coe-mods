@@ -9,7 +9,7 @@ AlchemyRecipe
     "Result": {
         "rid": 1001
     },
-    "Order": 10,
+    "Order": 9,
     "Tier": 3,
     "references": {
         "version": 2,

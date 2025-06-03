@@ -1,9 +1,13 @@
-UnitPromotionDefinition
+BuddyBonusDefinition
 {
-    "Unique": true,
-    "DoesTransferInUpgrade": true,
-    "HideInBattleUnitInfo": true,
-    "HideInUnitDetails": true,
+    "IncludeSelfInSelection": true,
+    "RequiredTags": {
+        "mTags": []
+    },
+    "Promotion": {
+        "ContentPath": ""
+    },
+    "ApplyEffectsTo": 1,
     "<UnitModifiers>k__BackingField": {
         "MovementRules": [],
         "SkillOverrides": {
@@ -207,7 +211,85 @@ UnitPromotionDefinition
             "RangeExtensions": []
         },
         "PromotionSpecificModifiers": [],
-        "TagSpecificModifiers": [],
+        "TagSpecificModifiers": [
+            {
+                "TargetTag": {
+                    "ContentPath": "Units/UnitTags/Mortal.asset"
+                },
+                "IgnoredTags": {
+                    "mTags": []
+                },
+                "TargetType": -1,
+                "AttackType": {
+                    "ContentPath": "Skills/AttackTypes/Melee Attack Type.asset"
+                },
+                "InvertApplication": false,
+                "CombatModifiers": {
+                    "RetreatChance": 0.0,
+                    "ChargeDamage": 0,
+                    "CritChanceBonus": 0.0,
+                    "Armor": 0,
+                    "ArmorModifier": 0.0,
+                    "DamageModifier": 0.0,
+                    "DamageBonus": 0,
+                    "ArmorPiercing": 0,
+                    "AlwaysDealMaxDmg": false,
+                    "AlwaysDealMinDmg": false,
+                    "MissingHealthDamageBonus": {
+                        "MaxDamage": 0
+                    },
+                    "OverrideDamageTypeReference": {
+                        "ContentPath": ""
+                    },
+                    "MeleeAttackType": {
+                        "MeleeDamageModifier": 0.0,
+                        "MeleeDamageBonus": 0,
+                        "MeleeDamageReduction": 0.0,
+                        "MeleeArmorBonus": 0,
+                        "MeleeMoraleBonus": 0,
+                        "BonusRetaliationDamage": 0,
+                        "EnemyCannotRetaliate": false
+                    },
+                    "MissileAttackType": {
+                        "MissileDamageModifier": 0.0,
+                        "MissileDamageBonus": 0,
+                        "MissileDamageReduction": 0.0,
+                        "MissileArmorBonus": 0,
+                        "MissileMoraleBonus": 0,
+                        "NoRangePenalty": false
+                    },
+                    "SpellAttackType": {
+                        "SpellDamageModifier": 0.0,
+                        "SpellDamageBonus": 0,
+                        "SpellDamageReduction": 0.0,
+                        "SpellArmorBonus": 0,
+                        "SpellMoraleBonus": 0
+                    },
+                    "DamageTypes": {
+                        "DamageReduction": 0.0,
+                        "DeathResistance": 0.0,
+                        "DeathDamageBonus": 0,
+                        "WhiteResistance": 0.0,
+                        "WhiteDamageBonus": 0,
+                        "PhysicalDamageBonus": 0,
+                        "PhysicalResistance": 0.0,
+                        "ElementalResistance": 0.0,
+                        "ElementalDamageBonus": 0
+                    },
+                    "MagicDamageModifier": 0.0,
+                    "AmbushDamageModifier": 0.0,
+                    "MagicDamageReduction": 0.0,
+                    "InvulnerableDamageReduction": 0.0,
+                    "RangeExtensions": []
+                },
+                "LifeLeechPercentage": 0.1,
+                "ConsumeLifePercentage": 0.0,
+                "CurrencyGainOnKill": {
+                    "Gold": 0,
+                    "Mana": 0
+                }
+            }
+        ],
         "TierSpecificModifiers": [],
         "StatusEffectSpecificModifiers": [],
         "Aura": {
@@ -228,107 +310,7 @@ UnitPromotionDefinition
             "ContentPath": ""
         }
     },
-    "PromotionsToAdd": [],
-    "ConditionalPromotionsToAdd": [],
-    "IgnoredPromotions": [],
-    "ExposeIgnoredPromotionsInTooltip": false,
-    "IgnoredAuras": [],
-    "Tags": {
-        "mTags": [
-            {
-                "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-            }
-        ]
-    },
-    "LevelUpTags": {
-        "mTags": []
-    },
-    "ShowInApprenticeSelection": false,
-    "UnitTitleOverride": {
-        "Key": "",
-        "ObjectId": {
-            "mGuid": {
-                "GuidPart1": 0,
-                "GuidPart2": 0,
-                "GuidPart3": 0,
-                "GuidPart4": 0
-            },
-            "mSerializableLocalIdentifier": 0
-        }
-    },
-    "UnitVisualOverride": {
+    "AddedPromotion": {
         "ContentPath": ""
-    },
-    "CannotBeRenamed": false,
-    "OverrideUnitSortOrder": false,
-    "UnitSortOrderOverride": 0,
-    "IsTemporary": false,
-    "QualityType": 1,
-    "ShowAsSubTooltip": false,
-    "Icon": {
-        "ContentPath": "Items/Loot/Artefacts/Trinkets/Icon_UtilityBelt.png"
-    },
-    "Tooltip": {
-        "Name": {
-            "Loca": {
-                "Key": "#UtilityBelt.Tooltip.Name.Loca",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "Description": {
-            "Loca": {
-                "Key": "",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "Fluff": {
-            "Loca": {
-                "Key": "",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "TooltipEntries": []
-    },
-    "Priority": 0,
-    "AutoResolveHelp": {
-        "OnlyAffectsVsAi": false,
-        "CanCatchSouls": false,
-        "CanEnslave": false,
-        "PersonalEdge": 0,
-        "DamageReduction": 0.0,
-        "SharedHealthBuffer": 0,
-        "SharedEdge": 0,
-        "AlwaysWinAutoresolve": false
-    },
-    "TooltipDonotShowHeaderIfSingleSkillGranted": true
+    }
 }

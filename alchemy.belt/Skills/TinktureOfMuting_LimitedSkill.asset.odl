@@ -1,4 +1,4 @@
-AoEAttackSkill
+ApplyStatusEffectInAreaSkill
 {
     "MouseCursorHandle": {
         "Texture": {
@@ -34,12 +34,12 @@ AoEAttackSkill
     "Cooldown": {
         "Duration": 0,
         "LimitedUse": true,
-        "Charges": 3
+        "Charges": 1
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "BagOfFire_LimitedSkill.Tooltip.Name.Loca",
+                "Key": "TinktureOfMuting_LimitedSkill.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -105,87 +105,57 @@ AoEAttackSkill
         "Priority": 4
     },
     "SkillButtonConfiguration": {
-        "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
+        "ContentPath": ""
     },
     "Icon": {
-        "ContentPath": "Items/Icons/Potions/Icon_DwarvenIgnition.png"
+        "ContentPath": "Items/Icons/Potions/Icon_TinktureOfMuting.png"
     },
     "ShowPrevisualizationPanel": true,
     "Priority": 0,
     "HideInOtherTooltips": false,
     "DebugInfos": "",
-    "WeaponModifiers": {
-        "Modifiers": [
-            {
-                "rid": 1000
-            },
-            {
-                "rid": 1001
-            }
-        ]
-    },
-    "TeamTargetType": 10,
-    "TooltipEmitAutomaticStatusEffectApply": true,
+    "TooltipEmitAutomaticStatusEffectApply": false,
     "StatusEffectsToApply": [
         {
             "Amount": 1,
             "StatusEffect": {
-                "ContentPath": "StatusEffects/burnSE.asset"
+                "ContentPath": "StatusEffects/SilencedSE.asset"
             },
-            "Chance": 0
+            "Chance": 10
         }
     ],
-    "PreVisualEffect": {
+    "TeamTargetType": 10,
+    "IncludeSelf": false,
+    "RequiredTags": {
+        "mTags": []
+    },
+    "MoraleChange": 0.0,
+    "StartDelayEffect": {
         "ContentPath": ""
     },
-    "SourceSquadMemberVisualEffect": {
-        "ContentPath": "VisualEffects/Bottles/BottleRed_Projectile_01_VisualEffect.prefab"
+    "StartSkillEffect": {
+        "ContentPath": ""
     },
-    "PostVisualEffect": {
-        "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
+    "CastEffect": {
+        "ContentPath": "VisualEffects/Bottles/BottleBlue_Projectile_01_VisualEffect.prefab"
     },
-    "CastRange": 4,
+    "VisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetUnitEffect": {
+        "ContentPath": ""
+    },
+    "RequiredAndConsumedStatusEffect": {
+        "ContentPath": ""
+    },
+    "CastRange": 6,
     "Radius": 0,
-    "RandomizeTargetWorldPositionInHex": false,
     "AreaType": 0,
-    "TagFilter": {
-        "AffectsOnly": {
-            "mTags": []
-        },
-        "AffectsNot": {
-            "mTags": []
-        }
-    },
-    "UseFailConditionAsSkillFailCheck": false,
-    "Conditions": [],
+    "TargetOwnLayer": false,
     "SourceConditions": [],
-    "references": {
-        "version": 2,
-        "RefIds": [
-            {
-                "rid": 1000,
-                "type": {
-                    "class": "ChangeDamageTypeWeaponModifier",
-                    "ns": "OwnedByGravity.Game.Logic.Gear",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "DamageType": {
-                        "ContentPath": "Skills/DamageTypes/Elemental Damage Type.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1001,
-                "type": {
-                    "class": "SetDamageWeaponModifier",
-                    "ns": "OwnedByGravity.Game.Logic.Gear",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "SetDamageValue": 10
-                }
-            }
-        ]
-    }
+    "TargetConditions": [],
+    "RequiredStatusEffect": {
+        "ContentPath": ""
+    },
+    "RequiredStatusAmount": 1
 }

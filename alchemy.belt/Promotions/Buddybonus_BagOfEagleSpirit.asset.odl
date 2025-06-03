@@ -208,14 +208,7 @@ BuddyBonusDefinition
             "AmbushDamageModifier": 0.0,
             "MagicDamageReduction": 0.0,
             "InvulnerableDamageReduction": 0.0,
-            "RangeExtensions": [
-                {
-                    "AttackType": {
-                        "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
-                    },
-                    "Range": 2
-                }
-            ]
+            "RangeExtensions": []
         },
         "PromotionSpecificModifiers": [],
         "TagSpecificModifiers": [],
@@ -240,6 +233,6 @@ BuddyBonusDefinition
         }
     },
     "AddedPromotion": {
-        "ContentPath": ""
+        "ContentPath": "Units/Promotions/SearchAndRange.asset"
     }
 }

@@ -1,9 +1,13 @@
-UnitPromotionDefinition
+BuddyBonusDefinition
 {
-    "Unique": true,
-    "DoesTransferInUpgrade": true,
-    "HideInBattleUnitInfo": true,
-    "HideInUnitDetails": true,
+    "IncludeSelfInSelection": true,
+    "RequiredTags": {
+        "mTags": []
+    },
+    "Promotion": {
+        "ContentPath": ""
+    },
+    "ApplyEffectsTo": 1,
     "<UnitModifiers>k__BackingField": {
         "MovementRules": [],
         "SkillOverrides": {
@@ -67,7 +71,7 @@ UnitPromotionDefinition
             "PostCombatRelativeMovement": 0.0,
             "PostCombatMovement": 0
         },
-        "Focus": 0,
+        "Focus": 3,
         "Morale": 0,
         "MoraleModifier": 0.0,
         "Speed": 0,
@@ -228,107 +232,7 @@ UnitPromotionDefinition
             "ContentPath": ""
         }
     },
-    "PromotionsToAdd": [],
-    "ConditionalPromotionsToAdd": [],
-    "IgnoredPromotions": [],
-    "ExposeIgnoredPromotionsInTooltip": false,
-    "IgnoredAuras": [],
-    "Tags": {
-        "mTags": [
-            {
-                "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-            }
-        ]
-    },
-    "LevelUpTags": {
-        "mTags": []
-    },
-    "ShowInApprenticeSelection": false,
-    "UnitTitleOverride": {
-        "Key": "",
-        "ObjectId": {
-            "mGuid": {
-                "GuidPart1": 0,
-                "GuidPart2": 0,
-                "GuidPart3": 0,
-                "GuidPart4": 0
-            },
-            "mSerializableLocalIdentifier": 0
-        }
-    },
-    "UnitVisualOverride": {
+    "AddedPromotion": {
         "ContentPath": ""
-    },
-    "CannotBeRenamed": false,
-    "OverrideUnitSortOrder": false,
-    "UnitSortOrderOverride": 0,
-    "IsTemporary": false,
-    "QualityType": 1,
-    "ShowAsSubTooltip": false,
-    "Icon": {
-        "ContentPath": "Items/Loot/Artefacts/Trinkets/Icon_UtilityBelt.png"
-    },
-    "Tooltip": {
-        "Name": {
-            "Loca": {
-                "Key": "#UtilityBelt.Tooltip.Name.Loca",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "Description": {
-            "Loca": {
-                "Key": "",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "Fluff": {
-            "Loca": {
-                "Key": "",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "TooltipEntries": []
-    },
-    "Priority": 0,
-    "AutoResolveHelp": {
-        "OnlyAffectsVsAi": false,
-        "CanCatchSouls": false,
-        "CanEnslave": false,
-        "PersonalEdge": 0,
-        "DamageReduction": 0.0,
-        "SharedHealthBuffer": 0,
-        "SharedEdge": 0,
-        "AlwaysWinAutoresolve": false
-    },
-    "TooltipDonotShowHeaderIfSingleSkillGranted": true
+    }
 }

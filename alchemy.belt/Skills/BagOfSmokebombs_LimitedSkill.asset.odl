@@ -39,7 +39,7 @@ TeleportSkill
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "SmallRangeTeleport.Tooltip.Name.Loca",
+                "Key": "BagOfSmokebombs_LimitedSkill.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,

@@ -1,4 +1,4 @@
-AoEAttackSkill
+SimpleProjectileSkill
 {
     "MouseCursorHandle": {
         "Texture": {
@@ -6,17 +6,17 @@ AoEAttackSkill
             "m_PathID": 0
         },
         "HotSpot": {
-            "x": 0.0,
-            "y": 0.0
+            "x": 14.0,
+            "y": 3.0
         }
     },
     "SelectionCursor": {
         "mGameObject": {
-            "ContentPath": "Skills/SelectionCursors/AoETileSelectionCursor.prefab"
+            "ContentPath": "Skills/SelectionCursors/MissileSelectionCursor.prefab"
         }
     },
     "CombatSequence": {
-        "ContentPath": ""
+        "ContentPath": "CombatLoop/MissileSequence.asset"
     },
     "SkillEvaluation": {
         "m_FileID": 0,
@@ -34,12 +34,12 @@ AoEAttackSkill
     "Cooldown": {
         "Duration": 0,
         "LimitedUse": true,
-        "Charges": 3
+        "Charges": 1
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "BagOfFire_LimitedSkill.Tooltip.Name.Loca",
+                "Key": "#SpitFire.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -85,10 +85,27 @@ AoEAttackSkill
             "BlankLineInFront": false,
             "IsEmpty": true
         },
-        "TooltipEntries": []
+        "TooltipEntries": [
+            {
+                "Loca": {
+                    "Key": "ArmorPierce.Tooltip.TooltipEntries.Array.data[0].Loca",
+                    "ObjectId": {
+                        "mGuid": {
+                            "GuidPart1": 0,
+                            "GuidPart2": 0,
+                            "GuidPart3": 0,
+                            "GuidPart4": 0
+                        },
+                        "mSerializableLocalIdentifier": 0
+                    }
+                },
+                "BlankLineInFront": false,
+                "IsEmpty": false
+            }
+        ]
     },
     "AttackType": {
-        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
+        "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
     },
     "RemoveSourceKotH": true,
     "RepeatWithActions": false,
@@ -96,10 +113,10 @@ AoEAttackSkill
     "SkipUnitFallbackSkill": false,
     "IgnoreAsDefault": true,
     "FallbackPriority": 0,
-    "Initiative": 0,
+    "Initiative": 2,
     "BaseRank": 1,
-    "CooldownMin": 0,
-    "CooldownMax": 0,
+    "CooldownMin": 2,
+    "CooldownMax": 3,
     "Slot": {
         "Slot": 1,
         "Priority": 4
@@ -108,10 +125,10 @@ AoEAttackSkill
         "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
     },
     "Icon": {
-        "ContentPath": "Items/Icons/Potions/Icon_DwarvenIgnition.png"
+        "ContentPath": "Items/Icons/Potions/Icon_PotionOfFireBreathing.png"
     },
     "ShowPrevisualizationPanel": true,
-    "Priority": 0,
+    "Priority": 50,
     "HideInOtherTooltips": false,
     "DebugInfos": "",
     "WeaponModifiers": {
@@ -124,7 +141,7 @@ AoEAttackSkill
             }
         ]
     },
-    "TeamTargetType": 10,
+    "TeamTargetType": 2,
     "TooltipEmitAutomaticStatusEffectApply": true,
     "StatusEffectsToApply": [
         {
@@ -132,32 +149,21 @@ AoEAttackSkill
             "StatusEffect": {
                 "ContentPath": "StatusEffects/burnSE.asset"
             },
-            "Chance": 0
+            "Chance": 10
         }
     ],
-    "PreVisualEffect": {
+    "SelfStatusEffect": [],
+    "ProjectileEffectReference": {
+        "ContentPath": "VisualEffects/SpitFire_Projectile_01_VisualEffect.prefab"
+    },
+    "TargetPositionEffectReference": {
         "ContentPath": ""
     },
-    "SourceSquadMemberVisualEffect": {
-        "ContentPath": "VisualEffects/Bottles/BottleRed_Projectile_01_VisualEffect.prefab"
+    "RetreatAfterAttack": false,
+    "CannotUsedWhenEngaged": false,
+    "ReloadEffect": {
+        "ContentPath": ""
     },
-    "PostVisualEffect": {
-        "ContentPath": "VisualEffects/GenericBattleEffects/FireSingleTile_01_VisualEffect.prefab"
-    },
-    "CastRange": 4,
-    "Radius": 0,
-    "RandomizeTargetWorldPositionInHex": false,
-    "AreaType": 0,
-    "TagFilter": {
-        "AffectsOnly": {
-            "mTags": []
-        },
-        "AffectsNot": {
-            "mTags": []
-        }
-    },
-    "UseFailConditionAsSkillFailCheck": false,
-    "Conditions": [],
     "SourceConditions": [],
     "references": {
         "version": 2,
