@@ -38,13 +38,13 @@ AstrologyConstellationDefinition
     },
     "Order": 0,
     "ConstellationIcon": {
-        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Zerbo/Constellation_Zerbo_Icon.png"
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Alchemy/Constellation_Alchemy_Icon.png"
     },
     "ConstellationImage": {
-        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Zerbo/Constellation_Zerbo_BG.png"
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Alchemy/Constellation_Alchemy_BG.png"
     },
     "SimplifiedNodeConstellationIcon": {
-        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Zerbo/Constellation_Zerbo_Simplified.png"
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Alchemy/Constellation_Alchemy_Simplified.png"
     },
     "SelectionCondition": {
         "Conditions": [
@@ -56,51 +56,7 @@ AstrologyConstellationDefinition
     "Nodes": [
         {
             "ScreenPosition": {
-                "x": 225.0,
-                "y": 173.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "ScreenPosition": {
-                "x": -202.0,
-                "y": 102.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "ScreenPosition": {
-                "x": -151.0,
-                "y": 290.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "ScreenPosition": {
-                "x": 28.0,
-                "y": 183.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "ScreenPosition": {
-                "x": 166.0,
+                "x": 95.0,
                 "y": 330.0
             },
             "SlotType": {
@@ -111,8 +67,8 @@ AstrologyConstellationDefinition
         },
         {
             "ScreenPosition": {
-                "x": 63.0,
-                "y": -30.0
+                "x": 175.0,
+                "y": 125.0
             },
             "SlotType": {
                 "ContentPath": "Items/Slots/Any Artifact Slot.asset"
@@ -122,8 +78,141 @@ AstrologyConstellationDefinition
         },
         {
             "ScreenPosition": {
-                "x": -95.0,
-                "y": -285.0
+                "x": 25.0,
+                "y": -210.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": -200.0,
+                "y": -170.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": -120.0,
+                "y": -330.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 1,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Death_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "WeeklyIncome": [
+                            {
+                                "Picks": 3,
+                                "Items": [
+                                    {
+                                        "ContentPath": "Items/Loot/Ingredients/T1/Item_D_Remains.asset"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Type": 3,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Arcane_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "WeeklyIncome": [
+                            {
+                                "Picks": 3,
+                                "Items": [
+                                    {
+                                        "ContentPath": "Items/Loot/Ingredients/T1/Item_A_Ectoplasm.asset"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ScreenPosition": {
+                "x": 100.0,
+                "y": -330.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 0,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Elemental_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "WeeklyIncome": [
+                            {
+                                "Picks": 3,
+                                "Items": [
+                                    {
+                                        "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Type": 2,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Life_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "WeeklyIncome": [
+                            {
+                                "Picks": 4,
+                                "Items": [
+                                    {
+                                        "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Fur.asset"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ScreenPosition": {
+                "x": 200.0,
+                "y": -200.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": 280.0,
+                "y": -65.0
             },
             "SlotType": {
                 "ContentPath": "Items/Slots/Any Consumable Slot.asset"
@@ -134,40 +223,189 @@ AstrologyConstellationDefinition
     ],
     "Connections": [
         {
+            "FromIndex": 0,
+            "ToIndex": 1,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 1,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Bleeding_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "UnitModifier": [
+                            {
+                                "<UnitModifiers>k__BackingField": {
+                                    "Health": {
+                                        "HealthRegeneration": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Type": 2,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/location_healing.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "UnitModifier": [
+                            {
+                                "<UnitModifiers>k__BackingField": {
+                                    "Health": {
+                                        "WorldHealRateModifier": 0.5
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
             "FromIndex": 1,
             "ToIndex": 2,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 3,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_RangeAttack_Visibility_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "UnitModifier": [
+                            {
+                                "<UnitModifiers>k__BackingField": {
+                                    "Search": 1
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Type": 2,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Movespeed_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "UnitModifier": [
+                            {
+                                "<UnitModifiers>k__BackingField": {
+                                    "AdditionalMovement": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "FromIndex": 2,
+            "ToIndex": 3,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 3,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Gold_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "FreeGoldUnitUpkeep": 2
+                    }
+                },
+                {
+                    "Type": 0,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_SpellUpkeep_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "FreeManaUpkeep": 2
+                    }
+                }
+            ]
+        },
+        {
+            "FromIndex": 3,
+            "ToIndex": 4,
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
         },
         {
             "FromIndex": 4,
-            "ToIndex": 0,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "FromIndex": 0,
-            "ToIndex": 3,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "FromIndex": 3,
-            "ToIndex": 1,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "FromIndex": 6,
             "ToIndex": 5,
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
         },
         {
             "FromIndex": 5,
-            "ToIndex": 3,
+            "ToIndex": 6,
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 6,
+            "ToIndex": 7,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 1,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Inventory_Category_Souls_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "FactionSoulFind": 0.05
+                    }
+                },
+                {
+                    "Type": 2,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_WeeklyIncom_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "FactionItemFind": 0.1
+                    }
+                }
+            ]
+        },
+        {
+            "FromIndex": 6,
+            "ToIndex": 2,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 1,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Research_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "Income": {
+                            "ResearchPerRound": 2
+                        }
+                    }
+                },
+                {
+                    "Type": 2,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Mastery_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "Income": {
+                            "FamePerRound": 2
+                        }
+                    }
+                }
+            ]
         }
     ],
     "UnlockPerks": [],
