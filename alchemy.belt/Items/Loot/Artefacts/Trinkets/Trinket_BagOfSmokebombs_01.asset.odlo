@@ -1,0 +1,34 @@
+ArtefactDefinition
+{
+    "ConstellationFactionModifiers": {
+        "<FactionModifiers>k__BackingField": {
+            "ConditionalUnitModifier": [
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                    }
+                                ]
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "<UnitModifiers>k__BackingField": {
+                        "SkillOverrides": {
+                            "SpecialSkills": [
+                                {
+                                    "ContentPath": "Skills/BagOfSmokebombs_LimitedSkill.asset"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

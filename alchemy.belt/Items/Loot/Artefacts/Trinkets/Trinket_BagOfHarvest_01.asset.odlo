@@ -1,0 +1,72 @@
+ArtefactDefinition
+{
+    "ConstellationFactionModifiers": {
+        "<FactionModifiers>k__BackingField": {
+            "ConditionalUnitModifier": [
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                    }
+                                ]
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "<UnitModifiers>k__BackingField": {
+                        "BuddyBonus": {
+                            "ContentPath": "Units/Promotions/FarmerBuddyBonus.asset"
+                        }
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                    }
+                                ]
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "<UnitModifiers>k__BackingField": {
+                        "BuddyBonus": {
+                            "ContentPath": "Units/Promotions/ForesterBuddyBonus.asset"
+                        }
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                    }
+                                ]
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "<UnitModifiers>k__BackingField": {
+                        "BuddyBonus": {
+                            "ContentPath": "Units/Promotions/SpellPromotions/Water Walking Buddy Bonus.asset"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

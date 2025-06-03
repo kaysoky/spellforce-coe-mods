@@ -1,0 +1,139 @@
+TeleportSkill
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/SingleTileSelectionCursor.prefab"
+        }
+    },
+    "CombatSequence": {
+        "ContentPath": ""
+    },
+    "SkillEvaluation": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "ActiveSkillCosts": {
+        "AttackActions": 0,
+        "FocusCosts": 0,
+        "CurrencyCost": {
+            "Gold": 0,
+            "Mana": 0
+        },
+        "ConsumeRemainingAttackActions": false
+    },
+    "Cooldown": {
+        "Duration": 0,
+        "LimitedUse": true,
+        "Charges": 2
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "SmallRangeTeleport.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "SmallRangeTeleport.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "AttackType": {
+        "ContentPath": "Skills/AttackTypes/Spell Attack Type.asset"
+    },
+    "RemoveSourceKotH": true,
+    "RepeatWithActions": false,
+    "UnitPowerGain": 0,
+    "SkipUnitFallbackSkill": false,
+    "IgnoreAsDefault": true,
+    "FallbackPriority": 0,
+    "Initiative": 0,
+    "BaseRank": 1,
+    "CooldownMin": 2,
+    "CooldownMax": 3,
+    "Slot": {
+        "Slot": 1,
+        "Priority": 4
+    },
+    "SkillButtonConfiguration": {
+        "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
+    },
+    "Icon": {
+        "ContentPath": "Items/Icons/Potions/Icon_SmokeBomb.png"
+    },
+    "ShowPrevisualizationPanel": true,
+    "Priority": 0,
+    "HideInOtherTooltips": false,
+    "DebugInfos": "",
+    "VisualEffect": {
+        "ContentPath": "VisualEffects/ShadowTeleport_VisualEffect.prefab"
+    },
+    "SkillToUseAfterTeleport": {
+        "ContentPath": ""
+    },
+    "BlockedWhenMovementFrozen": false,
+    "Range": 4,
+    "SourceConditions": [
+        {
+            "ApplyAsNot": true,
+            "TargetPromotion": {
+                "ContentPath": ""
+            },
+            "TargetTag": {
+                "ContentPath": ""
+            },
+            "TargetStatusEffect": {
+                "ContentPath": "StatusEffects/DemonmodeSE.asset"
+            }
+        }
+    ]
+}

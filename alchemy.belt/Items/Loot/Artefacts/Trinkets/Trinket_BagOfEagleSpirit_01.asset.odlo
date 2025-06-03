@@ -1,0 +1,30 @@
+ArtefactDefinition
+{
+    "ConstellationFactionModifiers": {
+        "<FactionModifiers>k__BackingField": {
+            "ConditionalUnitModifier": [
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": [
+                                    {
+                                        "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                    }
+                                ]
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "<UnitModifiers>k__BackingField": {
+                        "BuddyBonus": {
+                            "ContentPath": "Promotions/Buddybonus_BagOfEagleSpirit.asset"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

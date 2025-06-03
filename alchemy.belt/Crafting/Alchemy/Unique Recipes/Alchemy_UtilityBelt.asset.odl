@@ -1,0 +1,57 @@
+AlchemyRecipe
+{
+    "CraftingLocks": {
+        "mTags": []
+    },
+    "AlchemyCondition": {
+        "rid": 1000
+    },
+    "Result": {
+        "rid": 1001
+    },
+    "Order": 10,
+    "Tier": 3,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SpecificAlchemyCondition",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Alchemy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "RequiredItems": [
+                        {
+                            "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_BagOfHarvest_01.asset"
+                        },
+                        {
+                            "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_BagOfSmokebombs_01.asset"
+                        },
+                        {
+                            "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_BagOfEagleSpirit_01.asset"
+                        },
+                        {
+                            "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_BagOfFire_01.asset"
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "FixedItemResult",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Alchemy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Result": {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/UtilityBelt.asset"
+                    },
+                    "Amount": 1
+                }
+            }
+        ]
+    }
+}

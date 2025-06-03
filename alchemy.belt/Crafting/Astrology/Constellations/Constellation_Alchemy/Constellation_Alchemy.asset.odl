@@ -1,0 +1,192 @@
+AstrologyConstellationDefinition
+{
+    "Name": {
+        "Key": "Constellation_Zerbo.Name",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Description": {
+        "Key": "#Constellation_Zerbo.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": -2005126558,
+                "GuidPart2": 1228912427,
+                "GuidPart3": -94884186,
+                "GuidPart4": -2089225672
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "Affects": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Order": 0,
+    "ConstellationIcon": {
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Zerbo/Constellation_Zerbo_Icon.png"
+    },
+    "ConstellationImage": {
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Zerbo/Constellation_Zerbo_BG.png"
+    },
+    "SimplifiedNodeConstellationIcon": {
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Zerbo/Constellation_Zerbo_Simplified.png"
+    },
+    "SelectionCondition": {
+        "Conditions": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "Nodes": [
+        {
+            "ScreenPosition": {
+                "x": 225.0,
+                "y": 173.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": -202.0,
+                "y": 102.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": -151.0,
+                "y": 290.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": 28.0,
+                "y": 183.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": 166.0,
+                "y": 330.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": 63.0,
+                "y": -30.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": -95.0,
+                "y": -285.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Any Artifact Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        }
+    ],
+    "Connections": [
+        {
+            "FromIndex": 1,
+            "ToIndex": 2,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 4,
+            "ToIndex": 0,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 0,
+            "ToIndex": 3,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 3,
+            "ToIndex": 1,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 6,
+            "ToIndex": 5,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 5,
+            "ToIndex": 3,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        }
+    ],
+    "UnlockPerks": [],
+    "ComponentBasedModifiers": [],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ProgressionBased",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ProgressionCheck": 0,
+                    "WorldProgression": 99
+                }
+            }
+        ]
+    }
+}
