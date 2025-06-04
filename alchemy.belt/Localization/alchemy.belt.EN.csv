@@ -21,3 +21,5 @@ PotionOfRevivification_LimitedSkill.Tooltip.Description.Loca;Revives {targettype
 AllfireEssence_LimitedSkill.Tooltip.Name.Loca;Field Sacrifice
 AllfireEssence_LimitedSkill.Tooltip.Description.Loca;Revives {targettype} target unit in {range} and permanently grant it [spell]Demon[/].
 PlagueVessel_LimitedSkill.Tooltip.Name.Loca;Toxic Distillate
+Promotion_BloodMead.Tooltip.Name.Loca;Spiked Drinks
+FantasticHealer.Tooltip.Name.Loca;Magic Infusion

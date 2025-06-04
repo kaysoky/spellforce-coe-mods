@@ -19,16 +19,20 @@ ItemDefinition
                         }
                     },
                     "<UnitModifiers>k__BackingField": {
+                        "StatusEffectsOnBattleSpawn": [
+                            {
+                                "SpawnStatusEffect": {
+                                    "ContentPath": "StatusEffects/burnSE.asset"
+                                },
+                                "ApplyForSummon": false
+                            }
+                        ],
                         "AdditionalTemporaryUnitsToDeploy": [
                             {
                                 "UnitReference": {
                                     "ContentPath": "Units/Factions/Fantastic/Fantastic_FireGolem.asset"
                                 },
-                                "Promotions": [
-                                    {
-                                        "ContentPath": "Units/Promotions/Slave.asset"
-                                    }
-                                ]
+                                "Promotions": []
                             }
                         ]
                     }

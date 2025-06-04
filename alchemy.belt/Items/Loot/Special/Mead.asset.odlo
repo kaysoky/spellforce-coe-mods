@@ -2,7 +2,7 @@ ItemDefinition
 {
     "ConstellationFactionModifiers": {
         "<FactionModifiers>k__BackingField": {
-            "ConditionalUnitModifier": [
+            "UnitPromotions": [
                 {
                     "Condition": {
                         "TagFilter": {
@@ -18,15 +18,8 @@ ItemDefinition
                             }
                         }
                     },
-                    "<UnitModifiers>k__BackingField": {
-                        "AdditionalTemporaryUnitsToDeploy": [
-                            {
-                                "UnitReference": {
-                                    "ContentPath": "Units/Factions/Undead/Undead_FlayedOne.asset"
-                                },
-                                "Promotions": []
-                            }
-                        ]
+                    "Promotion": {
+                        "ContentPath": "Promotions/Promotion_BloodMead.asset"
                     }
                 }
             ]

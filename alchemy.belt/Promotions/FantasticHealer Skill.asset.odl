@@ -1,0 +1,160 @@
+HealSkill
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 7.0,
+            "y": 5.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/SingleTileBuffSelectionCursor.prefab"
+        }
+    },
+    "CombatSequence": {
+        "ContentPath": ""
+    },
+    "SkillEvaluation": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "ActiveSkillCosts": {
+        "AttackActions": 1,
+        "FocusCosts": 2,
+        "CurrencyCost": {
+            "Gold": 0,
+            "Mana": 0
+        },
+        "ConsumeRemainingAttackActions": false
+    },
+    "Cooldown": {
+        "Duration": 0,
+        "LimitedUse": false,
+        "Charges": 0
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "FantasticHealer.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "SingleTargetHealSkill.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "AttackType": {
+        "ContentPath": ""
+    },
+    "RemoveSourceKotH": true,
+    "RepeatWithActions": false,
+    "UnitPowerGain": 0,
+    "SkipUnitFallbackSkill": false,
+    "IgnoreAsDefault": true,
+    "FallbackPriority": 0,
+    "Initiative": 0,
+    "BaseRank": 1,
+    "CooldownMin": 0,
+    "CooldownMax": 0,
+    "Slot": {
+        "Slot": 1,
+        "Priority": 4
+    },
+    "SkillButtonConfiguration": {
+        "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
+    },
+    "Icon": {
+        "ContentPath": "Promotions/Icon_FantasticHealer.png"
+    },
+    "ShowPrevisualizationPanel": false,
+    "Priority": 0,
+    "HideInOtherTooltips": false,
+    "DebugInfos": "",
+    "TooltipEmitAutomaticStatusEffectApply": true,
+    "StatusEffectsToApply": [],
+    "StartDelayEffect": {
+        "ContentPath": ""
+    },
+    "StartSkillEffect": {
+        "ContentPath": "VisualEffects/Healing_Conjuring_01_VisualEffect.prefab"
+    },
+    "CastEffect": {
+        "ContentPath": ""
+    },
+    "VisualEffect": {
+        "ContentPath": ""
+    },
+    "ProjectileVisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetUnitVisualEffect": {
+        "ContentPath": "VisualEffects/Healing_Target_01_VisualEffect.prefab"
+    },
+    "DefaultResurrectEffect": {
+        "ContentPath": ""
+    },
+    "TeamTargetType": 1,
+    "TagFilter": {
+        "AffectsOnly": {
+            "mTags": [
+                {
+                    "ContentPath": "Units/UnitTags/Fantastic.asset"
+                }
+            ]
+        },
+        "AffectsNot": {
+            "mTags": []
+        }
+    },
+    "MoralChangePerResurrectedUnit": 0.0,
+    "Range": 6,
+    "RemoveSe": false,
+    "StatusQualityToRemove": 0,
+    "AmountOfSeToRemove": 0,
+    "HealTarget": 0,
+    "HealthValue": 30
+}
