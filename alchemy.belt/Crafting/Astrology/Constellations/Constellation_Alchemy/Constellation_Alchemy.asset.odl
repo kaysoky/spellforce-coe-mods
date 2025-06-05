@@ -71,7 +71,7 @@ AstrologyConstellationDefinition
                 "y": 125.0
             },
             "SlotType": {
-                "ContentPath": "Items/Slots/Trinket Slot.asset"
+                "ContentPath": "Items/Slots/Trinket Catalyst Slot.asset"
             },
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
@@ -93,7 +93,7 @@ AstrologyConstellationDefinition
                 "y": -170.0
             },
             "SlotType": {
-                "ContentPath": "Items/Slots/Trinket Slot.asset"
+                "ContentPath": "Items/Slots/Trinket Catalyst Slot.asset"
             },
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
@@ -117,7 +117,7 @@ AstrologyConstellationDefinition
                     "FactionModifiers": {
                         "WeeklyIncome": [
                             {
-                                "Picks": 3,
+                                "Picks": 2,
                                 "Items": [
                                     {
                                         "ContentPath": "Items/Loot/Ingredients/T1/Item_D_Remains.asset"
@@ -128,7 +128,7 @@ AstrologyConstellationDefinition
                     }
                 },
                 {
-                    "Type": 3,
+                    "Type": 0,
                     "Icon": {
                         "ContentPath": "UI/Icons/Icons/Icon_Magic_Arcane_01.png"
                     },
@@ -136,7 +136,7 @@ AstrologyConstellationDefinition
                     "FactionModifiers": {
                         "WeeklyIncome": [
                             {
-                                "Picks": 3,
+                                "Picks": 2,
                                 "Items": [
                                     {
                                         "ContentPath": "Items/Loot/Ingredients/T1/Item_A_Ectoplasm.asset"
@@ -159,7 +159,7 @@ AstrologyConstellationDefinition
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": [
                 {
-                    "Type": 0,
+                    "Type": 3,
                     "Icon": {
                         "ContentPath": "UI/Icons/Icons/Icon_Magic_Elemental_01.png"
                     },
@@ -167,7 +167,7 @@ AstrologyConstellationDefinition
                     "FactionModifiers": {
                         "WeeklyIncome": [
                             {
-                                "Picks": 3,
+                                "Picks": 2,
                                 "Items": [
                                     {
                                         "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
@@ -186,10 +186,10 @@ AstrologyConstellationDefinition
                     "FactionModifiers": {
                         "WeeklyIncome": [
                             {
-                                "Picks": 4,
+                                "Picks": 1,
                                 "Items": [
                                     {
-                                        "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Fur.asset"
+                                        "ContentPath": "Items/Loot/Ingredients/T2/Item_LL_TwitchingEyeball.asset"
                                     }
                                 ]
                             }
@@ -204,7 +204,7 @@ AstrologyConstellationDefinition
                 "y": -200.0
             },
             "SlotType": {
-                "ContentPath": "Items/Slots/Trinket Slot.asset"
+                "ContentPath": "Items/Slots/Trinket Catalyst Slot.asset"
             },
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
@@ -394,7 +394,7 @@ AstrologyConstellationDefinition
                                 },
                                 "<UnitModifiers>k__BackingField": {
                                     "PassiveIncome": {
-                                        "GoldPerRound": 2
+                                        "GoldPerRound": 1
                                     }
                                 }
                             }
@@ -426,7 +426,7 @@ AstrologyConstellationDefinition
                                 },
                                 "<UnitModifiers>k__BackingField": {
                                     "PassiveIncome": {
-                                        "ManaPerRound": 2
+                                        "ManaPerRound": 1
                                     }
                                 }
                             }

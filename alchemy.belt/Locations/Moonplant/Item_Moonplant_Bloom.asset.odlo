@@ -2,7 +2,7 @@ ItemDefinition
 {
     "ConstellationFactionModifiers": {
         "<FactionModifiers>k__BackingField": {
-            "ConditionalUnitModifier": [
+            "UnitPromotions": [
                 {
                     "Condition": {
                         "TagFilter": {
@@ -18,15 +18,8 @@ ItemDefinition
                             }
                         }
                     },
-                    "<UnitModifiers>k__BackingField": {
-                        "AdditionalTemporaryUnitsToDeploy": [
-                            {
-                                "UnitReference": {
-                                    "ContentPath": "Units/Factions/Fantastic/Fantastic_MediumFireGolem.asset"
-                                },
-                                "Promotions": []
-                            }
-                        ]
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/Lycanthropy.asset"
                     }
                 }
             ]

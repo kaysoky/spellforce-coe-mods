@@ -53,7 +53,7 @@ BuddyBonusDefinition
         "DoesntViolateBorders": false,
         "FreeConsumableUsage": false,
         "Health": {
-            "HealthRegeneration": 2,
+            "HealthRegeneration": 1,
             "WorldHealRateBonus": 0,
             "RelativeWorldHealRateBonus": 0.0,
             "WorldHealRateModifier": 0.0,

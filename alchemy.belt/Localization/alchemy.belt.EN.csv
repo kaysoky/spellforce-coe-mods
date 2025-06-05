@@ -2,6 +2,7 @@ Package.alchemy.belt.DisplayName;Alchemist Utility Belts
 Constellation_Alchemy.Name;Alchemical Wardrobe
 Constellation_Alchemy.Description;A magic backpack can only help so much.  To prepare for everything, I will adorn my apprentices with the right tools.
 Any Consumable Slot.SlotLocaIfEmpty;Any Consumable Slot
+Trinket Catalyst Slot.SlotLocaIfEmpty;Trinket or Catalyst Slot
 #UtilityBelt.Tooltip.Name.Loca;Alchemist's Utility Belt
 #UtilityBelt.Tooltip.Description.Loca;This unit is equipped with an Alchemist's Utility Belt, giving them the benefits of their master's [moon]Alchemical Wardrobe[/].
 #AlchemyBeltTag.Name;Utility Belt
@@ -23,3 +24,5 @@ AllfireEssence_LimitedSkill.Tooltip.Description.Loca;Revives {targettype} target
 PlagueVessel_LimitedSkill.Tooltip.Name.Loca;Toxic Distillate
 Promotion_BloodMead.Tooltip.Name.Loca;Spiked Drinks
 FantasticHealer.Tooltip.Name.Loca;Magic Infusion
+#Fantastic_MediumFireGolem.NameId;Minor Fire Golem
+#Fantastic_MediumIceGolem.NameId;Minor Ice Golem

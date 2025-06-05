@@ -19,18 +19,10 @@ ItemDefinition
                         }
                     },
                     "<UnitModifiers>k__BackingField": {
-                        "StatusEffectsOnBattleSpawn": [
-                            {
-                                "SpawnStatusEffect": {
-                                    "ContentPath": "BattleEnchantments/Battle_FocusLeak.asset"
-                                },
-                                "ApplyForSummon": false
-                            }
-                        ],
                         "AdditionalTemporaryUnitsToDeploy": [
                             {
                                 "UnitReference": {
-                                    "ContentPath": "Units/Factions/Fantastic/Fantastic_IceGolem.asset"
+                                    "ContentPath": "Units/Factions/Fantastic/Fantastic_MediumIceGolem.asset"
                                 },
                                 "Promotions": []
                             }
