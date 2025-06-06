@@ -101,7 +101,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Warchief.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -115,7 +115,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Crusher.asset"
+                        "ContentPath": "Units/Factions/Undead/Undead_WalkingCorpse.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -129,7 +129,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_SpikeFlinger.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -143,7 +143,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Worker.asset"
+                        "ContentPath": "Units/Factions/Orcs/Orc_GoblinBrawler.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -157,7 +157,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Alchemist.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

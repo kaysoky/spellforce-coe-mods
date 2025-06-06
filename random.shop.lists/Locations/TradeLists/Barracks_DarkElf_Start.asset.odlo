@@ -41,7 +41,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Worker.asset"
+                        "ContentPath": "Units/Factions/Orcs/Orc_GoblinMage.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_DarkElves_03.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Ore_03.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Gold_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Ore_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_UnitArmor_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Arcane_Blood_01.asset"
+        }
+    ]
+}
