@@ -1,0 +1,13 @@
+ShopDefinition
+{
+    "ArtefactModifications": [
+        {
+            "Filter": {
+                "mTags": []
+            },
+            "UnitModifierItem": {
+                "ContentPath": "Items/Demonology/Cults/Cult_Shop_02.asset"
+            }
+        }
+    ]
+}
