@@ -1,0 +1,76 @@
+WorldKotHSkill
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/World/WorldExecuteImmediatelySelectionCursor.prefab"
+        }
+    },
+    "OnlyUsableByOwner": true,
+    "Icon": {
+        "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_SleepOneTurn_01.png"
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#Sleep One Week Skill.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "#Sleep One Week Skill.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "KotH": {
+        "ContentPath": "Skills/Campaign/Sleep One Week KotH.asset"
+    }
+}

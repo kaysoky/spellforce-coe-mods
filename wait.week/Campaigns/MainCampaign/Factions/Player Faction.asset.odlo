@@ -1,0 +1,16 @@
+FactionDefinition
+{
+    "<FactionModifiers>k__BackingField": {
+        "UnitModifier": [
+            {   
+                "<UnitModifiers>k__BackingField": {
+                    "StackSkills": [
+                        {
+                            "ContentPath": "Skills/Campaign/Sleep One Week Skill.asset"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
