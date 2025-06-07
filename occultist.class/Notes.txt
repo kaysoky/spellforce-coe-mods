@@ -1,65 +1,37 @@
-Demonologist Replacement
-    Uses Alchemist crafting to translates lesser demons into souls
-        Lesser Demons are Artefacts and have levels - Souls are Items and don't have levels
-            No straightforward translation from Lesser Demon into Souls
-            Souls are re-tagged so they can't be used to summon demons
-                I do this because the crafting slots are unity references and change between releases
-        Instead, level 3 lesser demons add extra loot drops (Sacrificial Offerings) associated with themselves
-            Can't retain Cult info this way, but better than nothing
-        3x Sacrificial Offerings = Lesser Demonic Vessel
-            Equivalent to a level 2 Lesser Demon + Soul Cage
-        3x Lesser Demonic Vessels = Medium Demonic Vessel
-        3x Medium Demonic Vessels = Greater Demonic Vessel
-    Uses Necromancer crafting to summon demons
-        Tier 1 - Lesser Demonic Vessel
-            A | Gargoyle
-            D | Cultists (Transformed into Tier 1 unit)
-            E | Ashen Ones
-            L | Slaves
-        Tier 2 - Medium Demonic Vessel
-            AA | ???
-            AD | ???
-            AL | ???
-            DD | ???
-            EA | Hiveminder
-            ED | Horned Beast
-            EE | Core Dweller
-            EL | Horned Charger
-            LL | ??? Minor Wendigo
-        Tier 3 - Greater Demonic Vessel
-            AAA | ??? Psuedo Apprentice
-            AAD | ???
-            AAL | ???
-            ADD | ???
-            ALL | ???
-            DDD | ???
-            EAA | ??? Greater Gargoyle
-            EAD | Aether Beast
-            EAL | ??? Sa'Hrul Doppelganger
-            EDD | ??? Philo
-            EEA | ??? Burning Tree
-            EED | Glutton
-            EEE | ??? Ashen Horde
-            EEL | Leviathan
-            ELL | Wendigo
-            LLL | ??? Hellhound
-        Tier 4 - Demon Lords
-            Using Demon Lord's artifact = summon Demon Lord
-    Necromancer-like army size
-        Remove 1 stackslot, but add 2 dedicated to Tier 1 units
-Demonologist Grimoire Page (TODO Test)
-    Ritual Chamber -> Unlocks Demonology, Alchemy, and Necromancy
-    Hire Cultist -> Hire Arsonists
-        TODO: Add Sully Village as major threshold promotion
-    Amalgamation Chamber -> Soul Well (Necromancer one)
-        Weekly income of Sacrificial Offerings instead of 2 Greater Souls
-    Banish Demon -> Sully Village ability
-        Unlock requirement changed to Alchemy potions (upgrading sacrificial offerings)
-        Larger reputation penalty
-        2x Sacrificial Offerings extra as loot
-        Can be acquired quicker if Galtrak is chosen
-    Eager Mind -> Soul Cage (Necromancer ability)
-        Unlock requirement to necromancy (incarnating demons)
+Uses Necromancer crafting to summon demons
+    Tier 1 - Lesser Demonic Vessel
+        A | Gargoyle
+        D | Cultists (Transformed into Tier 1 unit)
+        E | Ashen Ones
+        L | Slaves
+    Tier 2 - Medium Demonic Vessel
+        AA | ???
+        AD | ???
+        AL | ???
+        DD | ???
+        EA | Hiveminder
+        ED | Horned Beast
+        EE | Core Dweller
+        EL | Horned Charger
+        LL | ??? Minor Wendigo
+    Tier 3 - Greater Demonic Vessel
+        AAA | ??? Psuedo Apprentice
+        AAD | ???
+        AAL | ???
+        ADD | ???
+        ALL | ???
+        DDD | ???
+        EAA | ??? Greater Gargoyle
+        EAD | Aether Beast
+        EAL | ??? Sa'Hrul Doppelganger
+        EDD | ??? Philo
+        EEA | ??? Burning Tree
+        EED | Glutton
+        EEE | ??? Ashen Horde
+        EEL | Leviathan
+        ELL | Wendigo
+        LLL | ??? Hellhound
+
 -vv- TODO -vv-
 Occultism spell replacements
     Sacrificial Summon -> ???
@@ -68,6 +40,7 @@ Occultism spell replacements
     Chaos Altar & Shrine -> Provides weekly income instead of hiring demons
     Pandemonium -> Higher stat buff instead of hiring demons
 Cities are spawners
+    Haven't had success doing so...
     Mostly focused on guarding, but will ambush at lowest reputation
     Sully Village gives Siege City ability too?
 New equipment slot for Cult?

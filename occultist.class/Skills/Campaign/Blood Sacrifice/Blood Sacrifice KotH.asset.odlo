@@ -1,7 +1,7 @@
 WorldKingOfTheHillDefinition
 {
     "Expires": true,
-    "BaseDuration": 4,
+    "BaseDuration": 7,
     "FasterWithMoreUsers": true,
     "OnTurnCountReached": {
         "Effects": [
@@ -55,7 +55,7 @@ WorldKingOfTheHillDefinition
                             }
                         ]
                     },
-                    "NumberOfRolls": 2
+                    "NumberOfRolls": 5
                 }
             },
             {
@@ -85,7 +85,7 @@ WorldKingOfTheHillDefinition
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "ReputationImpactOnUse": -25
+                    "ReputationImpactOnUse": -50
                 }
             }
         ]

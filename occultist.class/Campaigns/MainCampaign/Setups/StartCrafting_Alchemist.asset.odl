@@ -1,0 +1,112 @@
+CampaignStartCrafting
+{
+    "DisplayName": {
+        "Key": "StartCrafting_Demonology.DisplayName",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Description": {
+        "Key": "#StartCrafting_Demonology.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 4524506,
+                "GuidPart2": 1280847724,
+                "GuidPart3": 1490426754,
+                "GuidPart4": -1616521041
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "CraftingMenuImage": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Campaigns/MainCampaign/Setups/StartCrafting_Demonology_Icon_01.png"
+        }
+    },
+    "ArchetypePortrait": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Campaigns/MainCampaign/Setups/ArchetypeDemonologist_CampaignStartup_Icon_01.png"
+        }
+    },
+    "Tower": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/CampaignStart_Tower_04.asset"
+    },
+    "CraftingResearchTag": {
+        "ContentPath": "Spellbook/Tags/CRAFTING DEMONOLOGY.asset"
+    },
+    "Researches": {
+        "AwardActivePagesWhen": -1,
+        "ActivePages": [
+            {
+                "ContentPath": "Spellbook/Research/Demonology/Craftingpage_Demonology_1.asset"
+            }
+        ],
+        "AwardFinishedMilestonesWhen": -1,
+        "FinishedMilestones": [
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Demonology/Demonology Room Base.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 483357176,
+                    "GuidPart2": 1092647685,
+                    "GuidPart3": 2025656980,
+                    "GuidPart4": 1629019861
+                }
+            }
+        ],
+        "DynamicPagesEnabledOnly": {
+            "FinishedMilestones": [],
+            "AwardedPages": 0,
+            "AwardedMilestones": []
+        }
+    },
+    "StartItems": [
+        {
+            "ContentPath": "Items/Demonology/Cults/Cult_Default.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        }
+    ],
+    "StartRooms": [],
+    "StackDefinition": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/Stack_Demonologist.asset"
+    },
+    "TowerMusicFolder": "Audio/Music/TowerMusic/Demonologist",
+    "HoverSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": ""
+        }
+    },
+    "ClickSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Audio/UI/ui_Necromancy_Craft_01.wav"
+        }
+    }
+}
