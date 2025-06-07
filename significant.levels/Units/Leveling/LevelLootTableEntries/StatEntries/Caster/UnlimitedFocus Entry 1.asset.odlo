@@ -1,0 +1,10 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Disabled.asset"
+            }
+        ]
+    }
+}

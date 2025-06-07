@@ -1,0 +1,12 @@
+AuraDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "CombatModifiers": {
+            "Armor": 1,
+            "DamageBonus": 0,
+            "DamageTypes": {
+                "DamageReduction": 0.05
+            }
+        }
+    }
+}
