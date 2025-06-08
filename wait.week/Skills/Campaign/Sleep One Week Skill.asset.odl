@@ -17,7 +17,7 @@ WorldKotHSkill
     },
     "OnlyUsableByOwner": true,
     "Icon": {
-        "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_SleepOneTurn_01.png"
+        "ContentPath": "Packages/Package.wait.week.Icon.png"
     },
     "Tooltip": {
         "Name": {
