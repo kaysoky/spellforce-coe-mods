@@ -1,0 +1,35 @@
+Package.random.shop.bonuses.DisplayName;Shop Bonuses and Randomizer
+#Shop_Bonus.Armor.Tooltip.Name.Loca;Armorer's Guild
+#Shop_Bonus.Armor.Item.Suffix;[cult]of Armor[/]
+#Shop_Bonus.Willpower.Tooltip.Name.Loca;Mages' Guild
+#Shop_Bonus.Willpower.Item.Suffix;[cult]of Warding[/]
+#Shop_Bonus.Damage.Tooltip.Name.Loca;Blacksmith's Guild
+#Shop_Bonus.Damage.Item.Suffix;[cult]of Quality[/]
+#Shop_Bonus.Elemental.Tooltip.Name.Loca;Pyromancer's Guild
+#Shop_Bonus.Elemental.Item.Suffix;[cult]of Fire[/]
+#Shop_Bonus.White.Tooltip.Name.Loca;Church of Tiara
+#Shop_Bonus.White.Item.Suffix;[cult]of Light[/]
+#Shop_Bonus.Health.Tooltip.Name.Loca;Healer's Guild
+#Shop_Bonus.Health.Item.Suffix;[cult]of Health[/]
+#Shop_Bonus.SoulFind.Tooltip.Name.Loca;Necromancer's Cabal
+#Shop_Bonus.SoulFind.Item.Suffix;[cult]of Souls[/]
+#Shop_Bonus.Focus.Tooltip.Name.Loca;Union of Monks
+#Shop_Bonus.Focus.Item.Suffix;[cult]of Focus[/]
+#Shop_Bonus.Scout.Tooltip.Name.Loca;Hunter's Guild
+#Shop_Bonus.Scout.Item.Suffix;[cult]of Reconnaisance[/]
+#Shop_Bonus.Ability.Tooltip.Name.Loca;Sorcerer's Guild
+#Shop_Bonus.Ability.Item.Suffix;[cult]of Spellcasting[/]
+#Shop_Bonus.MeleeArmor.Tooltip.Name.Loca;Blacksmith's Guild
+#Shop_Bonus.MeleeArmor.Item.Suffix;[cult]of Parry[/]
+#Shop_Bonus.MeleeWillpower.Tooltip.Name.Loca;Sorcerer's Guild
+#Shop_Bonus.MeleeWillpower.Item.Suffix;[cult]of Resistance[/]
+#Shop_Bonus.MissileArmor.Tooltip.Name.Loca;Hunter's Guild
+#Shop_Bonus.MissileArmor.Item.Suffix;[cult]of Quickness[/]
+#Shop_Bonus.MissileWillpower.Tooltip.Name.Loca;Mages' Guild
+#Shop_Bonus.MissileWillpower.Item.Suffix;[cult]of Nimbleness[/]
+#Shop_Bonus.Healing.Tooltip.Name.Loca;Healer's Guild
+#Shop_Bonus.Healing.Item.Suffix;[cult]of Recovery[/]
+#Shop_Bonus.Proficiency.Tooltip.Name.Loca;Scholar's Guild
+#Shop_Bonus.Proficiency.Item.Suffix;[cult]of Proficiency[/]
+#Shop_Bonus.Research.Tooltip.Name.Loca;Scholar's Guild
+#Shop_Bonus.Research.Item.Suffix;[cult]of Research[/]
