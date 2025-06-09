@@ -37,6 +37,9 @@ ShopDefinition
                         },
                         {
                             "rid": 1004
+                        },
+                        {
+                            "rid": 1036
                         }
                     ]
                 }
@@ -605,6 +608,20 @@ ShopDefinition
                     "Item": {
                         "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHealthy.asset"
                     }
+                }
+            },
+            {
+                "rid": 1036,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Fantastic/Fantastic_FireGolem.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             }
         ]

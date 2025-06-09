@@ -34,6 +34,9 @@ ShopDefinition
                     "PossibleEntries": [
                         {
                             "rid": 1003
+                        },
+                        {
+                            "rid": 1009
                         }
                     ]
                 }
@@ -91,6 +94,12 @@ ShopDefinition
                         },
                         {
                             "rid": 1008
+                        },
+                        {
+                            "rid": 1010
+                        },
+                        {
+                            "rid": 1011
                         }
                     ]
                 }
@@ -175,6 +184,48 @@ ShopDefinition
                 "data": {
                     "Unit": {
                         "ContentPath": "Units/Factions/Dwarves/Dwarf_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_CorruptedDruid.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_FireElemental.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Fantastic/Fantastic_BabyFireGolem.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

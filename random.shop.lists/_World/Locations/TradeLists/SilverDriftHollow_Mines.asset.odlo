@@ -34,6 +34,12 @@ ShopDefinition
                     "PossibleEntries": [
                         {
                             "rid": 1003
+                        },
+                        {
+                            "rid": 1014
+                        },
+                        {
+                            "rid": 1015
                         }
                     ]
                 }
@@ -252,6 +258,32 @@ ShopDefinition
                 "data": {
                     "Item": {
                         "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_05.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1014,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Artefact_SkyIron_ofTheBlight.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1015,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Artefact_SkyIron_ofTheGuardians.asset"
                     }
                 }
             }

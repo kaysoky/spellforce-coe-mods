@@ -61,6 +61,12 @@ ShopDefinition
                     "PossibleEntries": [
                         {
                             "rid": 1005
+                        },
+                        {
+                            "rid": 1009
+                        },
+                        {
+                            "rid": 1010
                         }
                     ]
                 }
@@ -175,6 +181,34 @@ ShopDefinition
                 "data": {
                     "Unit": {
                         "ContentPath": "Units/Factions/Human/Human_Slaves.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/DarkElves/Fantastic_Blades.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

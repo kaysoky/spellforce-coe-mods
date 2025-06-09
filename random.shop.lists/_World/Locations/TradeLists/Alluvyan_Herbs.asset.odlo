@@ -30,7 +30,7 @@ ShopDefinition
                     },
                     "ReputationLevel": 3,
                     "CanRefill": true,
-                    "SlotAmount": 1,
+                    "SlotAmount": 2,
                     "PossibleEntries": [
                         {
                             "rid": 1003

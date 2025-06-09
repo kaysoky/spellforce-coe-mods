@@ -34,6 +34,12 @@ ShopDefinition
                     "PossibleEntries": [
                         {
                             "rid": 1003
+                        },
+                        {
+                            "rid": 1011
+                        },
+                        {
+                            "rid": 1012
                         }
                     ]
                 }
@@ -209,6 +215,34 @@ ShopDefinition
                 "data": {
                     "Unit": {
                         "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/PurityOfLight/Purity_IronOne.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Fantastic/Fantastic_MegaWisp.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

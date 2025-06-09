@@ -34,6 +34,12 @@ ShopDefinition
                     "PossibleEntries": [
                         {
                             "rid": 1003
+                        },
+                        {
+                            "rid": 1009
+                        },
+                        {
+                            "rid": 1010
                         }
                     ]
                 }
@@ -61,6 +67,12 @@ ShopDefinition
                         },
                         {
                             "rid": 1005
+                        },
+                        {
+                            "rid": 1011
+                        },
+                        {
+                            "rid": 1012
                         }
                     ]
                 }
@@ -175,6 +187,62 @@ ShopDefinition
                 "data": {
                     "Unit": {
                         "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Goliath.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Militia.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

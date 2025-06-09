@@ -34,6 +34,9 @@ ShopDefinition
                     "PossibleEntries": [
                         {
                             "rid": 1003
+                        },
+                        {
+                            "rid": 1008
                         }
                     ]
                 }
@@ -61,6 +64,9 @@ ShopDefinition
                         },
                         {
                             "rid": 1005
+                        },
+                        {
+                            "rid": 1009
                         }
                     ]
                 }
@@ -158,6 +164,34 @@ ShopDefinition
                 "data": {
                     "Unit": {
                         "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Orcs/Orc_WarTroll.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Trolls/Troll_Wallbreaker.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

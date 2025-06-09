@@ -37,6 +37,12 @@ ShopDefinition
                         },
                         {
                             "rid": 1004
+                        },
+                        {
+                            "rid": 1017
+                        },
+                        {
+                            "rid": 1018
                         }
                     ]
                 }
@@ -311,6 +317,34 @@ ShopDefinition
                 "data": {
                     "Unit": {
                         "ContentPath": "Units/Factions/Animals/Animal_Hornet.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1017,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_AquaticWyvern.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1018,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_BronzeWyvern.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

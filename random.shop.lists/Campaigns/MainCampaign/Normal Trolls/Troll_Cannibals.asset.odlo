@@ -31,6 +31,9 @@ ShopDefinition
                     "PossibleEntries": [
                         {
                             "rid": 1002
+                        },
+                        {
+                            "rid": 1012
                         }
                     ]
                 }
@@ -237,6 +240,20 @@ ShopDefinition
                 "data": {
                     "Unit": {
                         "ContentPath": "Units/Factions/Trolls/Troll_Bile.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Trolls/Troll_Savage.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

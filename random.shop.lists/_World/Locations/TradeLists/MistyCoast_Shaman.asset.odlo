@@ -31,6 +31,12 @@ ShopDefinition
                     "PossibleEntries": [
                         {
                             "rid": 1002
+                        },
+                        {
+                            "rid": 1009
+                        },
+                        {
+                            "rid": 1010
                         }
                     ]
                 }
@@ -180,6 +186,34 @@ ShopDefinition
                             "GuidPart4": -1750119496
                         }
                     }
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_Tickbug.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Fantastic/Fantastic_Hellhound.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             }
         ]

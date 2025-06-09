@@ -55,15 +55,6 @@ ShopDefinition
                         },
                         {
                             "rid": 1010
-                        },
-                        {
-                            "rid": 1011
-                        },
-                        {
-                            "rid": 1012
-                        },
-                        {
-                            "rid": 1013
                         }
                     ]
                 }
@@ -86,6 +77,15 @@ ShopDefinition
                     "CanRefill": true,
                     "SlotAmount": 3,
                     "PossibleEntries": [
+                        {
+                            "rid": 1011
+                        },
+                        {
+                            "rid": 1012
+                        },
+                        {
+                            "rid": 1013
+                        },
                         {
                             "rid": 1014
                         }
