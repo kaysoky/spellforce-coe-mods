@@ -284,7 +284,7 @@ AstrologyConstellationDefinition
                                 },
                                 "<UnitModifiers>k__BackingField": {
                                     "BuddyBonus": {
-                                        "ContentPath": "Promotions/Buddybonus_Constellation_WorldRegen.asset"
+                                        "ContentPath": "Promotions/Buddybonus_Constellation_WorldMovement.asset"
                                     }
                                 }
                             }
@@ -355,7 +355,7 @@ AstrologyConstellationDefinition
                                 },
                                 "<UnitModifiers>k__BackingField": {
                                     "BuddyBonus": {
-                                        "ContentPath": "Promotions/Buddybonus_Constellation_WorldMovement.asset"
+                                        "ContentPath": "Promotions/Buddybonus_Constellation_WorldRegen.asset"
                                     }
                                 }
                             }
@@ -445,7 +445,50 @@ AstrologyConstellationDefinition
             "FromIndex": 4,
             "ToIndex": 5,
             "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 1,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/location_hire.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "ItemSellPriceModifiers": [
+                            {
+                                "OptionalTags": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Items/Tags/Artefact_Trinket.asset"
+                                        }
+                                    ]
+                                },
+                                "SellPriceModifier": 0.5
+                            }
+                        ]
+                    }
+                },
+                {
+                    "Type": 2,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/location_hire.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "ItemSellPriceModifiers": [
+                            {
+                                "OptionalTags": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Items/Tags/Catalyst.asset"
+                                        }
+                                    ]
+                                },
+                                "SellPriceModifier": 0.5
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "FromIndex": 5,
@@ -482,7 +525,7 @@ AstrologyConstellationDefinition
                                     }
                                 },
                                 "<UnitModifiers>k__BackingField": {
-                                    "Soulfind": 0.05
+                                    "Soulfind": 0.04
                                 }
                             }
                         ]
@@ -512,7 +555,7 @@ AstrologyConstellationDefinition
                                     }
                                 },
                                 "<UnitModifiers>k__BackingField": {
-                                    "Itemfind": 0.1
+                                    "Itemfind": 0.08
                                 }
                             }
                         ]
@@ -550,7 +593,7 @@ AstrologyConstellationDefinition
                                 },
                                 "<UnitModifiers>k__BackingField": {
                                     "PassiveIncome": {
-                                        "ResearchPerRound": 2
+                                        "ResearchPerRound": 1
                                     }
                                 }
                             }
@@ -582,7 +625,7 @@ AstrologyConstellationDefinition
                                 },
                                 "<UnitModifiers>k__BackingField": {
                                     "PassiveIncome": {
-                                        "FamePerRound": 2
+                                        "FamePerRound": 1
                                     }
                                 }
                             }
