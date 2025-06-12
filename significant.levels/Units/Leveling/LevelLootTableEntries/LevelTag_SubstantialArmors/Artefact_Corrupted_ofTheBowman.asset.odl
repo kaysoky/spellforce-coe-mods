@@ -1,0 +1,52 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Armors.asset"
+            }
+        ]
+    },
+    "Thresholds": 1,
+    "IgnoredUnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/OccupiedArmorSlot.asset"
+            }
+        ]
+    },
+    "ValidForLevelRange": {
+        "x": 11.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "Weight": 50,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Armor/Artefact_Corrupted_ofTheBowman.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "UnitHasAttackType",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "RequiredAttackType": {
+                        "ContentPath": "Skills/AttackTypes/Missile Attack Type.asset"
+                    },
+                    "Value": true
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+UnitDefinition
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Goblin.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Archer.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Ranged.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier1.asset"
+            }
+        ]
+    }
+}

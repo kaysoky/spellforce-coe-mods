@@ -152,7 +152,7 @@ UnitPromotionDefinition
             "RetreatChance": 0.0,
             "ChargeDamage": 0,
             "CritChanceBonus": 0.0,
-            "Armor": 1,
+            "Armor": 4,
             "ArmorModifier": 0.0,
             "DamageModifier": 0.0,
             "DamageBonus": 0,

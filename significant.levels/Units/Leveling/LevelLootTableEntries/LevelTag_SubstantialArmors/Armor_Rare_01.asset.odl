@@ -1,0 +1,33 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Armors.asset"
+            }
+        ]
+    },
+    "Thresholds": 1,
+    "IgnoredUnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/OccupiedArmorSlot.asset"
+            }
+        ]
+    },
+    "ValidForLevelRange": {
+        "x": 11.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": []
+    },
+    "Weight": 50,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Armor/Armor_Rare_01.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}

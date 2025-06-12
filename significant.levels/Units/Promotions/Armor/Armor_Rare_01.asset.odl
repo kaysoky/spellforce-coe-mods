@@ -197,7 +197,7 @@ UnitPromotionDefinition
                 "WhiteDamageBonus": 0,
                 "PhysicalDamageBonus": 0,
                 "PhysicalResistance": 0.0,
-                "ElementalResistance": 0.4000000059604645,
+                "ElementalResistance": 0.4,
                 "ElementalDamageBonus": 0
             },
             "MagicDamageModifier": 0.0,
@@ -228,11 +228,7 @@ UnitPromotionDefinition
             "ContentPath": ""
         }
     },
-    "PromotionsToAdd": [
-        {
-            "ContentPath": "Units/Promotions/SpellPromotions/Wind Walking.asset"
-        }
-    ],
+    "PromotionsToAdd": [],
     "ConditionalPromotionsToAdd": [],
     "IgnoredPromotions": [],
     "ExposeIgnoredPromotionsInTooltip": false,

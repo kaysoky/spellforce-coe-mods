@@ -1,0 +1,33 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Weapons.asset"
+            }
+        ]
+    },
+    "Thresholds": 1,
+    "IgnoredUnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/OccupiedWeaponSlot.asset"
+            }
+        ]
+    },
+    "ValidForLevelRange": {
+        "x": 8.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": []
+    },
+    "Weight": 50,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Weapon/DLC2_Weapon_Uncommon_02.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}

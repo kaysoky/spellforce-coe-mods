@@ -139,28 +139,7 @@ UnitPromotionDefinition
         "AdditionalArtefactSlots": [],
         "RemoveArtefactSlots": [],
         "AttackEffects": [],
-        "SelfAttackEffects": [
-            {
-                "AttackTypeReference": {
-                    "ContentPath": ""
-                },
-                "ApplyAlsoWhenDefending": false,
-                "ApplyOnlyOnKill": true,
-                "StatusEffects": [
-                    {
-                        "Amount": 0,
-                        "StatusEffect": {
-                            "ContentPath": "Units/Promotions/RecoverActionsOnKillSE.asset"
-                        },
-                        "Chance": 10
-                    }
-                ],
-                "BreaksKotHs": [],
-                "ChangeFocusOnAttack": 0,
-                "ExecuteThreshold": 0.0,
-                "ExecuteStrongerTiers": false
-            }
-        ],
+        "SelfAttackEffects": [],
         "HidingSettings": [],
         "LeechSettings": [],
         "GridSpecificModifiers": [],
@@ -253,7 +232,11 @@ UnitPromotionDefinition
             "ContentPath": ""
         }
     },
-    "PromotionsToAdd": [],
+    "PromotionsToAdd": [
+        {
+            "ContentPath": "Units/Promotions/RecoverActionOnKill.asset"
+        }
+    ],
     "ConditionalPromotionsToAdd": [],
     "IgnoredPromotions": [],
     "ExposeIgnoredPromotionsInTooltip": false,

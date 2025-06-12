@@ -107,6 +107,9 @@ UnitDefinition
             },
             {
                 "ContentPath": "Units/Leveling/LevelLootTableTags/Assassin.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier1.asset"
             }
         ]
     },

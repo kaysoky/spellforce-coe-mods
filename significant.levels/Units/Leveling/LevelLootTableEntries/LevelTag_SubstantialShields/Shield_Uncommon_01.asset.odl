@@ -1,0 +1,33 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Shields.asset"
+            }
+        ]
+    },
+    "Thresholds": 1,
+    "IgnoredUnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/OccupiedShieldSlot.asset"
+            }
+        ]
+    },
+    "ValidForLevelRange": {
+        "x": 4.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": []
+    },
+    "Weight": 50,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/Shield/Shield_Uncommon_01.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}

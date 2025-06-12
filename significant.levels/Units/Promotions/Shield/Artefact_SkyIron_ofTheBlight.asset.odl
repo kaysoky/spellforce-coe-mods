@@ -191,7 +191,7 @@ UnitPromotionDefinition
             },
             "DamageTypes": {
                 "DamageReduction": 0.0,
-                "DeathResistance": 0.5,
+                "DeathResistance": 0.4,
                 "DeathDamageBonus": 0,
                 "WhiteResistance": 0.0,
                 "WhiteDamageBonus": 0,

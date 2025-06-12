@@ -241,7 +241,17 @@ UnitPromotionDefinition
         "mTags": []
     },
     "LevelUpTags": {
-        "mTags": []
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/SubstantialArmors.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/SubstantialShields.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/SubstantialWeapons.asset"
+            }
+        ]
     },
     "ShowInApprenticeSelection": false,
     "UnitTitleOverride": {
@@ -274,12 +284,12 @@ UnitPromotionDefinition
                 "Key": "#SubstantialArmor.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
-                        "GuidPart1": 1545339066,
-                        "GuidPart2": 1301756085,
-                        "GuidPart3": 1007704193,
-                        "GuidPart4": -1341261557
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
                     },
-                    "mSerializableLocalIdentifier": 11400000
+                    "mSerializableLocalIdentifier": 0
                 }
             },
             "BlankLineInFront": false,

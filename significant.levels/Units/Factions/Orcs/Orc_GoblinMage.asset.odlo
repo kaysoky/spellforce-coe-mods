@@ -1,0 +1,25 @@
+UnitDefinition
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Goblin.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Caster.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/FireSpells.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Healer.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier2.asset"
+            }
+        ]
+    }
+}

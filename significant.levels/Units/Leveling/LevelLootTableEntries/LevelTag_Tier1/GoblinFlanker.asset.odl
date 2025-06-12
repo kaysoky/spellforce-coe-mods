@@ -1,0 +1,72 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier1.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier2.asset"
+            }
+        ]
+    },
+    "Thresholds": 1,
+    "UnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Goblin.asset"
+            }
+        ]
+    },
+    "ValidForLevelRange": {
+        "x": 1.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            }
+        ]
+    },
+    "Weight": 10,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/GoblinFlanker.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/StrengthInNumbers_1.asset"
+                    },
+                    "Value": false
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/SubstantialArmor.asset"
+                    },
+                    "Value": false
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+UnitDefinition
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Goblin.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Melee.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Berserker.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Assassin.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier1.asset"
+            }
+        ]
+    }
+}

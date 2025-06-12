@@ -1,0 +1,55 @@
+LevelUpPromotionEntry
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier2.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier3.asset"
+            }
+        ]
+    },
+    "Thresholds": 1,
+    "IgnoredUnitTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/HasFlanker.asset"
+            }
+        ]
+    },
+    "ValidForLevelRange": {
+        "x": 1.0,
+        "y": 99.0
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "Weight": 10,
+    "PromotionToApply": {
+        "ContentPath": "Units/Promotions/SubstantialArmor.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "BoolHasPromotion",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/StrengthInNumbers_1.asset"
+                    },
+                    "Value": false
+                }
+            }
+        ]
+    }
+}

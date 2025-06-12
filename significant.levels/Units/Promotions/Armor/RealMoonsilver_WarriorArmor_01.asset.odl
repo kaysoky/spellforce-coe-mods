@@ -54,7 +54,7 @@ UnitPromotionDefinition
             "RelativeWorldHealRateBonus": 0.0,
             "WorldHealRateModifier": 0.0,
             "HealthModifier": 0.0,
-            "AdditionalLife": 80,
+            "AdditionalLife": 30,
             "CannotRegenerate": false,
             "BattleHealRateMultiplier": 0.0,
             "StackHealBoni": []

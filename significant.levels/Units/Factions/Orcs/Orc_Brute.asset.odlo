@@ -1,0 +1,22 @@
+UnitDefinition
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Orc.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Melee.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Berserker.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier2.asset"
+            }
+        ]
+    }
+}

@@ -53,8 +53,8 @@ UnitPromotionDefinition
             "WorldHealRateBonus": 0,
             "RelativeWorldHealRateBonus": 0.0,
             "WorldHealRateModifier": 0.0,
-            "HealthModifier": 0.3,
-            "AdditionalLife": 30,
+            "HealthModifier": 0.1,
+            "AdditionalLife": 15,
             "CannotRegenerate": false,
             "BattleHealRateMultiplier": 0.3,
             "StackHealBoni": []
@@ -160,7 +160,7 @@ UnitPromotionDefinition
             "AlwaysDealMaxDmg": false,
             "AlwaysDealMinDmg": false,
             "MissingHealthDamageBonus": {
-                "MaxDamage": -10
+                "MaxDamage": -8
             },
             "OverrideDamageTypeReference": {
                 "ContentPath": ""

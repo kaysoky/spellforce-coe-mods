@@ -68,7 +68,7 @@ UnitPromotionDefinition
             "PostCombatMovement": 0
         },
         "Focus": 0,
-        "Morale": 0,
+        "Morale": 2,
         "MoraleModifier": 0.0,
         "Speed": 0,
         "SpeedModifier": 0.0,

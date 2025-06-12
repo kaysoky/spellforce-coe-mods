@@ -1,0 +1,28 @@
+UnitDefinition
+{
+    "LevelUpTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Generic.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Racial/Orc.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Melee.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Cavalry.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Berserker.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/MoraleBuster.asset"
+            },
+            {
+                "ContentPath": "Units/Leveling/LevelLootTableTags/Tier3.asset"
+            }
+        ]
+    }
+}
