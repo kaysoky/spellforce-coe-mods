@@ -1,0 +1,71 @@
+RunesmithingRecipe
+{
+    "RecipeName": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CraftingLocks": {
+        "mTags": []
+    },
+    "Condition": {
+        "rid": 1000
+    },
+    "Result": {
+        "rid": 1001
+    },
+    "Order": 1,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SpecificRunesmithingCondition",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Runesmithing",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Ore": {
+                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                    },
+                    "RequiredItems": [
+                        {
+                            "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                        },
+                        {
+                            "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                        },
+                        {
+                            "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
+                        },
+                        {
+                            "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
+                        }
+                    ]
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "FixedItemResult",
+                    "ns": "OwnedByGravity.Game.Logic.Crafting.Alchemy",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Result": {
+                        "ContentPath": "Items/Loot/Artefacts/CopperTrinket.asset"
+                    },
+                    "Amount": 1
+                }
+            }
+        ]
+    }
+}

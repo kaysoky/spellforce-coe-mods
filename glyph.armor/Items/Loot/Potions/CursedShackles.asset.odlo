@@ -1,0 +1,16 @@
+ItemDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Consumable.asset"
+            },
+            {
+                "ContentPath": "Items/Tags/Ingredient.asset"
+            },
+            {
+                "ContentPath": "Items/Tags/Rune_Copper.asset"
+            }
+        ]
+    }
+}

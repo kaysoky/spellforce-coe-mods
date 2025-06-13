@@ -1,0 +1,16 @@
+ArtefactDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Rune.asset"
+            },
+            {
+                "ContentPath": "Items/Tags/Ingredient.asset"
+            },
+            {
+                "ContentPath": "Items/Tags/Rune_Adamantium.asset"
+            }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+Package.glyph.armor.DisplayName;Runic Armor
+#CopperTrinket.Tooltip.Name.Loca;Runic Gauntlets
+#CopperTrinket.Tooltip.Description.Loca;This unit is equipped with Runic Gauntlets, channeling the power of their master's [moon]Runic Core[/].
+#CopperTrinketTag.Name;Runic Gauntlet
+Copper Slot.SlotLocaIfEmpty;Mountain Copper Glyph or Item
+#IronArmor.Tooltip.Name.Loca;Runic Armor
+#IronArmor.Tooltip.Description.Loca;This unit is equipped with Runic Armor, channeling the power of their master's [moon]Runic Core[/].
+#IronArmorTag.Name;Runic Armor
+Iron Slot.SlotLocaIfEmpty;Sky Iron Glyph or Item
+#CorruptedShield.Tooltip.Name.Loca;Runic Shield
+#CorruptedShield.Tooltip.Description.Loca;This unit is equipped with a Runic Shield, channeling the power of their master's [moon]Runic Core[/].
+#CorruptedShieldTag.Name;Runic Shield
+Corrupted Slot.SlotLocaIfEmpty;Corrupted Adamantium Glyph or Item
+#AdamantiumWand.Tooltip.Name.Loca;Runic Control Rod
+#AdamantiumWand.Tooltip.Description.Loca;This unit is equipped with a Runic Control Rod, channeling the power of their master's [moon]Runic Core[/].
+#AdamantiumWandTag.Name;Runic Control Rod
+Adamantium Slot.SlotLocaIfEmpty;Adamantium Glyph or Item

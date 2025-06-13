@@ -1,0 +1,8 @@
+CampaignStartCrafting
+{
+    "StartAstrologyConstellations": [
+        {
+            "ContentPath": "Crafting/Astrology/Constellations/Constellation_Copper/Constellation_Copper.asset"
+        }
+    ]
+}
