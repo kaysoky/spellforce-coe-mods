@@ -11,7 +11,7 @@ ArtefactSlotType
     "TagFilter": {
         "mTags": [
             {
-                "ContentPath": "Items/Tags/Trinket.asset"
+                "ContentPath": "Items/Tags/Artefact_Trinket.asset"
             },
             {
                 "ContentPath": "Items/Tags/Catalyst.asset"
