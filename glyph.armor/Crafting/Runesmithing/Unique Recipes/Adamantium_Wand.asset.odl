@@ -1,7 +1,7 @@
 RunesmithingRecipe
 {
     "RecipeName": {
-        "Key": "#CopperTrinket.Tooltip.Name.Loca",
+        "Key": "#AdamantiumWand.Tooltip.Name.Loca",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,
@@ -21,7 +21,7 @@ RunesmithingRecipe
     "Result": {
         "rid": 1001
     },
-    "Order": 1,
+    "Order": 4,
     "references": {
         "version": 2,
         "RefIds": [
@@ -34,20 +34,20 @@ RunesmithingRecipe
                 },
                 "data": {
                     "Ore": {
-                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                        "ContentPath": "Items/Loot/Ores/Moonsilver.asset"
                     },
                     "RequiredItems": [
                         {
-                            "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                            "ContentPath": "Items/Loot/Ores/Moonsilver.asset"
                         },
                         {
-                            "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                            "ContentPath": "Items/Moonsilver/Real Moonsilver.asset"
                         },
                         {
-                            "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
+                            "ContentPath": "Items/Moonsilver/Real Moonsilver.asset"
                         },
                         {
-                            "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
+                            "ContentPath": "Items/Moonsilver/Real Moonsilver.asset"
                         }
                     ]
                 }
@@ -61,7 +61,7 @@ RunesmithingRecipe
                 },
                 "data": {
                     "Result": {
-                        "ContentPath": "Items/Loot/Artefacts/CopperTrinket.asset"
+                        "ContentPath": "Items/Loot/Artefacts/AdamantiumWand.asset"
                     },
                     "Amount": 1
                 }

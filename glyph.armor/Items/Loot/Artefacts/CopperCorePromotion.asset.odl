@@ -3,7 +3,7 @@ UnitPromotionDefinition
     "Unique": true,
     "DoesTransferInUpgrade": true,
     "HideInBattleUnitInfo": true,
-    "HideInUnitDetails": false,
+    "HideInUnitDetails": true,
     "<UnitModifiers>k__BackingField": {
         "MovementRules": [],
         "SkillOverrides": {
@@ -54,7 +54,7 @@ UnitPromotionDefinition
             "RelativeWorldHealRateBonus": 0.0,
             "WorldHealRateModifier": 0.0,
             "HealthModifier": 0.0,
-            "AdditionalLife": 0,
+            "AdditionalLife": 10,
             "CannotRegenerate": false,
             "BattleHealRateMultiplier": 0.0,
             "StackHealBoni": []
@@ -229,46 +229,7 @@ UnitPromotionDefinition
         }
     },
     "PromotionsToAdd": [],
-    "ConditionalPromotionsToAdd": [
-        {
-            "Condition": {
-                "TagFilter": {
-                    "AffectsOnly": {
-                        "mTags": [
-                            {
-                                "ContentPath": "Units/UnitTags/Apprentice Tag.asset"
-                            },
-                            {
-                                "ContentPath": "Units/UnitTags/Hero Tag.asset"
-                            }
-                        ]
-                    },
-                    "AffectsNot": {
-                        "mTags": []
-                    }
-                },
-                "PromotionFilter": {
-                    "MustHaveAnyOf": [
-                        {
-                            "ContentPath": "Items/Loot/Artefacts/CopperCorePromotion.asset"
-                        }
-                    ],
-                    "DoesNotHaveAnyOf": []
-                },
-                "WorldCycleFilter": {
-                    "MustHaveAnyOf": {
-                        "mTags": []
-                    },
-                    "DoesNotHaveAnyOf": {
-                        "mTags": []
-                    }
-                }
-            },
-            "Promotion": {
-                "ContentPath": "Items/Loot/Artefacts/CopperTrinketPromotionTag.asset"
-            }
-        }
-    ],
+    "ConditionalPromotionsToAdd": [],
     "IgnoredPromotions": [],
     "ExposeIgnoredPromotionsInTooltip": false,
     "IgnoredAuras": [],
@@ -299,14 +260,14 @@ UnitPromotionDefinition
     "UnitSortOrderOverride": 0,
     "IsTemporary": false,
     "QualityType": 1,
-    "ShowAsSubTooltip": true,
+    "ShowAsSubTooltip": false,
     "Icon": {
-        "ContentPath": "Items/Loot/Artefacts/Icon_CopperTrinket.png"
+        "ContentPath": "Items/Loot/Artefacts/Icon_CopperCore.png"
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "#CopperTrinket.Tooltip.Name.Loca",
+                "Key": "#CopperCore.RecipeName",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -318,11 +279,11 @@ UnitPromotionDefinition
                 }
             },
             "BlankLineInFront": false,
-            "IsEmpty": false
+            "IsEmpty": true
         },
         "Description": {
             "Loca": {
-                "Key": "#CopperTrinket.Tooltip.Description.Loca",
+                "Key": "",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -334,7 +295,7 @@ UnitPromotionDefinition
                 }
             },
             "BlankLineInFront": false,
-            "IsEmpty": false
+            "IsEmpty": true
         },
         "Fluff": {
             "Loca": {

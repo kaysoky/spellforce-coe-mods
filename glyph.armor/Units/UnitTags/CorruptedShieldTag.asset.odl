@@ -1,7 +1,7 @@
 UnitTag
 {
     "DisplayName": {
-        "Key": "#CorruptedShieldTag.Name",
+        "Key": "#CorruptedShield.Tooltip.Name.Loca",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,

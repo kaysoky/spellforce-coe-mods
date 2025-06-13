@@ -1,7 +1,7 @@
 UnitTag
 {
     "DisplayName": {
-        "Key": "#CopperTrinketTag.Name",
+        "Key": "#CopperTrinket.Tooltip.Name.Loca",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,

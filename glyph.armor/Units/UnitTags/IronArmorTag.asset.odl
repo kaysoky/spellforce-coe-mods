@@ -1,7 +1,7 @@
 UnitTag
 {
     "DisplayName": {
-        "Key": "#IronArmorTag.Name",
+        "Key": "#IronArmor.Tooltip.Name.Loca",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,
