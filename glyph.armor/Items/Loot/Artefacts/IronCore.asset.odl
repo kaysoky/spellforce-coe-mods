@@ -1,0 +1,96 @@
+ArtefactDefinition
+{
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#IronCore.RecipeName",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Items/Loot/Artefacts/Icon_IronCore.png"
+    },
+    "Quality": {
+        "ContentPath": "Items/Quality/5 Divine.asset"
+    },
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Rune.asset"
+            },
+            {
+                "ContentPath": "Items/Tags/Ingredient.asset"
+            }
+        ]
+    },
+    "Stackable": true,
+    "BuyCosts": {
+        "Gold": 40,
+        "Mana": 0
+    },
+    "CanBeSold": true,
+    "CraftDuration": 7,
+    "BattleSkill": {
+        "ContentPath": ""
+    },
+    "Components": {
+        "Elemental": 0,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 0,
+        "Rainbow": 1
+    },
+    "Catalyst": {
+        "QuantityMultiplier": 1
+    },
+    "AddedPromotions": [
+        {
+            "ContentPath": "Items/Loot/Artefacts/IronCorePromotion.asset"
+        }
+    ],
+    "DestroyWithUnit": false
+}

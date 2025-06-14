@@ -3,6 +3,15 @@ CampaignStartCrafting
     "StartAstrologyConstellations": [
         {
             "ContentPath": "Crafting/Astrology/Constellations/Constellation_Copper/Constellation_Copper.asset"
+        },
+        {
+            "ContentPath": "Crafting/Astrology/Constellations/Constellation_Copper/Constellation_Iron.asset"
+        },
+        {
+            "ContentPath": "Crafting/Astrology/Constellations/Constellation_Copper/Constellation_Corrupted.asset"
+        },
+        {
+            "ContentPath": "Crafting/Astrology/Constellations/Constellation_Copper/Constellation_Adamantium.asset"
         }
     ]
 }
