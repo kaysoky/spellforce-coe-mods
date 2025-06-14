@@ -2,7 +2,7 @@ ArtefactSlotType
 {
     "Order": 104,
     "SlotIcon": {
-        "ContentPath": "Items/Slots/Adamantium_Slot.png"
+        "ContentPath": "UI/Icons/Icons/Icon_Inventory_Category_Runes_01.png"
     },
     "SlotPrefabOverride": {
         "m_FileID": 0,

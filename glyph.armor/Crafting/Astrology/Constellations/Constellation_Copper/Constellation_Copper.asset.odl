@@ -1,7 +1,7 @@
 AstrologyConstellationDefinition
 {
     "Name": {
-        "Key": "Constellation_Alchemy.Name",
+        "Key": "Constellation_Copper.Name",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,
@@ -13,7 +13,7 @@ AstrologyConstellationDefinition
         }
     },
     "Description": {
-        "Key": "Constellation_Alchemy.Description",
+        "Key": "Constellation_Copper.Description",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,
@@ -38,13 +38,13 @@ AstrologyConstellationDefinition
     },
     "Order": 0,
     "ConstellationIcon": {
-        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Alchemy/Constellation_Alchemy_Icon.png"
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Copper/Constellation_Copper_Icon.png"
     },
     "ConstellationImage": {
-        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Alchemy/Constellation_Alchemy_BG.png"
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Copper/Constellation_Copper_BG.png"
     },
     "SimplifiedNodeConstellationIcon": {
-        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Alchemy/Constellation_Alchemy_Simplified.png"
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Copper/Constellation_Copper_Simplified.png"
     },
     "SelectionCondition": {
         "Conditions": [
@@ -56,166 +56,44 @@ AstrologyConstellationDefinition
     "Nodes": [
         {
             "ScreenPosition": {
-                "x": 95.0,
-                "y": 330.0
+                "x": -30.0,
+                "y": 180.0
             },
             "SlotType": {
-                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
+                "ContentPath": "Items/Slots/Copper Slot.asset"
             },
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
         },
         {
             "ScreenPosition": {
-                "x": 175.0,
-                "y": 125.0
+                "x": 30.0,
+                "y": -45.0
             },
             "SlotType": {
-                "ContentPath": "Items/Slots/Trinket Catalyst Slot.asset"
+                "ContentPath": "Items/Slots/Copper Slot.asset"
             },
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
         },
         {
             "ScreenPosition": {
-                "x": 25.0,
+                "x": -170.0,
+                "y": 60.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Copper Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": 185.0,
                 "y": -210.0
             },
             "SlotType": {
-                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "ScreenPosition": {
-                "x": -200.0,
-                "y": -170.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Trinket Catalyst Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "ScreenPosition": {
-                "x": -120.0,
-                "y": -330.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
-                {
-                    "Type": 1,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Death_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "WeeklyIncome": [
-                            {
-                                "Picks": 2,
-                                "Items": [
-                                    {
-                                        "ContentPath": "Items/Loot/Ingredients/T1/Item_D_Remains.asset"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                },
-                {
-                    "Type": 0,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Arcane_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "WeeklyIncome": [
-                            {
-                                "Picks": 2,
-                                "Items": [
-                                    {
-                                        "ContentPath": "Items/Loot/Ingredients/T1/Item_A_Ectoplasm.asset"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "ScreenPosition": {
-                "x": 100.0,
-                "y": -330.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
-                {
-                    "Type": 3,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Elemental_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "WeeklyIncome": [
-                            {
-                                "Picks": 2,
-                                "Items": [
-                                    {
-                                        "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                },
-                {
-                    "Type": 2,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Life_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "WeeklyIncome": [
-                            {
-                                "Picks": 1,
-                                "Items": [
-                                    {
-                                        "ContentPath": "Items/Loot/Ingredients/T2/Item_LL_TwitchingEyeball.asset"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "ScreenPosition": {
-                "x": 200.0,
-                "y": -200.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Trinket Catalyst Slot.asset"
-            },
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "ScreenPosition": {
-                "x": 280.0,
-                "y": -65.0
-            },
-            "SlotType": {
-                "ContentPath": "Items/Slots/Any Consumable Slot.asset"
+                "ContentPath": "Items/Slots/Copper Slot.asset"
             },
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": []
@@ -228,64 +106,27 @@ AstrologyConstellationDefinition
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": [
                 {
-                    "Type": 1,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Bleeding_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "ConditionalUnitModifier": [
-                            {
-                                "Condition": {
-                                    "TagFilter": {
-                                        "AffectsOnly": {
-                                            "mTags": [
-                                                {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                                }
-                                            ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
-                                        }
-                                    }
-                                },
-                                "<UnitModifiers>k__BackingField": {
-                                    "BuddyBonus": {
-                                        "ContentPath": "Promotions/Buddybonus_Constellation_HealthRegen.asset"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
                     "Type": 2,
                     "Icon": {
-                        "ContentPath": "UI/Icons/Icons/location_healing.png"
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Life_01.png"
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "ConditionalUnitModifier": [
+                        "UnitPromotions": [
                             {
                                 "Condition": {
                                     "TagFilter": {
                                         "AffectsOnly": {
                                             "mTags": [
                                                 {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                                    "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
                                                 }
                                             ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
                                         }
                                     }
                                 },
-                                "<UnitModifiers>k__BackingField": {
-                                    "BuddyBonus": {
-                                        "ContentPath": "Promotions/Buddybonus_Constellation_WorldMovement.asset"
-                                    }
+                                "Promotion": {
+                                    "ContentPath": "Units/Promotions/Stacking White Damage.asset"
                                 }
                             }
                         ]
@@ -299,64 +140,27 @@ AstrologyConstellationDefinition
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": [
                 {
-                    "Type": 3,
+                    "Type": 1,
                     "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_RangeAttack_Visibility_01.png"
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Death_01.png"
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "ConditionalUnitModifier": [
+                        "UnitPromotions": [
                             {
                                 "Condition": {
                                     "TagFilter": {
                                         "AffectsOnly": {
                                             "mTags": [
                                                 {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                                    "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
                                                 }
                                             ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
                                         }
                                     }
                                 },
-                                "<UnitModifiers>k__BackingField": {
-                                    "BuddyBonus": {
-                                        "ContentPath": "Promotions/Buddybonus_Constellation_WorldSearch.asset"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "Type": 2,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Movespeed_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "ConditionalUnitModifier": [
-                            {
-                                "Condition": {
-                                    "TagFilter": {
-                                        "AffectsOnly": {
-                                            "mTags": [
-                                                {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                                }
-                                            ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
-                                        }
-                                    }
-                                },
-                                "<UnitModifiers>k__BackingField": {
-                                    "BuddyBonus": {
-                                        "ContentPath": "Promotions/Buddybonus_Constellation_WorldRegen.asset"
-                                    }
+                                "Promotion": {
+                                    "ContentPath": "Units/Promotions/Stacking Death Damage.asset"
                                 }
                             }
                         ]
@@ -365,268 +169,59 @@ AstrologyConstellationDefinition
             ]
         },
         {
-            "FromIndex": 2,
+            "FromIndex": 1,
             "ToIndex": 3,
             "ConditionalModifiers": [],
             "ComponentBasedModifiers": [
                 {
-                    "Type": 3,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Gold_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "ConditionalUnitModifier": [
-                            {
-                                "Condition": {
-                                    "TagFilter": {
-                                        "AffectsOnly": {
-                                            "mTags": [
-                                                {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                                }
-                                            ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
-                                        }
-                                    }
-                                },
-                                "<UnitModifiers>k__BackingField": {
-                                    "PassiveIncome": {
-                                        "GoldPerRound": 1
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
                     "Type": 0,
                     "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_SpellUpkeep_01.png"
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Arcane_01.png"
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "ConditionalUnitModifier": [
+                        "UnitPromotions": [
                             {
                                 "Condition": {
                                     "TagFilter": {
                                         "AffectsOnly": {
                                             "mTags": [
                                                 {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                                    "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
                                                 }
                                             ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
                                         }
                                     }
                                 },
-                                "<UnitModifiers>k__BackingField": {
-                                    "PassiveIncome": {
-                                        "ManaPerRound": 1
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "FromIndex": 3,
-            "ToIndex": 4,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "FromIndex": 4,
-            "ToIndex": 5,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
-                {
-                    "Type": 1,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/location_hire.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "ItemSellPriceModifiers": [
-                            {
-                                "OptionalTags": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Items/Tags/Artefact_Trinket.asset"
-                                        }
-                                    ]
-                                },
-                                "SellPriceModifier": 0.5
-                            }
-                        ]
-                    }
-                },
-                {
-                    "Type": 2,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/location_hire.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "ItemSellPriceModifiers": [
-                            {
-                                "OptionalTags": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Items/Tags/Catalyst.asset"
-                                        }
-                                    ]
-                                },
-                                "SellPriceModifier": 0.5
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "FromIndex": 5,
-            "ToIndex": 6,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
-        },
-        {
-            "FromIndex": 6,
-            "ToIndex": 7,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
-                {
-                    "Type": 1,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Inventory_Category_Souls_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "ConditionalUnitModifier": [
-                            {
-                                "Condition": {
-                                    "TagFilter": {
-                                        "AffectsOnly": {
-                                            "mTags": [
-                                                {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                                }
-                                            ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
-                                        }
-                                    }
-                                },
-                                "<UnitModifiers>k__BackingField": {
-                                    "Soulfind": 0.04
+                                "Promotion": {
+                                    "ContentPath": "Units/Promotions/Stacking Ability Damage.asset"
                                 }
                             }
                         ]
                     }
                 },
                 {
-                    "Type": 2,
+                    "Type": 3,
                     "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_WeeklyIncom_01.png"
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Elemental_01.png"
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "ConditionalUnitModifier": [
+                        "UnitPromotions": [
                             {
                                 "Condition": {
                                     "TagFilter": {
                                         "AffectsOnly": {
                                             "mTags": [
                                                 {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
+                                                    "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
                                                 }
                                             ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
                                         }
                                     }
                                 },
-                                "<UnitModifiers>k__BackingField": {
-                                    "Itemfind": 0.08
-                                }
-                            }
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "FromIndex": 6,
-            "ToIndex": 2,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
-                {
-                    "Type": 1,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Research_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "ConditionalUnitModifier": [
-                            {
-                                "Condition": {
-                                    "TagFilter": {
-                                        "AffectsOnly": {
-                                            "mTags": [
-                                                {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                                }
-                                            ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
-                                        }
-                                    }
-                                },
-                                "<UnitModifiers>k__BackingField": {
-                                    "PassiveIncome": {
-                                        "ResearchPerRound": 1
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "Type": 2,
-                    "Icon": {
-                        "ContentPath": "UI/Icons/Icons/Icon_Mastery_01.png"
-                    },
-                    "ColoredIcon": false,
-                    "FactionModifiers": {
-                        "ConditionalUnitModifier": [
-                            {
-                                "Condition": {
-                                    "TagFilter": {
-                                        "AffectsOnly": {
-                                            "mTags": [
-                                                {
-                                                    "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                                }
-                                            ]
-                                        },
-                                        "AffectsNot": {
-                                            "mTags": []
-                                        }
-                                    }
-                                },
-                                "<UnitModifiers>k__BackingField": {
-                                    "PassiveIncome": {
-                                        "FamePerRound": 1
-                                    }
+                                "Promotion": {
+                                    "ContentPath": "Units/Promotions/Stacking Elemental Damage.asset"
                                 }
                             }
                         ]
@@ -635,343 +230,7 @@ AstrologyConstellationDefinition
             ]
         }
     ],
-    "UnlockPerks": [
-        {
-            "Icon": {
-                "ContentPath": "Units/Portraits/UnitPortraits/Portrait_AlphaWolf.png"
-            },
-            "DisplayName": {
-                "Key": ""
-            },
-            "Description": {
-                "Key": ""
-            },
-            "UnlockThreshold": {
-                "ElementalThreshold": 0,
-                "ArcaneThreshold": 0,
-                "DeathThreshold": 0,
-                "LifeThreshold": 16
-            },
-            "FactionModifiers": {
-                "ConditionalUnitModifier": [
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "<UnitModifiers>k__BackingField": {
-                            "AdditionalTemporaryUnitsToDeploy": [
-                                {
-                                    "UnitReference": {
-                                        "ContentPath": "Units/Factions/Animals/Animal_AlphaWolf.asset"
-                                    },
-                                    "Promotions": []
-                                }
-                            ],
-                            "BuddyBonus": {
-                                "ContentPath": "Promotions/Buddybonus_Constellation_MaxHealth.asset"
-                            }
-                        }
-                    }
-                ],
-                "UnitPromotions": [
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "Promotion": {
-                            "ContentPath": "Units/Promotions/BonusDmgOnWildDeath.asset"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "Icon": {
-                "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_MasterOfTheAfterlife_01.png"
-            },
-            "DisplayName": {
-                "Key": ""
-            },
-            "Description": {
-                "Key": ""
-            },
-            "UnlockThreshold": {
-                "ElementalThreshold": 0,
-                "ArcaneThreshold": 0,
-                "DeathThreshold": 16,
-                "LifeThreshold": 0
-            },
-            "FactionModifiers": {
-                "ConditionalUnitModifier": [
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "<UnitModifiers>k__BackingField": {
-                            "BuddyBonus": {
-                                "ContentPath": "Promotions/Buddybonus_Constellation_WorldMagicRegen.asset"
-                            }
-                        }
-                    }
-                ],
-                "UnitPromotions": [
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "Promotion": {
-                            "ContentPath": "Units/Promotions/Healer Undead.asset"
-                        }
-                    },
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "Promotion": {
-                            "ContentPath": "Units/Promotions/BuffUndeadBonusDamage.asset"
-                        }
-                    },
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "Promotion": {
-                            "ContentPath": "Units/Promotions/Zombifier.asset"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "Icon": {
-                "ContentPath": "Units/Portraits/UnitPortraits/Portrait_Demon_Charger_01.png"
-            },
-            "DisplayName": {
-                "Key": ""
-            },
-            "Description": {
-                "Key": ""
-            },
-            "UnlockThreshold": {
-                "ElementalThreshold": 16,
-                "ArcaneThreshold": 0,
-                "DeathThreshold": 0,
-                "LifeThreshold": 0
-            },
-            "FactionModifiers": {
-                "ConditionalUnitModifier": [
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "<UnitModifiers>k__BackingField": {
-                            "AdditionalTemporaryUnitsToDeploy": [
-                                {
-                                    "UnitReference": {
-                                        "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
-                                    },
-                                    "Promotions": []
-                                }
-                            ],
-                            "BuddyBonus": {
-                                "ContentPath": "Items/Demonology/Fusion/Demonology_Fusion_EAD_Buddybonus.asset"
-                            }
-                        }
-                    }
-                ],
-                "UnitPromotions": [
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "Promotion": {
-                            "ContentPath": "Units/Promotions/DemonHealer.asset"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "Icon": {
-                "ContentPath": "Units/Portraits/UnitPortraits/Portrait_UndeadRecruite.png"
-            },
-            "DisplayName": {
-                "Key": ""
-            },
-            "Description": {
-                "Key": ""
-            },
-            "UnlockThreshold": {
-                "ElementalThreshold": 0,
-                "ArcaneThreshold": 16,
-                "DeathThreshold": 0,
-                "LifeThreshold": 0
-            },
-            "FactionModifiers": {
-                "ConditionalUnitModifier": [
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "<UnitModifiers>k__BackingField": {
-                            "BuddyBonus": {
-                                "ContentPath": "Promotions/Buddybonus_Constellation_WorldMagicRegen.asset"
-                            }
-                        }
-                    },
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "<UnitModifiers>k__BackingField": {
-                            "AdditionalTemporaryUnitsToDeploy": [
-                                {
-                                    "UnitReference": {
-                                        "ContentPath": "Units/Factions/Fantastic/Fantastic_GhostRecruit.asset"
-                                    },
-                                    "Promotions": []
-                                }
-                            ],
-                            "BuddyBonus": {
-                                "ContentPath": "Promotions/Buddybonus_FantasticXP.asset"
-                            }
-                        }
-                    }
-                ],
-                "UnitPromotions": [
-                    {
-                        "Condition": {
-                            "TagFilter": {
-                                "AffectsOnly": {
-                                    "mTags": [
-                                        {
-                                            "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
-                                        }
-                                    ]
-                                },
-                                "AffectsNot": {
-                                    "mTags": []
-                                }
-                            }
-                        },
-                        "Promotion": {
-                            "ContentPath": "Promotions/FantasticHealer.asset"
-                        }
-                    }
-                ]
-            }
-        }
-    ],
+    "UnlockPerks": [],
     "ComponentBasedModifiers": [],
     "references": {
         "version": 2,

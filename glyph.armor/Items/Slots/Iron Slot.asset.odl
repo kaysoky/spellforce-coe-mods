@@ -2,7 +2,7 @@ ArtefactSlotType
 {
     "Order": 102,
     "SlotIcon": {
-        "ContentPath": "Items/Slots/Iron_Slot.png"
+        "ContentPath": "UI/Icons/Icons/Icon_Inventory_Category_Runes_01.png"
     },
     "SlotPrefabOverride": {
         "m_FileID": 0,

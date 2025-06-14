@@ -1,17 +1,29 @@
 Package.glyph.armor.DisplayName;Runic Armor
 #CopperTrinket.Tooltip.Name.Loca;Runic Gauntlets
-#CopperTrinket.Tooltip.Description.Loca;This unit is equipped with Runic Gauntlets, channeling the power of their master's [moon]Runic Core[/].
+#CopperTrinket.Tooltip.Description.Loca;This unit is equipped with Runic Gauntlets, channeling the power of their master's [moon]Runic Core[/].  Requires a [item]Power Source (Mountain Copper)[/] to function.
 #CopperCore.RecipeName;Power Source (Mountain Copper)
 Copper Slot.SlotLocaIfEmpty;Mountain Copper Glyph or Item
+Constellation_Copper.Name;Runic Core (Mountain Copper)
+Constellation_Copper.Description;Enhances the power of those channeling this core.
 #IronArmor.Tooltip.Name.Loca;Runic Armor
-#IronArmor.Tooltip.Description.Loca;This unit is equipped with Runic Armor, channeling the power of their master's [moon]Runic Core[/].
+#IronArmor.Tooltip.Description.Loca;This unit is equipped with Runic Armor, channeling the power of their master's [moon]Runic Core[/].  Requires a [item]Power Source (Sky Iron)[/] to function.
 #IronCore.RecipeName;Power Source (Sky Iron)
 Iron Slot.SlotLocaIfEmpty;Sky Iron Glyph or Item
+Constellation_Iron.Name;Runic Core (Sky Iron)
+Constellation_Iron.Description;Enhances the durability of those channeling this core.
 #CorruptedShield.Tooltip.Name.Loca;Runic Shield
-#CorruptedShield.Tooltip.Description.Loca;This unit is equipped with a Runic Shield, channeling the power of their master's [moon]Runic Core[/].
+#CorruptedShield.Tooltip.Description.Loca;This unit is equipped with a Runic Shield, channeling the power of their master's [moon]Runic Core[/].  Requires a [item]Power Source (Corrupted Adamantium)[/] to function.
 #CorruptedCore.RecipeName;Power Source (Corrupted Adamantium)
 Corrupted Slot.SlotLocaIfEmpty;Corrupted Adamantium Glyph or Item
+Constellation_Corrupted.Name;Runic Core (Corrupted Adamantium)
+Constellation_Corrupted.Description;Enhances the protection offered by those channeling this core.
 #AdamantiumWand.Tooltip.Name.Loca;Runic Control Rod
-#AdamantiumWand.Tooltip.Description.Loca;This unit is equipped with a Runic Control Rod, channeling the power of their master's [moon]Runic Core[/].
+#AdamantiumWand.Tooltip.Description.Loca;This unit is equipped with a Runic Control Rod, channeling the power of their master's [moon]Runic Core[/].  Requires a [item]Power Source (Adamantium)[/] to function.
 #AdamantiumCore.RecipeName;Power Source (Adamantium)
 Adamantium Slot.SlotLocaIfEmpty;Adamantium Glyph or Item
+Constellation_Adamantium.Name;Runic Core (Adamanatium)
+Constellation_Adamantium.Description;Grants a golem to those channeling this core.
+#Channeled Life Essence.Tooltip.Name.Loca;Channeled Life Essence
+#Channeled Death Essence.Tooltip.Name.Loca;Channeled Death Essence
+#Channeled Elemental Essence.Tooltip.Name.Loca;Channeled Elemental Essence
+#Channeled Arcane Essence.Tooltip.Name.Loca;Channeled Arcane Essence
