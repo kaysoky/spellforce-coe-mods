@@ -1,0 +1,300 @@
+AstrologyConstellationDefinition
+{
+    "Name": {
+        "Key": "Constellation_Adamantium.Name",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Description": {
+        "Key": "Constellation_Adamantium.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Affects": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Order": 3,
+    "ConstellationIcon": {
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Adamantium/Constellation_Adamantium_Icon.png"
+    },
+    "ConstellationImage": {
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Adamantium/Constellation_Adamantium_BG.png"
+    },
+    "SimplifiedNodeConstellationIcon": {
+        "ContentPath": "Crafting/Astrology/Constellations/Constellation_Adamantium/Constellation_Adamantium_Simplified.png"
+    },
+    "SelectionCondition": {
+        "Conditions": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "Nodes": [
+        {
+            "ScreenPosition": {
+                "x": -180.0,
+                "y": 340.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Adamantium Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": -80.0,
+                "y": 180.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Adamantium Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": 110.0,
+                "y": 170.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Adamantium Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": -190.0,
+                "y": 10.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Adamantium Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": 80.0,
+                "y": -60.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Adamantium Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "ScreenPosition": {
+                "x": 210.0,
+                "y": -270.0
+            },
+            "SlotType": {
+                "ContentPath": "Items/Slots/Adamantium Slot.asset"
+            },
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        }
+    ],
+    "Connections": [
+        {
+            "FromIndex": 0,
+            "ToIndex": 1,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 1,
+            "ToIndex": 2,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 1,
+            "ToIndex": 3,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 1,
+            "ToIndex": 4,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        },
+        {
+            "FromIndex": 4,
+            "ToIndex": 5,
+            "ConditionalModifiers": [],
+            "ComponentBasedModifiers": []
+        }
+    ],
+    "UnlockPerks": [
+        {
+            "Icon": {
+                "ContentPath": "Units/Portraits/UnitPortraits/Portrait_FireGolem.png"
+            },
+            "UnlockThreshold": {
+                "ElementalThreshold": 12,
+                "ArcaneThreshold": 0,
+                "DeathThreshold": 0,
+                "LifeThreshold": 0
+            },
+            "FactionModifiers": {
+                "UnitPromotions": [
+                    {
+                        "Condition": {
+                            "TagFilter": {
+                                "AffectsOnly": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "Promotion": {
+                            "ContentPath": "Units/Promotions/Summon FireGolem.asset"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Icon": {
+                "ContentPath": "Units/Portraits/UnitPortraits/Portrait_IceGolem.png"
+            },
+            "UnlockThreshold": {
+                "ElementalThreshold": 0,
+                "ArcaneThreshold": 12,
+                "DeathThreshold": 0,
+                "LifeThreshold": 0
+            },
+            "FactionModifiers": {
+                "UnitPromotions": [
+                    {
+                        "Condition": {
+                            "TagFilter": {
+                                "AffectsOnly": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "Promotion": {
+                            "ContentPath": "Units/Promotions/Summon IceGolem.asset"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Icon": {
+                "ContentPath": "Units/Portraits/UnitPortraits/Portrait_BloodBGolem.png"
+            },
+            "UnlockThreshold": {
+                "ElementalThreshold": 0,
+                "ArcaneThreshold": 0,
+                "DeathThreshold": 12,
+                "LifeThreshold": 0
+            },
+            "FactionModifiers": {
+                "UnitPromotions": [
+                    {
+                        "Condition": {
+                            "TagFilter": {
+                                "AffectsOnly": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "Promotion": {
+                            "ContentPath": "Units/Promotions/Summon BloodGolem.asset"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Icon": {
+                "ContentPath": "Units/Portraits/UnitPortraits/Portrait_TempleGolem.png"
+            },
+            "UnlockThreshold": {
+                "ElementalThreshold": 0,
+                "ArcaneThreshold": 0,
+                "DeathThreshold": 0,
+                "LifeThreshold": 12
+            },
+            "FactionModifiers": {
+                "UnitPromotions": [
+                    {
+                        "Condition": {
+                            "TagFilter": {
+                                "AffectsOnly": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "Promotion": {
+                            "ContentPath": "Units/Promotions/Summon StoneGolem.asset"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "ComponentBasedModifiers": [],
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ProgressionBased",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ProgressionCheck": 0,
+                    "WorldProgression": 99
+                }
+            }
+        ]
+    }
+}

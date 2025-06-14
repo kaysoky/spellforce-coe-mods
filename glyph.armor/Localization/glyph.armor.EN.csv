@@ -15,15 +15,19 @@ Constellation_Iron.Description;Enhances the durability of those channeling this 
 #CorruptedShield.Tooltip.Description.Loca;This unit is equipped with a Runic Shield, channeling the power of their master's [moon]Runic Core[/].  Requires a [item]Power Source (Corrupted Adamantium)[/] to function.
 #CorruptedCore.RecipeName;Power Source (Corrupted Adamantium)
 Corrupted Slot.SlotLocaIfEmpty;Corrupted Adamantium Glyph or Item
-Constellation_Corrupted.Name;Runic Core (Corrupted Adamantium)
+Constellation_Corrupted.Name;Runic Core (Corrupted)
 Constellation_Corrupted.Description;Enhances the protection offered by those channeling this core.
 #AdamantiumWand.Tooltip.Name.Loca;Runic Control Rod
 #AdamantiumWand.Tooltip.Description.Loca;This unit is equipped with a Runic Control Rod, channeling the power of their master's [moon]Runic Core[/].  Requires a [item]Power Source (Adamantium)[/] to function.
 #AdamantiumCore.RecipeName;Power Source (Adamantium)
 Adamantium Slot.SlotLocaIfEmpty;Adamantium Glyph or Item
-Constellation_Adamantium.Name;Runic Core (Adamanatium)
+Constellation_Adamantium.Name;Runic Core (Adamantium)
 Constellation_Adamantium.Description;Grants a golem to those channeling this core.
 #Channeled Life Essence.Tooltip.Name.Loca;Channeled Life Essence
 #Channeled Death Essence.Tooltip.Name.Loca;Channeled Death Essence
 #Channeled Elemental Essence.Tooltip.Name.Loca;Channeled Elemental Essence
 #Channeled Arcane Essence.Tooltip.Name.Loca;Channeled Arcane Essence
+#Summon FireGolem.Tooltip.Name.Loca;Summon Fire Golem
+#Summon IceGolem.Tooltip.Name.Loca;Summon Ice Golem
+#Summon BloodGolem.Tooltip.Name.Loca;Summon Blood Golem
+#Summon StoneGolem.Tooltip.Name.Loca;Summon Stone Golem
