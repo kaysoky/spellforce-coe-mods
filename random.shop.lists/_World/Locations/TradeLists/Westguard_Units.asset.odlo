@@ -104,29 +104,27 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Griffon.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Demonology/Tier 2/Demonology_ED.asset"
+                    }
                 }
             },
             {
                 "rid": 1004,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
+                    }
                 }
             },
             {
@@ -138,7 +136,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Mentalist.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -146,47 +144,31 @@ ShopDefinition
             {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_AL_GoodLuckCharm.asset"
+                    }
                 }
             },
             {
                 "rid": 1007,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Common_02.asset"
+                    }
                 }
             },
             {
                 "rid": 1008,
-                "type": {
-                    "class": "ShopDefinition/UnitEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
-                    },
-                    "AllowDuplicatedEntries": true
-                }
-            },
-            {
-                "rid": 1009,
                 "type": {
                     "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
@@ -200,7 +182,7 @@ ShopDefinition
                 }
             },
             {
-                "rid": 1010,
+                "rid": 1009,
                 "type": {
                     "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
@@ -208,9 +190,22 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Inquisitor.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
                     },
                     "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Special/DistAria.asset"
+                    }
                 }
             }
         ]

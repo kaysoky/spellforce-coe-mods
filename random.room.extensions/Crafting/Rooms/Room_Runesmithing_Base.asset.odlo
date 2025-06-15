@@ -1,0 +1,17 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CraftingSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CrystalBall_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Mining_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Runesmithing_01.asset"
+        }
+    ]
+}

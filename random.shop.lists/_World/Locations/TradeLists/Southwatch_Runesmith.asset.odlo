@@ -149,7 +149,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
+                        "ContentPath": "Items/Moonsilver/Runes/RealMoonsilver_Necklace_01.asset"
                     }
                 }
             },
@@ -162,34 +162,36 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheBowman.asset"
+                        "ContentPath": "Items/Loot/Ingredients/T3/Item_EDD_RitualDagger.asset"
                     }
                 }
             },
             {
                 "rid": 1004,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheCutthroat.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheFirewielder.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -201,7 +203,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheGraverobber.asset"
+                        "ContentPath": "Items/Loot/Ingredients/T3/Item_AAD_CursedCandle.asset"
                     }
                 }
             },
@@ -214,7 +216,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHealthy.asset"
+                        "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
                     }
                 }
             },
@@ -227,7 +229,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHerbalist.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Heavy Armors/HeavyArmor_Uncommon_02.asset"
                     }
                 }
             },
@@ -240,7 +242,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheMountainGoat.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_03.asset"
                     }
                 }
             },
@@ -253,20 +255,28 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheOwl.asset"
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EALL_TiarasRevelations.asset"
                     }
                 }
             },
             {
                 "rid": 1011,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofThePathfinder.asset"
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Guardian/Research_Guardian_Righteous.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
                     }
                 }
             },
@@ -279,7 +289,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheSeer.asset"
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheFirewielder.asset"
                     }
                 }
             },
@@ -292,7 +302,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheVampire.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheOwl.asset"
                     }
                 }
             },
@@ -305,7 +315,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheSpider.asset"
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EAAA_WhisperingGemstone.asset"
                     }
                 }
             },
@@ -318,7 +328,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheBowman.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHerbalist.asset"
                     }
                 }
             },
@@ -331,21 +341,22 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheCutthroat.asset"
+                        "ContentPath": "Items/Loot/Potions/PotionOfRegeneration.asset"
                     }
                 }
             },
             {
                 "rid": 1017,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheGraverobber.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -357,7 +368,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheFirewielder.asset"
+                        "ContentPath": "Items/Loot/Potions/GlacialConcoction.asset"
                     }
                 }
             },
@@ -370,34 +381,36 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheHerbalist.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Common_03.asset"
                     }
                 }
             },
             {
                 "rid": 1020,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheSeer.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
                 "rid": 1021,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheSpider.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -409,47 +422,50 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheVampire.asset"
+                        "ContentPath": "Items/Loot/Potions/TinktureOfMuting.asset"
                     }
                 }
             },
             {
                 "rid": 1023,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheOwl.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
                 "rid": 1024,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheHealthy.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Earthshaper.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
                 "rid": 1025,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -461,7 +477,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheMountainGoat.asset"
                     }
                 }
             },
@@ -474,21 +490,22 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheSeer.asset"
                     }
                 }
             },
             {
                 "rid": 1028,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheMountaingoat.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -500,7 +517,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofThePathfinder.asset"
+                        "ContentPath": "Items/Souls/Dark Soul 1.asset"
                     }
                 }
             },
@@ -513,7 +530,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheDespair.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheBlight.asset"
                     }
                 }
             }

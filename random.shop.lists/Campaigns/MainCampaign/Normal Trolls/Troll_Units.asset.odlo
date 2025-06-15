@@ -107,7 +107,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Warchief.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -115,29 +115,27 @@ ShopDefinition
             {
                 "rid": 1004,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Crusher.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheSeer.asset"
+                    }
                 }
             },
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_SpikeFlinger.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHealthy.asset"
+                    }
                 }
             },
             {
@@ -149,7 +147,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Worker.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -163,7 +161,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -177,7 +175,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Orcs/Orc_WarTroll.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Paladin.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -185,15 +183,14 @@ ShopDefinition
             {
                 "rid": 1009,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Wallbreaker.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_05.asset"
+                    }
                 }
             }
         ]

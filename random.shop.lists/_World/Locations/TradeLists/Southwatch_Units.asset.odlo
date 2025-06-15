@@ -128,15 +128,14 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_SpiderQueen.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ADDD_LivingSkull.asset"
+                    }
                 }
             },
             {
@@ -148,7 +147,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Wyvern.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Fantastic_FlamingConstruct.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -156,15 +155,14 @@ ShopDefinition
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_AlphaWolf.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Uncommon_01.asset"
+                    }
                 }
             },
             {
@@ -176,7 +174,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Bear.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_RageHammer.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -184,29 +182,27 @@ ShopDefinition
             {
                 "rid": 1007,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_IronBeak.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ALLL_LightbringersPrayerbook.asset"
+                    }
                 }
             },
             {
                 "rid": 1008,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Basilisk.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T3/Item_AAD_CursedCandle.asset"
+                    }
                 }
             },
             {
@@ -218,7 +214,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Molebeast.asset"
+                        "ContentPath": "Units/Factions/Undead/Undead_Tormentor.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -232,7 +228,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Mountainbear.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Molebeast.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -246,7 +242,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -254,15 +250,14 @@ ShopDefinition
             {
                 "rid": 1012,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheHealthy.asset"
+                    }
                 }
             },
             {
@@ -274,7 +269,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Warg.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Crossbow.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -288,7 +283,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_FireBeetle.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Spider.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -302,7 +297,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Spider.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -310,15 +305,14 @@ ShopDefinition
             {
                 "rid": 1016,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Hornet.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheSpider.asset"
+                    }
                 }
             },
             {
@@ -330,7 +324,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_AquaticWyvern.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -344,7 +338,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_BronzeWyvern.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_SpiderQueen.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

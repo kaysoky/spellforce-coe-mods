@@ -1,0 +1,18 @@
+ShopDefinition
+{
+    "Modifications": [
+        {
+            "ContentPath": "Units/Promotions/Give Cleanse Ally.asset"
+        }
+    ],
+    "ArtefactModifications": [
+        {
+            "Filter": {
+                "mTags": []
+            },
+            "UnitModifierItem": {
+                "ContentPath": "Bonuses/Focus.asset"
+            }
+        }
+    ]
+}

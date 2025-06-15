@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_Heal_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Plant_Mushroom.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Harvesting_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_Ray_Death_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_06.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_IronMaiden_01.asset"
+        }
+    ]
+}

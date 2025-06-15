@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ApprenticeBuff_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Soulfind_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Arcane_Blood_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Alchemy_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Alchemy_Multiply_T3.asset"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+ShopDefinition
+{
+    "Modifications": [
+        {
+            "ContentPath": "Units/Promotions/AdditionalDamageBasedOnMissingHealth.asset"
+        }
+    ],
+    "ArtefactModifications": [
+        {
+            "Filter": {
+                "mTags": []
+            },
+            "UnitModifierItem": {
+                "ContentPath": "Bonuses/Ability.asset"
+            }
+        }
+    ]
+}

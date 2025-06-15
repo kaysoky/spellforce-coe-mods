@@ -1,0 +1,18 @@
+ShopDefinition
+{
+    "Modifications": [
+        {
+            "ContentPath": "Units/Promotions/Additional Armor Slot.asset"
+        }
+    ],
+    "ArtefactModifications": [
+        {
+            "Filter": {
+                "mTags": []
+            },
+            "UnitModifierItem": {
+                "ContentPath": "Bonuses/Health.asset"
+            }
+        }
+    ]
+}

@@ -128,35 +128,26 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Dreamweaver.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Moonsilver/Artefact_Moonsilver_ofTheSpider.asset"
+                    }
                 }
             },
             {
                 "rid": 1004,
                 "type": {
-                    "class": "ShopDefinition/ResearchEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Death/Research_Death_Room_Torture.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
+                    "Item": {
+                        "ContentPath": "Items/Loot/Potions/DarkFeast.asset"
                     }
                 }
             },
@@ -169,7 +160,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Undead/Undead_Tormentor.asset"
+                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Knight.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -183,7 +174,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Undead/Undead_Banshee.asset"
+                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Militia.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -191,14 +182,15 @@ ShopDefinition
             {
                 "rid": 1007,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Souls/Arcane Soul 2.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -210,62 +202,70 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Souls/Dark Soul 2.asset"
+                        "ContentPath": "Items/Loot/Ores/Moonsilver.asset"
                     }
                 }
             },
             {
                 "rid": 1009,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Souls/Twinkling Soul 2.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Undead/Undead_WalkingCorpse.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
                 "rid": 1010,
                 "type": {
+                    "class": "ShopDefinition/UnitEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
+                    },
+                    "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "ShopDefinition/ResearchEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Guardian/Research_Guardian_HolyWeapon.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
+                    }
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
                     "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Souls/Tormented Soul 2.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Artefact_Copper_ofTheLeader.asset"
                     }
-                }
-            },
-            {
-                "rid": 1011,
-                "type": {
-                    "class": "ShopDefinition/UnitEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Undead/Undead_WalkingCorpse.asset"
-                    },
-                    "AllowDuplicatedEntries": true
-                }
-            },
-            {
-                "rid": 1012,
-                "type": {
-                    "class": "ShopDefinition/UnitEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Undead/Undead_WalkingCorpse.asset"
-                    },
-                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -277,7 +277,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Undead/Undead_Ghoul.asset"
+                        "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -285,14 +285,15 @@ ShopDefinition
             {
                 "rid": 1014,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Souls/Dark Soul 1.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_Hornet.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -304,7 +305,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Souls/Dark Soul 1.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheGraverobber.asset"
                     }
                 }
             },
@@ -317,36 +318,34 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Souls/Lost Soul 1.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheHerbalist.asset"
                     }
                 }
             },
             {
                 "rid": 1017,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Undead/Undead_SkeletonArcher.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheOwl.asset"
+                    }
                 }
             },
             {
                 "rid": 1018,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Undead/Undead_SkeletonWarrior.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheBowman.asset"
+                    }
                 }
             }
         ]

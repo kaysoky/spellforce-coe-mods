@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ManaUpkeep_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Dwarves_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Gold_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ManaUpkeep_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_XP_Bonus_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Mining_01.asset"
+        }
+    ]
+}

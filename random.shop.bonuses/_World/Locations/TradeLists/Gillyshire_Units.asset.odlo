@@ -1,0 +1,18 @@
+ShopDefinition
+{
+    "Modifications": [
+        {
+            "ContentPath": "Units/Promotions/Give AbsorbPain.asset"
+        }
+    ],
+    "ArtefactModifications": [
+        {
+            "Filter": {
+                "mTags": []
+            },
+            "UnitModifierItem": {
+                "ContentPath": "Bonuses/Healing.asset"
+            }
+        }
+    ]
+}

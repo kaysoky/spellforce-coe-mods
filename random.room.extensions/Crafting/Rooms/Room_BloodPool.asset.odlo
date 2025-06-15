@@ -1,0 +1,14 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Soulfind_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BE_Snipers_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_XP_01.asset"
+        }
+    ]
+}

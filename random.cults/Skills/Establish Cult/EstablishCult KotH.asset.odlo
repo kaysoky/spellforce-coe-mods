@@ -57,7 +57,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Alluvyan.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Gillyshire.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -72,7 +72,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Coldmark.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Shop_02.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -87,7 +87,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Gillyshire.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Windholme.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -102,7 +102,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Goldenfields.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Shop_01.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -117,7 +117,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_MistyCoast.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Southwatch.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -135,7 +135,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Norgate.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_MistyCoast.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -150,7 +150,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Sevenkeeps.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_DarkElf.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -180,7 +180,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Southwatch.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Westguard.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -195,7 +195,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_UramGor.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Goldenfields.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -210,7 +210,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Westguard.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Coldmark.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -225,7 +225,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_Windholme.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_Norgate.asset"
                             },
                             "Loot": {
                                 "mTags": []
@@ -240,7 +240,7 @@ WorldKingOfTheHillDefinition
                                 ]
                             },
                             "Cult": {
-                                "ContentPath": "Items/Demonology/Cults/Cult_DarkElf.asset"
+                                "ContentPath": "Items/Demonology/Cults/Cult_UramGor.asset"
                             },
                             "Loot": {
                                 "mTags": []

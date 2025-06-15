@@ -83,40 +83,56 @@ ShopDefinition
             {
                 "rid": 1002,
                 "type": {
+                    "class": "ShopDefinition/ResearchEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Occultism/Research_Occultism_WhiteShield.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
                     "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_TiaraPriest.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
             },
             {
-                "rid": 1003,
-                "type": {
-                    "class": "ShopDefinition/ItemEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EALL_TiarasRevelations.asset"
-                    }
-                }
-            },
-            {
                 "rid": 1004,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Potions/VialOfTiara.asset"
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Manipulation/Research_Manipulation_Slaver.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
                     }
                 }
             },
@@ -129,67 +145,12 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/VialOfAonir.asset"
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheHerbalist.asset"
                     }
                 }
             },
             {
                 "rid": 1006,
-                "type": {
-                    "class": "ShopDefinition/ItemEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ALLL_LightbringersPrayerbook.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1007,
-                "type": {
-                    "class": "ShopDefinition/ResearchEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Guardian/Research_Guardian_Righteous.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
-                    }
-                }
-            },
-            {
-                "rid": 1008,
-                "type": {
-                    "class": "ShopDefinition/ResearchEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Guardian/Research_Guardian_HolyWeapon.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
-                    }
-                }
-            },
-            {
-                "rid": 1009,
                 "type": {
                     "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
@@ -197,9 +158,48 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Knight.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Keeper.asset"
                     },
                     "AllowDuplicatedEntries": true
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Moonsilver/Rune_Moonsilver_ofTheCutthroat.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EAAD_BelongingsOfTheDeceased.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Artefact_SkyIron_ofTheGuardians.asset"
+                    }
                 }
             },
             {
@@ -211,7 +211,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Inquisitor.asset"
+                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Soldier.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

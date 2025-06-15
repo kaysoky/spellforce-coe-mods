@@ -1,0 +1,17 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_DarkElves_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_RoomCrafting_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_AriaIncome_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Itemfind_02.asset"
+        }
+    ]
+}

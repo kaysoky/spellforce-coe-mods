@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Undead_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Beast_Slave_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_UnitArmor_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ApprenticeBuff_04.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BE_Lightning_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Mana_01.asset"
+        }
+    ]
+}

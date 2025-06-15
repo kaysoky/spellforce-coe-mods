@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Itemfind_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_RareItems_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_MagicAmp_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Rider_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_StackSlot_01.asset"
+        }
+    ]
+}

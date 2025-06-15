@@ -1,0 +1,17 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Secret_Room_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Dreamweaver_Stars.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BE_Snipers_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Research_01.asset"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_IronMaiden_03.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_ManaUpkeep_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_HiringSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Runesmithing_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_Burn_01.asset"
+        }
+    ]
+}

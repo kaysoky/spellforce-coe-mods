@@ -1,0 +1,17 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BE_Fumes_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_HireWorkers.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Craftspeed_Alchemy_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Alchemy_Multiply_T1.asset"
+        }
+    ]
+}

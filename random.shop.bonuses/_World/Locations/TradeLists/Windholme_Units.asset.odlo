@@ -1,0 +1,18 @@
+ShopDefinition
+{
+    "Modifications": [
+        {
+            "ContentPath": "Units/Promotions/GiveParryStance.asset"
+        }
+    ],
+    "ArtefactModifications": [
+        {
+            "Filter": {
+                "mTags": []
+            },
+            "UnitModifierItem": {
+                "ContentPath": "Bonuses/MissileWillpower.asset"
+            }
+        }
+    ]
+}

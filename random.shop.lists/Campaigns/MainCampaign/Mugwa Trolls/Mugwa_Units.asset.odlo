@@ -107,7 +107,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Warchief.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -115,29 +115,35 @@ ShopDefinition
             {
                 "rid": 1004,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Crusher.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Death/Research_Death_Cannibalize.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
+                    }
                 }
             },
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_SpikeFlinger.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Demonology/Tier 2/Demonology_EA.asset"
+                    }
                 }
             },
             {
@@ -149,7 +155,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Worker.asset"
+                        "ContentPath": "Units/Factions/Orcs/Orc_GoblinBrawler.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -157,15 +163,14 @@ ShopDefinition
             {
                 "rid": 1007,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EEEL_EternalFlame.asset"
+                    }
                 }
             },
             {
@@ -177,7 +182,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Orcs/Orc_WarTroll.asset"
+                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Blademaster.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -185,15 +190,14 @@ ShopDefinition
             {
                 "rid": 1009,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Trolls/Troll_Wallbreaker.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Artefact_Corrupted_ofTheCutthroat.asset"
+                    }
                 }
             }
         ]

@@ -116,78 +116,55 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
+                    "class": "ShopDefinition/ItemEntry",
+                    "ns": "OwnedByGravity.Game.Logic.Trading",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EEED_BlackAsh.asset"
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
                     "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Mentalist.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Bear.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
             },
             {
-                "rid": 1004,
-                "type": {
-                    "class": "ShopDefinition/ResearchEntry",
-                    "ns": "OwnedByGravity.Game.Logic.Trading",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Manipulation/Research_Manipulation_Confuse.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
-                    }
-                }
-            },
-            {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/ResearchEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Manipulation/Research_Manipulation_Levy.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
+                    "Item": {
+                        "ContentPath": "Items/Moonsilver/Runes/RealMoonsilver_Lasso_01.asset"
                     }
                 }
             },
             {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/ResearchEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "ResearchOrMilestone": {
-                        "Research": {
-                            "ContentPath": "Spellbook/Research/School_Manipulation/Research_Manipulation_Slaver.asset"
-                        },
-                        "MilestoneGuid": {
-                            "GuidPart1": 1780293107,
-                            "GuidPart2": 1200893771,
-                            "GuidPart3": 1669173949,
-                            "GuidPart4": -1750119496
-                        }
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Animals/Animal_IronBeak.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -199,7 +176,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheDespair.asset"
+                        "ContentPath": "Items/Demonology/Tier 1/Demonology_L.asset"
                     }
                 }
             },
@@ -212,7 +189,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/SmokeBomb.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Common_02.asset"
                     }
                 }
             },
@@ -225,34 +202,36 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/Illusionary Distraction.asset"
+                        "ContentPath": "Items/Loot/Potions/PoisonCoating.asset"
                     }
                 }
             },
             {
                 "rid": 1010,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Potions/GlacialConcoction.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Undead/Undead_SkeletonWarrior.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
                 "rid": 1011,
                 "type": {
-                    "class": "ShopDefinition/ItemEntry",
+                    "class": "ShopDefinition/UnitEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Potions/TinktureOfMuting.asset"
-                    }
+                    "Unit": {
+                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                    },
+                    "AllowDuplicatedEntries": true
                 }
             },
             {
@@ -264,7 +243,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheArcanist.asset"
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheMountainGoat.asset"
                     }
                 }
             },
@@ -277,7 +256,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Fantastic/Fantastic_GhostRecruit.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -285,15 +264,14 @@ ShopDefinition
             {
                 "rid": 1014,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Fantastic/Fantastic_CorruptedWisp.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Demonology/Tier 3/Demonology_EAL.asset"
+                    }
                 }
             }
         ]

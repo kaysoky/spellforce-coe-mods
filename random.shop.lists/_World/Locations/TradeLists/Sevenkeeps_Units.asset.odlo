@@ -110,57 +110,53 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Alchemist.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ores/Moonsilver.asset"
+                    }
                 }
             },
             {
                 "rid": 1004,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Potions/VialOfAonir.asset"
+                    }
                 }
             },
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Plants/Plant_Heal.asset"
+                    }
                 }
             },
             {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Souls/Lost Soul 1.asset"
+                    }
                 }
             },
             {
@@ -172,7 +168,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                        "ContentPath": "Units/Factions/Trolls/Troll_Slinger.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -186,7 +182,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_CorruptedDruid.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -200,7 +196,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_CorruptedDruid.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -214,7 +210,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Goliath.asset"
+                        "ContentPath": "Units/Factions/Fantastic/Fantastic_IceGolem.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -222,15 +218,14 @@ ShopDefinition
             {
                 "rid": 1011,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T3/Item_ELL_HeatStone.asset"
+                    }
                 }
             },
             {
@@ -242,7 +237,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Militia.asset"
+                        "ContentPath": "Units/Factions/Trolls/Troll_SpikeFlinger.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

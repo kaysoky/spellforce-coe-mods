@@ -41,15 +41,14 @@ ShopDefinition
             {
                 "rid": 1001,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Special/DistAria.asset"
+                    }
                 }
             },
             {
@@ -61,7 +60,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -69,15 +68,14 @@ ShopDefinition
             {
                 "rid": 1003,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheOwl.asset"
+                    }
                 }
             }
         ]

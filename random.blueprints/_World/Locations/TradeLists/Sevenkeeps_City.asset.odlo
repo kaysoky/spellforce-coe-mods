@@ -119,15 +119,22 @@ ShopDefinition
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Keeper.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/Rooms/Room_Barrack_Troll.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 483357176,
+                            "GuidPart2": 1092647685,
+                            "GuidPart3": 2025656980,
+                            "GuidPart4": 1629019861
+                        }
+                    }
                 }
             }
         ]

@@ -116,7 +116,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
+                        "ContentPath": "Units/Factions/Orcs/Orc_WarTroll.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -130,7 +130,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_RageHammer.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -138,71 +138,66 @@ ShopDefinition
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Elves/Elf_Ranger.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheCutthroat.asset"
+                    }
                 }
             },
             {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Sky Iron/Rune_SkyIron_ofTheMountainGoat.asset"
+                    }
                 }
             },
             {
                 "rid": 1007,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Bear.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_01.asset"
+                    }
                 }
             },
             {
                 "rid": 1008,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheAshen.asset"
+                    }
                 }
             },
             {
                 "rid": 1009,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofThePathfinder.asset"
+                    }
                 }
             },
             {
@@ -228,7 +223,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -236,15 +231,14 @@ ShopDefinition
             {
                 "rid": 1012,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Wolf.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheHealthy.asset"
+                    }
                 }
             }
         ]

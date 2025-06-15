@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CraftingSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CraftingSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Domain_MagicShield_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Itemfind_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_CrystalIncome_01.asset"
+        }
+    ]
+}

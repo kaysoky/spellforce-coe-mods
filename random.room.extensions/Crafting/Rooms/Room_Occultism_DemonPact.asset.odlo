@@ -1,0 +1,20 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Focus_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Ore_04.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_HiringSlot_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Dreamweaver_Loom.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Research_01.asset"
+        }
+    ]
+}

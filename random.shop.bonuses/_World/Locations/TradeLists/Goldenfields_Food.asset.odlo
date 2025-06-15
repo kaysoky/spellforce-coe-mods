@@ -1,0 +1,8 @@
+ShopDefinition
+{
+    "Modifications": [
+        {
+            "ContentPath": "Units/Promotions/StatPromotions/Health 1.asset"
+        }
+    ]
+}

@@ -41,15 +41,14 @@ ShopDefinition
             {
                 "rid": 1001,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Axewielder.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T3/Item_ALL_Locket.asset"
+                    }
                 }
             },
             {
@@ -61,7 +60,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Earthshaper.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -75,7 +74,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Worker.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Cutthroat.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

@@ -41,7 +41,7 @@ ShopDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/DwarvenForgebrew.asset"
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Common_01.asset"
                     }
                 }
             }
