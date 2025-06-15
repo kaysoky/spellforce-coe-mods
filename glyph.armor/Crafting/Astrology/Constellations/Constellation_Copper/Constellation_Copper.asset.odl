@@ -63,7 +63,35 @@ AstrologyConstellationDefinition
                 "ContentPath": "Items/Slots/Copper Slot.asset"
             },
             "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 0,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Arcane_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "UnitPromotions": [
+                            {
+                                "Condition": {
+                                    "TagFilter": {
+                                        "AffectsOnly": {
+                                            "mTags": [
+                                                {
+                                                    "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "Promotion": {
+                                    "ContentPath": "Units/Promotions/Stacking Melee Damage.asset"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "ScreenPosition": {
@@ -85,7 +113,35 @@ AstrologyConstellationDefinition
                 "ContentPath": "Items/Slots/Copper Slot.asset"
             },
             "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 3,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Elemental_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "UnitPromotions": [
+                            {
+                                "Condition": {
+                                    "TagFilter": {
+                                        "AffectsOnly": {
+                                            "mTags": [
+                                                {
+                                                    "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "Promotion": {
+                                    "ContentPath": "Units/Promotions/Stacking Ranged Damage.asset"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "ScreenPosition": {
@@ -96,7 +152,35 @@ AstrologyConstellationDefinition
                 "ContentPath": "Items/Slots/Copper Slot.asset"
             },
             "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 1,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Death_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "UnitPromotions": [
+                            {
+                                "Condition": {
+                                    "TagFilter": {
+                                        "AffectsOnly": {
+                                            "mTags": [
+                                                {
+                                                    "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "Promotion": {
+                                    "ContentPath": "Units/Promotions/Stacking Flanking Damage.asset"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         }
     ],
     "Connections": [
@@ -230,7 +314,101 @@ AstrologyConstellationDefinition
             ]
         }
     ],
-    "UnlockPerks": [],
+    "UnlockPerks": [
+        {
+            "Icon": {
+                "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_EagleEye_01.png"
+            },
+            "UnlockThreshold": {
+                "ElementalThreshold": 3,
+                "ArcaneThreshold": 3,
+                "DeathThreshold": 3,
+                "LifeThreshold": 3
+            },
+            "FactionModifiers": {
+                "UnitPromotions": [
+                    {
+                        "Condition": {
+                            "TagFilter": {
+                                "AffectsOnly": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "Promotion": {
+                            "ContentPath": "Units/Promotions/Inherit EagleEye.asset"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Icon": {
+                "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_Enkindling_01.png"
+            },
+            "UnlockThreshold": {
+                "ElementalThreshold": 6,
+                "ArcaneThreshold": 6,
+                "DeathThreshold": 0,
+                "LifeThreshold": 0
+            },
+            "FactionModifiers": {
+                "UnitPromotions": [
+                    {
+                        "Condition": {
+                            "TagFilter": {
+                                "AffectsOnly": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "Promotion": {
+                            "ContentPath": "Units/Promotions/Inherit ExploitBurn.asset"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Icon": {
+                "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_Bloodthirsty_01.png"
+            },
+            "UnlockThreshold": {
+                "ElementalThreshold": 0,
+                "ArcaneThreshold": 0,
+                "DeathThreshold": 6,
+                "LifeThreshold": 6
+            },
+            "FactionModifiers": {
+                "UnitPromotions": [
+                    {
+                        "Condition": {
+                            "TagFilter": {
+                                "AffectsOnly": {
+                                    "mTags": [
+                                        {
+                                            "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "Promotion": {
+                            "ContentPath": "Units/Promotions/Inherit Bloodthirsty.asset"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
     "ComponentBasedModifiers": [],
     "references": {
         "version": 2,

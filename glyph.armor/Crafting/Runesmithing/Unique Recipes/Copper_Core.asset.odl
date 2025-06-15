@@ -44,9 +44,6 @@ RunesmithingRecipe
                             "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
                         },
                         {
-                            "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
-                        },
-                        {
                             "ContentPath": "Items/Loot/Ores/Corrupted Moonsilver.asset"
                         }
                     ]

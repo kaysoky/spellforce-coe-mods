@@ -126,30 +126,180 @@ AstrologyConstellationDefinition
             "FromIndex": 0,
             "ToIndex": 1,
             "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 3,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Elemental_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "ConditionalUnitModifier": [
+                            {
+                                "Condition": {
+                                    "TagFilter": {
+                                        "AffectsOnly": {
+                                            "mTags": [
+                                                {
+                                                    "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "<UnitModifiers>k__BackingField": {
+                                    "PassiveIncome": {
+                                        "GoldPerRound": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "FromIndex": 1,
             "ToIndex": 2,
             "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 1,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Death_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "ConditionalUnitModifier": [
+                            {
+                                "Condition": {
+                                    "TagFilter": {
+                                        "AffectsOnly": {
+                                            "mTags": [
+                                                {
+                                                    "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "<UnitModifiers>k__BackingField": {
+                                    "PassiveIncome": {
+                                        "FamePerRound": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "FromIndex": 1,
             "ToIndex": 3,
             "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 2,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Life_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "ConditionalUnitModifier": [
+                            {
+                                "Condition": {
+                                    "TagFilter": {
+                                        "AffectsOnly": {
+                                            "mTags": [
+                                                {
+                                                    "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "<UnitModifiers>k__BackingField": {
+                                    "PassiveIncome": {
+                                        "ResearchPerRound": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "FromIndex": 1,
             "ToIndex": 4,
             "ConditionalModifiers": [],
-            "ComponentBasedModifiers": []
+            "ComponentBasedModifiers": [
+                {
+                    "Type": 0,
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Magic_Arcane_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "ConditionalUnitModifier": [
+                            {
+                                "Condition": {
+                                    "TagFilter": {
+                                        "AffectsOnly": {
+                                            "mTags": [
+                                                {
+                                                    "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "<UnitModifiers>k__BackingField": {
+                                    "PassiveIncome": {
+                                        "ManaPerRound": 1
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "FromIndex": 4,
             "ToIndex": 5,
-            "ConditionalModifiers": [],
+            "ConditionalModifiers": [
+                {
+                    "Conditions": [],
+                    "Icon": {
+                        "ContentPath": "UI/Icons/Icons/Icon_Might_01.png"
+                    },
+                    "ColoredIcon": false,
+                    "FactionModifiers": {
+                        "ConditionalUnitModifier": [
+                            {
+                                "Condition": {
+                                    "TagFilter": {
+                                        "AffectsOnly": {
+                                            "mTags": [
+                                                {
+                                                    "ContentPath": "Units/UnitTags/AdamantiumWandTag.asset"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "<UnitModifiers>k__BackingField": {
+                                    "PassiveIncome": {
+                                        "MightPerRound": 4
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
             "ComponentBasedModifiers": []
         }
     ],

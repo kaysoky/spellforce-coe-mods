@@ -41,9 +41,6 @@ RunesmithingRecipe
                             "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
                         },
                         {
-                            "ContentPath": "Items/Loot/Ores/Sky Iron.asset"
-                        },
-                        {
                             "ContentPath": "Items/Loot/Ores/Corrupted Moonsilver.asset"
                         },
                         {
