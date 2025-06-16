@@ -187,7 +187,37 @@ FactionModificationSpell
                         }
                     },
                     "Promotion": {
-                        "ContentPath": "Units/Promotions/BigDeathDamage.asset"
+                        "ContentPath": "Units/Promotions/StatPromotions/Death Damage 1.asset"
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/StatPromotions/Death Damage 2.asset"
+                    }
+                },
+                {
+                    "Condition": {
+                        "TagFilter": {
+                            "AffectsOnly": {
+                                "mTags": []
+                            },
+                            "AffectsNot": {
+                                "mTags": []
+                            }
+                        }
+                    },
+                    "Promotion": {
+                        "ContentPath": "Units/Promotions/StatPromotions/Death Damage 3.asset"
                     }
                 }
             ],

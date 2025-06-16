@@ -187,7 +187,7 @@ FactionModificationSpell
                         }
                     },
                     "Promotion": {
-                        "ContentPath": "Units/Promotions/BuffSelfForEachUndead.asset"
+                        "ContentPath": "Units/Promotions/BigDeathDamage.asset"
                     }
                 }
             ],
