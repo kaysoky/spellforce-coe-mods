@@ -72,9 +72,6 @@ DynamicStackDefinition
             ],
             "PromotionsToAdd": [
                 {
-                    "ContentPath": "Campaigns/MainCampaign/Demonlords/Demonlord Apprentice/Demonlord Apprentice BE Promotion.asset"
-                },
-                {
                     "ContentPath": "Units/Promotions/StackUpBloodCharges.asset"
                 },
                 {
@@ -106,9 +103,6 @@ DynamicStackDefinition
                 },
                 {
                     "ContentPath": "Units/Promotions/GreaterLeechLife.asset"
-                },
-                {
-                    "ContentPath": "Units/Promotions/Give Plague Breath.asset"
                 },
                 {
                     "ContentPath": "Units/Promotions/Frenzy.asset"

@@ -7,9 +7,6 @@ FactionDefinition
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
-                    },
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
                     }
                 ]
             },
@@ -33,7 +30,7 @@ FactionDefinition
                 "Progression": 10,
                 "FactionModifierSpells": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 4.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
                     }
                 ]
             },
@@ -42,6 +39,14 @@ FactionDefinition
                 "FactionModifierSpells": [
                     {
                         "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression LargeSummonOnDeath.asset"
+                    }
+                ]
+            },
+            {
+                "Progression": 12,
+                "FactionModifierSpells": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 4.asset"
                     }
                 ]
             },
