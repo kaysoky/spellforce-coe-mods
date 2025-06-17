@@ -1,0 +1,24 @@
+UnitPromotionDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "GetStatusEffectsOnUnitDeaths": [
+            {
+                "TeamTargetType": 10,
+                "StatusEffect": {
+                    "ContentPath": "Units/Promotions/BonusFocusSE.asset"
+                },
+                "IgnoredTags": {
+                    "mTags": [
+                        {
+                            "ContentPath": "Units/UnitTags/Cover.asset"
+                        }
+                    ]
+                },
+                "TargetTag": {
+                    "ContentPath": ""
+                },
+                "InvertApplication": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+UnitPromotionDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "GetStatusEffectsOnUnitDeaths": [
+            {
+                "TeamTargetType": 5,
+                "StatusEffect": {
+                    "ContentPath": "StatusEffects/nature'sVengeanceSE.asset"
+                },
+                "IgnoredTags": {
+                    "mTags": []
+                },
+                "TargetTag": {
+                    "ContentPath": "Units/UnitTags/Wild.asset"
+                },
+                "InvertApplication": false
+            }
+        ]
+    }
+}

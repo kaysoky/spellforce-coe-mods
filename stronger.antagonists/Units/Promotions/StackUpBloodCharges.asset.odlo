@@ -1,0 +1,24 @@
+UnitPromotionDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "GetStatusEffectsOnUnitDeaths": [
+            {
+                "TeamTargetType": 5,
+                "StatusEffect": {
+                    "ContentPath": "StatusEffects/BloodChargeSE.asset"
+                },
+                "IgnoredTags": {
+                    "mTags": [
+                        {
+                            "ContentPath": "Units/UnitTags/Cover.asset"
+                        }
+                    ]
+                },
+                "TargetTag": {
+                    "ContentPath": ""
+                },
+                "InvertApplication": false
+            }
+        ]
+    }
+}

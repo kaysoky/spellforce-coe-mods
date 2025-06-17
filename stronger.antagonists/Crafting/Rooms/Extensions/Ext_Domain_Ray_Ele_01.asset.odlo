@@ -1,124 +1,5 @@
-FactionDefinition
+RoomExtensionDefinition
 {
-    "AntagonistData": {
-        "ProgressionEffects": [
-            {
-                "Progression": 6,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression NorsGrip.asset"
-                    },
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression InfusedMemory.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 7,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Corrosive.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 8,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression AllChaotic.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 9,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression ChantOfUnlife.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 10,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 3.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 11,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression FantasticOnly.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 12,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression ManySlows.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 13,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression UndeadSummoner.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 14,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression GeneralBuff.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 5,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression Undead Regen.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 6,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression DomainIncrease 1.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 10,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression ZombieMastery.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 4,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 1.asset"
-                    }
-                ]
-            },
-            {
-                "Progression": 8,
-                "FactionModifierSpells": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Antagonists/_Progression Spells/AntaProgression StackSlot 2.asset"
-                    }
-                ]
-            }
-        ]
-    },
     "<FactionModifiers>k__BackingField": {
         "InfluenceAreaUnitModifiers": [
             {
@@ -171,7 +52,7 @@ FactionDefinition
                         "HealthRegeneration": 0,
                         "WorldHealRateBonus": 0,
                         "RelativeWorldHealRateBonus": 0.0,
-                        "WorldHealRateModifier": -0.5,
+                        "WorldHealRateModifier": 0.0,
                         "HealthModifier": 0.0,
                         "AdditionalLife": 0,
                         "CannotRegenerate": false,
@@ -310,13 +191,13 @@ FactionDefinition
                         },
                         "DamageTypes": {
                             "DamageReduction": 0.0,
-                            "DeathResistance": -0.25,
+                            "DeathResistance": 0.0,
                             "DeathDamageBonus": 0,
                             "WhiteResistance": 0.0,
                             "WhiteDamageBonus": 0,
                             "PhysicalDamageBonus": 0,
                             "PhysicalResistance": 0.0,
-                            "ElementalResistance": 0.0,
+                            "ElementalResistance": -0.25,
                             "ElementalDamageBonus": 0
                         },
                         "MagicDamageModifier": 0.0,

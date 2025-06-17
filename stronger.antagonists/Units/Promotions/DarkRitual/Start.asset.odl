@@ -80,12 +80,16 @@ UnitPromotionDefinition
         "IsSoulInsured": false,
         "GetStatusEffectsOnUnitDeaths": [
             {
-                "TeamTargetType": -1,
+                "TeamTargetType": 5,
                 "StatusEffect": {
                     "ContentPath": "Units/Promotions/DarkRitual/SE1.asset"
                 },
                 "IgnoredTags": {
-                    "mTags": []
+                    "mTags": [
+                        {
+                            "ContentPath": "Units/UnitTags/Cover.asset"
+                        }
+                    ]
                 },
                 "TargetTag": {
                     "ContentPath": ""

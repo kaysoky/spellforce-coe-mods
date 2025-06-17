@@ -1,0 +1,8 @@
+BuddyBonusDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "CombatModifiers": {
+            "DamageBonus": 2
+        }
+    }
+}

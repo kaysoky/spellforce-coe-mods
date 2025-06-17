@@ -1,0 +1,7 @@
+BuddyBonusDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "Speed": 1,
+        "AdditionalMovement": 1
+    }
+}

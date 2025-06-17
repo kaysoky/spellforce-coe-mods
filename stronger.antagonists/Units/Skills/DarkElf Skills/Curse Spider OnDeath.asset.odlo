@@ -1,0 +1,6 @@
+SummonUnitsOnDeathSkill
+{
+    "PromotionToAdd": {
+        "ContentPath": "Units/Promotions/Summon.asset"
+    }
+}
