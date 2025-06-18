@@ -349,7 +349,7 @@ UnitPromotionDefinition
         },
         "Description": {
             "Loca": {
-                "Key": "Blade Mastery.Tooltip.Description.Loca",
+                "Key": "SummonInheritsPromotion.Tooltip.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,

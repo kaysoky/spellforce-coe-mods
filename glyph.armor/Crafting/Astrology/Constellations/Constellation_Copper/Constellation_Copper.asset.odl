@@ -71,7 +71,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -84,8 +84,17 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Melee Damage.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Melee Damage.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "MeleeAttackType": {
+                                            "MeleeDamageBonus": 1
+                                        }
+                                    }
                                 }
                             }
                         ]
@@ -121,7 +130,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -134,8 +143,17 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Ranged Damage.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Ranged Damage.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "MissileAttackType": {
+                                            "MissileDamageBonus": 1
+                                        }
+                                    }
                                 }
                             }
                         ]
@@ -160,7 +178,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -173,8 +191,20 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Flanking Damage.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Flanking Damage.asset"
+                                        }
+                                    ],
+                                    "FlankingSpecificModifiers": [
+                                        {
+                                            "Invert": false,
+                                            "FlankingCombatModifiers": {
+                                                "DamageBonus": 2
+                                            }
+                                        }
+                                    ]
                                 }
                             }
                         ]
@@ -196,7 +226,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -209,8 +239,17 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking White Damage.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking White Damage.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "DamageTypes": {
+                                            "WhiteDamageBonus": 1
+                                        }
+                                    }
                                 }
                             }
                         ]
@@ -230,7 +269,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -243,8 +282,17 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Death Damage.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Death Damage.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "DamageTypes": {
+                                            "DeathDamageBonus": 1
+                                        }
+                                    }
                                 }
                             }
                         ]
@@ -264,7 +312,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -277,8 +325,17 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Ability Damage.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Ability Damage.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "SpellAttackType": {
+                                            "SpellDamageBonus": 1
+                                        }
+                                    }
                                 }
                             }
                         ]
@@ -291,7 +348,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -304,8 +361,17 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Elemental Damage.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Elemental Damage.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "DamageTypes": {
+                                            "ElementalDamageBonus": 1
+                                        }
+                                    }
                                 }
                             }
                         ]

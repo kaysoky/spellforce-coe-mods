@@ -93,7 +93,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -106,8 +106,17 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking AbilityWillpower Bonus.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking AbilityWillpower Bonus.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "SpellAttackType": {
+                                            "SpellMoraleBonus": 1
+                                        }
+                                    }
                                 }
                             }
                         ]
@@ -132,7 +141,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -145,8 +154,17 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking MissileArmor Bonus.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking MissileArmor Bonus.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "MissileAttackType": {
+                                            "MissileArmorBonus": 1
+                                        }
+                                    }
                                 }
                             }
                         ]
@@ -171,7 +189,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -184,8 +202,15 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking HealthPercent Bonus.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "Health": {
+                                        "HealthModifier": 0.02
+                                    },
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking HealthPercent Bonus.asset"
+                                        }
+                                    ]
                                 }
                             }
                         ]
@@ -207,7 +232,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -220,8 +245,15 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Armor Bonus.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Armor Bonus.asset"
+                                        }
+                                    ],
+                                    "CombatModifiers": {
+                                        "Armor": 1
+                                    }
                                 }
                             }
                         ]
@@ -241,7 +273,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -254,8 +286,13 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Willpower Bonus.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "Morale": 1,
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Willpower Bonus.asset"
+                                        }
+                                    ]
                                 }
                             }
                         ]
@@ -275,7 +312,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -288,8 +325,15 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Regen Bonus.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "Health": {
+                                        "HealthRegeneration": 1
+                                    },
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Regen Bonus.asset"
+                                        }
+                                    ]
                                 }
                             }
                         ]
@@ -309,7 +353,7 @@ AstrologyConstellationDefinition
                     },
                     "ColoredIcon": false,
                     "FactionModifiers": {
-                        "UnitPromotions": [
+                        "ConditionalUnitModifier": [
                             {
                                 "Condition": {
                                     "TagFilter": {
@@ -322,8 +366,15 @@ AstrologyConstellationDefinition
                                         }
                                     }
                                 },
-                                "Promotion": {
-                                    "ContentPath": "Units/Promotions/Stacking Health Bonus.asset"
+                                "<UnitModifiers>k__BackingField": {
+                                    "Health": {
+                                        "AdditionalLife": 5
+                                    },
+                                    "ApplyToSummonsPromotions": [
+                                        {
+                                            "ContentPath": "Units/Promotions/Stacking Health Bonus.asset"
+                                        }
+                                    ]
                                 }
                             }
                         ]

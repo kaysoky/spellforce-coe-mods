@@ -31,3 +31,4 @@ Constellation_Adamantium.Description;Grants a golem to those channeling this cor
 #Summon IceGolem.Tooltip.Name.Loca;Summon Ice Golem
 #Summon BloodGolem.Tooltip.Name.Loca;Summon Blood Golem
 #Summon StoneGolem.Tooltip.Name.Loca;Summon Stone Golem
+SummonInheritsPromotion.Tooltip.Description.Loca;Units [spell]summoned[/] by this unit gain:
