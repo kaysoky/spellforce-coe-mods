@@ -27,6 +27,13 @@ Constellation_Adamantium.Description;Grants a golem to those channeling this cor
 #Channeled Death Essence.Tooltip.Name.Loca;Channeled Death Essence
 #Channeled Elemental Essence.Tooltip.Name.Loca;Channeled Elemental Essence
 #Channeled Arcane Essence.Tooltip.Name.Loca;Channeled Arcane Essence
+#Fantastic_MediumFireGolem.NameId;Minor Fire Golem
+#Fantastic_MediumIceGolem.NameId;Minor Ice Golem
+#Summon MediumFireGolem.Tooltip.Name.Loca;Summon Minor Fire Golem
+#Summon MediumIceGolem.Tooltip.Name.Loca;Summon Minor Ice Golem
+#WearingRunicArmorSE.Tooltip.Name.Loca;Wearing Runic Armor
+#DeployedRunicArmorSE.Tooltip.Name.Loca;Deployed Runic Armor
+#DeployedRunicArmorSE.Tooltip.Description.Loca;This unit no longer benefits from Runic Armor, since it has been deployed as a golem in battle.
 #Summon FireGolem.Tooltip.Name.Loca;Summon Fire Golem
 #Summon IceGolem.Tooltip.Name.Loca;Summon Ice Golem
 #Summon BloodGolem.Tooltip.Name.Loca;Summon Blood Golem

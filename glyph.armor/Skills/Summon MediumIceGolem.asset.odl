@@ -1,0 +1,199 @@
+SummonCompanionSkill
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 7.0,
+            "y": 5.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/SummonTileSelectionCursor.prefab"
+        }
+    },
+    "CombatSequence": {
+        "ContentPath": ""
+    },
+    "SkillEvaluation": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "ActiveSkillCosts": {
+        "AttackActions": 1,
+        "FocusCosts": 0,
+        "CurrencyCost": {
+            "Gold": 0,
+            "Mana": 0
+        },
+        "ConsumeRemainingAttackActions": false
+    },
+    "Cooldown": {
+        "Duration": 0,
+        "LimitedUse": true,
+        "Charges": 1
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#Summon MediumIceGolem.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "RangedSummonUnitSkill.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": [
+            {
+                "Loca": {
+                    "Key": "TileConditionCliffWater.Loca",
+                    "ObjectId": {
+                        "mGuid": {
+                            "GuidPart1": 0,
+                            "GuidPart2": 0,
+                            "GuidPart3": 0,
+                            "GuidPart4": 0
+                        },
+                        "mSerializableLocalIdentifier": 0
+                    }
+                },
+                "BlankLineInFront": false,
+                "IsEmpty": false
+            }
+        ]
+    },
+    "AttackType": {
+        "ContentPath": ""
+    },
+    "RemoveSourceKotH": true,
+    "RepeatWithActions": false,
+    "UnitPowerGain": 0,
+    "SkipUnitFallbackSkill": false,
+    "IgnoreAsDefault": true,
+    "FallbackPriority": 0,
+    "Initiative": 5,
+    "BaseRank": 1,
+    "CooldownMin": 0,
+    "CooldownMax": 0,
+    "Slot": {
+        "Slot": 1,
+        "Priority": 4
+    },
+    "SkillButtonConfiguration": {
+        "ContentPath": "Skills/Icons/Configurations/Skills_Configuration_Empty.asset"
+    },
+    "Icon": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_BabyIceGolem.png"
+    },
+    "ShowPrevisualizationPanel": false,
+    "Priority": 0,
+    "HideInOtherTooltips": false,
+    "DebugInfos": "",
+    "ConjuringEffect": {
+        "ContentPath": ""
+    },
+    "TargetPositionEffect": {
+        "ContentPath": "VisualEffects/GenericBattleEffects/IceSingleTile_01_VisualEffect.prefab"
+    },
+    "TargetSquadMemberPreSpawnVisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetVisualEffect": {
+        "ContentPath": ""
+    },
+    "TargetSquadMemberVisualEffect": {
+        "ContentPath": ""
+    },
+    "CastRange": 1,
+    "UnitDefinitionReference": {
+        "ContentPath": "Units/Factions/Fantastic/Fantastic_MediumIceGolem.asset"
+    },
+    "SummonWithFullActions": true,
+    "CanNotSummonOntoTileWithTag": {
+        "mTags": [
+            {
+                "ContentPath": "_Battle/Tiles/Blocker.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Cover.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Full Blocker.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Cliff.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Water Deep.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Impassable.asset"
+            },
+            {
+                "ContentPath": "_Battle/Tiles/Hole.asset"
+            }
+        ]
+    },
+    "SummonAsNeutral": false,
+    "PromotionToAdd": {
+        "ContentPath": "Units/Promotions/Summon.asset"
+    },
+    "DisplayPromotionToAddInTooltip": false,
+    "TooltipEmitAutomaticStatusEffectApply": true,
+    "StatusEffectsToApply": [],
+    "SelfStatusEffect": [
+        {
+            "Amount": 1,
+            "StatusEffect": {
+                "ContentPath": "StatusEffects/DeployedRunicArmorSE.asset"
+            },
+            "Chance": 10
+        }
+    ],
+    "RequiredStatusEffect": {
+        "ContentPath": "StatusEffects/WearingRunicArmorSE.asset"
+    },
+    "RequiredStatusAmount": 1
+}

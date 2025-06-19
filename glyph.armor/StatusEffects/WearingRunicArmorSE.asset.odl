@@ -1,9 +1,102 @@
-UnitPromotionDefinition
+StatusEffectDefinition
 {
-    "Unique": true,
-    "DoesTransferInUpgrade": true,
-    "HideInBattleUnitInfo": true,
-    "HideInUnitDetails": true,
+    "Tags": {
+        "mTags": []
+    },
+    "UnitTagFilter": {
+        "AffectsOnly": {
+            "mTags": []
+        },
+        "AffectsNot": {
+            "mTags": []
+        }
+    },
+    "WorkingResistance": {
+        "ContentPath": ""
+    },
+    "InitialCanBeRemovedByCleansing": false,
+    "InitialCanBeRemovedByResting": false,
+    "Expires": false,
+    "IsStackable": false,
+    "Duration": 0,
+    "OnEnter": {
+        "Effects": []
+    },
+    "OnTick": {
+        "Effects": []
+    },
+    "OnExit": {
+        "Effects": []
+    },
+    "OnRemove": {
+        "Effects": []
+    },
+    "PromotionQualityType": 1,
+    "Icon": {
+        "ContentPath": "Items/Loot/Artefacts/Icon_IronArmor.png"
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "#WearingRunicArmorSE.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "OnAddedSoundEffect": {
+        "ContentPath": ""
+    },
+    "OnAddedSoundEffectVolumeScale": 1.0,
+    "ContinuesVisualEffect": {
+        "ContentPath": ""
+    },
+    "StackableVisualEffect": {
+        "ContentPath": ""
+    },
+    "ApplyForEachSquadMember": true,
     "<UnitModifiers>k__BackingField": {
         "MovementRules": [],
         "SkillOverrides": {
@@ -19,14 +112,7 @@ UnitPromotionDefinition
             "MeleeSkill": {
                 "ContentPath": ""
             },
-            "SpecialSkills": [
-                {
-                    "ContentPath": "Skills/Summon MediumFireGolem.asset"
-                },
-                {
-                    "ContentPath": "Skills/Summon MediumIceGolem.asset"
-                }
-            ],
+            "SpecialSkills": [],
             "OnDeathSkills": []
         },
         "SkillReplacements": [],
@@ -134,20 +220,13 @@ UnitPromotionDefinition
                 "ContentPath": ""
             }
         },
-        "StatusEffectsOnBattleSpawn": [
-            {
-                "SpawnStatusEffect": {
-                    "ContentPath": "StatusEffects/WearingRunicArmorSE.asset"
-                },
-                "ApplyForSummon": false
-            }
-        ],
+        "StatusEffectsOnBattleSpawn": [],
         "Protective": false,
         "IgnoreOthersZoneOfControl": false,
         "CanDetectHiddenUnitsInSearchRange": false,
         "ReducedActionMaximum": 0,
-        "AdditionalArtefactSlots": [],
-        "RemoveArtefactSlots": [],
+        "AdditionalArtefactSlotReferences": [],
+        "RemoveArtefactSlotReferences": [],
         "AttackEffects": [],
         "SelfAttackEffects": [],
         "HidingSettings": [],
@@ -243,106 +322,8 @@ UnitPromotionDefinition
         }
     },
     "PromotionsToAdd": [],
-    "ConditionalPromotionsToAdd": [],
-    "IgnoredPromotions": [],
-    "ExposeIgnoredPromotionsInTooltip": false,
-    "IgnoredAuras": [],
-    "Tags": {
-        "mTags": [
-            {
-                "ContentPath": "Units/UnitTags/IronArmorTag.asset"
-            }
-        ]
-    },
-    "LevelUpTags": {
-        "mTags": []
-    },
-    "ShowInApprenticeSelection": false,
-    "UnitTitleOverride": {
-        "Key": "",
-        "ObjectId": {
-            "mGuid": {
-                "GuidPart1": 0,
-                "GuidPart2": 0,
-                "GuidPart3": 0,
-                "GuidPart4": 0
-            },
-            "mSerializableLocalIdentifier": 0
-        }
-    },
-    "UnitVisualOverride": {
-        "ContentPath": ""
-    },
-    "CannotBeRenamed": false,
-    "OverrideUnitSortOrder": false,
-    "UnitSortOrderOverride": 0,
-    "IsTemporary": false,
-    "QualityType": 1,
-    "ShowAsSubTooltip": false,
-    "Icon": {
-        "ContentPath": "Items/Loot/Artefacts/Icon_IronArmor.png"
-    },
-    "Tooltip": {
-        "Name": {
-            "Loca": {
-                "Key": "#IronArmor.Tooltip.Name.Loca",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "Description": {
-            "Loca": {
-                "Key": "",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "Fluff": {
-            "Loca": {
-                "Key": "",
-                "ObjectId": {
-                    "mGuid": {
-                        "GuidPart1": 0,
-                        "GuidPart2": 0,
-                        "GuidPart3": 0,
-                        "GuidPart4": 0
-                    },
-                    "mSerializableLocalIdentifier": 0
-                }
-            },
-            "BlankLineInFront": false,
-            "IsEmpty": true
-        },
-        "TooltipEntries": []
-    },
-    "Priority": 0,
-    "AutoResolveHelp": {
-        "OnlyAffectsVsAi": false,
-        "CanCatchSouls": false,
-        "CanEnslave": false,
-        "PersonalEdge": 0,
-        "DamageReduction": 0.0,
-        "SharedHealthBuffer": 0,
-        "SharedEdge": 0,
-        "AlwaysWinAutoresolve": false
-    },
-    "TooltipDonotShowHeaderIfSingleSkillGranted": false
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
 }

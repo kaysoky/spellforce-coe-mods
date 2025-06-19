@@ -1,0 +1,13 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Apprentice Tag.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/CopperTrinketTag.asset"
+            }
+        ]
+    }
+}

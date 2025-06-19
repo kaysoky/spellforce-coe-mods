@@ -3,7 +3,7 @@ UnitPromotionDefinition
     "Unique": true,
     "DoesTransferInUpgrade": true,
     "HideInBattleUnitInfo": true,
-    "HideInUnitDetails": true,
+    "HideInUnitDetails": false,
     "<UnitModifiers>k__BackingField": {
         "MovementRules": [],
         "SkillOverrides": {
@@ -19,14 +19,7 @@ UnitPromotionDefinition
             "MeleeSkill": {
                 "ContentPath": ""
             },
-            "SpecialSkills": [
-                {
-                    "ContentPath": "Skills/Summon MediumFireGolem.asset"
-                },
-                {
-                    "ContentPath": "Skills/Summon MediumIceGolem.asset"
-                }
-            ],
+            "SpecialSkills": [],
             "OnDeathSkills": []
         },
         "SkillReplacements": [],
@@ -134,14 +127,7 @@ UnitPromotionDefinition
                 "ContentPath": ""
             }
         },
-        "StatusEffectsOnBattleSpawn": [
-            {
-                "SpawnStatusEffect": {
-                    "ContentPath": "StatusEffects/WearingRunicArmorSE.asset"
-                },
-                "ApplyForSummon": false
-            }
-        ],
+        "StatusEffectsOnBattleSpawn": [],
         "Protective": false,
         "IgnoreOthersZoneOfControl": false,
         "CanDetectHiddenUnitsInSearchRange": false,
@@ -244,15 +230,15 @@ UnitPromotionDefinition
     },
     "PromotionsToAdd": [],
     "ConditionalPromotionsToAdd": [],
-    "IgnoredPromotions": [],
+    "IgnoredPromotions": [
+        {
+            "ContentPath": "Items/Loot/Artefacts/IronArmorPromotionTag.asset"
+        }
+    ],
     "ExposeIgnoredPromotionsInTooltip": false,
     "IgnoredAuras": [],
     "Tags": {
-        "mTags": [
-            {
-                "ContentPath": "Units/UnitTags/IronArmorTag.asset"
-            }
-        ]
+        "mTags": []
     },
     "LevelUpTags": {
         "mTags": []
@@ -278,14 +264,14 @@ UnitPromotionDefinition
     "UnitSortOrderOverride": 0,
     "IsTemporary": false,
     "QualityType": 1,
-    "ShowAsSubTooltip": false,
+    "ShowAsSubTooltip": true,
     "Icon": {
         "ContentPath": "Items/Loot/Artefacts/Icon_IronArmor.png"
     },
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "#IronArmor.Tooltip.Name.Loca",
+                "Key": "#DeployedRunicArmorSE.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -297,11 +283,11 @@ UnitPromotionDefinition
                 }
             },
             "BlankLineInFront": false,
-            "IsEmpty": true
+            "IsEmpty": false
         },
         "Description": {
             "Loca": {
-                "Key": "",
+                "Key": "#DeployedRunicArmorSE.Tooltip.Description.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -313,7 +299,7 @@ UnitPromotionDefinition
                 }
             },
             "BlankLineInFront": false,
-            "IsEmpty": true
+            "IsEmpty": false
         },
         "Fluff": {
             "Loca": {
@@ -344,5 +330,5 @@ UnitPromotionDefinition
         "SharedEdge": 0,
         "AlwaysWinAutoresolve": false
     },
-    "TooltipDonotShowHeaderIfSingleSkillGranted": false
+    "TooltipDonotShowHeaderIfSingleSkillGranted": true
 }
