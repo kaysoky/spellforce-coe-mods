@@ -1,7 +1,10 @@
-UnitPromotionDefinition
+UnitDefinition
 {
     "Tags": {
         "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Apprentice Tag.asset"
+            },
             {
                 "ContentPath": "Units/UnitTags/AlchemyBeltTag.asset"
             }
