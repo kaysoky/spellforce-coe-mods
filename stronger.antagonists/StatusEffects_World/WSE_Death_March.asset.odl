@@ -1,0 +1,25 @@
+WorldUnitStatusEffectDefinition
+{
+    "Trigger": {
+        "rid": 1000
+    },
+    "Promotion": {
+        "ContentPath": "StatusEffects_World/WSE_Death_March_Promotion.asset"
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "WorldRoundsTrigger",
+                    "ns": "OwnedByGravity.Game.Logic.StatusEffects.Triggers",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rounds": 3
+                }
+            }
+        ]
+    }
+}

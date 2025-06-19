@@ -1,0 +1,12 @@
+FactionPromotionDefinition
+{
+    "Id": {
+        "Description": {
+            "Loca": {
+                "Key": "BoostDoesNotStack.Loca"
+            },
+            "IsEmpty": true
+        }
+    },
+    "IsUnique": true
+}
