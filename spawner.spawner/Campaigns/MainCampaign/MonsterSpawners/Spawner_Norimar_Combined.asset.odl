@@ -1,0 +1,55 @@
+MonsterSpawnerDefinition
+{
+    "Icon": {
+        "ContentPath": ""
+    },
+    "Name": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "MaxStacks": 2,
+    "ProgressionOffset": -1,
+    "Faction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Neutral Undead.asset"
+    },
+    "Stacks": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animals_Raptors_01.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_DeathDamage_01.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_Plague_01.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_NoSkeletons_Generic_01.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_Skeleton_Basic_01.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Fantastic/Fantastic_Phantoms_01.asset"
+        }
+    ],
+    "AIBehaviour": {
+        "ContentPath": ""
+    },
+    "ValidLocationsToSpawn": {
+        "mTags": []
+    },
+    "ValidRegionsToSpawn": {
+        "mTags": []
+    },
+    "VisualPrefab": {
+        "ContentPath": "VFX/MonsterSpawner_01.prefab"
+    }
+}

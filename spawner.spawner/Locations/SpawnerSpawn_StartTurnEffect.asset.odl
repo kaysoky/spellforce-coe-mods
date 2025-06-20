@@ -1,0 +1,1449 @@
+TurnStartEffectSequence
+{
+    "AutomaticallyAddedTo": {
+        "mTags": [
+            {
+                "ContentPath": "Campaigns/MainCampaign/Main Campaign Prototype 3_3.asset"
+            },
+            {
+                "ContentPath": "Campaigns/FreeMode/FreeMode Campaign.asset"
+            },
+            {
+                "ContentPath": "Campaigns/FreeMode Random/FreeMode Random Campaign.asset"
+            },
+            {
+                "ContentPath": "Campaigns/RandomWorldMap/RandomCampaign_01.asset"
+            },
+            {
+                "ContentPath": "Campaigns/ScenarioCampaign01/ScenarioCampaign01.asset"
+            },
+            {
+                "ContentPath": "Campaigns/ScenarioCampaign02/ScenarioCampaign02.asset"
+            },
+            {
+                "ContentPath": "Campaigns/ScenarioCampaign04/ScenarioCampaign04.asset"
+            }
+        ]
+    },
+    "Condition": {
+        "Conditions": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "Execution": {
+        "rid": 1001
+    },
+    "ShowUsingEffectTracker": false,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "GameTurnCondition",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "AtLeastTurn": 70,
+                    "Invert": false
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "IntervalExecution/Factory",
+                    "ns": "OwnedByGravity.Game.Logic.TurnStartEffects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Interval": {
+                        "Min": 7,
+                        "Max": 7
+                    },
+                    "What": {
+                        "rid": 1002
+                    }
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "SingleExecution/Factory",
+                    "ns": "OwnedByGravity.Game.Logic.TurnStartEffects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "ContextSetup": {
+                        "m_Setups": []
+                    },
+                    "Effects": {
+                        "Effects": [
+                            {
+                                "rid": 1003
+                            },
+                            {
+                                "rid": 1004
+                            },
+                            {
+                                "rid": 1005
+                            },
+                            {
+                                "rid": 1006
+                            },
+                            {
+                                "rid": 1007
+                            },
+                            {
+                                "rid": 1008
+                            },
+                            {
+                                "rid": 1009
+                            },
+                            {
+                                "rid": 1010
+                            },
+                            {
+                                "rid": 1011
+                            },
+                            {
+                                "rid": 1012
+                            },
+                            {
+                                "rid": 1013
+                            },
+                            {
+                                "rid": 1014
+                            },
+                            {
+                                "rid": 1015
+                            },
+                            {
+                                "rid": 1016
+                            },
+                            {
+                                "rid": 1017
+                            },
+                            {
+                                "rid": 1018
+                            },
+                            {
+                                "rid": 1019
+                            },
+                            {
+                                "rid": 1020
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                { 
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Alluvyan.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Rushwater Downs.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Alluvyan_AnimalDen_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Wolves_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Wolves_WithNatureElementals_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Bears_WithNatureElementals_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Southwatch.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_CorruptedNature_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Dwarves/Dwarf_CorruptedDruidsWithAnimals_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Dwarves/Dwarf_CorruptedDruidsWithAnimals_02.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Spiders_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norimar.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Coldmark.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_CorruptedNature_Snow_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Dwarves/Dwarf_CorruptedDruidsWithSnowAnimals_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Snowleopards_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Mountainbears_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Westguard.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_PurityOfLight_Generic_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Humans/Purity/Purity_Generic_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Humans/Purity/Purity_SpecialUnits_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Darkvale.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Darkvale_Undead_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_NoSkeletons_Vampires_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_Skeleton_Basic_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Regan Gor.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Uram_Gor.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Misty Coast.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Coldmark.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Estwal.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norgate.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norimar.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Westguard Snow.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Demons_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Demons/Demon_DemonsWithHellhounds_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Demons/Demon_FieryDemons_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Demons/Demon_OnlyDemons_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Draycott.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Estwal.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Draycott_MixedBandits_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Dwarves/Dwarf_BanditsMixed_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Estwal.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Estwal_Orcs_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_WithGoblins_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_WithBasilisks_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_WithWyverns_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Gillyshire.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Gillyshire_Orcs_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_WithGoblins_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_WithSlaves_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_Riders_Wargs_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1012,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Stoneblades.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_GraniteDwarves_Generic_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Dwarves/GraniteDwarves/GraniteDwarves_Army_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Dwarves/GraniteDwarves/GraniteDwarves_Elementalists_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Dwarves/GraniteDwarves/GraniteDwarves_Tamers_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1013,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/HIGHMARK.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/HOWLING STEPPES REGION.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/WESTGUARD REGION.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Hornets_Hive.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Hornets_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1014,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Goldenfields.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_HumanBandits.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Humans/Human_Bandits_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1015,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Misty Coast.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_MistyCoast_Orcs_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_WithGoblins_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_WithBasilisks_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Orcs/Orc_WithTickbugs_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1016,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norgate.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Norgate_Trolls_Combined.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_TrollsAndAnimals_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Troll_Warband_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1017,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norimar.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Westguard.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Rushwater Downs.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Norimar_Combined.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animals_Raptors_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_DeathDamage_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_Plague_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_NoSkeletons_Generic_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Undead/Undead_Skeleton_Basic_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Fantastic/Fantastic_Phantoms_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1018,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Silver Drift Hollow.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Silver Drift Mine.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_SilverDrift_Mines_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Adventures/Adventure_Molebeasts_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1019,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Southwatch.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Southwatch_AnimalDen_01.asset"
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Spiders_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Animals/Animal_Spiders_WithQueens_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            },
+            {
+                "rid": 1020,
+                "type": {
+                    "class": "ExecuteSpawnRuleEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Rule": {
+                        "Name": "",
+                        "PlayerStartDependant": false,
+                        "UseDjikstra": false,
+                        "PlayerStartMinDistance": 0,
+                        "PlayerStartMinDistanceMargin": 5,
+                        "Amount": 1,
+                        "Locations": [
+                            {
+                                "ContentPath": "_World/Locations/_Loot/Loot_Nothing.asset"
+                            }
+                        ],
+                        "LocationsAreUnique": false,
+                        "Hints": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "_World/Worldmap Hints/Cool Spot.asset"
+                                }
+                            ]
+                        },
+                        "MinDistance": 10,
+                        "AllowedRegions": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Misty Coast.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
+                                }
+                            ]
+                        },
+                        "AllowAllButTheseRegions": {
+                            "mTags": []
+                        },
+                        "Adventure": {
+                            "ContentPath": ""
+                        },
+                        "Storyline": {
+                            "ContentPath": ""
+                        },
+                        "MonsterSpawner": {
+                            "ContentPath": ""
+                        },
+                        "Garrisons": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Fantastic/Fantastic_Jellies_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Fantastic/Fantastic_MedusaeOnly_01.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Fantastic/Fantastic_MedusaeWithJelly_01.asset"
+                            }
+                        ],
+                        "ProgressionOffset": 1,
+                        "SetAntagonistOwnership": false,
+                        "RevealFogOfWar": false,
+                        "PushNotification": false,
+                        "AvoidPlayerDomain": false,
+                        "InitialOwner": {
+                            "ContentPath": ""
+                        },
+                        "IsHQ": false
+                    }
+                }
+            }
+        ]
+    }
+}

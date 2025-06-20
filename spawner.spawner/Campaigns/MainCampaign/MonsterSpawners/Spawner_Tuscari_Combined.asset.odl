@@ -1,0 +1,46 @@
+MonsterSpawnerDefinition
+{
+    "Icon": {
+        "ContentPath": ""
+    },
+    "Name": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "MaxStacks": 3,
+    "ProgressionOffset": 0,
+    "Faction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Neutral Monsters.asset"
+    },
+    "Stacks": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Fantastic/Fantastic_Jellies_01.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Fantastic/Fantastic_MedusaeOnly_01.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks/Stacks_Fantastic/Fantastic_MedusaeWithJelly_01.asset"
+        }
+    ],
+    "AIBehaviour": {
+        "ContentPath": ""
+    },
+    "ValidLocationsToSpawn": {
+        "mTags": []
+    },
+    "ValidRegionsToSpawn": {
+        "mTags": []
+    },
+    "VisualPrefab": {
+        "ContentPath": "VFX/MonsterSpawner_01.prefab"
+    }
+}
