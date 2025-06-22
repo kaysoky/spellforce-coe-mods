@@ -110,7 +110,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Blademaster.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Fantastic_FlamingConstruct.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -118,29 +118,27 @@ ShopDefinition
             {
                 "rid": 1004,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/DarkElves/DarkElf_RaptorRider.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Moonsilver/Rune_Moonsilver_ofTheHerbalist.asset"
+                    }
                 }
             },
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Infantry.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Plants/Plant_Shroom.asset"
+                    }
                 }
             },
             {
@@ -152,7 +150,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Raptor.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Arsonist.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -166,7 +164,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Human/Human_Slaves.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Cutthroat.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -174,15 +172,14 @@ ShopDefinition
             {
                 "rid": 1008,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Human/Human_Slaves.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheGuardians.asset"
+                    }
                 }
             },
             {
@@ -194,7 +191,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Worker.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Keeper.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -202,15 +199,14 @@ ShopDefinition
             {
                 "rid": 1010,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/DarkElves/Fantastic_Blades.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Potions/VialOfTiara.asset"
+                    }
                 }
             }
         ]

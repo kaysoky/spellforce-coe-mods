@@ -1,0 +1,17 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Dwarves_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_BloodRage_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Undead_01.asset"
+        }
+    ]
+}

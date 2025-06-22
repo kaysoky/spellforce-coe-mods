@@ -116,7 +116,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Alchemist.asset"
+                        "ContentPath": "Units/Factions/DarkElves/DarkElf_RaptorRider.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -130,7 +130,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_Crossbow.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -138,29 +138,27 @@ ShopDefinition
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Plants/Plant_BlackWood.asset"
+                    }
                 }
             },
             {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_EEEL_EternalFlame.asset"
+                    }
                 }
             },
             {
@@ -172,7 +170,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                        "ContentPath": "Units/Factions/Demons/Demon_AshenOne.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -186,7 +184,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
+                        "ContentPath": "Units/Factions/Animals/Animal_Raptor.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -200,7 +198,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
+                        "ContentPath": "Units/Factions/Fantastic/Fantastic_GhostRecruit.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -214,7 +212,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Goliath.asset"
+                        "ContentPath": "Units/Factions/Dwarves/Dwarf_CombatBalloon.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -222,29 +220,27 @@ ShopDefinition
             {
                 "rid": 1011,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Souls/Tormented Soul 2.asset"
+                    }
                 }
             },
             {
                 "rid": 1012,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Militia.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Ingredients/T4/Item_ALLL_LightbringersPrayerbook.asset"
+                    }
                 }
             }
         ]

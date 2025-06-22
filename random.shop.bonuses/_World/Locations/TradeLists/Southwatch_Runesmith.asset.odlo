@@ -1,0 +1,8 @@
+ShopDefinition
+{
+    "Modifications": [
+        {
+            "ContentPath": "Units/Promotions/BleedImmunity.asset"
+        }
+    ]
+}

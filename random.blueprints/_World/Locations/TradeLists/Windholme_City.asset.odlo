@@ -84,7 +84,7 @@ ShopDefinition
                 "data": {
                     "ResearchOrMilestone": {
                         "Research": {
-                            "ContentPath": "Spellbook/Research/Rooms/Room_Barrack_Dwarf.asset"
+                            "ContentPath": "Spellbook/Research/Rooms/Room_Barrack_Troll.asset"
                         },
                         "MilestoneGuid": {
                             "GuidPart1": 483357176,

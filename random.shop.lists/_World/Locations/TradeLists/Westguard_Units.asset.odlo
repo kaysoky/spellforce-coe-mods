@@ -110,7 +110,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Animals/Animal_Griffon.asset"
+                        "ContentPath": "Units/Factions/DarkElves/DarkElf_Dreamweaver.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -124,7 +124,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Soldier.asset"
+                        "ContentPath": "Units/Factions/Undead/Undead_Banshee.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -132,29 +132,35 @@ ShopDefinition
             {
                 "rid": 1005,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ResearchEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Hellebardier.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "ResearchOrMilestone": {
+                        "Research": {
+                            "ContentPath": "Spellbook/Research/School_Death/Research_Death_Cannibalize.asset"
+                        },
+                        "MilestoneGuid": {
+                            "GuidPart1": 1780293107,
+                            "GuidPart2": 1200893771,
+                            "GuidPart3": 1669173949,
+                            "GuidPart4": -1750119496
+                        }
+                    }
                 }
             },
             {
                 "rid": 1006,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Crossbowman.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Corrupted Moonsilver/Rune_Corrupted_ofTheHerbalist.asset"
+                    }
                 }
             },
             {
@@ -166,7 +172,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Scout.asset"
+                        "ContentPath": "Units/Factions/Humans/Human_Hunter.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -180,7 +186,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Militia.asset"
+                        "ContentPath": "Units/Factions/Orcs/Orc_GoblinMage.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }
@@ -188,15 +194,14 @@ ShopDefinition
             {
                 "rid": 1009,
                 "type": {
-                    "class": "ShopDefinition/UnitEntry",
+                    "class": "ShopDefinition/ItemEntry",
                     "ns": "OwnedByGravity.Game.Logic.Trading",
                     "asm": "OwnedByGravity.Game"
                 },
                 "data": {
-                    "Unit": {
-                        "ContentPath": "Units/Factions/Humans/Human_Worker.asset"
-                    },
-                    "AllowDuplicatedEntries": true
+                    "Item": {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheMountainGoat.asset"
+                    }
                 }
             },
             {
@@ -208,7 +213,7 @@ ShopDefinition
                 },
                 "data": {
                     "Unit": {
-                        "ContentPath": "Units/Factions/PurityOfLight/Purity_Inquisitor.asset"
+                        "ContentPath": "Units/Factions/PurityOfLight/Purity_IronOne.asset"
                     },
                     "AllowDuplicatedEntries": true
                 }

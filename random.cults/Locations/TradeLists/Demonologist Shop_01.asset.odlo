@@ -2,11 +2,8 @@ ShopDefinition
 {
     "ArtefactModifications": [
         {
-            "Filter": {
-                "mTags": []
-            },
             "UnitModifierItem": {
-                "ContentPath": "Items/Demonology/Cults/Cult_Shop_01.asset"
+                "ContentPath": "Items/Demonology/Cults/Cult_Coldmark.asset"
             }
         }
     ]

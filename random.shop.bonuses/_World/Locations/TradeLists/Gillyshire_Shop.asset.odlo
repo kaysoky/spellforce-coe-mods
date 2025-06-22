@@ -1,0 +1,8 @@
+ShopDefinition
+{
+    "Modifications": [
+        {
+            "ContentPath": "Units/Promotions/SpellPromotions/Water Walking.asset"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+RoomRecipe
+{
+    "AvailableExtensions": [
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Dwarf_Buff_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_DemonPact_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Humans_02.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_Hire_Orc_03.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_RoomCrafting_01.asset"
+        },
+        {
+            "ContentPath": "Crafting/Rooms/Extensions/Ext_UnitDamage_01.asset"
+        }
+    ]
+}
