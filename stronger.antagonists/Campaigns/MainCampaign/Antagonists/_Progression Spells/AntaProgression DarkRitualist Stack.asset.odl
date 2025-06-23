@@ -16,6 +16,9 @@ FixedStackDefinition
         },
         {
             "ContentPath": "Units/Factions/Undead/Undead_Ritualist.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Undead/Undead_Ritualist.asset"
         }
     ],
     "Promotions": [],
