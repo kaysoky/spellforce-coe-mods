@@ -1,0 +1,272 @@
+RoomExtensionDefinition
+{
+    "DisplayName": {
+        "Key": "#Ext_Hire_Orc_01.DisplayName",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 575927008,
+                "GuidPart2": 1178933217,
+                "GuidPart3": -782399597,
+                "GuidPart4": -1960662933
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "Icon": {
+        "ContentPath": "Skills/Icons/PromotionIcons/New/Icon_LeadTheCharge_01.png"
+    },
+    "Description": {
+        "Key": "#Ext_Hire_Orc_01.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 575927008,
+                "GuidPart2": 1178933217,
+                "GuidPart3": -782399597,
+                "GuidPart4": -1960662933
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "CraftDuration": 3,
+    "Thresholds": {
+        "ElementalThreshold": 1,
+        "ArcaneThreshold": 1,
+        "DeathThreshold": 2,
+        "LifeThreshold": 0
+    },
+    "BuildLimit": 0,
+    "<FactionModifiers>k__BackingField": {
+        "mAdditionalFactionTags": {
+            "mTags": []
+        },
+        "ShopPriceModifier": 0.0,
+        "SpellpowerPerRound": 0,
+        "CraftingSlots": 0,
+        "HiringSlots": 0,
+        "MagicRooms": 0,
+        "CraftingSpeedModifier": 0,
+        "RoomCraftingSpeedModifier": 0,
+        "RoomCraftingCostModifier": 0.0,
+        "TowerHiringSpeedModifier": 0,
+        "TowerHiringCostModifier": 0.0,
+        "ItemSellPriceModifiers": [],
+        "SlaveSellPriceModifier": 0.0,
+        "SpellcastingModifiers": [],
+        "Income": {
+            "FamePerRound": 0,
+            "MightPerRound": 0,
+            "ResearchPerRound": 0,
+            "ManaPerRound": 0,
+            "GoldPerRound": 0
+        },
+        "FactionItemFind": 0.0,
+        "FactionSoulFind": 0.0,
+        "MightDistributionManaMultiplier": 0.0,
+        "MightDistributionResearchMultiplier": 0.0,
+        "MightDistributionFameMultiplier": 0.0,
+        "FreeGoldUnitUpkeep": 0,
+        "FreeManaUpkeep": 0,
+        "MaxApprenticesCount": 0,
+        "UnhideGarrison": false,
+        "HideAllStacks": false,
+        "AdditionalLevelUpChoices": 0,
+        "OwnDeadUnitsShareXp": false,
+        "TimeFrozen": false,
+        "ProhibitRetreat": false,
+        "AdditionalComponents": {
+            "Elemental": 0,
+            "Arcane": 0,
+            "Death": 0,
+            "Life": 0,
+            "Rainbow": 0
+        },
+        "AlchemyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0,
+            "UnlockCatalystSlot": false,
+            "T1Output": 0,
+            "T2Output": 0,
+            "T3Output": 0,
+            "T4Output": 0
+        },
+        "RunesmithingModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0
+        },
+        "NecromancyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            }
+        },
+        "DemonologyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "UnlockFusionCrafting": false,
+            "UnlockFusionCultSlot": false,
+            "UnlockFusionArtefactSlot": false,
+            "FusionSlotCount": 0
+        },
+        "AstrologyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0
+        },
+        "RoomExtensionModifiers": {
+            "CraftingSpeedModifier": 0
+        },
+        "FactionInfluences": [],
+        "UnlockedUnitsForHiring": [
+            {
+                "ContentPath": "Units/Factions/Orcs/Orc_Ravager.asset"
+            }
+        ],
+        "UnitModifier": [],
+        "ConditionalUnitModifier": [],
+        "UnitPromotions": [],
+        "LocationModifier": [],
+        "InfluenceLocationModifier": [],
+        "InfluenceAreaUnitModifiers": [],
+        "BattleEnchantments": [],
+        "InfluenceAreaBattleEnchantments": [],
+        "PostBattleStatusEffects": [],
+        "StackSlots": [],
+        "BonusLootAfterBattles": [],
+        "WeeklyIncome": [
+            {
+                "RestrictedTo": {
+                    "mTags": []
+                },
+                "Picks": 3,
+                "Items": [
+                    {
+                        "ContentPath": "Items/Loot/Potions/DwarvenIgnition.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Potions/Ration.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Potions/FinonBeer.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Potions/BerserkShrooms.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ores/Mountain Copper.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheFirewielder.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheGraverobber.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheHealthy.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Runes/Mountain Copper/Rune_Copper_ofTheSeer.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Souls/Arcane Soul 1.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Souls/Enraged Soul 1.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Souls/Greedy Soul 1.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Souls/Ghost Eyes 1a.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Souls/Ghost Eyes 1b.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_AL_GoodLuckCharm.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_DD_Bonedust.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_AD_DecayedBrain.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_AA_ChargedCrystal.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_EA_TranslucentSilk.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_ED_CorruptedRuby.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_EE_Flintstone.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Ingredients/T2/Item_LL_TwitchingEyeball.asset"
+                    }
+                ],
+                "Units": [],
+                "LootTags": {
+                    "mTags": []
+                },
+                "TooltipLoca": {
+                    "Key": "",
+                    "ObjectId": {
+                        "mGuid": {
+                            "GuidPart1": 0,
+                            "GuidPart2": 0,
+                            "GuidPart3": 0,
+                            "GuidPart4": 0
+                        },
+                        "mSerializableLocalIdentifier": 0
+                    }
+                }
+            }
+        ],
+        "UnitStartXP": [],
+        "UnitPassiveXP": [],
+        "CraftingLockTags": {
+            "mTags": []
+        }
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}

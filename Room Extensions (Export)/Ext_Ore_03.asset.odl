@@ -1,0 +1,379 @@
+RoomExtensionDefinition
+{
+    "DisplayName": {
+        "Key": "#Ext_Ore_03.DisplayName",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 1178345145,
+                "GuidPart2": 1171322636,
+                "GuidPart3": -567638351,
+                "GuidPart4": -93426690
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "Icon": {
+        "ContentPath": "Crafting/Rooms/Extensions/Icons/Icon_RoomExtension_Expedition_01.png"
+    },
+    "Description": {
+        "Key": "#Ext_Ore_03.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 1178345145,
+                "GuidPart2": 1171322636,
+                "GuidPart3": -567638351,
+                "GuidPart4": -93426690
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "CraftDuration": 3,
+    "Thresholds": {
+        "ElementalThreshold": 1,
+        "ArcaneThreshold": 1,
+        "DeathThreshold": 2,
+        "LifeThreshold": 0
+    },
+    "BuildLimit": 0,
+    "<FactionModifiers>k__BackingField": {
+        "mAdditionalFactionTags": {
+            "mTags": []
+        },
+        "ShopPriceModifier": 0.0,
+        "SpellpowerPerRound": 0,
+        "CraftingSlots": 0,
+        "HiringSlots": 0,
+        "MagicRooms": 0,
+        "CraftingSpeedModifier": 0,
+        "RoomCraftingSpeedModifier": 0,
+        "RoomCraftingCostModifier": 0.0,
+        "TowerHiringSpeedModifier": 0,
+        "TowerHiringCostModifier": 0.0,
+        "ItemSellPriceModifiers": [],
+        "SlaveSellPriceModifier": 0.0,
+        "SpellcastingModifiers": [],
+        "Income": {
+            "FamePerRound": 0,
+            "MightPerRound": 0,
+            "ResearchPerRound": 0,
+            "ManaPerRound": 0,
+            "GoldPerRound": -5
+        },
+        "FactionItemFind": 0.0,
+        "FactionSoulFind": 0.0,
+        "MightDistributionManaMultiplier": 0.0,
+        "MightDistributionResearchMultiplier": 0.0,
+        "MightDistributionFameMultiplier": 0.0,
+        "FreeGoldUnitUpkeep": 0,
+        "FreeManaUpkeep": 0,
+        "MaxApprenticesCount": 0,
+        "UnhideGarrison": false,
+        "HideAllStacks": false,
+        "AdditionalLevelUpChoices": 0,
+        "OwnDeadUnitsShareXp": false,
+        "TimeFrozen": false,
+        "ProhibitRetreat": false,
+        "AdditionalComponents": {
+            "Elemental": 0,
+            "Arcane": 0,
+            "Death": 0,
+            "Life": 0,
+            "Rainbow": 0
+        },
+        "AlchemyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0,
+            "UnlockCatalystSlot": false,
+            "T1Output": 0,
+            "T2Output": 0,
+            "T3Output": 0,
+            "T4Output": 0
+        },
+        "RunesmithingModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0
+        },
+        "NecromancyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            }
+        },
+        "DemonologyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "UnlockFusionCrafting": false,
+            "UnlockFusionCultSlot": false,
+            "UnlockFusionArtefactSlot": false,
+            "FusionSlotCount": 0
+        },
+        "AstrologyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0
+        },
+        "RoomExtensionModifiers": {
+            "CraftingSpeedModifier": 0
+        },
+        "FactionInfluences": [],
+        "UnlockedUnitsForHiring": [],
+        "UnitModifier": [],
+        "ConditionalUnitModifier": [],
+        "UnitPromotions": [],
+        "LocationModifier": [],
+        "InfluenceLocationModifier": [],
+        "InfluenceAreaUnitModifiers": [],
+        "BattleEnchantments": [],
+        "InfluenceAreaBattleEnchantments": [],
+        "PostBattleStatusEffects": [],
+        "StackSlots": [],
+        "BonusLootAfterBattles": [],
+        "WeeklyIncome": [
+            {
+                "RestrictedTo": {
+                    "mTags": []
+                },
+                "Picks": 1,
+                "Items": [
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Common_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Common_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Common_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Common_04.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Rare_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Shaper_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Shaper_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Weapons/Weapon_Uncommon_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_06.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_05.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_04.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Uncommon_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Shaper_04.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Shaper_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Shaper_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Shaper_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Rare_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_08.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_07.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_06.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_05.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_04.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_Common_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Common_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Common_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Common_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Rare_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Shaper_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Shaper_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Uncommon_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Tomes/Tome_Uncommon_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Common_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Common_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Common_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Rare_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Shaper_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Uncommon_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Uncommon_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Shields/Shield_Uncommon_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Heavy Armors/HeavyArmor_Common_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Heavy Armors/HeavyArmor_Common_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Heavy Armors/HeavyArmor_Shaper_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Heavy Armors/HeavyArmor_Shaper_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Heavy Armors/HeavyArmor_Uncommon_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Heavy Armors/HeavyArmor_Uncommon_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Common_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Common_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Common_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Rare_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Rare_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Rare_03.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Shaper_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Shaper_02.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Uncommon_01.asset"
+                    },
+                    {
+                        "ContentPath": "Items/Loot/Artefacts/Armors/Armor_Uncommon_02.asset"
+                    }
+                ],
+                "Units": [],
+                "LootTags": {
+                    "mTags": []
+                },
+                "TooltipLoca": {
+                    "Key": "",
+                    "ObjectId": {
+                        "mGuid": {
+                            "GuidPart1": 0,
+                            "GuidPart2": 0,
+                            "GuidPart3": 0,
+                            "GuidPart4": 0
+                        },
+                        "mSerializableLocalIdentifier": 0
+                    }
+                }
+            }
+        ],
+        "UnitStartXP": [],
+        "UnitPassiveXP": [],
+        "CraftingLockTags": {
+            "mTags": []
+        }
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}

@@ -1,0 +1,240 @@
+RoomExtensionDefinition
+{
+    "DisplayName": {
+        "Key": "#Ext_TowerMovement_01.DisplayName",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 817301990,
+                "GuidPart2": 1135728364,
+                "GuidPart3": 1593824651,
+                "GuidPart4": 2046718588
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "Icon": {
+        "ContentPath": "Crafting/Rooms/Extensions/Icons/Icon_RoomExtension_TowerMovement_01.png"
+    },
+    "Description": {
+        "Key": "#Ext_TowerMovement_01.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 817301990,
+                "GuidPart2": 1135728364,
+                "GuidPart3": 1593824651,
+                "GuidPart4": 2046718588
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "CraftDuration": 3,
+    "Thresholds": {
+        "ElementalThreshold": 1,
+        "ArcaneThreshold": 2,
+        "DeathThreshold": 0,
+        "LifeThreshold": 0
+    },
+    "BuildLimit": 0,
+    "<FactionModifiers>k__BackingField": {
+        "mAdditionalFactionTags": {
+            "mTags": []
+        },
+        "ShopPriceModifier": 0.0,
+        "SpellpowerPerRound": 0,
+        "CraftingSlots": 0,
+        "HiringSlots": 0,
+        "MagicRooms": 0,
+        "CraftingSpeedModifier": 0,
+        "RoomCraftingSpeedModifier": 0,
+        "RoomCraftingCostModifier": 0.0,
+        "TowerHiringSpeedModifier": 0,
+        "TowerHiringCostModifier": 0.0,
+        "ItemSellPriceModifiers": [],
+        "SlaveSellPriceModifier": 0.0,
+        "SpellcastingModifiers": [],
+        "Income": {
+            "FamePerRound": 0,
+            "MightPerRound": 0,
+            "ResearchPerRound": 0,
+            "ManaPerRound": 0,
+            "GoldPerRound": 0
+        },
+        "FactionItemFind": 0.0,
+        "FactionSoulFind": 0.0,
+        "MightDistributionManaMultiplier": 0.0,
+        "MightDistributionResearchMultiplier": 0.0,
+        "MightDistributionFameMultiplier": 0.0,
+        "FreeGoldUnitUpkeep": 0,
+        "FreeManaUpkeep": 0,
+        "MaxApprenticesCount": 0,
+        "UnhideGarrison": false,
+        "HideAllStacks": false,
+        "AdditionalLevelUpChoices": 0,
+        "OwnDeadUnitsShareXp": false,
+        "TimeFrozen": false,
+        "ProhibitRetreat": false,
+        "AdditionalComponents": {
+            "Elemental": 0,
+            "Arcane": 0,
+            "Death": 0,
+            "Life": 0,
+            "Rainbow": 0
+        },
+        "AlchemyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0,
+            "UnlockCatalystSlot": false,
+            "T1Output": 0,
+            "T2Output": 0,
+            "T3Output": 0,
+            "T4Output": 0
+        },
+        "RunesmithingModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0
+        },
+        "NecromancyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            }
+        },
+        "DemonologyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "UnlockFusionCrafting": false,
+            "UnlockFusionCultSlot": false,
+            "UnlockFusionArtefactSlot": false,
+            "FusionSlotCount": 0
+        },
+        "AstrologyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0
+        },
+        "RoomExtensionModifiers": {
+            "CraftingSpeedModifier": 0
+        },
+        "FactionInfluences": [],
+        "UnlockedUnitsForHiring": [],
+        "UnitModifier": [],
+        "ConditionalUnitModifier": [],
+        "UnitPromotions": [],
+        "LocationModifier": [
+            {
+                "Filter": {
+                    "mTags": [
+                        {
+                            "ContentPath": "_World/Locations/LocationPropertyTags/HQ.asset"
+                        }
+                    ]
+                },
+                "CustomLocas": [],
+                "<LocationModifiers>k__BackingField": {
+                    "AdditionalInfluenceRange": 0,
+                    "MovementRange": 4,
+                    "DisableMovement": false,
+                    "DisableInfluenceArea": false,
+                    "DisableMiningTicks": false,
+                    "DisableAdventureUnlocks": false,
+                    "CanUnlockAdventures": false,
+                    "AdditionalSearchRange": 0,
+                    "AdditionalLocationMiningTicks": 0,
+                    "InfluenceAreaFactionModifiers": {
+                        "rid": -2
+                    },
+                    "InfluenceAreaIncome": {
+                        "FamePerRound": 0,
+                        "MightPerRound": 0,
+                        "ResearchPerRound": 0,
+                        "ManaPerRound": 0,
+                        "GoldPerRound": 0
+                    },
+                    "InfluenceAreaIncomeMultiplier": 0.0,
+                    "RegionIncomeMultiplier": 0.0,
+                    "InfluenceAreaIncomeBlocker": 0.0,
+                    "ReputationIncome": 0,
+                    "PropertyTags": {
+                        "mTags": []
+                    },
+                    "BattleEnchantments": [],
+                    "Skills": [],
+                    "MovementRules": [],
+                    "VisualOverride": {
+                        "PrefabEffect": {
+                            "ContentPath": ""
+                        },
+                        "PrefabPriority": 0,
+                        "Prefab": {
+                            "ContentPath": ""
+                        },
+                        "HeightOffset": 0.0,
+                        "ContinuousVisualEffects": []
+                    }
+                }
+            }
+        ],
+        "InfluenceLocationModifier": [],
+        "InfluenceAreaUnitModifiers": [],
+        "BattleEnchantments": [],
+        "InfluenceAreaBattleEnchantments": [],
+        "PostBattleStatusEffects": [],
+        "StackSlots": [],
+        "BonusLootAfterBattles": [],
+        "WeeklyIncome": [],
+        "UnitStartXP": [],
+        "UnitPassiveXP": [],
+        "CraftingLockTags": {
+            "mTags": []
+        }
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,205 @@
+RoomExtensionDefinition
+{
+    "DisplayName": {
+        "Key": "#Ext_Plant_Lenya.DisplayName",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 2107745854,
+                "GuidPart2": 1281246611,
+                "GuidPart3": 1053022895,
+                "GuidPart4": 1889067001
+            },
+            "mSerializableLocalIdentifier": 11400000
+        }
+    },
+    "Icon": {
+        "ContentPath": "Crafting/Rooms/Extensions/Icons/Icon_RoomExtension_Plant_02.png"
+    },
+    "Description": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CraftDuration": 3,
+    "Thresholds": {
+        "ElementalThreshold": 1,
+        "ArcaneThreshold": 2,
+        "DeathThreshold": 0,
+        "LifeThreshold": 1
+    },
+    "BuildLimit": 0,
+    "<FactionModifiers>k__BackingField": {
+        "mAdditionalFactionTags": {
+            "mTags": []
+        },
+        "ShopPriceModifier": 0.0,
+        "SpellpowerPerRound": 0,
+        "CraftingSlots": 0,
+        "HiringSlots": 0,
+        "MagicRooms": 0,
+        "CraftingSpeedModifier": 0,
+        "RoomCraftingSpeedModifier": 0,
+        "RoomCraftingCostModifier": 0.0,
+        "TowerHiringSpeedModifier": 0,
+        "TowerHiringCostModifier": 0.0,
+        "ItemSellPriceModifiers": [],
+        "SlaveSellPriceModifier": 0.0,
+        "SpellcastingModifiers": [],
+        "Income": {
+            "FamePerRound": 0,
+            "MightPerRound": 0,
+            "ResearchPerRound": 0,
+            "ManaPerRound": 0,
+            "GoldPerRound": 0
+        },
+        "FactionItemFind": 0.0,
+        "FactionSoulFind": 0.0,
+        "MightDistributionManaMultiplier": 0.0,
+        "MightDistributionResearchMultiplier": 0.0,
+        "MightDistributionFameMultiplier": 0.0,
+        "FreeGoldUnitUpkeep": 0,
+        "FreeManaUpkeep": 0,
+        "MaxApprenticesCount": 0,
+        "UnhideGarrison": false,
+        "HideAllStacks": false,
+        "AdditionalLevelUpChoices": 0,
+        "OwnDeadUnitsShareXp": false,
+        "TimeFrozen": false,
+        "ProhibitRetreat": false,
+        "AdditionalComponents": {
+            "Elemental": 0,
+            "Arcane": 0,
+            "Death": 0,
+            "Life": 0,
+            "Rainbow": 0
+        },
+        "AlchemyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0,
+            "UnlockCatalystSlot": false,
+            "T1Output": 0,
+            "T2Output": 0,
+            "T3Output": 0,
+            "T4Output": 0
+        },
+        "RunesmithingModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0
+        },
+        "NecromancyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            }
+        },
+        "DemonologyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "UnlockFusionCrafting": false,
+            "UnlockFusionCultSlot": false,
+            "UnlockFusionArtefactSlot": false,
+            "FusionSlotCount": 0
+        },
+        "AstrologyModifiers": {
+            "IngredientSlotCount": 0,
+            "CraftingSpeedModifier": 0,
+            "AdditionalComponents": {
+                "Elemental": 0,
+                "Arcane": 0,
+                "Death": 0,
+                "Life": 0,
+                "Rainbow": 0
+            },
+            "ThresholdLimit": 0
+        },
+        "RoomExtensionModifiers": {
+            "CraftingSpeedModifier": 0
+        },
+        "FactionInfluences": [],
+        "UnlockedUnitsForHiring": [],
+        "UnitModifier": [],
+        "ConditionalUnitModifier": [],
+        "UnitPromotions": [],
+        "LocationModifier": [],
+        "InfluenceLocationModifier": [],
+        "InfluenceAreaUnitModifiers": [],
+        "BattleEnchantments": [],
+        "InfluenceAreaBattleEnchantments": [],
+        "PostBattleStatusEffects": [],
+        "StackSlots": [],
+        "BonusLootAfterBattles": [],
+        "WeeklyIncome": [
+            {
+                "RestrictedTo": {
+                    "mTags": []
+                },
+                "Picks": 2,
+                "Items": [
+                    {
+                        "ContentPath": "Items/Loot/Plants/Plant_Lenya.asset"
+                    }
+                ],
+                "Units": [],
+                "LootTags": {
+                    "mTags": []
+                },
+                "TooltipLoca": {
+                    "Key": "",
+                    "ObjectId": {
+                        "mGuid": {
+                            "GuidPart1": 0,
+                            "GuidPart2": 0,
+                            "GuidPart3": 0,
+                            "GuidPart4": 0
+                        },
+                        "mSerializableLocalIdentifier": 0
+                    }
+                }
+            }
+        ],
+        "UnitStartXP": [],
+        "UnitPassiveXP": [],
+        "CraftingLockTags": {
+            "mTags": []
+        }
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}
