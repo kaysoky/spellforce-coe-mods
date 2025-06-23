@@ -1,6 +1,6 @@
 UnitPromotionDefinition
 {
-    "Unique": false,
+    "Unique": true,
     "DoesTransferInUpgrade": true,
     "HideInBattleUnitInfo": true,
     "HideInUnitDetails": false,
@@ -271,7 +271,7 @@ UnitPromotionDefinition
     "Tooltip": {
         "Name": {
             "Loca": {
-                "Key": "#Channeled Death Essence.Tooltip.Name.Loca",
+                "Key": "#Runic Aura.Tooltip.Name.Loca",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,

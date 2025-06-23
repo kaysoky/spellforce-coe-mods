@@ -227,10 +227,9 @@ AstrologyConstellationDefinition
         {
             "FromIndex": 0,
             "ToIndex": 2,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
+            "ConditionalModifiers": [
                 {
-                    "Type": 3,
+                    "Conditions": [],
                     "Icon": {
                         "ContentPath": "UI/Icons/Icons/Icon_Magic_Elemental_01.png"
                     },
@@ -256,15 +255,15 @@ AstrologyConstellationDefinition
                         ]
                     }
                 }
-            ]
+            ],
+            "ComponentBasedModifiers": []
         },
         {
             "FromIndex": 2,
             "ToIndex": 4,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
+            "ConditionalModifiers": [
                 {
-                    "Type": 2,
+                    "Conditions": [],
                     "Icon": {
                         "ContentPath": "UI/Icons/Icons/Icon_Magic_Life_01.png"
                     },
@@ -290,15 +289,15 @@ AstrologyConstellationDefinition
                         ]
                     }
                 }
-            ]
+            ],
+            "ComponentBasedModifiers": []
         },
         {
             "FromIndex": 1,
             "ToIndex": 3,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
+            "ConditionalModifiers": [
                 {
-                    "Type": 0,
+                    "Conditions": [],
                     "Icon": {
                         "ContentPath": "UI/Icons/Icons/Icon_Magic_Arcane_01.png"
                     },
@@ -324,15 +323,15 @@ AstrologyConstellationDefinition
                         ]
                     }
                 }
-            ]
+            ],
+            "ComponentBasedModifiers": []
         },
         {
             "FromIndex": 3,
             "ToIndex": 5,
-            "ConditionalModifiers": [],
-            "ComponentBasedModifiers": [
+            "ConditionalModifiers": [
                 {
-                    "Type": 1,
+                    "Conditions": [],
                     "Icon": {
                         "ContentPath": "UI/Icons/Icons/Icon_Magic_Death_01.png"
                     },
@@ -358,7 +357,8 @@ AstrologyConstellationDefinition
                         ]
                     }
                 }
-            ]
+            ],
+            "ComponentBasedModifiers": []
         }
     ],
     "UnlockPerks": [
