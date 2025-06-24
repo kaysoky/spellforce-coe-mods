@@ -1,0 +1,10 @@
+ItemDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Ingredient.asset"
+            }
+        ]
+    }
+}
