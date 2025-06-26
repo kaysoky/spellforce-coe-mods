@@ -1,0 +1,53 @@
+ConvertUnitSpell
+{
+    "UnitMappings": [
+        {
+            "RequiredTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Units/UnitTags/Wild.asset"
+                    }
+                ]
+            },
+            "ZombifiedUnit": {
+                "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
+            }
+        },
+        {
+            "RequiredTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Units/UnitTags/CavalryTag.asset"
+                    }
+                ]
+            },
+            "ZombifiedUnit": {
+                "ContentPath": "Units/Factions/Demons/Demon_Charger.asset"
+            }
+        },
+        {
+            "RequiredTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Units/UnitTags/Armored.asset"
+                    }
+                ]
+            },
+            "ZombifiedUnit": {
+                "ContentPath": "Units/Factions/Demons/Demon_HornedBeast.asset"
+            }
+        },
+        {
+            "RequiredTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Units/UnitTags/MagicUser.asset"
+                    }
+                ]
+            },
+            "ZombifiedUnit": {
+                "ContentPath": "Units/Factions/Demons/Demon_Insect.asset"
+            }
+        }
+    ]
+}
