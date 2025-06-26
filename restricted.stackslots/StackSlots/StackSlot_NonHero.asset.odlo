@@ -1,0 +1,16 @@
+StackSlotDefinition
+{
+    "AllowedTags": {
+        "mTags": []
+    },
+    "ForbiddenTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Cannot Go Into Regular Slot.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Titan.asset"
+            }
+        ]
+    }
+}

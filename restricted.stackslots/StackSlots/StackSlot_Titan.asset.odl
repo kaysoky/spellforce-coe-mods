@@ -1,0 +1,36 @@
+StackSlotDefinition
+{
+    "AllowedTags": {
+        "mTags": []
+    },
+    "ForbiddenTags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Cannot Go Into Regular Slot.asset"
+            }
+        ]
+    },
+    "Icon": {
+        "ContentPath": "UI/Icons/Icons/Icon_Stackpower_01.png"
+    },
+    "IconColor": {
+        "r": 0.7490196228027344,
+        "g": 0.6235294342041016,
+        "b": 0.3843137323856354,
+        "a": 1.0
+    },
+    "EmptySlotLocalizationId": {
+        "Key": "StackCanvas.StackSlot.Titan.Tooltip",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Order": 1,
+    "FillOrder": 2
+}
