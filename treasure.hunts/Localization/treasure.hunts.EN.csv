@@ -1,0 +1,8 @@
+Package.treasure.hunts.DisplayName;Treasure Hunts
+DigForTreasure Skill.Tooltip.Name.Loca;Search for Treasure
+DigForTreasure Skill.Tooltip.Description.Loca;Spend time to narrow down the location of buried treasure
+DigForTreasure Skill.LootMessage;Your search for treasure has yielded you
+Dig.AllTreasureFound.Header;Fully Explored
+Dig.AllTreasureFound.Message;No more treasure can be found with this map.
+Treasure Map Slot.SlotLocaIfEmpty;Treasure Map Slot
+Treasure Map.DisplayName;Treasure Map

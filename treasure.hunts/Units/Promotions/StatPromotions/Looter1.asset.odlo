@@ -1,0 +1,10 @@
+UnitPromotionDefinition
+{
+    "<UnitModifiers>k__BackingField": {
+        "AdditionalArtefactSlotReferences": [
+            {
+                "ContentPath": "Items/Slots/Treasure Map Slot.asset"
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+ArtefactSlotType
+{
+    "Order": 101,
+    "SlotIcon": {
+        "ContentPath": "Items/Slots/Treasure_Map.png"
+    },
+    "SlotPrefabOverride": {
+        "m_FileID": 0,
+        "m_PathID": 0
+    },
+    "TagFilter": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Treasure Map.asset"
+            }
+        ]
+    },
+    "SlotLocaIfEmpty": {
+        "Key": "Treasure Map Slot.SlotLocaIfEmpty",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "UnequipAction": 1,
+    "AstrologyConstellationNodeVisual": 0
+}

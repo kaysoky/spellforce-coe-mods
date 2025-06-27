@@ -1,0 +1,135 @@
+TreasureHuntConfigDefinition
+{
+    "Treasure": {
+        "ContentPath": "TreasureHunts/Gold/Definition.asset"
+    },
+    "Amount": 5,
+    "AvoidPlayerDomain": true,
+    "OnlyOnePerRegion": true,
+    "AllowAllButTheseRegions": {
+        "mTags": [
+            {
+                "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Ocean.asset"
+            },
+            {
+                "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 1.asset"
+            },
+            {
+                "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 2.asset"
+            }
+        ]
+    },
+    "AllowedRegions": {
+        "mTags": []
+    },
+    "ValidTiles": {
+        "mTags": []
+    },
+    "InValidTiles": {
+        "mTags": [
+            {
+                "ContentPath": "_World/Tiles/Hole.asset"
+            },
+            {
+                "ContentPath": "_World/Tiles/Lava.asset"
+            },
+            {
+                "ContentPath": "_World/Locations/LocationPropertyTags/City.asset"
+            }
+        ]
+    },
+    "MinDistance": 15,
+    "MinDistanceToMapBorder": 4,
+    "SpawnRules": [
+        {
+            "Index": 0,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 10,
+            "MaxDistanceFromPlayer": 20,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 1,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 30,
+            "MaxDistanceFromPlayer": 40,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 2,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 40,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 3,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 4,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 5,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 6,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 7,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 8,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 9,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        }
+    ]
+}
