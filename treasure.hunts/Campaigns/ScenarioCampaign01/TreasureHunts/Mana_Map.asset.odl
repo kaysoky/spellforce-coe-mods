@@ -1,7 +1,7 @@
 TreasureHuntConfigDefinition
 {
     "Treasure": {
-        "ContentPath": "TreasureHunts/Gold/Definition.asset"
+        "ContentPath": "TreasureHunts/Mana/Definition.asset"
     },
     "Amount": 5,
     "AvoidPlayerDomain": true,

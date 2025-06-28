@@ -1,9 +1,147 @@
-WorldKingOfTheHillDefinition
+ArtefactDefinition
 {
-    "Expires": true,
-    "BaseDuration": 2,
-    "FasterWithMoreUsers": false,
-    "DontStopKotHByMovementViaGarrison": false,
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "Treasure Map.DisplayName",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Icon": {
+        "ContentPath": "Items/Slots/Treasure_Map.png"
+    },
+    "Quality": {
+        "ContentPath": "Items/Quality/1 Common.asset"
+    },
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Items/Tags/Treasure Map.asset"
+            }
+        ]
+    },
+    "Stackable": true,
+    "BuyCosts": {
+        "Gold": 12,
+        "Mana": 0
+    },
+    "CanBeSold": true,
+    "CraftDuration": 2,
+    "BattleSkill": {
+        "ContentPath": ""
+    },
+    "Components": {
+        "Elemental": 0,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 0,
+        "Rainbow": 0
+    },
+    "Catalyst": {
+        "QuantityMultiplier": 1
+    },
+    "Soul": {
+        "ThresholdLimit": 0,
+        "Promotion": {
+            "ContentPath": ""
+        }
+    },
+    "Demonology": {
+        "Level": 0,
+        "Suffix": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        }
+    },
+    "AdditionalCraftingComponentsWhenEmbedded": {
+        "Elemental": 0,
+        "Arcane": 0,
+        "Death": 0,
+        "Life": 0,
+        "Rainbow": 0
+    },
+    "Indestructible": false,
+    "CraftingModifiers": {
+        "SpecialSlotComponentsModifications": [],
+        "CraftedItemUnitModifiers": {
+            "rid": -2
+        }
+    },
+    "WeightedLoot": [
+        {
+            "Tags": {
+                "mTags": [
+                    {
+                        "ContentPath": "LootTables/Loot Locations/Pickup Loot/Pickup_Souls/Pickup_Souls.asset"
+                    }
+                ]
+            },
+            "Weight": 5
+        },
+        {
+            "Tags": {
+                "mTags": [
+                    {
+                        "ContentPath": "LootTables/Loot Locations/Pickup Loot/Pickup_Mana/Pickup_Mana.asset"
+                    }
+                ]
+            },
+            "Weight": 5
+        }
+    ],
+    "ProbabilityLoot": [],
     "<UnitModifiers>k__BackingField": {
         "MovementRules": [],
         "SkillOverrides": {
@@ -23,7 +161,11 @@ WorldKingOfTheHillDefinition
             "OnDeathSkills": []
         },
         "SkillReplacements": [],
-        "StackSkills": [],
+        "StackSkills": [
+            {
+                "ContentPath": "TreasureHunts/Mana/Skill.asset"
+            }
+        ],
         "BattleEnchantments": [],
         "UnitUpkeepChanges": {
             "Gold": 0,
@@ -228,141 +370,24 @@ WorldKingOfTheHillDefinition
             "ContentPath": ""
         }
     },
-    "OnTurnCountReached": {
-        "Effects": [
-            {
-                "rid": 1000
-            }
-        ]
+    "UnitTagsToAdd": {
+        "mTags": []
     },
-    "DoNotShowRewards": false,
-    "BannerIcon": {
-        "ContentPath": "TreasureHunts/Banner.png"
-    },
-    "DoNotDisplayDuration": false,
-    "ContinuesVisualEffect": {
-        "ContentPath": "VFX/HarvestOre.prefab"
-    },
-    "CastVisualEffect": {
-        "ContentPath": "VisualEffects/WorldEffects/World_HarvestPlant_VisualEffect.prefab"
-    },
-    "PreEffectDelay": 0.5,
-    "PostEffectDelay": 0.0,
-    "AchievementOnCompletionIfPlayer": {
-        "ContentPath": ""
-    },
+    "AddedPromotions": [],
+    "Levels": [],
+    "DisplayedLevelOffset": 0,
+    "DestroyWithUnit": false,
     "references": {
         "version": 2,
         "RefIds": [
             {
-                "rid": 1000,
+                "rid": -2,
                 "type": {
-                    "class": "TreasureHuntEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
                 },
-                "data": {
-                    "TreasureType": {
-                        "ContentPath": "TreasureHunts/Gold/Definition.asset"
-                    },
-                    "FinishDelay": 1.5,
-                    "NoMoreTreasureHuntLocationsHeader": {
-                        "Key": "Dig.AllTreasureFound.Header",
-                        "ObjectId": {
-                            "mGuid": {
-                                "GuidPart1": 0,
-                                "GuidPart2": 0,
-                                "GuidPart3": 0,
-                                "GuidPart4": 0
-                            },
-                            "mSerializableLocalIdentifier": 0
-                        }
-                    },
-                    "NoMoreTreasureHuntLocationsMessage": {
-                        "Key": "Dig.AllTreasureFound.Message",
-                        "ObjectId": {
-                            "mGuid": {
-                                "GuidPart1": 0,
-                                "GuidPart2": 0,
-                                "GuidPart3": 0,
-                                "GuidPart4": 0
-                            },
-                            "mSerializableLocalIdentifier": 0
-                        }
-                    },
-                    "OnTreasureFound": {
-                        "Effects": [
-                            {
-                                "rid": 1001
-                            },
-                            {
-                                "rid": 1002
-                            },
-                            {
-                                "rid": 1003
-                            },
-                            {
-                                "rid": 1004
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "rid": 1001,
-                "type": {
-                    "class": "HarvestLocationEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "LootTags": [
-                        {
-                            "ContentPath": "Skills/Campaign/Harvest Ore Loottables/Harvest Ore.asset"
-                        }
-                    ],
-                    "NumberOfRolls": 1
-                }
-            },
-            {
-                "rid": 1002,
-                "type": {
-                    "class": "CreateLocationEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Location": {
-                        "ContentPath": "_World/Locations/_Loot/Loot_Chest.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1003,
-                "type": {
-                    "class": "GiveExperienceEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "XP": {
-                        "ContentPath": "Currencies/Static/XP Rewards/XP Low.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1004,
-                "type": {
-                    "class": "AddRemoveItemEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Potions/GoldNugget.asset"
-                    },
-                    "Amount": 1
-                }
+                "data": {}
             }
         ]
     }

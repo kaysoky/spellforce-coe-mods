@@ -1,0 +1,12 @@
+TreasureHuntDefinition
+{
+    "MarkerIcon": {
+        "ContentPath": "TreasureHunts/Marker.png"
+    },
+    "TextColor": {
+        "r": 0.8962264060974121,
+        "g": 0.8711866736412048,
+        "b": 0.8497241139411926,
+        "a": 1.0
+    }
+}

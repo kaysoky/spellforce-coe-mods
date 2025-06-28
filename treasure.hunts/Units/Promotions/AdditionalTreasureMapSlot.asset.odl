@@ -1,9 +1,9 @@
-WorldKingOfTheHillDefinition
+UnitPromotionDefinition
 {
-    "Expires": true,
-    "BaseDuration": 2,
-    "FasterWithMoreUsers": false,
-    "DontStopKotHByMovementViaGarrison": false,
+    "Unique": true,
+    "DoesTransferInUpgrade": true,
+    "HideInBattleUnitInfo": true,
+    "HideInUnitDetails": false,
     "<UnitModifiers>k__BackingField": {
         "MovementRules": [],
         "SkillOverrides": {
@@ -132,7 +132,11 @@ WorldKingOfTheHillDefinition
         "IgnoreOthersZoneOfControl": false,
         "CanDetectHiddenUnitsInSearchRange": false,
         "ReducedActionMaximum": 0,
-        "AdditionalArtefactSlotReferences": [],
+        "AdditionalArtefactSlotReferences": [
+            {
+                "ContentPath": "Items/Slots/Treasure Map Slot.asset"
+            }
+        ],
         "RemoveArtefactSlotReferences": [],
         "AttackEffects": [],
         "SelfAttackEffects": [],
@@ -228,142 +232,103 @@ WorldKingOfTheHillDefinition
             "ContentPath": ""
         }
     },
-    "OnTurnCountReached": {
-        "Effects": [
-            {
-                "rid": 1000
-            }
-        ]
+    "PromotionsToAdd": [],
+    "ConditionalPromotionsToAdd": [],
+    "IgnoredPromotions": [],
+    "ExposeIgnoredPromotionsInTooltip": false,
+    "IgnoredAuras": [],
+    "Tags": {
+        "mTags": []
     },
-    "DoNotShowRewards": false,
-    "BannerIcon": {
-        "ContentPath": "TreasureHunts/Banner.png"
+    "LevelUpTags": {
+        "mTags": []
     },
-    "DoNotDisplayDuration": false,
-    "ContinuesVisualEffect": {
-        "ContentPath": "VFX/HarvestOre.prefab"
+    "ShowInApprenticeSelection": false,
+    "UnitTitleOverride": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
     },
-    "CastVisualEffect": {
-        "ContentPath": "VisualEffects/WorldEffects/World_HarvestPlant_VisualEffect.prefab"
-    },
-    "PreEffectDelay": 0.5,
-    "PostEffectDelay": 0.0,
-    "AchievementOnCompletionIfPlayer": {
+    "UnitVisualOverride": {
         "ContentPath": ""
     },
-    "references": {
-        "version": 2,
-        "RefIds": [
-            {
-                "rid": 1000,
-                "type": {
-                    "class": "TreasureHuntEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "TreasureType": {
-                        "ContentPath": "TreasureHunts/Gold/Definition.asset"
+    "CannotBeRenamed": false,
+    "OverrideUnitSortOrder": false,
+    "UnitSortOrderOverride": 0,
+    "IsTemporary": false,
+    "QualityType": 1,
+    "ShowAsSubTooltip": true,
+    "Icon": {
+        "ContentPath": "Items/Slots/Treasure_Map.png"
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "AdditionalTreasureMapSlot.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
                     },
-                    "FinishDelay": 1.5,
-                    "NoMoreTreasureHuntLocationsHeader": {
-                        "Key": "Dig.AllTreasureFound.Header",
-                        "ObjectId": {
-                            "mGuid": {
-                                "GuidPart1": 0,
-                                "GuidPart2": 0,
-                                "GuidPart3": 0,
-                                "GuidPart4": 0
-                            },
-                            "mSerializableLocalIdentifier": 0
-                        }
-                    },
-                    "NoMoreTreasureHuntLocationsMessage": {
-                        "Key": "Dig.AllTreasureFound.Message",
-                        "ObjectId": {
-                            "mGuid": {
-                                "GuidPart1": 0,
-                                "GuidPart2": 0,
-                                "GuidPart3": 0,
-                                "GuidPart4": 0
-                            },
-                            "mSerializableLocalIdentifier": 0
-                        }
-                    },
-                    "OnTreasureFound": {
-                        "Effects": [
-                            {
-                                "rid": 1001
-                            },
-                            {
-                                "rid": 1002
-                            },
-                            {
-                                "rid": 1003
-                            },
-                            {
-                                "rid": 1004
-                            }
-                        ]
-                    }
+                    "mSerializableLocalIdentifier": 0
                 }
             },
-            {
-                "rid": 1001,
-                "type": {
-                    "class": "HarvestLocationEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "LootTags": [
-                        {
-                            "ContentPath": "Skills/Campaign/Harvest Ore Loottables/Harvest Ore.asset"
-                        }
-                    ],
-                    "NumberOfRolls": 1
-                }
-            },
-            {
-                "rid": 1002,
-                "type": {
-                    "class": "CreateLocationEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Location": {
-                        "ContentPath": "_World/Locations/_Loot/Loot_Chest.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1003,
-                "type": {
-                    "class": "GiveExperienceEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "XP": {
-                        "ContentPath": "Currencies/Static/XP Rewards/XP Low.asset"
-                    }
-                }
-            },
-            {
-                "rid": 1004,
-                "type": {
-                    "class": "AddRemoveItemEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Potions/GoldNugget.asset"
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
                     },
-                    "Amount": 1
+                    "mSerializableLocalIdentifier": 0
                 }
-            }
-        ]
-    }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "Priority": 0,
+    "AutoResolveHelp": {
+        "OnlyAffectsVsAi": false,
+        "CanCatchSouls": false,
+        "CanEnslave": false,
+        "PersonalEdge": 0,
+        "DamageReduction": 0.0,
+        "SharedHealthBuffer": 0,
+        "SharedEdge": 0,
+        "AlwaysWinAutoresolve": false
+    },
+    "TooltipDonotShowHeaderIfSingleSkillGranted": true
 }

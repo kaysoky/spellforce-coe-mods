@@ -263,7 +263,7 @@ WorldKingOfTheHillDefinition
                 },
                 "data": {
                     "TreasureType": {
-                        "ContentPath": "TreasureHunts/Gold/Definition.asset"
+                        "ContentPath": "TreasureHunts/Mana/Definition.asset"
                     },
                     "FinishDelay": 1.5,
                     "NoMoreTreasureHuntLocationsHeader": {
@@ -303,6 +303,9 @@ WorldKingOfTheHillDefinition
                             },
                             {
                                 "rid": 1004
+                            },
+                            {
+                                "rid": 1005
                             }
                         ]
                     }
@@ -333,7 +336,7 @@ WorldKingOfTheHillDefinition
                 },
                 "data": {
                     "Location": {
-                        "ContentPath": "_World/Locations/_Loot/Loot_Chest.asset"
+                        "ContentPath": "_World/Locations/_Loot/Loot_Mana.asset"
                     }
                 }
             },
@@ -359,7 +362,21 @@ WorldKingOfTheHillDefinition
                 },
                 "data": {
                     "Item": {
-                        "ContentPath": "Items/Loot/Potions/GoldNugget.asset"
+                        "ContentPath": "Items/Loot/Souls/Arcane Soul 1.asset"
+                    },
+                    "Amount": 1
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "AddRemoveItemEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Souls/Pristine Soul 1.asset"
                     },
                     "Amount": 1
                 }

@@ -1,9 +1,9 @@
 TreasureHuntConfigDefinition
 {
     "Treasure": {
-        "ContentPath": "TreasureHunts/Gold/Definition.asset"
+        "ContentPath": "TreasureHunts/Mana/Definition.asset"
     },
-    "Amount": 5,
+    "Amount": 10,
     "AvoidPlayerDomain": true,
     "OnlyOnePerRegion": true,
     "AllowAllButTheseRegions": {
@@ -38,8 +38,8 @@ TreasureHuntConfigDefinition
             }
         ]
     },
-    "MinDistance": 15,
-    "MinDistanceToMapBorder": 4,
+    "MinDistance": 24,
+    "MinDistanceToMapBorder": 7,
     "SpawnRules": [
         {
             "Index": 0,
@@ -62,7 +62,11 @@ TreasureHuntConfigDefinition
         {
             "Index": 2,
             "LocationsToPrefer": {
-                "mTags": []
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Cave.asset"
+                    }
+                ]
             },
             "DistanceFromPlayer": 40,
             "MaxDistanceFromPlayer": 999,
@@ -71,7 +75,11 @@ TreasureHuntConfigDefinition
         {
             "Index": 3,
             "LocationsToPrefer": {
-                "mTags": []
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Primordial Forest.asset"
+                    }
+                ]
             },
             "DistanceFromPlayer": 50,
             "MaxDistanceFromPlayer": 999,
@@ -79,6 +87,63 @@ TreasureHuntConfigDefinition
         },
         {
             "Index": 4,
+            "LocationsToPrefer": {
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Shrine_01.asset"
+                    }
+                ]
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 5,
+            "LocationsToPrefer": {
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Shrine_02.asset"
+                    }
+                ]
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 6,
+            "LocationsToPrefer": {
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Shrine_03.asset"
+                    }
+                ]
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 7,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 8,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 9,
             "LocationsToPrefer": {
                 "mTags": []
             },
