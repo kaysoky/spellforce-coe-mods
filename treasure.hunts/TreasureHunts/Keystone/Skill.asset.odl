@@ -1,0 +1,150 @@
+WorldHarvestSkill
+{
+    "MouseCursorHandle": {
+        "Texture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "HotSpot": {
+            "x": 0.0,
+            "y": 0.0
+        }
+    },
+    "SelectionCursor": {
+        "mGameObject": {
+            "ContentPath": "Skills/SelectionCursors/World/WorldExecuteImmediatelySelectionCursor.prefab"
+        }
+    },
+    "OnlyUsableByOwner": true,
+    "Icon": {
+        "ContentPath": "Items/Icons/Ingredients/T3/Icon_MysteriousSchematics.png"
+    },
+    "Tooltip": {
+        "Name": {
+            "Loca": {
+                "Key": "DigForTreasure Skill.Tooltip.Name.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Description": {
+            "Loca": {
+                "Key": "DigForTreasure Skill.Tooltip.Description.Loca",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": false
+        },
+        "Fluff": {
+            "Loca": {
+                "Key": "",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "BlankLineInFront": false,
+            "IsEmpty": true
+        },
+        "TooltipEntries": []
+    },
+    "RequireLocation": false,
+    "LocationCanBeAdjacent": false,
+    "ValidProperty": {
+        "mTags": []
+    },
+    "InvalidProperty": {
+        "mTags": []
+    },
+    "OptionalWorldTileLimit": {
+        "mTags": []
+    },
+    "KotH": {
+        "ContentPath": "TreasureHunts/Keystone/KotH.asset"
+    },
+    "IncorrectLocationTooltip": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "LootMessage": {
+        "Key": "DigForTreasure Skill.LootMessage",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "SkillNotRequiredToBeStackSkill": false,
+    "SkipLootWindow": false,
+    "KotHCanOnlyBeActiveOnce": false,
+    "OnlyOnceTooltip": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "ValidLocationsForFts": {
+        "mTags": []
+    },
+    "SpecificFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "NotificationIcon": {
+        "ContentPath": ""
+    },
+    "NotificationLoca": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "OptionalForTooltip": {
+        "ContentPath": ""
+    }
+}

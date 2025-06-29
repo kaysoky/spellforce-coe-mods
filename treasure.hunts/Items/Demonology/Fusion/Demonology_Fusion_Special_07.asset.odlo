@@ -1,0 +1,15 @@
+ArtefactDefinition
+{
+    "WeightedLoot": [
+        {
+            "Tags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Items/Loot/Loottags/Demonology Special Fusion.asset"
+                    }
+                ]
+            },
+            "Weight": 10
+        }
+    ]
+}

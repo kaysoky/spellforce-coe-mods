@@ -1,0 +1,50 @@
+WeightedLootTableEntry
+{
+    "LootTags": {
+        "mTags": [
+            {
+                "ContentPath": "TreasureHunts/Consumables/Loot_Tag.asset"
+            }
+        ]
+    },
+    "FactionTags": {
+        "mTags": []
+    },
+    "UnitTags": {
+        "mTags": []
+    },
+    "Conditions": {
+        "Conditions": []
+    },
+    "Effects": {
+        "Effects": [
+            {
+                "rid": 1000
+            }
+        ]
+    },
+    "Weight": 2,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "LootEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "LootTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "LootTables/Loot Locations/Pickup Loot/Pickup_Ingredients/Pickup_Ingredients.asset"
+                            }
+                        ]
+                    },
+                    "NumberOfRolls": 1
+                }
+            }
+        ]
+    }
+}

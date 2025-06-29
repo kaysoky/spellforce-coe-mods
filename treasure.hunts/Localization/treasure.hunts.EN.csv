@@ -9,3 +9,7 @@ AdditionalTreasureMapSlot.Tooltip.Name.Loca;Has a Treasure Map Slot
 Treasure Map Slot.SlotLocaIfEmpty;Treasure Map Slot
 Treasure Map.DisplayName;Treasure Map
 Treasure Map.Gold.Description;Seems to have a picture of a duck on the corner.
+Treasure Map.Consumables.Description;Whoever drew this seems to like birds a lot.
+Treasure Map.Keystone.Description;There are a lot of triangles on this map.
+Treasure Map.Crown.Description;Is this a cup of some sort?
+Treasure Map.Demon.Description;The bloodstains on the map appear to be a hint.

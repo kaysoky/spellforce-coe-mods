@@ -1,7 +1,7 @@
 TreasureHuntConfigDefinition
 {
     "Treasure": {
-        "ContentPath": "TreasureHunts/Mana/Definition.asset"
+        "ContentPath": "TreasureHunts/Keystone/Definition.asset"
     },
     "Amount": 10,
     "AvoidPlayerDomain": true,
@@ -38,8 +38,8 @@ TreasureHuntConfigDefinition
             }
         ]
     },
-    "MinDistance": 24,
-    "MinDistanceToMapBorder": 7,
+    "MinDistance": 20,
+    "MinDistanceToMapBorder": 4,
     "SpawnRules": [
         {
             "Index": 0,
@@ -64,7 +64,7 @@ TreasureHuntConfigDefinition
             "LocationsToPrefer": {
                 "mTags": [
                     {
-                        "ContentPath": "_World/Locations/Cave.asset"
+                        "ContentPath": "_World/Locations/Tomb.asset"
                     }
                 ]
             },
@@ -77,7 +77,7 @@ TreasureHuntConfigDefinition
             "LocationsToPrefer": {
                 "mTags": [
                     {
-                        "ContentPath": "_World/Locations/Primordial Forest.asset"
+                        "ContentPath": "_World/Locations/Shaper Ruin.asset"
                     }
                 ]
             },
@@ -90,7 +90,7 @@ TreasureHuntConfigDefinition
             "LocationsToPrefer": {
                 "mTags": [
                     {
-                        "ContentPath": "_World/Locations/Shrine_01.asset"
+                        "ContentPath": "_World/Locations/Ruins_Sunken.asset"
                     }
                 ]
             },
@@ -103,7 +103,7 @@ TreasureHuntConfigDefinition
             "LocationsToPrefer": {
                 "mTags": [
                     {
-                        "ContentPath": "_World/Locations/Shrine_02.asset"
+                        "ContentPath": "_World/Locations/Ritualplace.asset"
                     }
                 ]
             },
@@ -114,11 +114,7 @@ TreasureHuntConfigDefinition
         {
             "Index": 6,
             "LocationsToPrefer": {
-                "mTags": [
-                    {
-                        "ContentPath": "_World/Locations/Shrine_03.asset"
-                    }
-                ]
+                "mTags": []
             },
             "DistanceFromPlayer": 50,
             "MaxDistanceFromPlayer": 999,

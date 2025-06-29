@@ -1,9 +1,9 @@
 TreasureHuntConfigDefinition
 {
     "Treasure": {
-        "ContentPath": "TreasureHunts/Gold/Definition.asset"
+        "ContentPath": "TreasureHunts/Crown/Definition.asset"
     },
-    "Amount": 5,
+    "Amount": 10,
     "AvoidPlayerDomain": true,
     "OnlyOnePerRegion": true,
     "AllowAllButTheseRegions": {
@@ -38,7 +38,7 @@ TreasureHuntConfigDefinition
             }
         ]
     },
-    "MinDistance": 15,
+    "MinDistance": 20,
     "MinDistanceToMapBorder": 4,
     "SpawnRules": [
         {
@@ -62,7 +62,11 @@ TreasureHuntConfigDefinition
         {
             "Index": 2,
             "LocationsToPrefer": {
-                "mTags": []
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Shrine_01.asset"
+                    }
+                ]
             },
             "DistanceFromPlayer": 40,
             "MaxDistanceFromPlayer": 999,
@@ -71,7 +75,11 @@ TreasureHuntConfigDefinition
         {
             "Index": 3,
             "LocationsToPrefer": {
-                "mTags": []
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Shrine_02.asset"
+                    }
+                ]
             },
             "DistanceFromPlayer": 50,
             "MaxDistanceFromPlayer": 999,
@@ -79,6 +87,59 @@ TreasureHuntConfigDefinition
         },
         {
             "Index": 4,
+            "LocationsToPrefer": {
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Shrine_03.asset"
+                    }
+                ]
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 5,
+            "LocationsToPrefer": {
+                "mTags": [
+                    {
+                        "ContentPath": "_World/Locations/Ritualplace.asset"
+                    }
+                ]
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 6,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 7,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 8,
+            "LocationsToPrefer": {
+                "mTags": []
+            },
+            "DistanceFromPlayer": 50,
+            "MaxDistanceFromPlayer": 999,
+            "ForceWithinHostileInfluenceArea": false
+        },
+        {
+            "Index": 9,
             "LocationsToPrefer": {
                 "mTags": []
             },

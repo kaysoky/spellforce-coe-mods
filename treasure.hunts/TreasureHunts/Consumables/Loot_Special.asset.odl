@@ -1,0 +1,121 @@
+WeightedLootTableEntry
+{
+    "LootTags": {
+        "mTags": [
+            {
+                "ContentPath": "TreasureHunts/Consumables/Loot_Tag.asset"
+            }
+        ]
+    },
+    "FactionTags": {
+        "mTags": []
+    },
+    "UnitTags": {
+        "mTags": []
+    },
+    "Conditions": {
+        "Conditions": [
+            {
+                "rid": 1000
+            },
+            {
+                "rid": 1001
+            }
+        ]
+    },
+    "Effects": {
+        "Effects": [
+            {
+                "rid": 1002
+            },
+            {
+                "rid": 1003
+            },
+            {
+                "rid": 1004
+            }
+        ]
+    },
+    "Weight": 4,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "IntVariableHasValueCondition",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Variable": {
+                        "ContentPath": "TreasureHunts/Consumables/Counter.asset"
+                    },
+                    "Value": 3,
+                    "Invert": false
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "IntVariableHasValueCondition",
+                    "ns": "OwnedByGravity.Game.Logic.LootTables.Conditions",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Variable": {
+                        "ContentPath": "TreasureHunts/Consumables/Counter_Found.asset"
+                    },
+                    "Value": 1,
+                    "Invert": true
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "LootEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "LootTags": {
+                        "mTags": [
+                            {
+                                "ContentPath": "LootTables/Loot Locations/Pickup Loot/Pickup_Ingredients/Pickup_Ingredients.asset"
+                            }
+                        ]
+                    },
+                    "NumberOfRolls": 2
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "AddRemoveItemEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Item": {
+                        "ContentPath": "Items/Loot/Artefacts/Trinkets/Trinket_BagOfEagleSpirit_01.asset"
+                    },
+                    "Amount": 1
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "IncrementIntVariableEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Variable": {
+                        "ContentPath": "TreasureHunts/Consumables/Counter_Found.asset"
+                    },
+                    "Amount": 1
+                }
+            }
+        ]
+    }
+}

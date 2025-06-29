@@ -38,8 +38,8 @@ TreasureHuntConfigDefinition
             }
         ]
     },
-    "MinDistance": 24,
-    "MinDistanceToMapBorder": 7,
+    "MinDistance": 20,
+    "MinDistanceToMapBorder": 4,
     "SpawnRules": [
         {
             "Index": 0,
