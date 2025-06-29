@@ -237,7 +237,7 @@ WorldKingOfTheHillDefinition
     },
     "DoNotShowRewards": false,
     "BannerIcon": {
-        "ContentPath": "TreasureHunts/Banner.png"
+        "ContentPath": "Items/Icons/Ingredients/T3/Icon_MysteriousSchematics.png"
     },
     "DoNotDisplayDuration": false,
     "ContinuesVisualEffect": {
@@ -311,6 +311,20 @@ WorldKingOfTheHillDefinition
             {
                 "rid": 1001,
                 "type": {
+                    "class": "IncrementIntVariableEffect",
+                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
+                    "asm": "OwnedByGravity.Game"
+                },
+                "data": {
+                    "Variable": {
+                        "ContentPath": "TreasureHunts/Gold/Counter.asset"
+                    },
+                    "Amount": 1
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
                     "class": "HarvestLocationEffect",
                     "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
                     "asm": "OwnedByGravity.Game"
@@ -325,7 +339,7 @@ WorldKingOfTheHillDefinition
                 }
             },
             {
-                "rid": 1002,
+                "rid": 1003,
                 "type": {
                     "class": "CreateLocationEffect",
                     "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
@@ -333,12 +347,12 @@ WorldKingOfTheHillDefinition
                 },
                 "data": {
                     "Location": {
-                        "ContentPath": "_World/Locations/_Loot/Loot_Chest.asset"
+                        "ContentPath": "TreasureHunts/Gold/Location.asset"
                     }
                 }
             },
             {
-                "rid": 1003,
+                "rid": 1004,
                 "type": {
                     "class": "GiveExperienceEffect",
                     "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
@@ -348,20 +362,6 @@ WorldKingOfTheHillDefinition
                     "XP": {
                         "ContentPath": "Currencies/Static/XP Rewards/XP Low.asset"
                     }
-                }
-            },
-            {
-                "rid": 1004,
-                "type": {
-                    "class": "AddRemoveItemEffect",
-                    "ns": "OwnedByGravity.Game.Logic.Effects.Effects",
-                    "asm": "OwnedByGravity.Game"
-                },
-                "data": {
-                    "Item": {
-                        "ContentPath": "Items/Loot/Potions/GoldNugget.asset"
-                    },
-                    "Amount": 1
                 }
             }
         ]

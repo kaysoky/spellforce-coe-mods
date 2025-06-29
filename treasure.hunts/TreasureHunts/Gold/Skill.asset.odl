@@ -17,7 +17,7 @@ WorldHarvestSkill
     },
     "OnlyUsableByOwner": true,
     "Icon": {
-        "ContentPath": "TreasureHunts/Skill.png"
+        "ContentPath": "Items/Icons/Ingredients/T3/Icon_MysteriousSchematics.png"
     },
     "Tooltip": {
         "Name": {

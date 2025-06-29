@@ -266,7 +266,7 @@ UnitPromotionDefinition
     "QualityType": 1,
     "ShowAsSubTooltip": true,
     "Icon": {
-        "ContentPath": "Items/Slots/Treasure_Map.png"
+        "ContentPath": "Items/Icons/Ingredients/T3/Icon_MysteriousSchematics.png"
     },
     "Tooltip": {
         "Name": {

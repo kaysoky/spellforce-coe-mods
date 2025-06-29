@@ -19,7 +19,7 @@ ArtefactDefinition
         },
         "Description": {
             "Loca": {
-                "Key": "",
+                "Key": "Treasure Map.Gold.Description",
                 "ObjectId": {
                     "mGuid": {
                         "GuidPart1": 0,
@@ -31,7 +31,7 @@ ArtefactDefinition
                 }
             },
             "BlankLineInFront": false,
-            "IsEmpty": true
+            "IsEmpty": false
         },
         "Fluff": {
             "Loca": {
@@ -52,7 +52,7 @@ ArtefactDefinition
         "TooltipEntries": []
     },
     "Icon": {
-        "ContentPath": "Items/Slots/Treasure_Map.png"
+        "ContentPath": "Items/Icons/Ingredients/T3/Icon_MysteriousSchematics.png"
     },
     "Quality": {
         "ContentPath": "Items/Quality/1 Common.asset"
@@ -66,7 +66,7 @@ ArtefactDefinition
     },
     "Stackable": true,
     "BuyCosts": {
-        "Gold": 12,
+        "Gold": 20,
         "Mana": 0
     },
     "CanBeSold": true,
@@ -124,21 +124,11 @@ ArtefactDefinition
             "Tags": {
                 "mTags": [
                     {
-                        "ContentPath": "LootTables/Loot Locations/ItemCategories/Ores T1.asset"
-                    }
-                ]
-            },
-            "Weight": 5
-        },
-        {
-            "Tags": {
-                "mTags": [
-                    {
                         "ContentPath": "LootTables/Loot Locations/Pickup Loot/Pickup_Gold/Pickup_Gold.asset"
                     }
                 ]
             },
-            "Weight": 5
+            "Weight": 2
         }
     ],
     "ProbabilityLoot": [],

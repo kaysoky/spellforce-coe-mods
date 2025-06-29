@@ -2,7 +2,7 @@ ArtefactSlotType
 {
     "Order": 101,
     "SlotIcon": {
-        "ContentPath": "Items/Slots/Treasure_Map.png"
+        "ContentPath": "Items/Icons/Ingredients/T3/Icon_MysteriousSchematics.png"
     },
     "SlotPrefabOverride": {
         "m_FileID": 0,
