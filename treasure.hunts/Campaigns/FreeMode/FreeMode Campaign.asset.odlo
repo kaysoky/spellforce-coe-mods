@@ -1,0 +1,11 @@
+CampaignDefinition
+{
+    "AdditionalTreasureHuntConfigs": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/TreasureHunts"
+        },
+        {
+            "ContentPath": "Campaigns/TreasureHunts"
+        }
+    ]
+}
