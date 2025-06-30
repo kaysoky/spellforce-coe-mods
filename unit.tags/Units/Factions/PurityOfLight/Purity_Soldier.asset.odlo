@@ -1,0 +1,16 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Tier 2.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Melee.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Purity/Soldier.asset"
+            }
+        ]
+    }
+}

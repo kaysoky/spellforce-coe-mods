@@ -1,0 +1,19 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Tier 3.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Melee.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Tank.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Fantastic/IceGolem.asset"
+            }
+        ]
+    }
+}

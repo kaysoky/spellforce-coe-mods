@@ -3,7 +3,7 @@ StackSlotDefinition
     "AllowedTags": {
         "mTags": [
             {
-                "ContentPath": "Units/UnitTags/Can Go Into Chaff Slot.asset"
+                "ContentPath": "Units/UnitTags/Tier 1.asset"
             }
         ]
     },

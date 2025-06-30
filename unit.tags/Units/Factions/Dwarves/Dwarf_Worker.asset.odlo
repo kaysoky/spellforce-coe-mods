@@ -1,0 +1,19 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Tier 1.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Ranged.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Worker.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Dwarves/Worker.asset"
+            }
+        ]
+    }
+}

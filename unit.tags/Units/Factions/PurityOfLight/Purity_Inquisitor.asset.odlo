@@ -1,0 +1,22 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Tier 3.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Melee.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Ranged.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/LightMagicUserTag.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Purity/Inquistor.asset"
+            }
+        ]
+    }
+}

@@ -1,7 +1,6 @@
 {
     "HardDependencies": [
-        { "Package": "com.ownedbygravity.sf.base" },
-        { "Package": "unit.tags" }
+        { "Package": "com.ownedbygravity.sf.base" }
     ],
     "SoftDependencies": [
         { "Package": "com.ownedbygravity.sf.free1" },

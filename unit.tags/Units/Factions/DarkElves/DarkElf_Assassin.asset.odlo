@@ -1,0 +1,19 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Tier 2.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Ranged.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Ranger.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/DarkElves/Infiltrator.asset"
+            }
+        ]
+    }
+}

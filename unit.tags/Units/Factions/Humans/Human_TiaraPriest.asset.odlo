@@ -1,0 +1,19 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Tier 3.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Ranged.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/LightMagicUserTag.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Humans/TiarasPriestess.asset"
+            }
+        ]
+    }
+}

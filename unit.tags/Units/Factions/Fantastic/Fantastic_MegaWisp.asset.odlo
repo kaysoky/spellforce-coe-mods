@@ -1,0 +1,16 @@
+UnitDefinition
+{
+    "Tags": {
+        "mTags": [
+            {
+                "ContentPath": "Units/UnitTags/Tier 2.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Ranged.asset"
+            },
+            {
+                "ContentPath": "Units/UnitTags/Fantastic/GuardianWisp.asset"
+            }
+        ]
+    }
+}
