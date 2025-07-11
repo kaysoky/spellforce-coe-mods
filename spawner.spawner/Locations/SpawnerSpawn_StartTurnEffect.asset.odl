@@ -1419,7 +1419,7 @@ TurnStartEffectSequence
                             "ContentPath": ""
                         },
                         "MonsterSpawner": {
-                            "ContentPath": ""
+                            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners/Spawner_Tuscari_Combined.asset"
                         },
                         "Garrisons": [
                             {
