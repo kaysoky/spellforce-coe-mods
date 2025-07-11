@@ -1,0 +1,174 @@
+WorldShapeGenerationEntry
+{
+    "Name": {
+        "Key": "WorldShape_LongHurdles.Name",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Description": {
+        "Key": "WorldShape_LongHurdles.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Image": {
+        "ContentPath": "Campaigns/RandomWorldMap/WorldGenerationSettings/WorldShape_Random_01.png"
+    },
+    "EntryImageOffset": {
+        "x": 0.0,
+        "y": 64.0
+    },
+    "EntryHeight": 192.0,
+    "DescriptionBulletPoints": [
+        {
+            "Icon": {
+                "m_Asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                },
+                "m_Ref": {
+                    "ContentPath": "UI/Icons/Icons/Icon_Mountaineer.png"
+                }
+            },
+            "DescriptionLocaId": {
+                "Key": "WorldShapeWarning.Distance.Description",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "PointColor": {
+                "r": 0.7490196228027344,
+                "g": 0.6235294342041016,
+                "b": 0.3843137323856354,
+                "a": 1.0
+            },
+            "ColorizeIcon": true
+        },
+        {
+            "Icon": {
+                "m_Asset": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                },
+                "m_Ref": {
+                    "ContentPath": "UI/Icons/Icons/Icon_Death_01.png"
+                }
+            },
+            "DescriptionLocaId": {
+                "Key": "WorldShapeWarning.Difficulty.Description",
+                "ObjectId": {
+                    "mGuid": {
+                        "GuidPart1": 0,
+                        "GuidPart2": 0,
+                        "GuidPart3": 0,
+                        "GuidPart4": 0
+                    },
+                    "mSerializableLocalIdentifier": 0
+                }
+            },
+            "PointColor": {
+                "r": 0.849056601524353,
+                "g": 0.3093239367008209,
+                "b": 0.2282840758562088,
+                "a": 1.0
+            },
+            "ColorizeIcon": true
+        }
+    ],
+    "SortOrder": 5,
+    "WorldHeightDelta": {
+        "x": 0.0,
+        "y": -600.0
+    },
+    "WorldWidthDelta": {
+        "x": 0.0,
+        "y": 4200.0
+    },
+    "RegionsToAdd": [
+        {
+            "ContentPath": "Campaigns/RandomWorldMap/Regions/RandomGen_Ocean.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Ocean.asset"
+        }
+    ],
+    "RegionsToExclude": [],
+    "SeedLimits": [
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 1.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.2,
+                "North": 0.0,
+                "East": 0.7,
+                "South": 0.0,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Regan Gor.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Uram_Gor.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.45,
+                "North": 0.0,
+                "East": 0.45,
+                "South": 0.0,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Ocean.asset"
+                    },
+                    {
+                        "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 2.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.7,
+                "North": 0.0,
+                "East": 0.2,
+                "South": 0.0,
+                "Invert": false
+            }
+        }
+    ]
+}

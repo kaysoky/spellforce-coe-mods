@@ -1,3 +1,5 @@
 Package.extra.map.shapes.DisplayName;Extra Campaign Map Shapes
 WorldShape_LongRandom.Name;Long and Thin
 WorldShape_LongRandom.Description;Like the Random type, but extra wide and very thin.
+WorldShape_LongHurdles.Name;Four Long Segments
+WorldShape_LongHurdles.Description;An extra wide and thin world, divided into 4 segments by oceans and volcanoes.
