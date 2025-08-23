@@ -1,0 +1,433 @@
+WorldShapeGenerationEntry
+{
+    "Name": {
+        "Key": "WorldShape_Cramped_Lore.Name",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Description": {
+        "Key": "WorldShape_Cramped_Lore.Description",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "Image": {
+        "ContentPath": "Campaigns/RandomWorldMap/WorldGenerationSettings/WorldShape_Fixed_01.png"
+    },
+    "EntryImageOffset": {
+        "x": 0.0,
+        "y": -12.0
+    },
+    "EntryHeight": 96.0,
+    "DescriptionBulletPoints": [],
+    "SortOrder": 5,
+    "WorldHeightDelta": {
+        "x": 0.0,
+        "y": -300.0
+    },
+    "WorldWidthDelta": {
+        "x": 0.0,
+        "y": -800.0
+    },
+    "RegionsToAdd": [],
+    "RegionsToExclude": [],
+    "SeedLimits": [
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Regan Gor.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.10000000149011612,
+                "North": 0.0,
+                "East": 0.800000011920929,
+                "South": 0.8999999761581421,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norgate.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.10000000149011612,
+                "North": 0.10000000149011612,
+                "East": 0.800000011920929,
+                "South": 0.800000011920929,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Silver Drift Hollow.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.4000000059604645,
+                "North": 0.10000000149011612,
+                "East": 0.5,
+                "South": 0.800000011920929,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Draycott.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.699999988079071,
+                "North": 0.0,
+                "East": 0.20000000298023225,
+                "South": 0.8999999761581421,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Coldmark.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.8999999761581421,
+                "North": 0.0,
+                "East": 0.0,
+                "South": 0.8999999761581421,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Windholme.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.75,
+                "North": 0.05000000074505806,
+                "East": 0.15000000596046449,
+                "South": 0.8500000238418579,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Stoneblades.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.4000000059604645,
+                "North": 0.20000000298023225,
+                "East": 0.5,
+                "South": 0.699999988079071,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Westguard.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.20000000298023225,
+                "North": 0.30000001192092898,
+                "East": 0.699999988079071,
+                "South": 0.6000000238418579,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Ocean.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.0,
+                "North": 0.5,
+                "East": 0.8999999761581421,
+                "South": 0.4000000059604645,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Misty Coast.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.20000000298023225,
+                "North": 0.6000000238418579,
+                "East": 0.699999988079071,
+                "South": 0.30000001192092898,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 1.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.20000000298023225,
+                "North": 0.800000011920929,
+                "East": 0.699999988079071,
+                "South": 0.10000000149011612,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Alluvyan.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.30000001192092898,
+                "North": 0.4000000059604645,
+                "East": 0.6000000238418579,
+                "South": 0.5,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Darkvale.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.4000000059604645,
+                "North": 0.5,
+                "East": 0.5,
+                "South": 0.4000000059604645,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Sevenkeeps.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.4000000059604645,
+                "North": 0.30000001192092898,
+                "East": 0.5,
+                "South": 0.44999998807907107,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Three Lakes.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.5,
+                "North": 0.30000001192092898,
+                "East": 0.4000000059604645,
+                "South": 0.6000000238418579,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norimar.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.800000011920929,
+                "North": 0.30000001192092898,
+                "East": 0.10000000149011612,
+                "South": 0.6000000238418579,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Goldenfields.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.6000000238418579,
+                "North": 0.5,
+                "East": 0.30000001192092898,
+                "South": 0.4000000059604645,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Gillyshire.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.800000011920929,
+                "North": 0.5,
+                "East": 0.10000000149011612,
+                "South": 0.4000000059604645,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Rushwater Downs.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.699999988079071,
+                "North": 0.6000000238418579,
+                "East": 0.20000000298023225,
+                "South": 0.30000001192092898,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Southwatch.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.6000000238418579,
+                "North": 0.699999988079071,
+                "East": 0.30000001192092898,
+                "South": 0.20000000298023225,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.8500000238418579,
+                "North": 0.699999988079071,
+                "East": 0.05000000074505806,
+                "South": 0.20000000298023225,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 2.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.8999999761581421,
+                "North": 0.8999999761581421,
+                "East": 0.0,
+                "South": 0.0,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Uram_Gor.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.4000000059604645,
+                "North": 0.8999999761581421,
+                "East": 0.5,
+                "South": 0.0,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Estwal.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.699999988079071,
+                "North": 0.8999999761581421,
+                "East": 0.20000000298023225,
+                "South": 0.0,
+                "Invert": false
+            }
+        }
+    ]
+}

@@ -3,3 +3,11 @@ WorldShape_LongRandom.Name;Long and Thin
 WorldShape_LongRandom.Description;Like the Random type, but extra wide and very thin.
 WorldShape_LongHurdles.Name;Four Long Segments
 WorldShape_LongHurdles.Description;An extra wide and thin world, divided into 4 segments by oceans and volcanoes.
+WorldShape_Island_GoldenFields.Name;Golden Corner
+WorldShape_Island_GoldenFields.Description;Intended for the Golden Fields starting location.  This puts you in a corner of the map, mostly surrounded by oceans.
+WorldShape_Cramped_Lore.Name;Small Lore-friendly Square
+WorldShape_Cramped_Lore.Description;The same as the Lore-friendly type, but the map is much smaller.
+WorldShape_Cramped_Progression.Name;Small Progression-based Square
+WorldShape_Cramped_Progression.Description;The same as the Progression-based type, but the map is much smaller.
+WorldShape_Cramped_Random.Name;Small Random Square
+WorldShape_Cramped_Random.Description;The same as the Random type, but the map is much smaller.

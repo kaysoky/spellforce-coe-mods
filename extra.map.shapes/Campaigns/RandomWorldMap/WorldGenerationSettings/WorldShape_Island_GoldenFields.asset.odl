@@ -1,7 +1,7 @@
 WorldShapeGenerationEntry
 {
     "Name": {
-        "Key": "WorldShape_LongHurdles.Name",
+        "Key": "WorldShape_Island_GoldenFields.Name",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,
@@ -13,7 +13,7 @@ WorldShapeGenerationEntry
         }
     },
     "Description": {
-        "Key": "WorldShape_LongHurdles.Description",
+        "Key": "WorldShape_Island_GoldenFields.Description",
         "ObjectId": {
             "mGuid": {
                 "GuidPart1": 0,
@@ -25,11 +25,11 @@ WorldShapeGenerationEntry
         }
     },
     "Image": {
-        "ContentPath": "Campaigns/RandomWorldMap/WorldGenerationSettings/WorldShape_Random_01.png"
+        "ContentPath": "Campaigns/MainCampaign/Setups/CampaignStart_GoldenfieldsImage_01.png"
     },
     "EntryImageOffset": {
         "x": 0.0,
-        "y": 64.0
+        "y": 0.0
     },
     "EntryHeight": 96.0,
     "DescriptionBulletPoints": [
@@ -94,14 +94,14 @@ WorldShapeGenerationEntry
             "ColorizeIcon": true
         }
     ],
-    "SortOrder": 4,
+    "SortOrder": 6,
     "WorldHeightDelta": {
         "x": 0.0,
-        "y": -600.0
+        "y": 0.0
     },
     "WorldWidthDelta": {
         "x": 0.0,
-        "y": 4200.0
+        "y": 0.0
     },
     "RegionsToAdd": [
         {
@@ -109,6 +109,9 @@ WorldShapeGenerationEntry
         },
         {
             "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Ocean.asset"
+        },
+        {
+            "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Tuscari Sea.asset"
         }
     ],
     "RegionsToExclude": [],
@@ -117,37 +120,15 @@ WorldShapeGenerationEntry
             "RegionTags": {
                 "mTags": [
                     {
-                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
-                    },
-                    {
-                        "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 1.asset"
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Goldenfields.asset"
                     }
                 ]
             },
             "Bounds": {
-                "West": 0.2,
+                "West": 0.0,
                 "North": 0.0,
-                "East": 0.7,
-                "South": 0.0,
-                "Invert": false
-            }
-        },
-        {
-            "RegionTags": {
-                "mTags": [
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Regan Gor.asset"
-                    },
-                    {
-                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Uram_Gor.asset"
-                    }
-                ]
-            },
-            "Bounds": {
-                "West": 0.45,
-                "North": 0.0,
-                "East": 0.45,
-                "South": 0.0,
+                "East": 0.85,
+                "South": 0.85,
                 "Invert": false
             }
         },
@@ -158,15 +139,34 @@ WorldShapeGenerationEntry
                         "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Ocean.asset"
                     },
                     {
+                        "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
+                    }
+                ]
+            },
+            "Bounds": {
+                "West": 0.15,
+                "North": 0.0,
+                "East": 0.75,
+                "South": 0.8,
+                "Invert": false
+            }
+        },
+        {
+            "RegionTags": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 1.asset"
+                    },
+                    {
                         "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 2.asset"
                     }
                 ]
             },
             "Bounds": {
-                "West": 0.7,
-                "North": 0.0,
-                "East": 0.2,
-                "South": 0.0,
+                "West": 0.0,
+                "North": 0.15,
+                "East": 0.8,
+                "South": 0.75,
                 "Invert": false
             }
         }
