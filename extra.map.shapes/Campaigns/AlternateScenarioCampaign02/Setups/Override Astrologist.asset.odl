@@ -1,0 +1,129 @@
+CampaignStartCraftingOverride
+{
+    "OverrideResearches": true,
+    "Researches": {
+        "AwardActivePagesWhen": -1,
+        "ActivePages": [
+            {
+                "ContentPath": "Spellbook/Research/Astrology/Craftingpage_Astrology_1.asset"
+            }
+        ],
+        "AwardFinishedMilestonesWhen": -1,
+        "FinishedMilestones": [
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Astrology/Astrology Room Base.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 483357176,
+                    "GuidPart2": 1092647685,
+                    "GuidPart3": 2025656980,
+                    "GuidPart4": 1629019861
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Astrology/Astrology Minion.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": -852066412,
+                    "GuidPart2": 1219926214,
+                    "GuidPart3": -1843352144,
+                    "GuidPart4": 29884699
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Astrology/Astrology Blocker 1.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 972329754,
+                    "GuidPart2": 1100873850,
+                    "GuidPart3": 387432080,
+                    "GuidPart4": -645528408
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Astrology/Astrology Room Good.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 122528053,
+                    "GuidPart2": 1116317035,
+                    "GuidPart3": 648809860,
+                    "GuidPart4": -1691404109
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Astrology/Astrology Spell 1.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": -852066412,
+                    "GuidPart2": 1219926214,
+                    "GuidPart3": -1843352144,
+                    "GuidPart4": 29884699
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Astrology/Astrology Spell 2.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": -852066412,
+                    "GuidPart2": 1219926214,
+                    "GuidPart3": -1843352144,
+                    "GuidPart4": 29884699
+                }
+            }
+        ],
+        "DynamicPages": []
+    },
+    "StartCraftingToOverride": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/StartCrafting_Astrology.asset"
+    },
+    "StartItems": [
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T2/Item_LL_TwitchingEyeball.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_L_Bandages.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T4/Item_EAAL_TwistedHorn.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_A_Ectoplasm.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_A_Ectoplasm.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_A_Ectoplasm.asset"
+        },
+        {
+            "ContentPath": "Items/Astrology/StarCharts/Item_StarDust_01_small.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Plants/Plant_Pumpkin.asset"
+        }
+    ],
+    "StartRooms": [
+        {
+            "ContentPath": "Crafting/Rooms/Room_Astrology_Base.asset"
+        }
+    ],
+    "StackDefinition": {
+        "ContentPath": "Campaigns/ScenarioCampaign02/Setups/Override Stack_Astrologist.asset"
+    },
+    "StartAstrologyConstellations": []
+}

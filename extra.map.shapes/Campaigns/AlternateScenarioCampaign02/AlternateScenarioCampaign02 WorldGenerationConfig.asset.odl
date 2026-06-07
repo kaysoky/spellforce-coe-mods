@@ -1,0 +1,308 @@
+WorldGenerationConfig
+{
+    "Parameters": {
+        "WorldHeight": {
+            "x": 0.0,
+            "y": 200.0
+        },
+        "WorldWidth": {
+            "x": 0.0,
+            "y": 550.0
+        },
+        "OnlyUseTheseRegions": [
+            {
+                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Three Lakes.asset"
+            }
+        ],
+        "RandomRegions": [
+            {
+                "RegionGroups": [
+                    {
+                        "NotIf": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Goldenfields.asset"
+                                }
+                            ]
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Gillyshire.asset"
+                            }
+                        ]
+                    },
+                    {
+                        "NotIf": {
+                            "mTags": []
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Alluvyan.asset"
+                            }
+                        ]
+                    },
+                    {
+                        "NotIf": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Draycott.asset"
+                                }
+                            ]
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Silver Drift Hollow.asset"
+                            },
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Silver Drift Mine.asset"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionGroups": [
+                    {
+                        "NotIf": {
+                            "mTags": []
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Tuscari Sea.asset"
+                            }
+                        ]
+                    },
+                    {
+                        "NotIf": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norimar.asset"
+                                }
+                            ]
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Darkvale.asset"
+                            }
+                        ]
+                    },
+                    {
+                        "NotIf": {
+                            "mTags": []
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Westguard.asset"
+                            }
+                        ]
+                    },
+                    {
+                        "NotIf": {
+                            "mTags": []
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Southwatch.asset"
+                            }
+                        ]
+                    },
+                    {
+                        "NotIf": {
+                            "mTags": []
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/RandomWorldMap/Regions/RandomGen_Ocean.asset"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "RegionGroups": [
+                    {
+                        "NotIf": {
+                            "mTags": [
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Darkvale.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Westguard.asset"
+                                },
+                                {
+                                    "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Southwatch.asset"
+                                }
+                            ]
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Rushwater Downs.asset"
+                            }
+                        ]
+                    },
+                    {
+                        "NotIf": {
+                            "mTags": []
+                        },
+                        "Regions": [
+                            {
+                                "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Stoneblades.asset"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "UseAllButTheseRegions": [],
+        "RegionsToAddInAnyWay": [],
+        "RoadParameters": [
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Default.asset"
+                },
+                "Cost": 10
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Difficult.asset"
+                },
+                "Cost": 10
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Mountain.asset"
+                },
+                "Cost": 1000
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Nature.asset"
+                },
+                "Cost": 10
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Nature Road.asset"
+                },
+                "Cost": 1
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/River.asset"
+                },
+                "Cost": 10
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Road.asset"
+                },
+                "Cost": 1
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Urban.asset"
+                },
+                "Cost": 1
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Water.asset"
+                },
+                "Cost": 1000
+            },
+            {
+                "Tile": {
+                    "ContentPath": "_World/Tiles/Lava.asset"
+                },
+                "Cost": 500
+            }
+        ],
+        "SeedLimits": [
+            {
+                "RegionTags": {
+                    "mTags": [
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Darkvale.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Alluvyan.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Gillyshire.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Westguard.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Tuscari Sea.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Southwatch.asset"
+                        }
+                    ]
+                },
+                "Bounds": {
+                    "West": 0.10000000149011612,
+                    "North": 0.0,
+                    "East": 0.0,
+                    "South": 0.0,
+                    "Invert": true
+                }
+            },
+            {
+                "RegionTags": {
+                    "mTags": [
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Goldenfields.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Draycott.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Misty Coast.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Uram_Gor.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norgate.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Norimar.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/RandomWorldMap/Regions/Ocean 1.asset"
+                        }
+                    ]
+                },
+                "Bounds": {
+                    "West": 0.4000000059604645,
+                    "North": 0.10000000149011612,
+                    "East": 0.4000000059604645,
+                    "South": 0.10000000149011612,
+                    "Invert": false
+                }
+            },
+            {
+                "RegionTags": {
+                    "mTags": [
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Stoneblades.asset"
+                        },
+                        {
+                            "ContentPath": "Campaigns/MainCampaign/Worldmap/RegionTags/Rushwater Downs.asset"
+                        }
+                    ]
+                },
+                "Bounds": {
+                    "West": 0.0,
+                    "North": 0.0,
+                    "East": 0.10000000149011612,
+                    "South": 0.0,
+                    "Invert": true
+                }
+            }
+        ]
+    },
+    "ProgressionOverrides": []
+}

@@ -1,0 +1,259 @@
+CampaignStartLocation
+{
+    "TowerLocation": "",
+    "StackLocation": "",
+    "TowerCoordinates": {
+        "x": 0,
+        "y": 0
+    },
+    "StackCoordinates": {
+        "x": 0,
+        "y": 0
+    },
+    "PossibleRandomGenerationStartLocations": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Westguard.asset"
+        }
+    ],
+    "EnforceRegionSpawn": true,
+    "OverrideStartRegionProgression": true,
+    "RegionMinProgressionOverride": 2,
+    "RegionProgressionOffsetOverride": 0,
+    "ProgressionOverrides": [],
+    "Order": 2,
+    "Name": {
+        "Key": "City_Westguard.Name",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "StartLocationImage": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_PurityGoliath.png"
+    },
+    "HoverSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": ""
+        }
+    },
+    "ClickSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Audio/UI Sounds/ui_Select_Location_01.wav"
+        }
+    },
+    "Description": {
+        "General": {
+            "Key": "AlternateCampaignStart Purity.Description.General",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        },
+        "Challenge": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        },
+        "Enemies": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        },
+        "Resources": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        },
+        "Accessibility": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        }
+    },
+    "FactionPromotion": {
+        "ContentPath": ""
+    },
+    "AdditionalUnits": {
+        "ContentPath": "Campaigns/AlternateScenarioCampaign02/Setups/Additional Stack Purity.asset"
+    },
+    "InitiallyTriggeredAdventureOverride": {
+        "ContentPath": ""
+    },
+    "Researches": {
+        "AwardActivePagesWhen": 1,
+        "ActivePages": [],
+        "AwardFinishedMilestonesWhen": -1,
+        "FinishedMilestones": [
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Rooms/Room_Barrack_Human.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 483357176,
+                    "GuidPart2": 1092647685,
+                    "GuidPart3": 2025656980,
+                    "GuidPart4": 1629019861
+                }
+            }
+        ],
+        "DynamicPages": []
+    },
+    "FactionsToNotTriggerSpotAdventureFor": [],
+    "ReputationDeltas": [],
+    "StorylineOverrides": [],
+    "StartItems": [],
+    "StartRooms": [],
+    "StartAstrologyConstellations": [],
+    "StartCluster": {
+        "ExecuteWithDjikstra": true,
+        "LocationClusterData": [
+            {
+                "Radius": 7,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/Crane.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 5,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Harvestable/Plant_FairyGras.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 4,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/StartBarracks_Purity.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 4,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Pickup_Ingredients.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 3,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/Purity_Barracks.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 4,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Loot_Chest.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 4,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/Goldmine.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 2,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/Goldmine.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 2,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Loot_Mana.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 5,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Loot_Mana.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 7,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Loot_Mana.asset"
+                    }
+                ]
+            }
+        ]
+    },
+    "StartGoldOverride": {
+        "Override": false,
+        "Value": 0
+    },
+    "StartManaOverride": {
+        "Override": false,
+        "Value": 0
+    },
+    "StartSpellpowerOverride": {
+        "Override": false,
+        "Value": 0
+    },
+    "ShowInSavegame": false
+}

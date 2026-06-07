@@ -1,0 +1,102 @@
+CampaignStartCraftingOverride
+{
+    "OverrideResearches": true,
+    "Researches": {
+        "AwardActivePagesWhen": -1,
+        "ActivePages": [
+            {
+                "ContentPath": "Spellbook/Research/Alchemy/Craftingpage_Alchemy_1.asset"
+            }
+        ],
+        "AwardFinishedMilestonesWhen": -1,
+        "FinishedMilestones": [
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Alchemy/Alchemy Room Base.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 483357176,
+                    "GuidPart2": 1092647685,
+                    "GuidPart3": 2025656980,
+                    "GuidPart4": 1629019861
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Alchemy/Alchemy Blocker 1.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": -852066412,
+                    "GuidPart2": 1219926214,
+                    "GuidPart3": -1843352144,
+                    "GuidPart4": 29884699
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Alchemy/Alchemy Room Good.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 122528053,
+                    "GuidPart2": 1116317035,
+                    "GuidPart3": 648809860,
+                    "GuidPart4": -1691404109
+                }
+            }
+        ],
+        "DynamicPages": []
+    },
+    "StartCraftingToOverride": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/StartCrafting_Alchemist.asset"
+    },
+    "StartItems": [
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_L_Meat.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_L_Meat.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_L_Meat.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Plants/Plant_Wheat.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Plants/Plant_Wheat.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Plants/Plant_Wheat.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Special/Waterskin.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Special/Waterskin.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Plants/Plant_Pumpkin.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Potions/PotionOfFireBreathing.asset"
+        }
+    ],
+    "StartRooms": [
+        {
+            "ContentPath": "Crafting/Rooms/Room_Alchemy_Base.asset"
+        }
+    ],
+    "StackDefinition": {
+        "ContentPath": "Campaigns/ScenarioCampaign02/Setups/Override Stack_Alchemist.asset"
+    },
+    "StartAstrologyConstellations": []
+}

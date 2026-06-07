@@ -1,0 +1,341 @@
+CampaignDefinition
+{
+    "Tags": {
+        "mTags": []
+    },
+    "CampaignName": {
+        "Key": "AlternateScenarioCampaign02 Title",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CampaignDescription": {
+        "Key": "Scenario02.Description.Loca",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "CampaignIllustration": {
+        "ContentPath": "Campaigns/ScenarioCampaign02/ScenarioCampaign02_Illustration_01.png"
+    },
+    "IllustrationEntryOffset": {
+        "x": 0.0,
+        "y": 264.0
+    },
+    "CampaignSelectionEntryHeight": 128.0,
+    "CampaignSelectionParent": 1,
+    "ColorManipulatorColors": [
+        {
+            "r": 0.2862745225429535,
+            "g": 0.3450980484485626,
+            "b": 0.5803921818733215,
+            "a": 1.0
+        },
+        {
+            "r": 0.7686275243759155,
+            "g": 0.8078432083129883,
+            "b": 0.960784375667572,
+            "a": 1.0
+        },
+        {
+            "r": 0.7686274647712708,
+            "g": 0.8078431487083435,
+            "b": 0.9607843160629273,
+            "a": 1.0
+        },
+        {
+            "r": 0.4000000059604645,
+            "g": 0.4000000059604645,
+            "b": 0.3764705955982208,
+            "a": 1.0
+        }
+    ],
+    "AnimatedBorderColor": {
+        "r": 0.5411764979362488,
+        "g": 0.6196078658103943,
+        "b": 0.929411768913269,
+        "a": 1.0
+    },
+    "CampaignDuration": 1,
+    "DescriptionBulletPoints": [],
+    "HoverSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Audio/UI/ui_SlotItem_01.wav"
+        }
+    },
+    "ClickSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Audio/UI Sounds/ui_Select_Location_01.wav"
+        }
+    },
+    "CampaignMenuSortOrder": 4,
+    "LocationSelectionTitleOverride": {
+        "Key": "",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "WorldDefinition": {
+        "ContentPath": "Campaigns/RandomWorldMap/Random World Definition.asset"
+    },
+    "WorldGenerationConfig": {
+        "ContentPath": "Campaigns/AlternateScenarioCampaign02/AlternateScenarioCampaign02 WorldGenerationConfig.asset"
+    },
+    "AllowWorldGenerationSetting": false,
+    "PostCombatEffectsConfig": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Campaigns/MainCampaign/Main PostCombatEffectsConfig.asset"
+        }
+    },
+    "GraveyardConfig": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Campaigns/MainCampaign/Main GraveyardConfig.asset"
+        }
+    },
+    "PotatoAiConfig": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Campaigns/MainCampaign/PotatoAiConfig.asset"
+        }
+    },
+    "SpellresearchConfig": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Campaigns/ScenarioCampaign01/Scenario SpellresearchConfig.asset"
+        }
+    },
+    "GameDirectorConfig": {
+        "ContentPath": "Campaigns/ScenarioCampaign02/ScenarioCampaign02 Game Director Config.asset"
+    },
+    "XPMultiplier": 1.5,
+    "WorldCycle": {
+        "rid": -2
+    },
+    "ReputationOverrides": [
+        {
+            "Factions": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Antagonists/Antagonist.asset"
+                    }
+                ]
+            },
+            "StartReputation": 0
+        },
+        {
+            "Factions": {
+                "mTags": [
+                    {
+                        "ContentPath": "Campaigns/MainCampaign/Factions/City.asset"
+                    }
+                ]
+            },
+            "StartReputation": 130
+        }
+    ],
+    "PlayerFaction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Player Faction.asset"
+    },
+    "InitialResearchStates": [
+        {
+            "m_Asset": {
+                "m_FileID": 0,
+                "m_PathID": 0
+            },
+            "m_Ref": {
+                "ContentPath": "Campaigns/ScenarioCampaign02/ScenarioCampaign02 Initial Researches.asset"
+            }
+        }
+    ],
+    "InitialCraftingRecipes": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": ""
+        }
+    },
+    "UnlockedFeatures": [
+        {
+            "ContentPath": "Tutorial/Ids/CraftingPages.asset"
+        },
+        {
+            "ContentPath": "Tutorial/Ids/MightPage.asset"
+        },
+        {
+            "ContentPath": "Tutorial/Ids/RoomExtensions.asset"
+        },
+        {
+            "ContentPath": "Tutorial/Ids/RoomsPage.asset"
+        },
+        {
+            "ContentPath": "Tutorial/Ids/TowerHiring.asset"
+        },
+        {
+            "ContentPath": "Tutorial/Ids/TowerInventory.asset"
+        },
+        {
+            "ContentPath": "Tutorial/Ids/TowerSpellbook.asset"
+        }
+    ],
+    "InitiallyOwnsTower": true,
+    "InitialStackDistanceToTower": 1,
+    "InitialOnTowerAdventure": {
+        "ContentPath": ""
+    },
+    "InitiallyTriggeredAdventure": {
+        "ContentPath": "Campaigns/ScenarioCampaign02/Storylines/Scenario02/Start.asset"
+    },
+    "AdditionalStorylines": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/Storylines"
+        },
+        {
+            "ContentPath": "Campaigns/ScenarioCampaign02/Storylines"
+        }
+    ],
+    "AdditionalMonsterSpawners": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/MonsterSpawners"
+        }
+    ],
+    "AdditionalStacks": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/Stacks"
+        }
+    ],
+    "AdditionalCampaignStartFeatures": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/CampaignFeatures/Gameplay"
+        }
+    ],
+    "AdditionalSpawnerRules": [
+        {
+            "ContentPath": "Campaigns/RandomWorldMap/WorldSpawnerRules/Cities"
+        },
+        {
+            "ContentPath": "Campaigns/ScenarioCampaign01/WorldSpawnerRules"
+        },
+        {
+            "ContentPath": "Campaigns/ScenarioCampaign02/WorldSpawnerRules"
+        }
+    ],
+    "AdditionalStartLocations": [],
+    "AdditionalTasks": [],
+    "AdditionalWeeks": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/WorldCycle"
+        }
+    ],
+    "AdditionalStorylineOverrides": [
+        {
+            "ContentPath": "Campaigns/StorylineOverrides/DisableMainStory"
+        },
+        {
+            "ContentPath": "Campaigns/StorylineOverrides/DisableAntagonists"
+        },
+        {
+            "ContentPath": "Campaigns/StorylineOverrides/DisableCityStorylines"
+        }
+    ],
+    "AdditionalWorldGenerationEntries": [],
+    "AdditionalTreasureHuntConfigs": [
+        {
+            "ContentPath": "Campaigns/ScenarioCampaign01/TreasureHunts"
+        }
+    ],
+    "Timers": [
+        {
+            "ContentPath": "Campaigns/ScenarioCampaign02/Timer/ScenarioCampaign02 Timer.asset"
+        }
+    ],
+    "FirstTimeScreens": {
+        "rid": -2
+    },
+    "EnforceTaskListVisible": false,
+    "FixedDifficulty": {
+        "OverallStrengthReference": {
+            "ContentPath": ""
+        },
+        "WorldAggressivenessReference": {
+            "ContentPath": ""
+        },
+        "WorldProgressionReference": {
+            "ContentPath": ""
+        },
+        "AntaAggressivenessReference": {
+            "ContentPath": ""
+        },
+        "AntaProgressionReference": {
+            "ContentPath": ""
+        },
+        "EconomyReference": {
+            "ContentPath": ""
+        },
+        "BattleAIReference": {
+            "ContentPath": ""
+        },
+        "TrueAutoResolveReference": {
+            "ContentPath": ""
+        }
+    },
+    "FixedArchetype": {
+        "ContentPath": ""
+    },
+    "FixedCampaignFeatures": false,
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": -2,
+                "type": {
+                    "class": "",
+                    "ns": "",
+                    "asm": ""
+                },
+                "data": {}
+            }
+        ]
+    }
+}

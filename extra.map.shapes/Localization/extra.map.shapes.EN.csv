@@ -11,3 +11,20 @@ WorldShape_Cramped_Progression.Name;Small Progression-based Square
 WorldShape_Cramped_Progression.Description;The same as the Progression-based type, but the map is much smaller.
 WorldShape_Cramped_Random.Name;Small Random Square
 WorldShape_Cramped_Random.Description;The same as the Random type, but the map is much smaller.
+AlternateScenarioCampaign02 Title;Wizards of Magic and Might (Alternate)
+AlternateCampaignStart Elf.Description.General;Begin your journey as a champion of nature.\nYou start in the vicinity of [gold]Alluvyan[/] and can recruit animals throughout the game.
+AlternateCampaignStart Purity.Description.General;Begin your journey under the employ of the Purity.\nYou start in the vicinity of [gold]Bastion[/] and can recruit Purity units throughout the game.
+Purity_Barracks.Name;Purity Militia Barracks
+Purity_Barracks.Description;Enables hiring of [unit][isquadsize:c] Purity troops[/] when inside your [mDomain].
+StartBarracks_Purity.Description;Enables hiring of [unit][isquadsize:c] Purity soldiers[/] when inside your [mDomain].
+AlternateCampaignStart Tuscari.Description.General;Begin your journey within the [gold]Tuscari Sea[/].\nYou can freeze water from the start and can utilize Fantastic units throughout the game.
+StartBarracks_Tuscari.Name;Tuscari Lesser Portal
+StartBarracks_Tuscari.Description;Enables hiring of [unit][isquadsize:c] minor Fantastic troops[/] when inside your [mDomain].
+AlternateCampaignStart Spider.Description.General;Begin your journey as a thrall of nature.\nYou start in the vicinity of [gold]Connach[/] and can recruit animals throughout the game.
+StartBarracks_Spider.Name;Corrupted Primordial Grove
+StartBarracks_Spider.Description;Enables hiring of [unit][isquadsize:c] minor animals[/] when inside your [mDomain].
+AlternateCampaignStart Paladin.Description.General;Begin your journey near [gold]Audale[/] with a mighty [unit]Paladin[/] in your company.
+AlternateCampaignStart Undead.Name.General;Darkvale
+AlternateCampaignStart Undead.Description.General;Begin your journey with some Undead near [gold]Castle Meldec[/].
+StartBarracks_Undead.Name;Necromancer's Tomb
+StartBarracks_Undead.Description;Enables hiring of [unit][isquadsize:c] minor undead[/] when inside your [mDomain].

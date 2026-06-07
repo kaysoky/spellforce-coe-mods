@@ -1,0 +1,259 @@
+CampaignStartLocation
+{
+    "TowerLocation": "",
+    "StackLocation": "",
+    "TowerCoordinates": {
+        "x": 0,
+        "y": 0
+    },
+    "StackCoordinates": {
+        "x": 0,
+        "y": 0
+    },
+    "PossibleRandomGenerationStartLocations": [
+        {
+            "ContentPath": "Campaigns/MainCampaign/Worldmap/Regions/Darkvale.asset"
+        }
+    ],
+    "EnforceRegionSpawn": true,
+    "OverrideStartRegionProgression": true,
+    "RegionMinProgressionOverride": 2,
+    "RegionProgressionOffsetOverride": 0,
+    "ProgressionOverrides": [],
+    "Order": 6,
+    "Name": {
+        "Key": "AlternateCampaignStart Undead.Name.General",
+        "ObjectId": {
+            "mGuid": {
+                "GuidPart1": 0,
+                "GuidPart2": 0,
+                "GuidPart3": 0,
+                "GuidPart4": 0
+            },
+            "mSerializableLocalIdentifier": 0
+        }
+    },
+    "StartLocationImage": {
+        "ContentPath": "Units/Portraits/UnitPortraits/Portrait_UndeadMage.png"
+    },
+    "HoverSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": ""
+        }
+    },
+    "ClickSoundOverride": {
+        "m_Asset": {
+            "m_FileID": 0,
+            "m_PathID": 0
+        },
+        "m_Ref": {
+            "ContentPath": "Audio/UI Sounds/ui_Select_Location_01.wav"
+        }
+    },
+    "Description": {
+        "General": {
+            "Key": "AlternateCampaignStart Undead.Description.General",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        },
+        "Challenge": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        },
+        "Enemies": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        },
+        "Resources": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        },
+        "Accessibility": {
+            "Key": "",
+            "ObjectId": {
+                "mGuid": {
+                    "GuidPart1": 0,
+                    "GuidPart2": 0,
+                    "GuidPart3": 0,
+                    "GuidPart4": 0
+                },
+                "mSerializableLocalIdentifier": 0
+            }
+        }
+    },
+    "FactionPromotion": {
+        "ContentPath": ""
+    },
+    "AdditionalUnits": {
+        "ContentPath": "Campaigns/AlternateScenarioCampaign02/Setups/Additional Stack Undead.asset"
+    },
+    "InitiallyTriggeredAdventureOverride": {
+        "ContentPath": ""
+    },
+    "Researches": {
+        "AwardActivePagesWhen": 1,
+        "ActivePages": [],
+        "AwardFinishedMilestonesWhen": -1,
+        "FinishedMilestones": [
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/School_Death/Research_Death_Room_Torture.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 1780293107,
+                    "GuidPart2": 1200893771,
+                    "GuidPart3": 1669173949,
+                    "GuidPart4": -1750119496
+                }
+            }
+        ],
+        "DynamicPages": []
+    },
+    "FactionsToNotTriggerSpotAdventureFor": [],
+    "ReputationDeltas": [],
+    "StorylineOverrides": [],
+    "StartItems": [],
+    "StartRooms": [],
+    "StartAstrologyConstellations": [],
+    "StartCluster": {
+        "ExecuteWithDjikstra": true,
+        "LocationClusterData": [
+            {
+                "Radius": 7,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/Crane.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 5,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Harvestable/Plant_FairyGras.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 4,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/StartBarracks_Undead.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 4,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Pickup_Ingredients.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 3,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/Ritualplace.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 4,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Loot_Chest.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 4,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/Goldmine.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 2,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/Goldmine.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 2,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Loot_Mana.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 5,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Loot_Mana.asset"
+                    }
+                ]
+            },
+            {
+                "Radius": 7,
+                "RandomLocation": [
+                    {
+                        "ContentPath": "_World/Locations/_Loot/Loot_Mana.asset"
+                    }
+                ]
+            }
+        ]
+    },
+    "StartGoldOverride": {
+        "Override": false,
+        "Value": 0
+    },
+    "StartManaOverride": {
+        "Override": false,
+        "Value": 0
+    },
+    "StartSpellpowerOverride": {
+        "Override": false,
+        "Value": 0
+    },
+    "ShowInSavegame": false
+}

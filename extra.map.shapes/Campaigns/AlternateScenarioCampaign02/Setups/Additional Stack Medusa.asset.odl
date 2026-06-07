@@ -1,0 +1,37 @@
+FixedStackDefinition
+{
+    "StackFamily": {
+        "mTags": []
+    },
+    "SpawnSetups": [],
+    "ValidRegionsToAmbush": {
+        "mTags": []
+    },
+    "ValidFrom": -10,
+    "ValidUpTo": 30,
+    "ValidOnlyOnDifficulties": [],
+    "FallbackFaction": {
+        "ContentPath": "Campaigns/MainCampaign/Factions/Neutral Faction.asset"
+    },
+    "Units": [
+        {
+            "ContentPath": "Units/Factions/Fantastic/Fantastic_MedusaWarrior.asset"
+        },
+        {
+            "ContentPath": "Units/Factions/Fantastic/Fantastic_SmallJelly.asset"
+        }
+    ],
+    "Promotions": [
+        {
+            "ContentPath": "Units/Promotions/Follower.asset"
+        }
+    ],
+    "NecromancySoul": {
+        "ContentPath": ""
+    },
+    "SelectStackFirstTimeScreen": {
+        "ContentPath": ""
+    },
+    "SelectUnitFirstTimeScreenTargets": 0,
+    "SelectUnitFirstTimeScreens": []
+}

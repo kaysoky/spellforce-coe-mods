@@ -1,0 +1,118 @@
+CampaignStartCraftingOverride
+{
+    "OverrideResearches": true,
+    "Researches": {
+        "AwardActivePagesWhen": -1,
+        "ActivePages": [
+            {
+                "ContentPath": "Spellbook/Research/Demonology/Craftingpage_Demonology_1.asset"
+            }
+        ],
+        "AwardFinishedMilestonesWhen": -1,
+        "FinishedMilestones": [
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Demonology/Demonology Room Base.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 483357176,
+                    "GuidPart2": 1092647685,
+                    "GuidPart3": 2025656980,
+                    "GuidPart4": 1629019861
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Demonology/Demonology Blocker 1.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": -852066412,
+                    "GuidPart2": 1219926214,
+                    "GuidPart3": -1843352144,
+                    "GuidPart4": 29884699
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Demonology/Demonology Room Good.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 122528053,
+                    "GuidPart2": 1116317035,
+                    "GuidPart3": 648809860,
+                    "GuidPart4": -1691404109
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Demonology/Demonology Spell 1.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": -852066412,
+                    "GuidPart2": 1219926214,
+                    "GuidPart3": -1843352144,
+                    "GuidPart4": 29884699
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Demonology/Demonology Spell 2.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": -852066412,
+                    "GuidPart2": 1219926214,
+                    "GuidPart3": -1843352144,
+                    "GuidPart4": 29884699
+                }
+            }
+        ],
+        "DynamicPages": []
+    },
+    "StartCraftingToOverride": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/StartCrafting_Demonology.asset"
+    },
+    "StartItems": [
+        {
+            "ContentPath": "Items/Demonology/Cults/Cult_Default.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_E_Ashes.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_L_Meat.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_L_Meat.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T2/Item_AA_ChargedCrystal.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_A_Ectoplasm.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T4/Item_EEEL_EternalFlame.asset"
+        }
+    ],
+    "StartRooms": [
+        {
+            "ContentPath": "Crafting/Rooms/Room_Demonology_Base.asset"
+        }
+    ],
+    "StackDefinition": {
+        "ContentPath": "Campaigns/ScenarioCampaign02/Setups/Override Stack_Demonologist.asset"
+    },
+    "StartAstrologyConstellations": []
+}

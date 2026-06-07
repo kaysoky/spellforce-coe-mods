@@ -1,0 +1,93 @@
+CampaignStartCraftingOverride
+{
+    "OverrideResearches": true,
+    "Researches": {
+        "AwardActivePagesWhen": -1,
+        "ActivePages": [
+            {
+                "ContentPath": "Spellbook/Research/Necromancy/Craftingpage_Necromancy_1.asset"
+            }
+        ],
+        "AwardFinishedMilestonesWhen": -1,
+        "FinishedMilestones": [
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Necromancy/Necromancy Room Base.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 483357176,
+                    "GuidPart2": 1092647685,
+                    "GuidPart3": 2025656980,
+                    "GuidPart4": 1629019861
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Necromancy/Necromancy Blocker 1.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": -852066412,
+                    "GuidPart2": 1219926214,
+                    "GuidPart3": -1843352144,
+                    "GuidPart4": 29884699
+                }
+            },
+            {
+                "Research": {
+                    "ContentPath": "Spellbook/Research/Necromancy/Necromancy Room Good.asset"
+                },
+                "MilestoneGuid": {
+                    "GuidPart1": 1001330829,
+                    "GuidPart2": 1335472030,
+                    "GuidPart3": -1434132811,
+                    "GuidPart4": 333714706
+                }
+            }
+        ],
+        "DynamicPages": []
+    },
+    "StartCraftingToOverride": {
+        "ContentPath": "Campaigns/MainCampaign/Setups/StartCrafting_Necromancer.asset"
+    },
+    "StartItems": [
+        {
+            "ContentPath": "Items/Loot/Souls/Vigorous Soul 1.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_D_Remains.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_D_Remains.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T1/Item_D_Remains.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Souls/Feral Soul 1.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Souls/Feral Soul 1.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Souls/Feral Soul 1.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Souls/Arcane Soul 1.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T2/Item_AA_ChargedCrystal.asset"
+        },
+        {
+            "ContentPath": "Items/Loot/Ingredients/T4/Item_EEEL_EternalFlame.asset"
+        }
+    ],
+    "StartRooms": [
+        {
+            "ContentPath": "Crafting/Rooms/Room_Necromancy_Base.asset"
+        }
+    ],
+    "StackDefinition": {
+        "ContentPath": "Campaigns/ScenarioCampaign02/Setups/Override Stack_Necromancer.asset"
+    },
+    "StartAstrologyConstellations": []
+}
