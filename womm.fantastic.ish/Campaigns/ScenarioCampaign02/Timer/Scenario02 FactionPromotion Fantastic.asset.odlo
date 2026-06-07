@@ -1,0 +1,34 @@
+FactionPromotionDefinition
+{
+    "<FactionModifiers>k__BackingField": {
+        "UnitPromotions": [
+            {
+                "Condition": {
+                    "TagFilter": {
+                        "AffectsOnly": {
+                            "mTags": []
+                        },
+                        "AffectsNot": {
+                            "mTags": []
+                        }
+                    },
+                    "PromotionFilter": {
+                        "MustHaveAnyOf": [],
+                        "DoesNotHaveAnyOf": []
+                    },
+                    "WorldCycleFilter": {
+                        "MustHaveAnyOf": {
+                            "mTags": []
+                        },
+                        "DoesNotHaveAnyOf": {
+                            "mTags": []
+                        }
+                    }
+                },
+                "Promotion": {
+                    "ContentPath": "Units/Promotions/AlsoFantastic.asset"
+                }
+            }
+        ]
+    }
+}
