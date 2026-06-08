@@ -1,0 +1,30 @@
+Package.extra.map.shapes.DisplayName;Extra Campaign Map Shapes
+WorldShape_LongRandom.Name;長く細く
+WorldShape_LongRandom.Description;ランダムタイプに似ていますが、さらに横幅が広く、非常に細長いです。
+WorldShape_LongHurdles.Name;長い４区画
+WorldShape_LongHurdles.Description;非常に細く横長の世界で、海と火山によって4つの区画に分断されています。
+WorldShape_Island_GoldenFields.Name;ゴールデンコーナー
+WorldShape_Island_GoldenFields.Description;ゴールデンフィールズの開始地点向けに設計されています。開始位置はマップの隅となり、ほとんどを海に囲まれた状態になります。
+WorldShape_Cramped_Lore.Name;物語との親和性（小）
+WorldShape_Cramped_Lore.Description;物語との親和性と同じですが、マップはより小さくなります。
+WorldShape_Cramped_Progression.Name;進行ベース（小）
+WorldShape_Cramped_Progression.Description;進行ベースと同じですが、マップはより小さくなります。
+WorldShape_Cramped_Random.Name;ランダム（小）
+WorldShape_Cramped_Random.Description;ランダムと同じですが、マップはより小さくなります。
+AlternateScenarioCampaign02 Title;魔法と力の魔術師たち（代替）
+AlternateCampaignStart Elf.Description.General;自然の守護者として旅を始めましょう。\nあなたは[gold]アルービヤン[/]周辺から開始し、ゲームを通して動物を雇用できます。
+AlternateCampaignStart Purity.Description.General;ピュリティの配下として旅を始めましょう。\nあなたは[gold]バスティオン[/]周辺から開始し、ゲームを通してピュリティユニットを雇用できます。
+Purity_Barracks.Name;ピュリティ民兵兵舎
+Purity_Barracks.Description;[mDomain]内にあると[unit][isquadsize:c] ピュリティの軍隊[/]を雇用できる。
+StartBarracks_Purity.Description;[mDomain]内にあると[unit][isquadsize:c] ピュリティ・ソルジャー[/]を雇用できる。
+AlternateCampaignStart Tuscari.Description.General;[gold]トスカリ海[/]から旅を始めましょう。\nあなたは最初から水を凍結でき、ゲームを通じて魔法生物を雇用できます。
+StartBarracks_Tuscari.Name;トスカリ下位ポータル
+StartBarracks_Tuscari.Description;[mDomain]内にあると[unit][isquadsize:c] 従属する魔法生物[/]を雇用できる。
+AlternateCampaignStart Spider.Description.General;自然のしもべとして旅を始めよう。\nあなたは[gold]コーナック[/]近郊から開始し、ゲームを通じて動物を雇用できます。
+StartBarracks_Spider.Name;堕落した太古の森
+StartBarracks_Spider.Description;[mDomain]内にあると[unit][isquadsize:c] 従属する動物[/]を雇用できる。
+AlternateCampaignStart Paladin.Description.General;[gold]オーダル[/]近郊から旅を始めましょう。あなたの一団には強力な[unit]パラディン[/]が加わっています。
+AlternateCampaignStart Undead.Name.General;ダークヴェイル
+AlternateCampaignStart Undead.Description.General;[gold]メルデック城[/]近郊から、アンデッドを従えて旅を始めましょう。
+StartBarracks_Undead.Name;ネクロマンサーの墓室
+StartBarracks_Undead.Description;[mDomain]内にあると[unit][isquadsize:c] 従属するアンデッド[/]を雇用できる。
