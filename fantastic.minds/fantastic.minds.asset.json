@@ -5,7 +5,8 @@
     ],
     "SoftDependencies": [
         {"Package":"com.ownedbygravity.sf.dlc2"},
-        {"Package":"com.ownedbygravity.sf.dlc3"}
+        {"Package":"com.ownedbygravity.sf.dlc3"},
+        {"Package":"com.ownedbygravity.sf.free2"}
     ],
     "IsDependencyForSavegames":true
 }
